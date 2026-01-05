@@ -1,0 +1,1062 @@
+# Copyright (C) 2021 Cashier for WooCommerce
+# This file is distributed under the same license as the Cashier for WooCommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Cashier for WooCommerce 1.8.0\n"
+"Report-Msgid-Bugs-To: https://www.storeapps.org/support/contact-us/\n"
+"POT-Creation-Date: 2021-12-13 15:14:30+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: Mon, 13 Dec 2021 20:44:30 +0530\n"
+"Last-Translator: Ratnakar Dubey <support@storeapps.org>\n"
+"Language-Team: StoreApps <support@storeapps.org>\n"
+
+#: cashier-for-woocommerce.php:60
+msgid "Cashier for WooCommerce requires WooCommerce to be activated."
+msgstr ""
+
+#: includes/admin/class-sa-cfw-settings.php:38
+#: includes/class-sa-wc-cashier.php:230
+#: modules/buy-now/php/admin/class-sa-wc-generate-buy-now-link.php:58
+#: modules/buy-now/php/class-wc-buy-now.php:959
+msgid "Cashier"
+msgstr ""
+
+#: includes/class-sa-wc-cashier.php:52 includes/class-sa-wc-cashier.php:61
+#: modules/add-to-cart-redirect/php/class-sa-add-to-cart-redirect.php:52
+#: modules/add-to-cart-redirect/php/class-sa-add-to-cart-redirect.php:61
+#: modules/buy-now/php/class-wc-buy-now.php:60
+#: modules/buy-now/php/class-wc-buy-now.php:69
+#: modules/cart-notices/php/class-sa-cart-notices.php:51
+#: modules/cart-notices/php/class-sa-cart-notices.php:60
+#: modules/cost-of-goods/php/includes/class-sa-cfw-cost-of-goods.php:58
+#: modules/cost-of-goods/php/includes/class-sa-cfw-cost-of-goods.php:65
+#: modules/min-max/php/class-sa-cfw-min-max.php:52
+#: modules/min-max/php/class-sa-cfw-min-max.php:61
+#: modules/print-invoices/php/class-sa-print-invoices.php:51
+#: modules/print-invoices/php/class-sa-print-invoices.php:60
+#: modules/product-reco/php/class-sa-cfw-product-reco.php:52
+#: modules/product-reco/php/class-sa-cfw-product-reco.php:61
+#: modules/side-cart/php/includes/class-sa-cfw-side-cart.php:58
+#: modules/side-cart/php/includes/class-sa-cfw-side-cart.php:65
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#. translators: 1. Link for the plugin to deactivate
+#: includes/class-sa-wc-cashier.php:232
+msgid "Buy Now feature of Cashier is disabled. To enable, deactivate %s."
+msgstr ""
+
+#: includes/class-sa-wc-cashier.php:241
+msgid "WooCommerce Buy Now"
+msgstr ""
+
+#: includes/class-sa-wc-cashier.php:263
+#: modules/buy-now/php/gateways/paypal-standard/class-sa-buy-now-wc-paypal-standard.php:901
+msgid "Important"
+msgstr ""
+
+#: includes/class-sa-wc-cashier.php:263
+msgid ""
+"Cashier for WooCommerce is active but it will only work with WooCommerce "
+"3.7+."
+msgstr ""
+
+#: includes/class-sa-wc-cashier.php:263
+msgid "Please update WooCommerce to the latest version"
+msgstr ""
+
+#: modules/add-to-cart-redirect/php/class-sa-add-to-cart-redirect.php:151
+#: modules/add-to-cart-redirect/php/class-sa-add-to-cart-redirect.php:170
+msgid "Add to cart redirect"
+msgstr ""
+
+#: modules/add-to-cart-redirect/php/class-sa-add-to-cart-redirect.php:186
+msgid "Redirect will not work for AJAX add to cart buttons on archives"
+msgstr ""
+
+#: modules/add-to-cart-redirect/php/class-sa-add-to-cart-redirect.php:200
+msgid "Search posts"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-product-admin-fields.php:96
+msgid "Buy Now Link"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-product-admin-fields.php:98
+msgid "Copy this link and use it wherever you want."
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-product-admin-fields.php:128
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:66
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:126
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:137
+#: modules/buy-now/php/class-wc-buy-now.php:638
+#: modules/buy-now/php/class-wc-buy-now.php:949
+msgid "Buy Now"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-product-admin-fields.php:161
+msgid "Show"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-product-admin-fields.php:164
+msgid "Default \"Add to cart\" button"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-product-admin-fields.php:165
+msgid "Only \"Buy Now\" button"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-product-admin-fields.php:166
+msgid "Both \"Add to cart\" & \"Buy Now\" buttons"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-product-admin-fields.php:173
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:187
+msgid "Apply coupons"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-product-admin-fields.php:174
+#: modules/buy-now/php/admin/class-sa-wc-generate-buy-now-link.php:109
+msgid "Search for a coupon&hellip;"
+msgstr ""
+
+#. translators: 1. Text 'Type', 2. Coupons discount type
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-product-admin-fields.php:190
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:114
+msgid " ( %1$s: %2$s )"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-product-admin-fields.php:190
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:114
+msgid "Type"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-product-admin-fields.php:198
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:188
+msgid ""
+"Clicking on \"Buy Now\" button will automatically apply selected coupons to "
+"cart."
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-product-admin-fields.php:207
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:203
+#: modules/buy-now/php/admin/class-sa-wc-generate-buy-now-link.php:117
+msgid "Shipping method"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-product-admin-fields.php:208
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:204
+msgid "\"Buy Now\" button will automatically select this shipping method."
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-product-admin-fields.php:214
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:213
+msgid "Select a shipping method..."
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-product-admin-fields.php:226
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:217
+#: modules/buy-now/php/admin/class-sa-wc-generate-buy-now-link.php:130
+msgid "Redirect to page"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-product-admin-fields.php:227
+msgid ""
+"Customer will be redirected to this page when \"Buy Now\" button is clicked. "
+"Leave it blank to complete the checkout. Enter a URL to redirect after "
+"adding to cart."
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-product-admin-fields.php:233
+msgid "Select a page..."
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-product-admin-fields.php:242
+msgid "Buy Now link"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-product-admin-fields.php:244
+msgid ""
+"Copy this link and use it in social media, email or any other place to "
+"promote this product."
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-product-admin-fields.php:252
+msgid "Note:"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-product-admin-fields.php:252
+msgid "Buy Now link is available under each individual variation."
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:129
+msgid ""
+"Configure direct checkout, one or two click purchase and other Buy Now "
+"options here."
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:132
+msgid "Label for \"Buy Now\" buttons"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:133
+msgid ""
+"Fancy calling it something other than Buy Now? Like 1-Step Checkout / "
+"Express Buy? You can change it here."
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:140
+msgid "Add to Cart and Checkout setup"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:144
+msgid "Select one of these options"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:153
+msgid "Replace \"Add to cart\" with \"Buy Now\" for all products"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:162
+msgid "Add a \"Buy Now\" button next to the \"Add to cart\" button"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:166
+msgid "For these product categories"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:167
+msgid ""
+"\"Buy Now\" button will be added on products from these categories. Leave it "
+"empty to display on all products."
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:176
+msgid "All product categories"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:180
+msgid "Additional settings for these \"Buy Now\" buttons"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:184
+msgid ""
+"These settings will be applied to the \"Buy Now\" buttons for product "
+"categories selected above."
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:197
+msgid "Search a coupon..."
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:218
+msgid ""
+"Customer will be redirected to this page when \"Buy Now\" button is clicked. "
+"Leave it blank to complete the checkout."
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:232
+msgid "I will configure Buy Now options in each product where I want it"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:241
+msgid "Add \"Express Checkout\" button on the cart page"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:245
+msgid "Label for \"Express Checkout\" button"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:248
+#: modules/buy-now/php/class-wc-buy-now.php:356
+msgid "Express Checkout"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:251
+msgid "Preserve existing cart items on Buy Now?"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:252
+msgid ""
+"Exclude existing products and checkout only with the product whose Buy Now "
+"link is clicked"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:256
+msgid ""
+"Uncheck this to complete order with existing items in cart plus product for "
+"which Buy Now is used. Keep it checked to checkout exclusively with the "
+"product whose Buy Now button is clicked and restore the old cart after order "
+"completion."
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:259
+msgid "Checkout in a popup"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:260
+msgid "Show checkout form in a popup on the same page for quicker checkout"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:264
+msgid ""
+"Keep this checked to display checkout form as a popup when the Buy Now "
+"button is clicked. This setting will be used only for guest users and for "
+"those users whose previous checkout details are not available."
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:267
+msgid "2-Step purchase?"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:268
+msgid "Confirm before direct checkout"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-buy-now-settings.php:272
+msgid ""
+"Select this if you want to show a confirmation message and complete the "
+"order only if the user confirms. Leave it unchecked to automatically "
+"complete payment using available information from the customer’s account."
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-generate-buy-now-link.php:81
+msgid "Generate a Buy Now link"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-generate-buy-now-link.php:83
+msgid ""
+"Generate a special Buy Now link to share in blog posts, emails, social media "
+"promotions or elsewhere."
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-generate-buy-now-link.php:87
+msgid "Products to add to cart"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-generate-buy-now-link.php:88
+msgid "Select one or more products that you would like ordered with this link."
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-generate-buy-now-link.php:94
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-generate-buy-now-link.php:102
+msgid "Select coupons"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-generate-buy-now-link.php:103
+msgid ""
+"Optionally, select one or more coupons that you want to apply with this link."
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-generate-buy-now-link.php:118
+msgid "Optionally, select shipping method for the order."
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-generate-buy-now-link.php:124
+msgid "Select a shipping method&hellip;"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-generate-buy-now-link.php:131
+msgid ""
+"Leave this blank to complete checkout as quickly as possible, or enter a URL "
+"to redirect to a page after the above items are added to cart."
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-generate-buy-now-link.php:137
+msgid "Select a page&hellip"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-generate-buy-now-link.php:143
+msgid "Here's your Buy Now link"
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-generate-buy-now-link.php:144
+msgid "Copy this link and use wherever you want."
+msgstr ""
+
+#: modules/buy-now/php/admin/class-sa-wc-generate-buy-now-link.php:173
+msgid "Click to copy"
+msgstr ""
+
+#: modules/buy-now/php/class-wc-buy-now.php:981
+msgctxt "enhanced select"
+msgid "One result is available, press enter to select it."
+msgstr ""
+
+#: modules/buy-now/php/class-wc-buy-now.php:982
+msgctxt "enhanced select"
+msgid "%qty% results are available, use up and down arrow keys to navigate."
+msgstr ""
+
+#: modules/buy-now/php/class-wc-buy-now.php:983
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr ""
+
+#: modules/buy-now/php/class-wc-buy-now.php:984
+msgctxt "enhanced select"
+msgid "Loading failed"
+msgstr ""
+
+#: modules/buy-now/php/class-wc-buy-now.php:985
+msgctxt "enhanced select"
+msgid "Please enter 1 or more characters"
+msgstr ""
+
+#: modules/buy-now/php/class-wc-buy-now.php:986
+msgctxt "enhanced select"
+msgid "Please enter %qty% or more characters"
+msgstr ""
+
+#: modules/buy-now/php/class-wc-buy-now.php:987
+msgctxt "enhanced select"
+msgid "Please delete 1 character"
+msgstr ""
+
+#: modules/buy-now/php/class-wc-buy-now.php:988
+msgctxt "enhanced select"
+msgid "Please delete %qty% characters"
+msgstr ""
+
+#: modules/buy-now/php/class-wc-buy-now.php:989
+msgctxt "enhanced select"
+msgid "You can only select 1 item"
+msgstr ""
+
+#: modules/buy-now/php/class-wc-buy-now.php:990
+msgctxt "enhanced select"
+msgid "You can only select %qty% items"
+msgstr ""
+
+#: modules/buy-now/php/class-wc-buy-now.php:991
+msgctxt "enhanced select"
+msgid "Loading more results&hellip;"
+msgstr ""
+
+#: modules/buy-now/php/class-wc-buy-now.php:992
+msgctxt "enhanced select"
+msgid "Searching&hellip;"
+msgstr ""
+
+#: modules/buy-now/php/class-wc-buy-now.php:1154
+msgid "Store Credit / Gift Certificate"
+msgstr ""
+
+#: modules/buy-now/php/class-wc-buy-now.php:1181
+msgid "Could not locate WooCommerce"
+msgstr ""
+
+#: modules/buy-now/php/class-wc-buy-now.php:1242
+msgid "Preview"
+msgstr ""
+
+#: modules/buy-now/php/class-wc-buy-now.php:1243
+msgid ""
+"This disables 'storewide' Buy Now behavior. If a product does not have Buy "
+"Now settings, it will follow the standard WooCommerce purchase process."
+msgstr ""
+
+#: modules/buy-now/php/class-wc-buy-now.php:1244
+msgid ""
+"'Express Checkout' speeds up the checkout process for logged in customers "
+"using payment method, billing address and shipping data from their recent "
+"order."
+msgstr ""
+
+#: modules/buy-now/php/class-wc-buy-now.php:1245
+msgid ""
+"Turn on quicker checkout with Buy Now for your entire store. You can "
+"override this default for individual products if you want."
+msgstr ""
+
+#: modules/buy-now/php/class-wc-buy-now.php:1246
+msgid ""
+"Keep the default 'Add to cart' button, but also add 'Buy Now' option. You "
+"can override this default for individual products if you want."
+msgstr ""
+
+#: modules/buy-now/php/class-wc-buy-now.php:1298
+msgid "One-Click Checkout"
+msgstr ""
+
+#: modules/buy-now/php/class-wc-buy-now.php:1320
+msgid "Supports Buy Now's One-Click Checkout."
+msgstr ""
+
+#: modules/buy-now/php/class-wc-buy-now.php:1320
+msgid "Yes"
+msgstr ""
+
+#: modules/buy-now/php/class-wc-buy-now.php:1415
+msgid "Copied!"
+msgstr ""
+
+#: modules/buy-now/php/class-wc-buy-now.php:1417
+msgid "Click To Copy"
+msgstr ""
+
+#: modules/buy-now/php/class-wc-buy-now.php:1600
+msgid "Can't procced for purchase. Buy Now link is invalid."
+msgstr ""
+
+#: modules/buy-now/php/class-wc-buy-now.php:1705
+msgid "We were unable to process payment, please try again."
+msgstr ""
+
+#: modules/buy-now/php/frontend/templates/form-buy-now-pay.php:48
+msgid "Processing your order&hellip;"
+msgstr ""
+
+#: modules/buy-now/php/frontend/templates/form-buy-now-pay.php:70
+msgid "&larr; Cancel & Return"
+msgstr ""
+
+#: modules/buy-now/php/frontend/templates/form-buy-now-pay.php:73
+msgid "Complete Payment &rarr;"
+msgstr ""
+
+#: modules/buy-now/php/gateways/paypal-standard/class-sa-buy-now-wc-paypal-standard.php:258
+msgid "Unable to find order for PayPal billing agreement."
+msgstr ""
+
+#: modules/buy-now/php/gateways/paypal-standard/class-sa-buy-now-wc-paypal-standard.php:308
+msgid ""
+"An error occurred, please try again or try an alternate form of payment."
+msgstr ""
+
+#: modules/buy-now/php/gateways/paypal-standard/class-sa-buy-now-wc-paypal-standard.php:523
+#: modules/buy-now/php/gateways/paypal-standard/includes/class-sa-buy-now-wc-paypal-reference-transaction-api-request.php:220
+#: modules/buy-now/php/gateways/paypal-standard/includes/class-sa-buy-now-wc-paypal-reference-transaction-api-request.php:339
+#: modules/buy-now/php/gateways/paypal-standard/includes/class-sa-buy-now-wc-paypal-reference-transaction-api-request.php:357
+#: modules/buy-now/php/gateways/paypal-standard/includes/class-sa-buy-now-wc-paypal-reference-transaction-api-request.php:387
+#: modules/buy-now/php/gateways/paypal-standard/includes/class-sa-buy-now-wc-paypal-reference-transaction-api-request.php:406
+msgctxt ""
+"hash before the order number. Used as a character to remove from the actual "
+"order number"
+msgid "#"
+msgstr ""
+
+#. translators: placeholders are PayPal API error code and PayPal API error
+#. message.
+#: modules/buy-now/php/gateways/paypal-standard/class-sa-buy-now-wc-paypal-standard.php:550
+msgid "PayPal API error: (%1$d) %2$s"
+msgstr ""
+
+#. translators: placeholder is PayPal transaction status message.
+#: modules/buy-now/php/gateways/paypal-standard/class-sa-buy-now-wc-paypal-standard.php:555
+msgid "PayPal Transaction Held: %s"
+msgstr ""
+
+#. translators: placeholder is PayPal transaction status message.
+#: modules/buy-now/php/gateways/paypal-standard/class-sa-buy-now-wc-paypal-standard.php:567
+msgid "PayPal payment declined: %s"
+msgstr ""
+
+#. translators: placeholder is PayPal transaction id.
+#: modules/buy-now/php/gateways/paypal-standard/class-sa-buy-now-wc-paypal-standard.php:572
+msgid "PayPal payment approved (ID: %s)"
+msgstr ""
+
+#: modules/buy-now/php/gateways/paypal-standard/class-sa-buy-now-wc-paypal-standard.php:675
+msgctxt ""
+"used in User Agent data sent to PayPal to help identify where a payment came "
+"from"
+msgid "WooCommerce Buy Now"
+msgstr ""
+
+#: modules/buy-now/php/gateways/paypal-standard/class-sa-buy-now-wc-paypal-standard.php:767
+msgid ""
+"PayPal Reference Transactions is mandatory to enable One-Click Checkout."
+msgstr ""
+
+#: modules/buy-now/php/gateways/paypal-standard/class-sa-buy-now-wc-paypal-standard.php:767
+msgid "No"
+msgstr ""
+
+#: modules/buy-now/php/gateways/paypal-standard/class-sa-buy-now-wc-paypal-standard.php:901
+msgid ""
+"You cannot use Buy Now's One-Click checkout with PayPal since PayPal "
+"Reference Transactions are not enabled on your PayPal account."
+msgstr ""
+
+#: modules/buy-now/php/gateways/paypal-standard/class-sa-buy-now-wc-paypal-standard.php:901
+msgid "Click here"
+msgstr ""
+
+#: modules/buy-now/php/gateways/paypal-standard/class-sa-buy-now-wc-paypal-standard.php:901
+msgid " to know steps to enable PayPal Reference Transactions."
+msgstr ""
+
+#. translators: placeholder is blogname.
+#: modules/buy-now/php/gateways/paypal-standard/includes/class-sa-buy-now-wc-paypal-reference-transaction-api-request.php:79
+msgctxt "data sent to paypal"
+msgid "Orders with %s"
+msgstr ""
+
+#: modules/buy-now/php/gateways/paypal-standard/includes/class-sa-buy-now-wc-paypal-reference-transaction-api-request.php:293
+msgid "Total Discount"
+msgstr ""
+
+#. translators: placeholder is blogname.
+#: modules/buy-now/php/gateways/paypal-standard/includes/class-sa-buy-now-wc-paypal-reference-transaction-api-request.php:321
+msgid "%s - Order"
+msgstr ""
+
+#. translators: placeholder is localised datetime.
+#: modules/buy-now/php/gateways/paypal-standard/includes/class-sa-buy-now-wc-paypal-reference-transaction-api-response-payment.php:126
+msgid "expected clearing date %s"
+msgstr ""
+
+#: modules/buy-now/php/gateways/paypal-standard/includes/class-sa-buy-now-wc-paypal-reference-transaction-api-response.php:144
+msgctxt "used in api error message if there is no severity code from PayPal"
+msgid "Error"
+msgstr ""
+
+#: modules/buy-now/php/gateways/paypal-standard/includes/class-sa-buy-now-wc-paypal-reference-transaction-api-response.php:146
+msgctxt "used in api error message if there is no long message"
+msgid "Unknown error"
+msgstr ""
+
+#: modules/buy-now/php/gateways/paypal-standard/includes/class-sa-buy-now-wc-paypal-reference-transaction-api-response.php:158
+msgctxt "no information about something"
+msgid "N/A"
+msgstr ""
+
+#: modules/buy-now/php/gateways/paypal-standard/includes/class-sa-buy-now-wc-paypal-reference-transaction-ipn-handler.php:106
+msgid "Billing agreement cancelled at PayPal."
+msgstr ""
+
+#: modules/buy-now/php/gateways/paypal-standard/includes/class-sa-buy-now-wc-paypal-standard-ipn-handler.php:286
+msgctxt ""
+"when it is a payment change, and there is a subscr_signup message, this will "
+"be a confirmation message that PayPal accepted it being the new payment "
+"method"
+msgid "IPN subscription payment method changed to PayPal."
+msgstr ""
+
+#: modules/buy-now/php/gateways/paypal-standard/includes/class-sa-buy-now-wc-paypal-standard-ipn-handler.php:290
+msgid "IPN subscription sign up completed."
+msgstr ""
+
+#: modules/buy-now/php/gateways/paypal-standard/includes/class-sa-buy-now-wc-paypal-standard-ipn-handler.php:343
+#: modules/buy-now/php/gateways/paypal-standard/includes/class-sa-buy-now-wc-paypal-standard-ipn-handler.php:427
+msgid "IPN subscription payment completed."
+msgstr ""
+
+#: modules/buy-now/php/gateways/paypal-standard/includes/class-sa-buy-now-wc-paypal-standard-ipn-handler.php:389
+msgid "IPN subscription failing payment method changed."
+msgstr ""
+
+#. translators: placeholder is payment status (e.g. "completed").
+#: modules/buy-now/php/gateways/paypal-standard/includes/class-sa-buy-now-wc-paypal-standard-ipn-handler.php:437
+#: modules/buy-now/php/gateways/paypal-standard/includes/class-sa-buy-now-wc-paypal-standard-ipn-handler.php:446
+msgctxt "used in order note"
+msgid "IPN subscription payment %s."
+msgstr ""
+
+#. translators: placeholder is payment status (e.g. "completed").
+#: modules/buy-now/php/gateways/paypal-standard/includes/class-sa-buy-now-wc-paypal-standard-ipn-handler.php:450
+msgctxt "used in order note"
+msgid "IPN subscription payment %1$s for reason: %2$s."
+msgstr ""
+
+#: modules/buy-now/php/gateways/paypal-standard/includes/class-sa-buy-now-wc-paypal-standard-ipn-handler.php:478
+msgid "IPN subscription suspended."
+msgstr ""
+
+#: modules/buy-now/php/gateways/paypal-standard/includes/class-sa-buy-now-wc-paypal-standard-ipn-handler.php:500
+msgid "IPN subscription cancelled."
+msgstr ""
+
+#: modules/buy-now/php/gateways/paypal-standard/includes/class-sa-buy-now-wc-paypal-standard-ipn-handler.php:514
+msgid "IPN subscription payment failure."
+msgstr ""
+
+#: modules/buy-now/php/gateways/paypal-standard/includes/class-sa-buy-now-wc-paypal-standard-ipn-handler.php:658
+msgid "Invalid PayPal IPN Payload: unable to find matching subscription."
+msgstr ""
+
+#. translators: placeholder is product SKU.
+#: modules/buy-now/php/gateways/paypal-standard/includes/sa-buy-now-wc-paypal-helper-functions.php:519
+msgid "SKU: %s"
+msgstr ""
+
+#. translators: minimum ammount for shipping
+#: modules/cart-notices/php/class-sa-cart-notices.php:162
+msgid "Add %s to your cart in order to receive free shipping!"
+msgstr ""
+
+#: modules/cart-notices/php/class-sa-cart-notices.php:171
+msgid "Shop Now"
+msgstr ""
+
+#: modules/cost-of-goods/php/includes/class-sa-cfw-cog-meta.php:116
+msgid "You left to enter cost of good of some variation"
+msgstr ""
+
+#: modules/cost-of-goods/php/includes/class-sa-cfw-cog-meta.php:136
+#: modules/cost-of-goods/php/includes/class-sa-cfw-cog-meta.php:139
+msgid "Profit table"
+msgstr ""
+
+#: modules/cost-of-goods/php/includes/class-sa-cfw-cog-meta.php:156
+msgid "Profit from order"
+msgstr ""
+
+#: modules/cost-of-goods/php/includes/class-sa-cfw-cog-meta.php:156
+#: modules/cost-of-goods/php/includes/class-sa-cfw-cog-meta.php:187
+msgid "This is gross profit"
+msgstr ""
+
+#: modules/cost-of-goods/php/includes/class-sa-cfw-cog-meta.php:160
+msgid "Total COGs"
+msgstr ""
+
+#: modules/cost-of-goods/php/includes/class-sa-cfw-cog-meta.php:160
+msgid "Total cost of goods of the order"
+msgstr ""
+
+#: modules/cost-of-goods/php/includes/class-sa-cfw-cog-meta.php:183
+msgid "Total items sold"
+msgstr ""
+
+#: modules/cost-of-goods/php/includes/class-sa-cfw-cog-meta.php:183
+msgid "total items sold of the product"
+msgstr ""
+
+#: modules/cost-of-goods/php/includes/class-sa-cfw-cog-meta.php:187
+msgid "Total profit"
+msgstr ""
+
+#. translators: %s: currency symbol
+#: modules/cost-of-goods/php/includes/class-sa-cfw-cog-meta.php:207
+#: modules/cost-of-goods/php/includes/class-sa-cfw-cog-meta.php:249
+msgid "Cost of Good (%s)"
+msgstr ""
+
+#: modules/cost-of-goods/php/includes/class-sa-cfw-cog-meta.php:209
+msgid ""
+"Cost of Good of the product. For variable product, this will be used if Cost "
+"of Good is not set for any of the variations"
+msgstr ""
+
+#: modules/cost-of-goods/php/includes/class-sa-cfw-cog-meta.php:252
+msgid "Cost of Good of the product"
+msgstr ""
+
+#: modules/cost-of-goods/php/includes/emails/class-sa-cfw-cog-non-profit-email.php:33
+msgid "Cashier - Cost of Good non-profit Order"
+msgstr ""
+
+#: modules/cost-of-goods/php/includes/emails/class-sa-cfw-cog-non-profit-email.php:36
+msgid ""
+"This email will be sent to the store owner when they get a non-profitable "
+"order"
+msgstr ""
+
+#: modules/cost-of-goods/php/includes/emails/class-sa-cfw-cog-non-profit-email.php:39
+msgid "You got a non-profitable order : {site_title}"
+msgstr ""
+
+#: modules/cost-of-goods/php/includes/emails/class-sa-cfw-cog-non-profit-email.php:40
+msgid "Loss Order"
+msgstr ""
+
+#: modules/cost-of-goods/php/includes/emails/class-sa-cfw-cog-non-profit-email.php:165
+msgid "Enable/Disable"
+msgstr ""
+
+#: modules/cost-of-goods/php/includes/emails/class-sa-cfw-cog-non-profit-email.php:167
+msgid "Enable this email notification"
+msgstr ""
+
+#: modules/cost-of-goods/php/includes/emails/class-sa-cfw-cog-non-profit-email.php:171
+msgid "Subject"
+msgstr ""
+
+#: modules/cost-of-goods/php/includes/emails/class-sa-cfw-cog-non-profit-email.php:178
+msgid "Email Heading"
+msgstr ""
+
+#. translators: %s Email heading.
+#: modules/cost-of-goods/php/includes/emails/class-sa-cfw-cog-non-profit-email.php:181
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+
+#: modules/cost-of-goods/php/includes/emails/class-sa-cfw-cog-non-profit-email.php:186
+msgid "Additional content"
+msgstr ""
+
+#: modules/cost-of-goods/php/includes/emails/class-sa-cfw-cog-non-profit-email.php:187
+msgid "Text to appear below the main email content."
+msgstr ""
+
+#: modules/cost-of-goods/php/includes/emails/class-sa-cfw-cog-non-profit-email.php:189
+msgid "N/A"
+msgstr ""
+
+#: modules/cost-of-goods/php/includes/emails/class-sa-cfw-cog-non-profit-email.php:194
+msgid "Email type"
+msgstr ""
+
+#: modules/cost-of-goods/php/includes/emails/class-sa-cfw-cog-non-profit-email.php:196
+msgid "Choose which format of email to send."
+msgstr ""
+
+#. translators: 1. Order Id
+#: modules/cost-of-goods/php/templates/cfw-cog-non-profit.php:28
+#: modules/cost-of-goods/php/templates/plain/cfw-cog-non-profit.php:19
+msgid ""
+"You received an order(#%s) with less then your added cost of goods amount"
+msgstr ""
+
+#: modules/min-max/php/class-sa-cfw-min-max.php:111
+#: modules/min-max/php/class-sa-cfw-min-max.php:163
+msgid "Minimum quantity"
+msgstr ""
+
+#: modules/min-max/php/class-sa-cfw-min-max.php:113
+#: modules/min-max/php/class-sa-cfw-min-max.php:165
+msgid "1"
+msgstr ""
+
+#: modules/min-max/php/class-sa-cfw-min-max.php:114
+#: modules/min-max/php/class-sa-cfw-min-max.php:166
+msgid ""
+"Optional. If set, at least this much quantity of the product should be in "
+"the cart."
+msgstr ""
+
+#: modules/min-max/php/class-sa-cfw-min-max.php:126
+#: modules/min-max/php/class-sa-cfw-min-max.php:181
+msgid "Maximum quantity"
+msgstr ""
+
+#: modules/min-max/php/class-sa-cfw-min-max.php:128
+#: modules/min-max/php/class-sa-cfw-min-max.php:183
+msgid "No limit"
+msgstr ""
+
+#: modules/min-max/php/class-sa-cfw-min-max.php:129
+#: modules/min-max/php/class-sa-cfw-min-max.php:184
+msgid ""
+"Optional. If set, customers can buy this much quantity of the product at the "
+"maximum per order."
+msgstr ""
+
+#. translators: 1. Minimum quantity required 2. Product name 3. Cart link with
+#. label
+#: modules/min-max/php/class-sa-cfw-min-max.php:291
+#: modules/min-max/php/class-sa-cfw-min-max.php:365
+#: modules/min-max/php/class-sa-cfw-min-max.php:430
+msgid "You should have a minimum of %1$d %2$s's in %3$s."
+msgstr ""
+
+#: modules/min-max/php/class-sa-cfw-min-max.php:291
+#: modules/min-max/php/class-sa-cfw-min-max.php:300
+#: modules/min-max/php/class-sa-cfw-min-max.php:310
+#: modules/min-max/php/class-sa-cfw-min-max.php:315
+#: modules/min-max/php/class-sa-cfw-min-max.php:365
+#: modules/min-max/php/class-sa-cfw-min-max.php:374
+#: modules/min-max/php/class-sa-cfw-min-max.php:384
+#: modules/min-max/php/class-sa-cfw-min-max.php:389
+#: modules/min-max/php/class-sa-cfw-min-max.php:430
+#: modules/min-max/php/class-sa-cfw-min-max.php:434
+msgid "your cart"
+msgstr ""
+
+#. translators: 1. Quantity the can be added 2. Product name
+#: modules/min-max/php/class-sa-cfw-min-max.php:294
+#: modules/min-max/php/class-sa-cfw-min-max.php:368
+msgid "Add %1$d more %2$s."
+msgstr ""
+
+#. translators: 1. Minimum quantity required 2. Product name 3. Cart link with
+#. label 4. Quantity in the cart
+#: modules/min-max/php/class-sa-cfw-min-max.php:300
+#: modules/min-max/php/class-sa-cfw-min-max.php:374
+msgid "You can have a maximum of %1$d %2$s's in %3$s. You already have %4$d."
+msgstr ""
+
+#. translators: 1. Quantity the can be added
+#: modules/min-max/php/class-sa-cfw-min-max.php:303
+#: modules/min-max/php/class-sa-cfw-min-max.php:377
+msgid "You can add %d more."
+msgstr ""
+
+#. translators: 1. Minimum quantity required 2. Product name 3. Cart link with
+#. label
+#: modules/min-max/php/class-sa-cfw-min-max.php:310
+#: modules/min-max/php/class-sa-cfw-min-max.php:384
+msgid "You should add a minimum of %1$d %2$s's in %3$s."
+msgstr ""
+
+#. translators: 1. Minimum quantity required 2. Product name 3. Cart link with
+#. label
+#: modules/min-max/php/class-sa-cfw-min-max.php:315
+#: modules/min-max/php/class-sa-cfw-min-max.php:389
+msgid "You can have a maximum of %1$d %2$s's in %3$s."
+msgstr ""
+
+#. translators: 1. Minimum quantity required 2. Product name 3. Cart link with
+#. label
+#: modules/min-max/php/class-sa-cfw-min-max.php:434
+msgid "You should have a maximum of %1$d %2$s's in %3$s."
+msgstr ""
+
+#: modules/print-invoices/php/class-sa-print-invoices.php:160
+msgid "Print Invoice"
+msgstr ""
+
+#: modules/print-invoices/php/class-sa-print-invoices.php:205
+msgid "Print invoice"
+msgstr ""
+
+#: modules/print-invoices/php/templates/cfw-print-invoice.php:123
+msgid "Billing Address"
+msgstr ""
+
+#: modules/print-invoices/php/templates/cfw-print-invoice.php:130
+msgid "Shipping Address"
+msgstr ""
+
+#: modules/print-invoices/php/templates/cfw-print-invoice.php:137
+msgid "Email id"
+msgstr ""
+
+#: modules/print-invoices/php/templates/cfw-print-invoice.php:138
+msgid "Tel"
+msgstr ""
+
+#: modules/print-invoices/php/templates/cfw-print-invoice.php:141
+msgid "Product"
+msgstr ""
+
+#: modules/print-invoices/php/templates/cfw-print-invoice.php:141
+msgid "SKU"
+msgstr ""
+
+#: modules/print-invoices/php/templates/cfw-print-invoice.php:142
+msgid "Quantity"
+msgstr ""
+
+#: modules/print-invoices/php/templates/cfw-print-invoice.php:142
+msgid "Price"
+msgstr ""
+
+#: modules/print-invoices/php/templates/cfw-print-invoice.php:169
+msgid "Order Notes"
+msgstr ""
+
+#: modules/print-invoices/php/templates/cfw-print-invoice.php:171
+#: modules/side-cart/php/includes/class-sa-cfw-side-cart.php:214
+msgid "Shipping"
+msgstr ""
+
+#: modules/print-invoices/php/templates/cfw-print-invoice.php:175
+msgid "Order Discount"
+msgstr ""
+
+#: modules/print-invoices/php/templates/cfw-print-invoice.php:182
+#: modules/side-cart/php/includes/class-sa-cfw-side-cart.php:218
+msgid "Tax"
+msgstr ""
+
+#: modules/print-invoices/php/templates/cfw-print-invoice.php:183
+#: modules/side-cart/php/includes/class-sa-cfw-side-cart.php:226
+msgid "Total"
+msgstr ""
+
+#: modules/print-invoices/php/templates/cfw-print-invoice.php:186
+msgid "Coupon used: "
+msgstr ""
+
+#: modules/side-cart/php/includes/class-sa-cfw-side-cart.php:155
+msgid "No Item Found"
+msgstr ""
+
+#: modules/side-cart/php/includes/class-sa-cfw-side-cart.php:210
+msgid "Subtotal"
+msgstr ""
+
+#: modules/side-cart/php/includes/class-sa-cfw-side-cart.php:222
+msgid "Discount"
+msgstr ""
+
+#: modules/side-cart/php/templates/call-to-actions.php:28
+msgid "Continue shopping"
+msgstr ""
+
+#: modules/side-cart/php/templates/call-to-actions.php:29
+msgid "Checkout"
+msgstr ""
+
+#: modules/side-cart/php/templates/cart-contents.php:24
+msgid "Empty Cart"
+msgstr ""
+
+#: modules/side-cart/php/templates/cart-coupons.php:29
+msgid "Coupon"
+msgstr ""
+
+#: modules/side-cart/php/templates/cart-coupons.php:31
+msgid "Remove"
+msgstr ""
+
+#: modules/side-cart/php/templates/cart-coupons.php:38
+msgid "Free shipping coupon"
+msgstr ""
+
+#: modules/side-cart/php/templates/cart-coupons.php:62
+msgid "Have a coupon code?"
+msgstr ""
+
+#: modules/side-cart/php/templates/cart-coupons.php:68
+msgid "Enter coupon code here"
+msgstr ""
+
+#: modules/side-cart/php/templates/cart-coupons.php:69
+msgid "Apply"
+msgstr ""
+
+#: modules/side-cart/php/templates/cart-header.php:37
+msgid "Your Cart"
+msgstr ""
+
+#: modules/side-cart/php/templates/cart-header.php:41
+msgid "Close"
+msgstr ""
+
+#: modules/side-cart/php/templates/cart-item.php:54
+msgid "Qty"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Cashier for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://woocommerce.com/products/cashier/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Cashier for WooCommerce optimizes the checkout process to nudge customers at "
+"every stage in the checkout funnel - cart page, checkout page."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "StoreApps"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.storeapps.org/"
+msgstr ""

@@ -1,0 +1,480 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Flexible PDF Coupons Pro for WooCommerce 1.11.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/flexible-coupons-"
+"pro\n"
+"POT-Creation-Date: 2025-02-21T11:44:16+00:00\n"
+"PO-Revision-Date: 2025-02-21 12:47+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Domain: flexible-coupons-pro\n"
+"X-Poedit-Basepath: ../src\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"\"\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: src\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: vendor_prefixed\n"
+
+#. Plugin Name of the plugin
+#: flexible-coupons-pro.php
+msgid "Flexible PDF Coupons PRO for WooCommerce"
+msgstr "Kupony PDF WooCommerce PRO"
+
+#. Plugin URI of the plugin
+#: flexible-coupons-pro.php
+msgid "https://www.wpdesk.net/products/flexible-coupons-woocommerce/"
+msgstr "https://www.wpdesk.pl/sklep/flexible-coupons-woocommerce/"
+
+#. Description of the plugin
+#: flexible-coupons-pro.php
+msgid ""
+"Flexible PDF Coupons for WooCommerce is a WooCommerce plugin with which you "
+"can create your gift cards, vouchers, or coupons in PDF format. Use it for "
+"your future marketing campaigns."
+msgstr ""
+"Tworzy karty podarunkowe, vouchery i bilety w formacie PDF za pomocą wtyczki "
+"Kupony PDF WooCommerce."
+
+#. Author of the plugin
+#: flexible-coupons-pro.php
+msgid "WP Desk"
+msgstr "WP Desk"
+
+#. Author URI of the plugin
+#: flexible-coupons-pro.php
+msgid "https://www.wpdesk.net/"
+msgstr "https://www.wpdesk.pl/"
+
+#: src/Plugin/Coupons/AdminPage.php:30
+msgid "Show only Flexible Coupons"
+msgstr "Pokaż tylko Kupony PDF"
+
+#: src/Plugin/Coupons/AdminPage.php:31
+msgid "Show only WooCommerce Coupons"
+msgstr "Pokaż tylko kupony WooCommerce"
+
+#: src/Plugin/Coupons/AdminPage.php:57
+msgid "Flexible Coupon"
+msgstr "Kupony PDF"
+
+#. translators: %s - order number
+#: src/Plugin/Coupons/AdminPage.php:78
+msgid "Order ID: %s"
+msgstr "Nr zamówienia: %s"
+
+#: src/Plugin/Coupons/AdminPage.php:145
+msgid "Copy"
+msgstr "Kopia"
+
+#: src/Plugin/Coupons/AdminPage.php:169
+msgid "Copy of %s"
+msgstr "Kopia z %s"
+
+#: src/Plugin/Email/BaseEmail.php:56 src/Plugin/Email/BuyerEmail.php:30
+#: src/Plugin/Email/RecipientEmail.php:32
+msgid "Coupon"
+msgstr "Kupon"
+
+#: src/Plugin/Email/BuyerEmail.php:28
+msgid "Coupon for buyer (Flexible Coupons Pro)"
+msgstr "Kupon dla kupującego (Flexible Coupons Pro)"
+
+#: src/Plugin/Email/BuyerEmail.php:29
+msgid "This message goes to the coupon buyer."
+msgstr "Ta wiadomość trafi do kupującego kupon."
+
+#: src/Plugin/Email/BuyerEmail.php:31 src/Plugin/Email/RecipientEmail.php:33
+msgid "[{site_title}] You have received a coupon"
+msgstr "[{site_title}] Otrzymałeś kupon"
+
+#: src/Plugin/Email/RecipientEmail.php:30
+msgid "Coupon for recipient (Flexible Coupons Pro)"
+msgstr "Kupon dla odbiorcy (Flexible Coupons Pro)"
+
+#: src/Plugin/Email/RecipientEmail.php:31
+msgid "This message goes to the coupon recipient."
+msgstr "Ta wiadomość trafi do odbiorcy kuponu."
+
+#: src/Plugin/Marketing/SupportLinks.php:34
+#: src/Plugin/Marketing/SupportLinks.php:51
+#: src/Plugin/Marketing/SupportLinks.php:68
+msgid "See our documentation &rarr;"
+msgstr "Zobacz naszą dokumentację &rarr;"
+
+#: src/Plugin/Marketing/SupportMenuPage.php:33
+#: src/Plugin/Marketing/SupportMenuPage.php:34 src/Plugin/Plugin.php:130
+msgid "Start Here"
+msgstr "Zacznij tutaj"
+
+#: src/Plugin/Marketing/Views/marketing-page.php:21
+msgid "Get support"
+msgstr "Uzyskaj pomoc techniczną"
+
+#: src/Plugin/Marketing/Views/marketing-page.php:27
+msgid "Before sending a message please:"
+msgstr "Przed wysłaniem wiadomości prosimy:"
+
+#: src/Plugin/Marketing/Views/marketing-page.php:29
+msgid ""
+"Prepare the information about the version of WordPress, WooCommerce, and "
+"Flexible Invoices (preferably your system status from WooCommerce->Status)"
+msgstr ""
+"Przygotuj informacje o wersji WordPress, WooCommerce i Kuponach PDF "
+"WooCommerce (najlepiej status Twojego systemu z WooCommerce->Status)"
+
+#: src/Plugin/Marketing/Views/marketing-page.php:30
+msgid "Describe the issue you have"
+msgstr "Opisz swój problem"
+
+#: src/Plugin/Marketing/Views/marketing-page.php:31
+msgid "Attach any log files & printscreens of the issue"
+msgstr "Załącz wszystkie pliki dziennika i zrzuty ekranu pokazujące problem"
+
+#: src/Plugin/Marketing/Views/marketing-page.php:34
+msgid "Ok, take me to support"
+msgstr "OK, przejdź do pomocy technicznej"
+
+#: src/Plugin/Marketing/Views/marketing-page.php:35
+msgid "No, I'll wait"
+msgstr "Nie, poczekam"
+
+#: src/Plugin/Marketing/Views/rate-box-footer.php:21
+msgid ""
+"Created with %1$s by Sailors from %2$sWP Desk%3$s - if you like Flexible "
+"Coupons PDF Coupons Pro rate us &rarr;"
+msgstr ""
+"Wtyczka stworzona z %1$s przez zespół Sailors z %2$sWP Desk%3$s - jeśli "
+"polubiłeś Kupony PDF WooCommerce, daj &rarr;"
+
+#: src/Plugin/Plugin.php:136
+msgid "Add-ons"
+msgstr "Dodatki"
+
+#: src/Plugin/ProductFieldsDefinition.php:27
+msgid "Recipient name"
+msgstr "Nazwa odbiorcy"
+
+#: src/Plugin/ProductFieldsDefinition.php:37
+#: src/Plugin/ProductFieldsDefinition.php:69
+msgid "The minimum characters number in this field is %d"
+msgstr "Minimalna liczba znaków w tym polu wynosi %d"
+
+#: src/Plugin/ProductFieldsDefinition.php:43
+msgid "Recipient email"
+msgstr "E-mail odbiorcy"
+
+#: src/Plugin/ProductFieldsDefinition.php:53
+msgid "Make sure you use @ sign and domain extention like .com"
+msgstr "Upewnij się, że używasz znaku @ i rozszerzenia domeny, np. .com"
+
+#: src/Plugin/ProductFieldsDefinition.php:59
+msgid "Recipient message"
+msgstr "Wiadomość dla odbiorcy"
+
+#: src/Plugin/RegisterEditor.php:30 src/Plugin/RegisterEditor.php:31
+#: src/Plugin/RegisterEditor.php:32 src/Plugin/RegisterEditor.php:33
+msgid "PDF Coupons"
+msgstr "Kupony PDF"
+
+#: src/Plugin/RegisterEditor.php:34 src/Plugin/RegisterEditor.php:35
+msgid "Add New"
+msgstr "Dodaj nowy"
+
+#: src/Plugin/RegisterEditor.php:36
+msgid "New"
+msgstr "Nowy"
+
+#: src/Plugin/RegisterEditor.php:37
+msgid "Edit"
+msgstr "Edytuj"
+
+#: src/Plugin/RegisterEditor.php:38
+msgid "Views"
+msgstr "Zobacz"
+
+#: src/Plugin/RegisterEditor.php:39
+msgid "Templates"
+msgstr "Szablony"
+
+#: src/Plugin/RegisterEditor.php:40
+msgid "Search"
+msgstr "Szukaj"
+
+#: src/Plugin/RegisterEditor.php:41
+msgid "Parent:"
+msgstr "Rodzic:"
+
+#: src/Plugin/RegisterEditor.php:42
+msgid "No found."
+msgstr "Nie znaleziono."
+
+#: src/Plugin/RegisterEditor.php:43
+msgid "No found in Trash."
+msgstr "Kosz jest pusty."
+
+#: src/Plugin/RegisterEditor.php:47
+msgid "Manage coupons templates."
+msgstr "Zarządzaj szablonami kuponów."
+
+#: src/Plugin/Settings/GeneralSettings.php:49
+msgid "Expiry date format"
+msgstr "Format daty wygaśnięcia"
+
+#: src/Plugin/Settings/GeneralSettings.php:50
+msgid ""
+"Define coupon expiry date format according to %1$sWordPress date "
+"formatting%2$s."
+msgstr ""
+"Zdefiniuj format daty zgodny z zasadami %1$sformatowania daty w "
+"WordPressie%2$s."
+
+#: src/Plugin/Settings/GeneralSettings.php:54
+msgid "PDF as attachment"
+msgstr "PDF jako załączniki"
+
+#: src/Plugin/Settings/GeneralSettings.php:55
+#: src/Plugin/Settings/GeneralSettings.php:91
+#: src/Plugin/Settings/GeneralSettings.php:96
+#: src/Plugin/Settings/GeneralSettings.php:101
+msgid "Enable"
+msgstr "Włącz"
+
+#: src/Plugin/Settings/GeneralSettings.php:56
+msgid ""
+"Enable to add PDF coupons as email attachments. If this option is disabled, "
+"recipients will only be able to download the coupon via a link in the email."
+msgstr ""
+"Włącz aby dodawać kupony w formie PDF jako załączniki do e-maila. Jeśli "
+"opcja jest wyłączona, pobranie kuponu będzie możliwe tylko za pomocą linku "
+"znajdującego się w e-mailu."
+
+#: src/Plugin/Settings/GeneralSettings.php:59
+msgid "Coupon fields position on the product page"
+msgstr "Pozycja pól kuponu na stronie produktu"
+
+#: src/Plugin/Settings/GeneralSettings.php:62
+msgid "Below Add to cart button"
+msgstr "Pod przyciskiem Dodaj do koszyka"
+
+#: src/Plugin/Settings/GeneralSettings.php:63
+msgid "Above Add to cart button"
+msgstr "Nad przyciskiem Dodaj do koszyka"
+
+#: src/Plugin/Settings/GeneralSettings.php:66
+msgid "Select where the coupon fields will be displayed on the product page."
+msgstr "Wybierz w której sekcji strony produktu będą wyświetlane pola kuponu."
+
+#: src/Plugin/Settings/GeneralSettings.php:68
+msgid "Coupon code"
+msgstr "Kod kuponu"
+
+#. translators: %1$s start url, %2$s close url.
+#: src/Plugin/Settings/GeneralSettings.php:71
+msgid "In this section you can define your own settings for coupon code."
+msgstr "W tej sekcji możesz zdefiniować własne ustawienia dla kodu kuponu."
+
+#: src/Plugin/Settings/GeneralSettings.php:75
+msgid "Coupon code prefix"
+msgstr "Prefiks kodu kuponu"
+
+#: src/Plugin/Settings/GeneralSettings.php:76
+msgid ""
+"Define the prefix which will be used as a beginning of your coupon code. "
+"Leave empty if you don’t want to use the prefix. Use <code>{order_id}</code> "
+"shortcode if you want to use the order number."
+msgstr ""
+"Zdefiniuj prefiks od którego będzie zaczynał się kod generowanych kuponów. "
+"Pozostaw puste jeśli nie chcesz korzystać z prefiksu. Możesz użyć szortkodu "
+"<code>{order_id}</code> aby wykorzystać numer zamówienia."
+
+#: src/Plugin/Settings/GeneralSettings.php:79
+msgid "Number of random characters"
+msgstr "Liczba losowych znaków"
+
+#: src/Plugin/Settings/GeneralSettings.php:80
+msgid ""
+"The number of random characters in the coupon code. Random characters will "
+"be used for generating unique coupon codes. Choose the number between 5 and "
+"30."
+msgstr ""
+"Liczba losowych znaków w kodzie kuponu. Losowe znaki zostaną użyte do "
+"generowania unikalnych kodów kuponów. Wybierz liczbę z zakresu od 5 do 30."
+
+#: src/Plugin/Settings/GeneralSettings.php:86
+msgid "Coupon code suffix"
+msgstr "Sufiks kodu kuponu"
+
+#: src/Plugin/Settings/GeneralSettings.php:87
+msgid ""
+"Define the suffix which will be used as a end of your coupon code. Leave "
+"empty if you don’t want to use the suffix. Use <code>{order_id}</code> "
+"shortcode if you want to use the order number."
+msgstr ""
+"Zdefiniuj sufiks, który będzie używany jako zakończenie kodu kuponu. "
+"Pozostaw puste jeśli nie chcesz korzystać z sufiksu. Możesz użyć szortkodu "
+"<code>{order_id}</code> aby wykorzystać numer zamówienia."
+
+#: src/Plugin/Settings/GeneralSettings.php:90
+msgid "Coupon value"
+msgstr "Wartość kuponu"
+
+#: src/Plugin/Settings/GeneralSettings.php:92
+msgid "Always use the regular price of the product for the coupon value."
+msgstr "Zawsze użyj ceny regularnej produktu dla wartości kuponu."
+
+#: src/Plugin/Settings/GeneralSettings.php:95
+msgid "Show field tips"
+msgstr "Wskazówki dotyczące pól"
+
+#: src/Plugin/Settings/GeneralSettings.php:97
+msgid "Show tooltips for fields."
+msgstr "Pokaż podpowiedzi dla pól."
+
+#: src/Plugin/Settings/GeneralSettings.php:100
+msgid "Show textarea counter"
+msgstr "Pokaż licznik pola tekstowego"
+
+#: src/Plugin/Settings/GeneralSettings.php:102
+msgid "Show character counter below textarea."
+msgstr "Pokaż licznik znaków poniżej pola tekstowego."
+
+#: src/Plugin/Settings/GeneralSettings.php:105
+msgid "PHP Settings"
+msgstr "Ustawienia PHP"
+
+#: src/Plugin/Settings/GeneralSettings.php:108
+msgid "Allow URL Fopen"
+msgstr "Allow URL Fopen"
+
+#: src/Plugin/Settings/GeneralSettings.php:126
+msgid "Disabled"
+msgstr "Wyłączone"
+
+#: src/Plugin/Settings/GeneralSettings.php:129
+msgid "Enabled"
+msgstr "Włączone"
+
+#. Translators: link.
+#: src/PluginDisabler/FlexibleCouponFreeDisabler.php:55
+msgid ""
+"\"Flexible Coupons PDF for WooCommerce\" plugin can be removed now since the "
+"PRO version took over its functionalities.%1$s%2$sClick here%3$s to "
+"deactivate \"Flexible Coupons PDF for WooCommerce\" plugin."
+msgstr ""
+"Wtyczka \"Flexible Coupons PDF for WooCommerce\" może być teraz usunięta, "
+"ponieważ wersja PRO przejęła jej funkcjonalność.%1$s%2$sKliknij tutaj%3$s "
+"aby wyłączyć wtyczkę \"Flexible Coupons PDF for WooCommerce\"."
+
+#. translators: %s: Recipient name.
+#. translators: %s: Customer name.
+#: src/Views/emails/coupon-recipient.php:24 src/Views/emails/coupon.php:24
+#: src/Views/emails/plain/coupon-recipient.php:25
+#: src/Views/emails/plain/coupon.php:25
+msgid "Hi %s,"
+msgstr "Cześć %s,"
+
+#. translators: %1$s: Recipient name, %2$s: Site URL, %3$s: Site name, %4$s: Expiry date.
+#: src/Views/emails/coupon-recipient.php:34
+msgid ""
+"Thanks to %1$s you get a gift voucher for use in the <a href=\"%2$s\">%3$s</"
+"a> store. The coupon is valid to %4$s."
+msgstr ""
+"Dzięki %1$s otrzymujesz kupon podarunkowy do wykorzystania w sklepie <a "
+"href=\"%2$s\">%3$s</a>.  Kupon jest ważny do %4$s."
+
+#: src/Views/emails/coupon-recipient.php:51
+#: src/Views/emails/plain/coupon-recipient.php:46
+#: src/Views/emails/plain/coupon.php:38
+msgid "Coupon information"
+msgstr "Informacje o kuponie"
+
+#. translators: %s: Coupon code.
+#: src/Views/emails/coupon-recipient.php:60 src/Views/emails/coupon.php:47
+#: src/Views/emails/plain/coupon-recipient.php:49
+#: src/Views/emails/plain/coupon.php:41
+msgid "Coupon code: %s"
+msgstr "Kod kuponu:  %s"
+
+#. translators: %s: Coupon value.
+#: src/Views/emails/coupon-recipient.php:69 src/Views/emails/coupon.php:53
+#: src/Views/emails/plain/coupon-recipient.php:52
+#: src/Views/emails/plain/coupon.php:43
+msgid "Coupon value: %s"
+msgstr "Wartość kuponu: %s"
+
+#. translators: %s: Coupon expiry date.
+#. translators: %s: Expiry date.
+#: src/Views/emails/coupon-recipient.php:78 src/Views/emails/coupon.php:60
+#: src/Views/emails/plain/coupon-recipient.php:56
+#: src/Views/emails/plain/coupon.php:46
+msgid "Expiry date: %s"
+msgstr "Data wygaśnięcia: %s"
+
+#: src/Views/emails/coupon-recipient.php:84 src/Views/emails/coupon.php:69
+msgid "Download PDF with the coupon &raquo;"
+msgstr "Pobierz PDF z kuponem &raquo;"
+
+#: src/Views/emails/coupon-recipient.php:92
+#: src/Views/emails/plain/coupon-recipient.php:63
+msgid "A message from the buyer:"
+msgstr "Wiadomość od kupującego:"
+
+#: src/Views/emails/coupon-recipient.php:96 src/Views/emails/coupon.php:90
+#: src/Views/emails/plain/coupon-recipient.php:69
+#: src/Views/emails/plain/coupon.php:75
+msgid "Thanks for reading!"
+msgstr "Dzięki za przeczytanie!"
+
+#. translators: %1$s: Order number, %2$s: Order date.
+#: src/Views/emails/coupon.php:33 src/Views/emails/plain/coupon.php:30
+msgid ""
+"In response to an order %1$s placed %2$s, we are sending you a coupon for "
+"shopping in our shop."
+msgstr ""
+"W odpowiedzi na złożone zamówienie %1$s dnia %2$s wysyłamy Ci kupon na "
+"zakupy w naszym sklepie."
+
+#: src/Views/emails/coupon.php:77 src/Views/emails/plain/coupon.php:57
+msgid "Coupon fields:"
+msgstr "Pola kuponu:"
+
+#. translators: %s: Recipient name.
+#: src/Views/emails/coupon.php:80 src/Views/emails/plain/coupon.php:60
+msgid "Recipient name: %s"
+msgstr "Nazwa odbiorcy: %s"
+
+#. translators: %s: Recipient e-mail.
+#: src/Views/emails/coupon.php:83 src/Views/emails/plain/coupon.php:65
+msgid "Recipient e-mail: %s"
+msgstr "E-mail odbiorcy: %s"
+
+#. translators: %s: Message for recipient.
+#: src/Views/emails/coupon.php:86 src/Views/emails/plain/coupon.php:70
+msgid "Message for recipient: %s"
+msgstr "Wiadomość dla odbiorcy: %s"
+
+#. translators: %1$s: Recipient name, %2$s: Site URL, %3$s: Site name, %4$s: Expiry date.
+#: src/Views/emails/plain/coupon-recipient.php:31
+msgid ""
+"Thanks to %1$s you get a gift voucher for use in the %2$s (%3$s) store. The "
+"coupon is valid to %4$s."
+msgstr ""
+"Dzięki %1$s otrzymujesz kupon podarunkowy do wykorzystania w sklepie %2$s "
+"(%3$s). Kupon jest ważny do %4$s."
+
+#. translators: %s: Download link.
+#: src/Views/emails/plain/coupon-recipient.php:42
+#: src/Views/emails/plain/coupon.php:50
+msgid "Download PDF with the coupon from: %s"
+msgstr "Pobierz PDF z kuponem z: %s"

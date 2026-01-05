@@ -1,0 +1,60 @@
+.meta-import-container {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.meta-import-container h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.meta-import-dropdown,
+.meta-import-file {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.meta-import-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background: #0073aa;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.meta-import-button:hover {
+    background: #005a87;
+}
+
+
+#progress-modal {
+    position: fixed; /* Fixed position for the popup */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    display: flex; /* Flexbox for centering content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    z-index: 9999; /* Ensure it's on top of other elements */
+}
+
+.progress-container {
+    background-color: #fff; /* White background for the container */
+    padding: 20px; /* Padding inside the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Drop shadow for the popup */
+    max-width: 400px; /* Limit the width */
+    text-align: center; /* Center align text inside */
+}

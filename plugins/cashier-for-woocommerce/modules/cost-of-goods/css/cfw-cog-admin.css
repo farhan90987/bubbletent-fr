@@ -1,0 +1,8 @@
+.cfw-error {
+	color: red;
+}
+input.cfw-error,
+input.cfw-error:focus {
+	border-color: red;
+	box-shadow: 0px 0px 0 0.5px #600000;
+}

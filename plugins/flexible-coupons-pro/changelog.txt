@@ -1,0 +1,347 @@
+# Flexible PDF Coupons Pro Changelog
+
+## [2.4.2] - 2025-09-07 
+### Added
+- Support for WooCommerce 10.2
+
+## [2.4.1] - 2025-09-03
+### Fixed
+- Printing images for pdf
+
+## [2.4.0] - 2025-08-27
+### Added
+- UI improvements
+- Bold and italic fonts in editor
+
+## [2.3.2] - 2025-08-13
+### Added
+- Support for WooCommerce 10.1
+### Fixed
+- Marketing links
+
+## [2.3.1] - 2025-07-10
+### Added
+- Support for WooCommerce 10.0
+### Fixed
+- Error on woocommerce email preview page
+
+## [2.3.0] - 2025-06-30
+### Added
+- Support for Flexible Coupons Advanced Sending 2.0
+
+## [2.2.0] - 2025-06-03
+### Added
+- Flexible Coupons PDF - Coupon Code Import addon integration
+
+## [2.1.2] - 2025-05-26
+### Added
+- Support for WooCommerce 9.9
+### Changed
+- Promo url link
+
+## [2.1.1] - 2025-03-04
+### Added
+- Support for WooCommerce 9.7
+- Enhanced logging errors across the plugin
+- Enhanced security
+
+## [2.1.0] - 2024-12-23
+### Added
+- Logging to WC logs
+### Fixed
+- Can not add new coupon templates
+- ArrayAccess deprecated notice in php 8
+
+## [2.0.2] - 2024-12-21
+### Added
+- Support for WooCommerce 9.6
+
+## [2.0.1] - 2024-12-17
+* Potential XSS vulnerability in template editor
+
+## [2.0.0] - 2024-12-11
+### Added
+* Prefixed logger (major release - logger compatibility with addons)
+### Fixed
+* Bulk variations update
+* Adding copy action to other CPT (ex. Invoices from Flexible Invoices plugin)
+* Xss vulnerabilitie
+
+## [1.13.5] - 2024-11-21
+### Added
+- Support for WooCommerce 9.5
+### Fixed
+- Translations loading to early in wp 6.7
+
+## [1.13.4] - 2024-11-15
+### Fixed
+- Fix translations missing on non-english websites
+
+## [1.13.3] - 2024-11-15
+### Fixed
+- Fix translations missing on non-english websites
+
+## [1.13.2] - 2024-11-13
+### Added
+- Support for WordPress 6.7
+
+## [1.13.1] - 2024-10-21
+### Added
+- Support for WooCommerce 9.4
+
+## [1.13.0] - 2024-10-10
+### Added
+- Support for WooCommerce 9.3
+- Plugin version to PluginAccess class
+### Fixed
+- Multiple PDF addon link and translation
+- Empty expiery date on email
+
+## [1.12.0] - 2024-08-08
+### Added
+- Support for Multiple PDFs add-on
+- Required HTML attribute for required fields
+
+## [1.11.11] - 2024-08-07
+### Added
+- Support for WooCommerce 9.2
+
+## [1.11.10] - 2024-07-29
+### Fixed
+- Pdf fonts do not work for some alphabets (ex. cyrillic)
+
+## [1.11.9] - 2024-07-23
+### Added
+- Support for WordPress 6.6
+### Fixed
+- Fixed use of dynamic property notice
+- Fixed min and max char validation for some alphabets (ex. cyrillic)
+
+## [1.11.8] - 2024-07-07
+### Added
+- Support for WooCommerce 9.1
+
+## [1.11.7] - 2024-06-07
+### Added
+- Support for WooCommerce 9.0
+
+## [1.11.6] - 2024-05-21
+### Added
+- Support for WooCommerce 8.9
+
+## [1.11.5] - 2024-04-19
+### Fixed
+- Polish translation placeholder error
+
+## [1.11.4] - 2024-04-18
+### Added
+- Support for WooCommerce 8.8
+- Marketing changes (links and styles)
+
+## [1.11.3] - 2024-03-25
+### Added
+- Support for WordPress 6.5
+
+## [1.11.2] - 2024-03-05
+### Added
+- Support for WooCommerce 8.7
+### Fixed
+- Coupon price set with tax even when woo settings expects prices without tax
+
+## [1.11.1] - 2023-12-18
+### Added
+- Support for WooCommerce 8.4
+
+## [1.11.0] - 2023-11-16
+### Added
+- Dashboard widget
+
+## [1.10.2] - 2023-11-07
+### Added
+- Support for WordPress 6.4
+- Support for WooCommerce 8.3
+
+## [1.10.1] - 2023-10-09
+### Added
+- Support for WooCommerce 8.2
+
+## [1.10.0] - 2023-09-19
+### Added
+- disable PDF Coupon option for variations
+### Fixed
+- some links
+
+## [1.9.1] - 2023-08-21
+- Fixed Help & Support menu tab slug conflict
+
+## [1.9.0] - 2023-08-10
+- Added qr codes tab in editor
+- Added advanced sending tab in editor
+- Added support for WordPress 6.3
+- Added support for WooCommerce 8.0
+
+## [1.8.2] - 2023-07-13
+- Fixed return type for screen_layout_columns filter
+
+## [1.8.1] - 2023-06-26
+- Added support for WordPress 6.2
+- Added support for WooCommerce 7.9
+
+## [1.8.0] - 2023-06-21
+- Added settings menu with tabs
+- Added integration with Flexible PDF Coupons PRO - Advanced Sending
+- Fixed sending coupon email to both buyer and recipient
+
+## [1.7.7] - 2023-03-06
+- Fixed issue with old coupons
+- Fixed issue on edit product page
+
+## [1.7.6] - 2023-02-08
+- Fixed PHP notification message
+
+## [1.7.5] - 2023-02-07
+- Added option to create not only virtual coupons for variations
+
+## [1.7.4] - 2022-12-29
+- Fixed product options when editing product
+- Added option to create not only virtual coupons
+
+## [1.7.3] - 2022-12-13
+- Added support for WooCommerce high-performance order storage
+- Added docs & support admin page
+- Added docs URL
+
+## [1.7.2] - 2022-09-14
+- Fixed compatibility issue with WooCommerce 6.9
+
+## [1.7.1] - 2022-08-30
+- Fixed error with regular price of product if option Use regular price for coupon was enabled
+
+## [1.7.0] - 2022-08-18
+- Added copying of templates.
+- Added new font sizes for the editor.
+- Fixed coupon code.
+
+## [1.6.6] - 2022-07-14
+- Fixed nested settings
+
+## [1.6.5] - 2022-04-14
+- Added char counter for textarea field
+- Added tooltip for fields
+- Added coupon URL on the page
+- Fixed regular price for variants
+- Fixed expiration date when date format is empty
+
+## [1.6.4] - 2022-03-31
+- Fixed translations
+
+## [1.6.3] - 2022-03-17
+- Fixed loading fields for variation
+
+## [1.6.2] - 2022-03-09
+- Fixed hook priority for editor
+
+## [1.6.1] - 2022-03-02
+- Fixed email attachment
+- Update plugin libraries
+
+## [1.6.0] - 2022-02-10
+- Added option to disable sending of coupon emails
+
+## [1.5.2] - 2022-01-13
+- Added ability to use regular price when coupon price is discounted
+
+## [1.5.1] - 2021-12-02
+- Fixed JS
+
+## [1.5.0] - 2021-11-09
+- Removed deprecated flexible_coupons_pdf_filename filter. Use fcpdf/core/pdf/filename instead.
+- Removed deprecated flexible_coupons_coupon_code_random_length filter. Use fcpdf/core/coupon/code/length.
+- Removed deprecated flexible_coupons_coupon_code_prefix filter. Use fcpdf/core/coupon/code/prefix.
+- Removed deprecated flexible_coupons_font_data filter. Use fcpdf/core/fonts/data.
+- Removed deprecated flexible_coupons_font_dir filter. Use fcpdf/core/fonts/dir.
+- Update plugin libraries.
+- Fixed coupon code.
+- Fixed email date format.
+- Fixed cart validation.
+- Fixed fatal error.
+- Fixed currency symbol.
+- Fixed expiry date format
+
+## [1.4.4] - 2021-07-12
+- Fixed own coupon expiry date
+- Fixed date in email template
+
+## [1.4.3] - 2021-06-24
+- Fixed coupon expiry date
+- Fixed email template
+
+## [1.4.2] - 2021-06-02
+- Fixed coupon expiration time
+- Fixed email template
+
+## [1.4.1] - 2021-03-31
+- Fixed coupon expiration time
+
+## [1.4.0] - 2021-03-24
+- Added support for variations
+- Added coupon code settings
+- Added field for defining own expiration time
+- Added 'fcpdf/core/pdf/filename' filter to change filename of PDF file attached in email or downloaded
+- Added 'fc/core/editor/fonts' filter to add new fonts to editor.
+- Added 'fcpdf/core/fonts/dir' filter to manipulate PDF library font directories.
+- Added 'fcpdf/core/fonts/data' filter to manipulate PDF library fonts data.
+- Added 'fcpdf/core/coupon/code/suffix' filter to manipulate coupon suffix.
+- Remove 'flexible_coupons_coupon_code_prefix' filter in next minor version.
+- Remove 'flexible_coupons_coupon_code_random_length' filter in next minor version.
+
+## [1.3.1] - 2021-02-10
+- Added support for WooCommerce 5.0
+
+## [1.3.0] - 2021-02-09
+- Added the possibility to attach a pdf coupon to an email message
+- Added option to disable custom fields as required
+
+## [1.2.1] - 2021-01-19
+- Fixed translations
+- Fixed email template
+
+## [1.2.0] - 2020-12-17
+- Minor version
+- Added usage restriction for PDF coupon on the product edit page
+- Added support for define custom fields & shortcodes
+- Added functionality of multiple use coupon
+- Changed PDF Coupon view on the product edit page
+- Added filter 'fcpdf/core/coupon/code/length' to change coupon code length
+- Added filter 'fcpdf/core/coupon/code/prefix' to change coupon code prefix
+- Added filter 'fcpdf/core/coupon/expiry' to change coupon expires date
+- Added filter 'fcpdf/core/coupon/before/create' for change coupon object
+- Added filter 'fcpdf/core/coupon/before/after' for change meta data saved to post meta
+- Added date format definition on the plugin settings page
+- Added 'never' option for expiration date of the coupon on the product edit page
+- Fixed bug for auto generating vouchers with other products
+- Fixed font rendering on the template editor
+
+## [1.1.3] - 2020-11-30
+- Added RTL Support
+- Added filter 'fcpdf/core/shortcodes' for defining own shortcodes
+- Added filter 'fc/pro/product/fields' for defining own product fields
+- Added links to PDF Coupons in My Account
+
+## [1.1.2] - 2020-09-15
+- Fixed coupon amount format
+- Fixed product title shortcode
+
+## [1.1.1] - 2020-08-18
+- Fixed email template
+- Fixed post_per_page for coupon template
+
+## [1.1.0] - 2020-07-16
+- Fixed prefixing of the Mpdf library
+- Fixed meta box notice
+- Added fcpdf_shortcode_customer_name shortcode
+- Added fcpdf_shortcode_customer_address shortcode
+- Added fcpdf_shortcode_coupon_expiry_date_format shortcode
+
+## [1.0.0] - 2017-06-24
+- First release

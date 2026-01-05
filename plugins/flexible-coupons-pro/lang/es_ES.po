@@ -1,0 +1,1172 @@
+# Translation of Plugins - Flexible PDF Coupons &#8211; Gift Cards &amp; Vouchers for WooCommerce - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Flexible PDF Coupons &#8211; Gift Cards &amp; Vouchers for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-04 16:35:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Flexible PDF Coupons &#8211; Gift Cards &amp; Vouchers for WooCommerce - Stable (latest release)\n"
+
+#: src/Plugin/Settings/GeneralProSettings.php:110
+msgid "Define the suffix which will be used as a end of your coupon code. Leave empty if you don’t want to use the suffix. Use <code>{order_id}</code> shortcode if you want to use the order number."
+msgstr ""
+
+#: src/Plugin/Settings/GeneralProSettings.php:94
+msgid "Define the prefix which will be used as a beginning of your coupon code. Leave empty if you don’t want to use the prefix. Use <code>{order_id}</code> shortcode if you want to use the order number."
+msgstr ""
+
+#: src/Plugin/Settings/GeneralProSettings.php:86
+msgid "In this section you can define your own settings for coupon code."
+msgstr ""
+
+#: src/Plugin/Settings/GeneralProSettings.php:83
+msgid "Coupon code"
+msgstr ""
+
+#: src/Plugin/Settings/GeneralProSettings.php:79
+msgid "Select where the coupon fields will be displayed on the product page."
+msgstr ""
+
+#: src/Plugin/Settings/GeneralProSettings.php:75
+msgid "Above Add to cart button"
+msgstr ""
+
+#: src/Plugin/Settings/GeneralProSettings.php:74
+msgid "Below Add to cart button"
+msgstr ""
+
+#: src/Plugin/Settings/GeneralProSettings.php:70
+msgid "Coupon fields position on the product page"
+msgstr ""
+
+#: src/Plugin/Settings/GeneralProSettings.php:66
+msgid "Enable to add PDF coupons as email attachments. If this option is disabled, recipients will only be able to download the coupon via a link in the email."
+msgstr ""
+
+#: src/Plugin/Settings/GeneralProSettings.php:60
+msgid "PDF as attachment"
+msgstr ""
+
+#: src/Plugin/Settings/GeneralProSettings.php:47
+#: src/Plugin/Settings/GeneralProSettings.php:56
+msgid "Define coupon expiry date format according to %1$sWordPress date formatting%2$s."
+msgstr ""
+
+#: src/Plugin/Settings/GeneralProSettings.php:42
+#: src/Plugin/Settings/GeneralProSettings.php:51
+msgid "Expiry date format"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/variation/html-variation-select.php:11
+msgid "Enable this option to enable individual Flexible PDF Coupons options at variation level"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/variation/html-variation-select.php:11
+msgid "Manage Flexible PDF Coupons settings for variation"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/coupon-code-length.php:30
+#: src/Plugin/Settings/GeneralProSettings.php:102
+msgid "The number of random characters in the coupon code. Random characters will be used for generating unique coupon codes. Choose the number between 5 and 30."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/coupon-code-length.php:30
+#: src/Plugin/Settings/GeneralProSettings.php:98
+msgid "Number of random characters"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/expiring-date-own.php:24
+msgid "Define own time from purchase to expiration of a generated coupon."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/expiring-date-own.php:24
+msgid "Own expiration time"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/coupon-code-suffix.php:30
+msgid "Define the suffix which will be used as a end of your coupon code. Leave empty if you don’t want to use the suffix. Use {order_id} shortcode if you want to use the order number."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/coupon-code-suffix.php:30
+#: src/Plugin/Settings/GeneralProSettings.php:106
+msgid "Coupon code suffix"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/expiring-date.php:24
+msgid "Set your own date"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/coupon-code-enable.php:25
+msgid "Enable this option to overwrite plugin settings and configure your own coupon code settings for this product."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/coupon-code-enable.php:25
+msgid "Define own coupon code"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/coupon-code-prefix.php:30
+msgid "Define the prefix which will be used as a beginning of your coupon code. Leave empty if you don’t want to use the prefix. Use {order_id} shortcode if you want to use the order number."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/coupon-code-prefix.php:30
+#: src/Plugin/Settings/GeneralProSettings.php:90
+msgid "Coupon code prefix"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:277
+msgid "The &#8220;%1$s&#8221; plugin requires at least %2$s version of %3$s to work correctly. Please update it to its latest release."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/product-fields.php:34
+msgid "If checked field will be set as required."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/product-fields.php:34
+msgid "Required"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/product-fields.php:31
+msgid "Show or hide this field in product page."
+msgstr ""
+
+#: src/Plugin/ReviewNotice/TwoWeeksNotice.php:168
+msgid "Amazing! You've been using Flexible PDF Coupons for Woocommerce for two weeks. I hope it meets your expectations! If so, may I ask you for a big favor and a 5-star rating on the plugin's site?"
+msgstr ""
+
+#. translators: %1$s url start tag, %2$s - url end tag.
+#: src/Plugin/ReviewNotice/TwoWeeksNotice.php:102
+msgid "%1$sNo, never!%2$s"
+msgstr ""
+
+#. translators: %1$s url start tag, %2$s - url end tag.
+#: src/Plugin/ReviewNotice/TwoWeeksNotice.php:96
+msgid "%1$sNope, maybe later%2$s"
+msgstr ""
+
+#. translators: %1$s url start tag, %2$s - url end tag.
+#: src/Plugin/ReviewNotice/TwoWeeksNotice.php:90
+msgid "%1$sSure, it's worth it!%2$s"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/expiring-date.php:24
+msgid "never"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/include-categories.php:53
+msgid "Categories for which the coupon will be used. Do not select any to apply to all categories."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/include-categories.php:42
+msgid "Any category"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/include-categories.php:30
+msgid "Product categories"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/include-products.php:57
+msgid "Products for which the coupon will be used. Do not select any to apply to all products."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/include-products.php:41
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/include-products.php:29
+msgid "Products"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/free-shipping.php:25
+msgid "Check if you want the coupon to provide free shipping. The coupon requirement for free shipping must be included in the shipping method."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/free-shipping.php:25
+msgid "Allow free shipping"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/usage-limit.php:25
+msgid "Check this option if you want to allow customer to spread the coupon value over several purchases. For example, a coupon worth $100 for two purchases of $50."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/usage-limit.php:25
+msgid "Allow to multiuse"
+msgstr ""
+
+#: flexible-coupons.php:55
+msgid "https://www.wpdesk.net/products/flexible-coupons-woocommerce/"
+msgstr ""
+
+#: src/Plugin/Email/FlexibleCouponsEmail.php:20
+msgid "This message goes to the coupon buyer."
+msgstr ""
+
+#: src/Plugin/Email/FlexibleCouponsEmail.php:19
+msgid "Coupon for buyer (Flexible Coupons)"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-helper/src/UpgradeSoonNotice.php:68
+msgid "The WordPress version your shop is currently using is deprecated. We highly advise to upgrade it to at least %s since the support for this one will be dropped soon."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-helper/src/UpgradeSoonNotice.php:65
+msgid "The WooCommerce version your shop is currently using is deprecated. We highly advise to upgrade it to at least %s since the support for this one will be dropped soon."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-helper/src/UpgradeSoonNotice.php:62
+msgid "The PHP version your shop is currently using is deprecated. We highly advise to upgrade it to at least %s since the support for this one will be dropped soon."
+msgstr ""
+
+#: src/Plugin/Tracker/Tracker.php:69
+msgid "Opt-out"
+msgstr "Rechazar"
+
+#: src/Plugin/Tracker/Tracker.php:65
+msgid "Opt-in"
+msgstr "Aceptar"
+
+#: src/Views/emails/plain/coupon.php:30
+msgid "Coupon information"
+msgstr "Información del cupón"
+
+#: src/Views/emails/coupon.php:10 src/Views/emails/plain/coupon.php:18
+msgid "Hi %s,"
+msgstr "Hola %s,"
+
+#: src/Plugin/ProductFieldsDefinition.php:52
+msgid "Recipient message"
+msgstr "Mensaje para el destinatario"
+
+#: src/Plugin/ProductFieldsDefinition.php:39
+msgid "Recipient email"
+msgstr "Correo electrónico del destinatario"
+
+#: src/Plugin/ProductFieldsDefinition.php:27
+msgid "Recipient name"
+msgstr "Nombre del destinatario"
+
+#: src/Plugin/RegisterEditor.php:43
+msgid "Manage coupons templates."
+msgstr "Gestionar plantillas de cupones."
+
+#: src/Plugin/RegisterEditor.php:39
+msgid "No found in Trash."
+msgstr "No encontrado en la papelera."
+
+#: src/Plugin/RegisterEditor.php:38
+msgid "No found."
+msgstr "No encontrado."
+
+#: src/Plugin/RegisterEditor.php:37
+msgid "Parent:"
+msgstr "Superior:"
+
+#: src/Plugin/RegisterEditor.php:36
+msgid "Search"
+msgstr "Buscar"
+
+#: src/Plugin/RegisterEditor.php:35
+msgid "Templates"
+msgstr "Plantillas"
+
+#: src/Plugin/RegisterEditor.php:34
+msgid "Views"
+msgstr "Vistas"
+
+#: src/Plugin/RegisterEditor.php:32
+msgid "New"
+msgstr "Nuevo"
+
+#: src/Plugin/RegisterEditor.php:30 src/Plugin/RegisterEditor.php:31
+msgid "Add New"
+msgstr "Añadir nuevo"
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/html-account.php:10
+#: src/Plugin/RegisterEditor.php:26 src/Plugin/RegisterEditor.php:27
+#: src/Plugin/RegisterEditor.php:28 src/Plugin/RegisterEditor.php:29
+msgid "PDF Coupons"
+msgstr "Cupones PDF"
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:470
+msgid "The &#8220;%s&#8221; plugin cannot run without %s php setting set to %s. Please contact your host and ask them to set %s."
+msgstr "El plugin &#8220;%s&#8221; no funciona sin los ajustes php %s configurados en %s. Por favor, contacta con tu alojamiento y pide que configuren %s."
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:445
+msgid "The &#8220;%s&#8221; plugin cannot run without %s php module installed. Please contact your host and ask them to install %s."
+msgstr "El plugin &#8220;%s&#8221; no funciona sin el módulo %s instalado. Por favor, contacta con tu alojamiento y pide que instalen %s."
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:404
+msgid "The &#8220;%s&#8221; plugin requires activating %s plugin. <a href=\"%s\">Activate %s →</a>"
+msgstr "El plugin &#8220;%s&#8221; requiere activar el plugin %s. <a href=\"%s\">Activar %s →</a>"
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:398
+msgid "The &#8220;%s&#8221; plugin requires free %s plugin. <a href=\"%s\">Install %s →</a>"
+msgstr "El plugin &#8220;%s&#8221; requiere el plugin gratuito %s. <a href=\"%s\">Instalar %s →</a>"
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:349
+msgid "The &#8220;%s&#8221; plugin cannot run without %s active. Please install and activate %s plugin."
+msgstr "El plugin &#8220;%s&#8221; no funciona sin %s activo. Por favor, instala y activa el plugin %s."
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:190
+msgid "The &#8220;%s&#8221; plugin cannot run without OpenSSL module version at least %s. Please update OpenSSL module."
+msgstr "El plugin &#8220;%s&#8221; no funciona en sin al menos la versión del módulo de OpenSSL %s. Por favor, actualiza el módulo OpenSSL."
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:187
+msgid "The &#8220;%s&#8221; plugin cannot run on WooCommerce versions older than %s. Please update WooCommerce."
+msgstr "El plugin &#8220;%s&#8221; no funciona en versiones de WordCommerce más antiguas que %s. Por favor, actualiza WooCommerce."
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:184
+msgid "The &#8220;%s&#8221; plugin cannot run on WordPress versions older than %s. Please update WordPress."
+msgstr "El plugin &#8220;%s&#8221; no funciona en versiones de WordPress más antiguas que %s. Por favor, actualiza WordPress."
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:181
+msgid "The &#8220;%s&#8221; plugin cannot run on PHP versions older than %s. Please contact your host and ask them to upgrade."
+msgstr "El plugin &#8220;%s&#8221; no funciona en versiones de PHP más antiguas que %s. Por favor, contacta con tu alojamiento y pide actualizarlo."
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker_With_Update_Disable.php:29
+msgid "The &#8220;%s&#8221; plugin disables temporarily as required %s plugin is being upgraded."
+msgstr "El plugin &#8220;%s&#8221; se ha deshabilitado temporalmente por necesidad mientras el plugin %s está siendo actualizado."
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Email/FlexibleCouponsBaseEmail.php:60
+msgid "Multipart"
+msgstr "Multi parte"
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Email/FlexibleCouponsBaseEmail.php:60
+msgid "HTML"
+msgstr "HTML"
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Email/FlexibleCouponsBaseEmail.php:60
+msgid "Plain text"
+msgstr "Texto plano"
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Email/FlexibleCouponsBaseEmail.php:60
+msgid "Choose which format of email to send."
+msgstr "Elige qué formato de correo electrónico enviar."
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Email/FlexibleCouponsBaseEmail.php:60
+msgid "Email type"
+msgstr "Tipo de correo electrónico"
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Email/FlexibleCouponsBaseEmail.php:60
+msgid "Email Heading"
+msgstr "Encabezado de correo electrónico"
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Email/FlexibleCouponsBaseEmail.php:60
+msgid "Subject"
+msgstr "Asunto"
+
+#: src/Plugin/Email/FlexibleCouponsEmail.php:22
+msgid "[{site_title}] You have received a coupon"
+msgstr "[{site_title}]  Has recibido un cupón"
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Coupon/CouponsProcessing.php:122
+#: src/Plugin/Email/FlexibleCouponsEmail.php:21
+msgid "Coupon"
+msgstr "Cupón"
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/html-order-coupon.php:31
+msgid "Generate coupon"
+msgstr "Generar cupón"
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/settings-menu-page-html.php:21
+msgid "Save"
+msgstr "Guardar"
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/html-order-coupon-generated.php:35
+msgid "Download"
+msgstr "Descargar"
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/html-order-coupon-generated.php:33
+msgid "Download PDF"
+msgstr "Descargar PDF"
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/html-order-coupon-generated.php:28
+msgid "View"
+msgstr "Ver"
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/html-order-coupon-generated.php:26
+msgid "View PDF"
+msgstr "Ver PDF"
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/html-order-coupon-generated.php:14
+msgid "Coupon code:"
+msgstr "Código del cupón:"
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/html-order-coupon.php:19
+msgid "Product name:"
+msgstr "Nombre del producto:"
+
+#: src/Views/emails/plain/coupon.php:26
+msgid "Download PDF with the coupon from: %s"
+msgstr "Descargar el cupón en PDF de parte de: %s"
+
+#: src/Views/emails/coupon.php:22 src/Views/emails/plain/coupon.php:39
+msgid "Thanks for reading!"
+msgstr "¡Gracias por leerlo!"
+
+#: src/Views/emails/coupon.php:19 src/Views/emails/plain/coupon.php:34
+msgid "Expiry date: %s"
+msgstr "Fecha de caducidad %s"
+
+#: src/Views/emails/coupon.php:18 src/Views/emails/plain/coupon.php:33
+msgid "Coupon value: %s"
+msgstr "Importe del cupón %s"
+
+#: src/Views/emails/coupon.php:17 src/Views/emails/plain/coupon.php:32
+msgid "Coupon code: %s"
+msgstr "Código del cupón  %s"
+
+#: src/Views/emails/coupon.php:14
+msgid "Download PDF with the coupon &raquo;"
+msgstr "Descarga el PDF con el cupón &raquo;"
+
+#: src/Views/emails/coupon.php:12 src/Views/emails/plain/coupon.php:22
+msgid "In response to an order %s placed %s, we are sending you a coupon for shopping in our shop."
+msgstr "Como respuesta al pedido %s realizado el %s te enviamos el cupón de la compra realizada en nuestra tienda online."
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/PDF/PDFRenderer.php:145
+msgid "Coupon doesn't exists."
+msgstr "El cupón no existe."
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/PDF/PDFRenderer.php:140
+msgid "Unknown template"
+msgstr "Plantilla desconocida"
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Settings.php:64
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/variation/html-product-variation-settings.php:47
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/html-product-general-settings.php:38
+msgid "Upgrade to PRO and enable options below →"
+msgstr "Actualiza a PRO y activa las siguientes opciones →"
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/product-template.php:25
+msgid "Select coupon template for this product"
+msgstr "Selecciona plantilla de cupón para este producto"
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/product-template.php:25
+msgid "Coupon template"
+msgstr "Plantilla de cupón"
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/expiring-date.php:25
+msgid "Time from purchase to expiration of a generated coupon"
+msgstr "Tiempo desde la compra hasta la caducidad de un cupón generado"
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/expiring-date.php:25
+msgid "Expiration time"
+msgstr "Caducidad"
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/expiring-date.php:24
+msgid "365 days"
+msgstr "365 días"
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/expiring-date.php:24
+msgid "90 days"
+msgstr "90 días"
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/expiring-date.php:24
+msgid "60 days"
+msgstr "60 días"
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/expiring-date.php:24
+msgid "30 days"
+msgstr "30 días"
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/expiring-date.php:24
+msgid "14 days"
+msgstr "14 días"
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/expiring-date.php:24
+msgid "7 days"
+msgstr "7 días"
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Product/ProductEditPage.php:106
+msgid "Convert this product to PDF Coupon"
+msgstr "Convierte este producto en un cupón PDF"
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Coupon/CouponsProcessing.php:306
+msgid "Cannot generate coupon"
+msgstr "No se puede generar el cupón"
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Coupon/CouponsProcessing.php:297
+msgid "Cannot generate coupon. Unknown order ID or item ID"
+msgstr "No se puede generar el cupón. ID de pedido o ID de producto desconocido"
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Integration/SampleTemplates.php:82
+msgid "Sample template"
+msgstr "Plantilla de ejemplo"
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Order/OrderMetaBox.php:85
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Product/ProductEditPage.php:83
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Product/ProductEditPage.php:106
+msgid "PDF Coupon"
+msgstr "Cupón PDF"
+
+#. translators: field title.
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Cart/CustomFieldValidation.php:72
+msgid "<strong>%1$s</strong>  is to long. Maximum length: %2$d."
+msgstr "El texto del campo <strong>%1$s</strong> es demasiado largo. Extensión máxima: %2$d."
+
+#. translators: field title.
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Cart/CustomFieldValidation.php:62
+msgid "<strong>%1$s</strong>  is to short. Minimum length: %2$d."
+msgstr "El texto del campo <strong>%1$s</strong> es muy corto. Extensión mínima:%2$d."
+
+#. translators: field title.
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Cart/CustomFieldValidation.php:82
+msgid "<strong>%s</strong>  has invalid email."
+msgstr "El campo <strong>%s</strong> tiene un email que no es válido."
+
+#. translators: field title.
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Cart/CustomFieldValidation.php:52
+msgid "<strong>%s</strong>  is required field."
+msgstr "El campo <strong>%s</strong> es obligatorio."
+
+#. translators: doc url.
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Forms/General.php:38
+msgid "If you want the coupon to be generated automatically, select order status. Coupon will be generated and sent automatically when order status is changed to selected status."
+msgstr "Si quieres que el cupón se genere automáticamente, selecciona el estado del pedido. El cupón se generará y enviará automáticamente cuando el estado del pedido se cambie al estado seleccionado."
+
+#. translators: doc url.
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Forms/General.php:38
+msgid "Automatically generate coupons"
+msgstr "Generar cupones automáticamente"
+
+#. translators: doc url.
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Forms/General.php:37
+msgid "See our <a href=\"%s\">documentation</a>."
+msgstr "Lee nuestro <a href=\"%s\">manual</a>."
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Forms/General.php:30
+msgid "Do not generate"
+msgstr "No generar"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-helper/src/Page/LibraryDebugPage.php:29
+msgid "Library report"
+msgstr "Informe de datos"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-helper/src/Page/SettingsPage.php:58
+msgid "WP Desk Helper Settings"
+msgstr "Ajustes del asistente de WP Desk"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-helper/src/HelperRemoveNotice.php:56
+msgid "We recommend to <a href=\"%s\">remove</a> the \"WP Desk Helper\" plugin as it is no longer required by WP Desk plugins"
+msgstr "Recomendamos <a href=\"%s\">eliminar</a> el plugin «WP Desk Helper», ya que los plugins de WP Desk ya no lo necesitan"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-helper/src/HelperRemoveNotice.php:43
+msgid "We recommend to <a href=\"%s\">deactivate and remove</a> the \"WP Desk Helper\" plugin as it is no longer required by WP Desk plugins"
+msgstr "Recomendamos <a href=\"%s\">desactivar y eliminar</a> el plugin «WP Desk Helper», ya que los plugins de WP Desk ya no lo necesitan"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-helper/src/Integration/TrackerIntegration.php:76
+msgid "No sensitive data is tracked, %sread more%s."
+msgstr "No se hace seguimiento de datos sensibles, %sleer más%s."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-helper/src/Integration/TrackerIntegration.php:52
+msgid "Allow WP Desk to track plugin usage"
+msgstr "Permitir a WP Desk hacer seguimiento del uso del plugin"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-helper/src/Integration/TrackerIntegration.php:51
+msgid "Plugin usage tracking"
+msgstr "Seguimiento de uso del plugin"
+
+#. Translators: link.
+#: vendor_prefixed/wpdesk/wp-wpdesk-helper/src/Integration/LogsIntegration.php:92
+msgid "WP Desk Debug Log is enabled. %1$sPlease disable it after testing%2$s."
+msgstr "El registro de depuración de WP Desk está activado. %1$sPor favor, desactívalo antes de hacer pruebas%2$s."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-helper/src/Integration/LogsIntegration.php:64
+msgid "Writes error log to %s."
+msgstr "Error de escritura de registro en %s."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-helper/src/Integration/TrackerIntegration.php:71
+#: vendor_prefixed/wpdesk/wp-wpdesk-helper/src/Integration/LogsIntegration.php:60
+#: src/Plugin/Settings/GeneralProSettings.php:61
+#: src/Plugin/Settings/GeneralProSettings.php:71
+msgid "Enable"
+msgstr "Activar"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-helper/src/Integration/LogsIntegration.php:37
+msgid "WP Desk Debug Log"
+msgstr "Registro de depuración de WP Desk"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-plugin-update.php:454
+msgid "You changed the subscription for %s, so you will need to enter your new API Key in the settings page. The API Key should have arrived in your email inbox, if not you can get it by logging into your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Cambiaste la suscripción de %s, por lo tanto necesitarás introducir tu nueva clave API en la página de configuración. La clave API debería haber llegado a tu bandeja de entrada de email, en caso contrario, la puedes conseguir accediendo en el <a href=\"%s\" target=\"_blank\">panel de administración de tu cuenta</a>."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-plugin-update.php:443
+msgid "%s has not been activated. Go to the settings page and enter the API key and subscription email to activate %s."
+msgstr "%s no se ha activado. Ve a la página de ajustes e introduce la clave de la API y el correo de suscripción para activar %s."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-plugin-update.php:432
+msgid "Download permission for %s has been revoked possibly due to a API key or subscription expiring. You can reactivate or purchase a API key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "El permiso de descarga para %s ha sido revocado posiblemente debido a una clave API o suscripción caducadas. Puedes reactivar o adquirir una nueva clave API desde el <a href=\"%s\" target=\"_blank\">panel de administración de tu cuenta</a>."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-plugin-update.php:421
+msgid "A API key for %s could not be found. Maybe you forgot to enter a API key when setting up %s, or the key was deactivated in your account. You can reactivate or purchase a subscription key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "La clave API de %s no ha sido encontrada. Quizás olvidaste introducir tu clave API cuando configuraste %s, o la clave ha sido desactivada en tu cuenta. Puedes reactivar o adquirir una clave de suscripción desde el<a href=\"%s\" target=\"_blank\">panel de administración de tu cuenta</a>."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-plugin-update.php:410
+msgid "A subscription for %s could not be found. You can purchase a subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "La suscripción de %s no se ha encontrado. Puedes adquirir una suscripción desde el <a href=\"%s\" target=\"_blank\">panel de administración de tu cuenta </a>."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-plugin-update.php:399
+msgid "The subscription for %s has been placed in the trash and will be deleted soon. You can purchase a new subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "La suscripción de %s se ha enviado a la papelera y será eliminada pronto. Puedes adquirir una nueva suscripción desde el <a href=\"%s\" target=\"_blank\">panel de administración de tu cuenta</a>."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-plugin-update.php:388
+msgid "The subscription for %s is still pending. You can check on the status of the subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "La suscripción de %s está todavía pendiente. Puedes comprobar el estado de tu suscripción desde el <a href=\"%s\" target=\"_blank\">panel de administración de tu cuenta</a>."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-plugin-update.php:377
+msgid "The subscription for %s has been suspended. You can reactivate the subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "La suscripción de %s ha siso suspendida. Puedes reactivar la suscripción desde el <a href=\"%s\" target=\"_blank\">panel de administración de tu cuenta</a>."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-plugin-update.php:366
+msgid "The subscription for %s has expired. You can reactivate the subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Tu suscripción de %s ha cadudado. Puedes reactivar la suscripción desde el <a href=\"%s\" target=\"_blank\"> panel de administración de tu cuenta</a>."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-plugin-update.php:355
+msgid "The subscription for %s has been cancelled. You can renew the subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new API key will be emailed to you after your order has been completed."
+msgstr "Tu suscripción de %s ha sido cancelada. Puedes renovar tu suscripción desde el <a href=\"%s\" target=\"_blank\">panel de administración de tu cuenta </a>. Se te enviará una nueva clave API una vez que tu pedido se haya completado."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-plugin-update.php:344
+msgid "The subscription for %s is on-hold. You can reactivate the subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Tu suscripción de %s está suspendida. Puedes reactivar tu suscripción desde el <a href=\"%s\" target=\"_blank\">panel de administración de tu cuenta</a>."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-plugin-update.php:333
+msgid "The API key for %s has expired. You can reactivate or purchase a API key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "La clave API para %s ha caducado. Puedes reactivar o adquirir una clave API desde el <a href=\"%s\" target=\"_blank\">panel de administración de tu cuenta </a>."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager.php:350
+msgid "<b>Warning!</b> You're blocking external requests which means you won't be able to get %s updates. Please add %s to %s."
+msgstr "<b>¡Advertencia!</b> Estás bloqueando solicitudes externas, lo que significa que no dispondrás de actualizaciones %s. Por favor añade  %s a %s."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager.php:333
+msgid "The %s%s%s API Key has not been activated, so you won't be supported and your plugin won't be updated! %sClick here%s to activate the API key and the plugin."
+msgstr "La clave API %s%s%s no ha sido activada, por lo tanto no tendrás soporte técnico y tu plugin no será actualizado.%sHaz clic aquí%s para activar la clave API y el plugin."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager.php:209
+msgid " <a target='_blank' href='%s'>Enter a valid subscription key for automatic updates.</a>"
+msgstr " <a target='_blank' href='%s'>Introduce una clave de suscripción válida para actualizaciones automáticas.</a>"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager.php:145
+msgid "Subscription Deactivation"
+msgstr "Suscripción desactivada"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager.php:144
+msgid "Subscription Activation"
+msgstr "Suscripción activada"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager-menu.php:309
+msgid "Deactivates an API Key so it can be used on another blog."
+msgstr "Desactiva la clave de la API para que pueda usarse en otro blog."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager-menu.php:226
+msgid "The subscription could not be deactivated. Use the Subscription Deactivation tab to manually deactivate the subscription before activating a new subscription."
+msgstr "La suscripción no ha podido ser desactivada. Utiliza la pestaña de desactivación de la suscripción para desactivar manualmente la suscripción antes de activar la nueva suscripción."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager-menu.php:154
+msgid "Connection failed to the API Key server. Try again later."
+msgstr "La conexión del servidor de la clave API ha fallado. Inténtalo más tarde."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager-menu.php:84
+msgid "Deactivate API Key"
+msgstr "Desactivar clave API"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager-menu.php:83
+msgid "API Key Deactivation"
+msgstr "Desactivación de la clave API"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager-menu.php:80
+msgid "API Subscription email"
+msgstr "Correo electrónico de suscripción a la API"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager-menu.php:79
+msgid "API Subscription Key"
+msgstr "Clave de suscripción a la API"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager-menu.php:78
+msgid "API Key Status"
+msgstr "Estado de la clave API"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager-menu.php:77
+msgid "API Key Activation"
+msgstr "Activación de la clave API"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager-menu.php:59
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager-menu.php:64
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/LicensePage.php:41
+msgid "Subscriptions"
+msgstr "Suscripciones"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/licenses.php:37
+msgid "Get your subscription keys <a href=\"%s\" target=\"_blank\">here</a>. You can activate/deactivate API keys <strong>unlimited times on different domains</strong> as long as you have an active subscription."
+msgstr "Consigue tu clave de suscripción <a href=\"%s\" target=\"_blank\">aquí</a>. Puedes activar/desactivar tus claves API <strong>de manera ilimitada en diferentes dominios</strong>durante el tiempo que tengas tu suscripción activa."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/licenses.php:27
+msgid "WP Desk Subscriptions"
+msgstr "Suscripciones WP Desk"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/class-wpdesk-helper-list-table.php:58
+msgid "Activated"
+msgstr "Acrivado"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/class-wpdesk-helper-list-table.php:56
+msgid "Deactivated"
+msgstr "Desactivado"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/class-wpdesk-helper-list-table.php:39
+msgid "Subscription Data"
+msgstr "Datos de la suscripción"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/class-wpdesk-helper-list-table.php:39
+msgid "Subscription Status"
+msgstr "Estado de la suscripción"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/class-wpdesk-helper-list-table.php:39
+msgid "Plugin"
+msgstr "Plugin"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/class-wpdesk-helper-list-table.php:27
+msgid "No WP Desk plugins found."
+msgstr "No se han encontrado plugins para WP Desk."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/license-actions.php:47
+msgid "Deactivate"
+msgstr "Desactivar"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/license-actions.php:41
+msgid "Activate"
+msgstr "Activar"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/license-actions.php:25
+msgid "Email:"
+msgstr "Correo electrónico:"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/license-actions.php:14
+msgid "Key:"
+msgstr "Clave:"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/Action/LicenseDeactivation.php:31
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager-menu.php:247
+msgid "Plugin subscription deactivated. "
+msgstr "Suscripción al plugin desactivada. "
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/Action/LicenseActivation.php:141
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager-menu.php:149
+msgid "Plugin activated. "
+msgstr "Plugin activado. "
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/Action/LicenseActivation.php:132
+msgid "Connection failed to the Subscription Key API server. Try again later."
+msgstr "Falló la conexión del servidor de suscripción de la clave API. Inténtalo de nuevo más tarde."
+
+#. Translators: directory.
+#: vendor_prefixed/wpdesk/wp-logs/src/WP/WPCapture.php:36
+msgid "Can not enable WP Desk Debug log! Cannot create file %s!"
+msgstr "¡No se ha podido activar el registro de depuración de WP Desk! ¡No se ha podido crear el archivo %s!"
+
+#. Translators: directory.
+#: vendor_prefixed/wpdesk/wp-logs/src/WP/WPCapture.php:23
+msgid "Can not enable WP Desk Debug log! Cannot create directory %s or this directory is not writeable!"
+msgstr "¡No se puede activar el registro de depuración de WP Desk! ¡o se puede crear el directorio %s o este directorio no se puede sobreescribir!"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-helper/src/Integration/LogsIntegration.php:36
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Debug"
+msgstr "Depurar"
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Info"
+msgstr "Información"
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Notice"
+msgstr "Aviso"
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Warning"
+msgstr "Advertencia"
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Error"
+msgstr "Error"
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Critical"
+msgstr "Situación crítica"
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Alert"
+msgstr "Alerta"
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Emergency"
+msgstr "Emergencia"
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Disabled"
+msgstr "Desactivado"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/AjaxHandler.php:96
+msgid "Data cannot be saved"
+msgstr "Los datos no se pueden guardar"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/AjaxHandler.php:88
+msgid "Template does not contain [coupon_code] shortcode"
+msgstr "La plantilla no contiene el shortcode [coupon_code]"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/AjaxHandler.php:45
+msgid "Saved"
+msgstr "Guardado"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Upgrade to PRO and enable more shortcodes →"
+msgstr "Actualiza a PRO y activa más shortcodes →"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Content"
+msgstr "Contenido"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Header 3"
+msgstr "Cabecera 3"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Header 2"
+msgstr "Cabecera 2"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Header 1"
+msgstr "Cabecera 1"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Font color"
+msgstr "Color de letra"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Double click to edit"
+msgstr "Doble clic para editar"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Change font family"
+msgstr "Cambiar tipo de letra"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Font family"
+msgstr "Tipo de letra"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Change font size"
+msgstr "Cambiar tamaño de letra"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Font size"
+msgstr "Tamaño de letra"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Justify"
+msgstr "Justificar"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Align center"
+msgstr "Alinear en el centro"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Align left"
+msgstr "Alinear a la izquierda"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Align right"
+msgstr "Alinear a la derecha"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Change image"
+msgstr "Cambiar imagen"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Delete element"
+msgstr "Eliminar elemento"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Clone element"
+msgstr "Clonar elemento"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Layer down"
+msgstr "Capa abajo"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Layer up"
+msgstr "Capa arriba"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Crop"
+msgstr "Recortar"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Fit to screen"
+msgstr "Ajustar a pantalla"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+#: src/Plugin/RegisterEditor.php:33
+msgid "Edit"
+msgstr "Editar"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Remove from project"
+msgstr "Eliminar del proyecto"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Add to area"
+msgstr "Añadir al área"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Select images"
+msgstr "Seleccionar imágenes"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Select"
+msgstr "Seleccionar"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Color"
+msgstr "Color"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Background color"
+msgstr "Color de fondo"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Vertical"
+msgstr "Vertical"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Page orientation"
+msgstr "Orientación de página"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Select format"
+msgstr "Seleccionar formato"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Text"
+msgstr "Texto"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+msgid "Images"
+msgstr "Imágenes"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Assets.php:65
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Forms/General.php:34
+msgid "General"
+msgstr "General"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Views/html-editor-meta-box.php:21
+msgid "Save template"
+msgstr "Guardar plantilla"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/Views/html-editor-meta-box.php:17
+msgid "Buy PRO Version"
+msgstr "Comprar versión PRO"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/CustomizeEditPage.php:90
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/AjaxHandler.php:84
+msgid "Enter template title"
+msgstr "Introduce el título de la plantilla"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/CustomizeEditPage.php:52
+msgid "Editor"
+msgstr "Editor"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/RegisterPostType.php:54
+msgid "Manage editor templates."
+msgstr "Gestionar plantillas del editor."
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/RegisterPostType.php:53
+msgctxt "add new on admin bar"
+msgid "Editor"
+msgstr "Editor"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/RegisterPostType.php:53
+msgctxt "admin menu"
+msgid "Editor"
+msgstr "Editor"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/RegisterPostType.php:53
+msgctxt "post type singular name"
+msgid "Editor"
+msgstr "Editor"
+
+#: vendor_prefixed/wpdesk/canva-editor/src/Editor/RegisterPostType.php:53
+msgctxt "post type general name"
+msgid "Editor"
+msgstr "Editor"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-notice.php:41
+msgid "Allow"
+msgstr "Permitir"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-notice.php:22
+msgid "We need your help to improve <strong>WP Desk plugins</strong>, so they are more useful for you and the rest of <strong>30,000+ users</strong>. By collecting data on how you use our plugins, you will help us a lot. We will not collect any sensitive data, so you can feel safe."
+msgstr "Necesitamos tu ayuda para mejorar <strong>WP Desk plugins</strong>, para que sean más útiles para tí y el resto de <strong> más de 30.000 usuarios</strong>. Recogiendo datos de cómo usas nuestros plugins, nos ayudarás mucho. No recogeremos ningún dato sensible, así que puedes sentirte seguro."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-opt-out-notice.php:11
+msgid "You successfully opted out of collecting usage data by WP Desk. If you change your mind, you can always opt in later in the plugin's quick links."
+msgstr "Optaste por que WP Desk no recoja datos de usuario. Si cambias de opinión, siempre puedes cambiar las opciones en los enlaces del plugin."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:83
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-notice.php:27
+msgid "Find out more &raquo;"
+msgstr "Descubre más &raquo;"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:73
+msgid "Anonymized and non-sensitive store usage information"
+msgstr "Uso de la información almacenada de manera anónima y no sensible"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:70
+msgid "Your Store Overview"
+msgstr "Resumen de tu tienda"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:62
+msgid "Current settings and usage information of WP Desk plugins"
+msgstr "Ajustes actuales e información de uso de los plugins de «WP Desk»"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:59
+msgid "Plugin Usage"
+msgstr "Uso del plugin"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:51
+msgid "WP version, PHP info"
+msgstr "Versión WP, información PHP"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:48
+msgid "Your Site Overview"
+msgstr "Resumen de tu sitio"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:39
+msgid "What permissions are being granted?"
+msgstr "¿Qué permisos se otorgan?"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:32
+msgid "Skip"
+msgstr "Omitir"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:27
+msgid "Allow & Continue &rarr;"
+msgstr "Permitir y continuar &rarr;"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:18
+msgid "Please help us improve our plugins! If you opt-in, we will collect some non-sensitive data and usage information anonymously. If you skip this, that's okay! All plugins will work just fine."
+msgstr "¡Por favor, ayúdanos a mejorar nuestros plugins! Si colaboras, recogeremos datos no sensibles y utilizaremos la información de manera anónima. ¡Si ignoras esto, será genial! Todos los plugins funcionarán correctamente."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:15
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-notice.php:19
+msgid "Hey %s,"
+msgstr "Hola %s,"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:126
+msgid "Submit &amp; Deactivate"
+msgstr "Enviar y desactivar"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:110
+msgid "Skip &amp; Deactivate"
+msgstr "Omitir y desactivar"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:107
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:98
+msgid "Kindly tell us the reason so we can improve"
+msgstr "Agradeceremos que nos digas la razón de manera que podamos mejorar"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:93
+msgid "Other"
+msgstr "Otros"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:83
+msgid "It's a temporary deactivation. I'm just debugging an issue."
+msgstr "Es una desactivación temporal. Solamente estoy depurando un problema."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:73
+msgid "I no longer need the plugin"
+msgstr "No necesito más el plugin"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:63
+msgid "I only needed the plugin for a short period"
+msgstr "Solo necesitaba el plugin por un periodo corto de tiempo"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:53
+msgid "What's the plugin's name?"
+msgstr "¿Cuál es el nombre del plugin?"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:48
+msgid "I found a better plugin"
+msgstr "Encontré un plugin mejor"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:38
+msgid "The plugin broke my site"
+msgstr "El plugin ha roto mi sitio"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:28
+msgid "The plugin suddenly stopped working"
+msgstr "El plugin se detuvo de manera repentina"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:19
+msgid " If you have a moment, please let us know why you are deactivating plugin (anonymous feedback):"
+msgstr "Si tienes un momento, por favor, dinos por qué estás desactivando el plugin (respuesta anónima):"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:11
+msgid "You are deactivating %s plugin."
+msgstr "Estás desactivando el plugin %s."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-helper/src/Page/SettingsPage.php:46
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/SettingsMenuPage.php:55
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/settings-menu-page-html.php:11
+#: vendor_prefixed/wpdesk/wp-builder/src/Plugin/AbstractPlugin.php:198
+msgid "Settings"
+msgstr "Ajustes"
+
+#: vendor_prefixed/wpdesk/wp-builder/src/Plugin/AbstractPlugin.php:194
+msgid "Docs"
+msgstr "Manual"
+
+#: vendor_prefixed/wpdesk/wp-builder/src/Plugin/AbstractPlugin.php:191
+msgid "Support"
+msgstr "Soporte/Ayuda"
+
+#. Author URI of the plugin
+#: flexible-coupons.php:56
+msgid "https://www.wpdesk.net/"
+msgstr "https://www.wpdesk.net/"
+
+#. Author of the plugin
+msgid "WP Desk"
+msgstr "WP Desk"
+
+#. Description of the plugin
+#: flexible-coupons.php:54
+msgid "Flexible PDF Coupons for WooCommerce is a WooCommerce plugin with which you can create your gift cards, vouchers, or coupons in PDF format. Use it for your future marketing campaigns."
+msgstr "Flexible PDF Coupons for WooCommerce es un plugin para WooCommerce con el cual puedes crear tus tarjetas de regalo, comprobantes o cupones en formato PDF. Úsalo para tus futuras campañas de marketing."
+
+#. Plugin URI of the plugin
+msgid "https://www.wpdesk.net/products/flexible-coupons/"
+msgstr "https://www.wpdesk.net/products/flexible-coupons/"
+
+#. Plugin Name of the plugin
+#: flexible-coupons.php:53
+msgid "Flexible PDF Coupons for WooCommerce"
+msgstr "Flexible PDF Coupons for WooCommerce"

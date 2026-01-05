@@ -1,0 +1,36 @@
+.meta-export-container {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.meta-export-container h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.meta-export-dropdown {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.meta-export-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background: #0073aa;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.meta-export-button:hover {
+    background: #005a87;
+}

@@ -1,0 +1,95 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Address correction autocomplete for Woo\n"
+"POT-Creation-Date: 2021-02-10 15:36+0100\n"
+"PO-Revision-Date: 2021-02-10 15:36+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: index.php:42
+msgid ""
+"For Enable WooCommerce Adress Autocomplete for WooCommerce Please <a href="
+"\"admin.php?page=sahu_woo_com_auto_complete_page\">enter your Google Maps "
+"API Key</a>"
+msgstr ""
+"Zum Aktivieren von WooCommerce Adress Autocomplete für  WooCommerce, Geben "
+"Sie bitte <a href=\"admin.php?page=sahu_woo_com_auto_complete_page\">Ihren "
+"Google Maps API-Schlüssel</a> ein"
+
+#: index.php:50
+msgid ""
+"You need to install and activate WooCommerce in order to use the "
+"Autocomplete function for WooCommerce!"
+msgstr ""
+"Sie müssen WooCommerce installieren und aktivieren, um die Autocomplete-"
+"Funktion für WooCommerce zu verwenden!"
+
+#: index.php:69
+msgid "Autocomplete Address for WooCommerce checkout fields"
+msgstr "Autocomplete-Adresse für WooCommerce-Checkout-Felder"
+
+#: index.php:70
+msgid ""
+"For enable autocomplete address on checkout page paste your API key below "
+"and click \"Save Changes\"."
+msgstr ""
+"Um die autoComplete-Adresse auf der Checkout-Seite zu aktivieren, fügen "
+"Sie Ihren API-Schlüssel unten ein und klicken Sie auf \"Änderungen "
+"speichern\"."
+
+#: index.php:78
+msgid "Google Maps API Key:"
+msgstr "Google Maps API Key:"
+
+#: index.php:82
+msgid "Force Enqueue Google Maps JS:"
+msgstr "Erzwingen Sie die Warteschlange von Google Maps JS:"
+
+#: index.php:102
+msgid "Gift Wrap Charges"
+msgstr "Geschenk-Wrap-Gebühren"
+
+#. Plugin Name of the plugin/theme
+msgid "Address correction autocomplete for Woo"
+msgstr "Adresskorrektur autovervollständigt für Woo"
+
+#. Description of the plugin/theme
+msgid ""
+"This plug-in for Woocommerce enables an auto address correction to be "
+"implemented in the checkout process using the Google API."
+msgstr ""
+"Mit diesem Plug-in für Woocommerce kann eine automatische Adresskorrektur "
+"im Kassenprozess mithilfe der Google API implementiert werden."
+
+#. Author of the plugin/theme
+msgid "SAHU MEDIA ®"
+msgstr "SAHU MEDIA ®"
+
+#. Author URI of the plugin/theme
+msgid "https://sahu.media"
+msgstr "https://sahu.media"
+
+#~ msgid "Woocommerce Adress Autocomplete"
+#~ msgstr "Woocommerce Adresse Autovervollständigen"
+
+#~ msgid ""
+#~ "WooCommerce Autocomplete address field on checkout page by using the "
+#~ "Google Maps API."
+#~ msgstr ""
+#~ "WooCommerce AutoVervollständigen für das Adressfeld auf der Checkout-"
+#~ "Seite mit der Google Maps API."

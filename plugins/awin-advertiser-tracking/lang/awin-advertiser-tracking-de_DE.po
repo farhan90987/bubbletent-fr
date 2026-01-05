@@ -1,0 +1,48 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: awin-advertiser-tracking.php conversion\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-21 11:03+0000\n"
+"PO-Revision-Date: 2019-05-22 15:46+0200\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"Last-Translator: \n"
+"Language: de_DE\n"
+
+#. Name of the plugin
+msgid "Awin Advertiser Tracking"
+msgstr "Awin Advertiser Tracking"
+
+#: awin-advertiser-tracking.php:29
+msgid "Tracking settings"
+msgstr "Trackingeinstellungen"
+
+#: awin-advertiser-tracking.php:36
+msgid "Advertiser ID"
+msgstr "Advertiser ID"
+
+#: awin-advertiser-tracking.php:78
+msgid "You can\\'t go to the next step until you enter your advertiser ID."
+msgstr "Bitte geben Sie Ihre Advertiser ID ein."
+
+#: awin-advertiser-tracking.php:59
+msgid ""
+"<p>By entering your advertiser ID and click <b>Save Changes</b>, your "
+"WooCommerce store will be automatically set up for Awin Tracking.</p><p>If "
+"you don't have an advertiser ID please sign up to the Awin network first to "
+"receive your advertiser ID, via <a href=\"https://www.awin.com\" target="
+"\"_blank\">www.awin.com</a>.</p>"
+msgstr ""
+"<p>Bitte geben Sie ihre Advertiser ID ein und klicken auf <b>Speichern </"
+"b>, um Ihren WooCommerce Shop für Awin Tracking zu konfigurieren.</"
+"p><p>Sollten Sie keine Advertiser ID haben, melden Sie sich bitte beim Awin "
+"Netzwerk auf <a href=\"https://www.awin.com\" target=\"_blank\">www.awin."
+"com</a> an.</p>"
+
+#: awin-advertiser-tracking.php:75
+msgid "Save Changes"
+msgstr "Speichern"

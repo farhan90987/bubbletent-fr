@@ -1,0 +1,1693 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Flexible PDF Coupons PRO for WooCommerce 2.4.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/flexible-coupons-pro\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-09-07T01:29:26+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: it_IT\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: flexible-coupons-pro\n"
+
+#. Plugin Name of the plugin
+#: flexible-coupons-pro.php
+msgid "Flexible PDF Coupons PRO for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: flexible-coupons-pro.php
+msgid "https://www.wpdesk.net/products/flexible-coupons-woocommerce/"
+msgstr "https://www.wpdesk.net/products/flexible-coupons-woocommerce/"
+
+#. Description of the plugin
+#: flexible-coupons-pro.php
+msgid "Flexible PDF Coupons for WooCommerce is a WooCommerce plugin with which you can create your gift cards, vouchers, or coupons in PDF format. Use it for your future marketing campaigns."
+msgstr "Coupon PDF flessibili per WooCommerce è un plug-in WooCommerce con il quale puoi creare carte regalo, buoni o coupon in formato PDF. Usalo per le tue future campagne di marketing."
+
+#. Author of the plugin
+#: flexible-coupons-pro.php
+msgid "WP Desk"
+msgstr "WP Desk"
+
+#. Author URI of the plugin
+#: flexible-coupons-pro.php
+msgid "https://www.wpdesk.net/"
+msgstr "https://www.wpdesk.net/"
+
+#: src/Plugin/Coupons/AdminPage.php:33
+msgid "Show only Flexible Coupons"
+msgstr ""
+
+#: src/Plugin/Coupons/AdminPage.php:34
+msgid "Show only WooCommerce Coupons"
+msgstr ""
+
+#: src/Plugin/Coupons/AdminPage.php:60
+msgid "Flexible Coupon"
+msgstr ""
+
+#: src/Plugin/Coupons/AdminPage.php:61
+msgid "Product creating coupon"
+msgstr ""
+
+#. translators: %s - order number
+#: src/Plugin/Coupons/AdminPage.php:95
+#, php-format
+msgid "Order ID: %s"
+msgstr ""
+
+#: src/Plugin/Coupons/AdminPage.php:178
+msgid "Copy"
+msgstr ""
+
+#: src/Plugin/Coupons/AdminPage.php:202
+#, php-format
+msgid "Copy of %s"
+msgstr ""
+
+#: src/Plugin/Email/BaseEmail.php:56
+#: src/Plugin/Email/BuyerEmail.php:30
+#: src/Plugin/Email/RecipientEmail.php:32
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/PDF/Download.php:70
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/CouponSettings.php:61
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/html-account.php:26
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/html-account.php:65
+msgid "Coupon"
+msgstr "Coupon"
+
+#: src/Plugin/Email/BuyerEmail.php:28
+msgid "Coupon for buyer (Flexible Coupons Pro)"
+msgstr "Coupon per l'acquirente (Flexible Coupons Pro)"
+
+#: src/Plugin/Email/BuyerEmail.php:29
+msgid "This message goes to the coupon buyer."
+msgstr "Questo messaggio va all'acquirente del coupon."
+
+#: src/Plugin/Email/BuyerEmail.php:31
+#: src/Plugin/Email/RecipientEmail.php:33
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Helpers/EmailStrings.php:12
+msgid "[{site_title}] You have received a coupon"
+msgstr "[{site_title}] Hai ricevuto un Coupon"
+
+#: src/Plugin/Email/RecipientEmail.php:30
+msgid "Coupon for recipient (Flexible Coupons Pro)"
+msgstr "Coupon per il destinatario (Flexible Coupons Pro)"
+
+#: src/Plugin/Email/RecipientEmail.php:31
+msgid "This message goes to the coupon recipient."
+msgstr "Questo messaggio va al destinatario del coupon."
+
+#: src/Plugin/Marketing/SupportLinks.php:34
+#: src/Plugin/Marketing/SupportLinks.php:51
+#: src/Plugin/Marketing/SupportLinks.php:68
+msgid "See our documentation &rarr;"
+msgstr ""
+
+#: src/Plugin/Marketing/SupportMenuPage.php:33
+#: src/Plugin/Marketing/SupportMenuPage.php:34
+#: src/Plugin/Plugin.php:130
+msgid "Start Here"
+msgstr ""
+
+#: src/Plugin/Marketing/Views/marketing-page.php:21
+msgid "Get support"
+msgstr ""
+
+#: src/Plugin/Marketing/Views/marketing-page.php:27
+msgid "Before sending a message please:"
+msgstr ""
+
+#: src/Plugin/Marketing/Views/marketing-page.php:29
+msgid "Prepare the information about the version of WordPress, WooCommerce, and Flexible Invoices (preferably your system status from WooCommerce->Status)"
+msgstr ""
+
+#: src/Plugin/Marketing/Views/marketing-page.php:30
+msgid "Describe the issue you have"
+msgstr ""
+
+#: src/Plugin/Marketing/Views/marketing-page.php:31
+msgid "Attach any log files & printscreens of the issue"
+msgstr ""
+
+#: src/Plugin/Marketing/Views/marketing-page.php:34
+msgid "Ok, take me to support"
+msgstr ""
+
+#: src/Plugin/Marketing/Views/marketing-page.php:35
+msgid "No, I'll wait"
+msgstr ""
+
+#: src/Plugin/Marketing/Views/rate-box-footer.php:21
+#, php-format
+msgid "Created with %1$s by Sailors from %2$sWP Desk%3$s - if you like Flexible Coupons PDF Coupons Pro rate us &rarr;"
+msgstr ""
+
+#: src/Plugin/Plugin.php:136
+msgid "Add-ons"
+msgstr ""
+
+#: src/Plugin/ProductFieldsDefinition.php:27
+msgid "Recipient name"
+msgstr "Nome del Destinatario"
+
+#: src/Plugin/ProductFieldsDefinition.php:37
+#: src/Plugin/ProductFieldsDefinition.php:69
+#, php-format
+msgid "The minimum characters number in this field is %d"
+msgstr ""
+
+#: src/Plugin/ProductFieldsDefinition.php:43
+msgid "Recipient email"
+msgstr "Email del Destinatario"
+
+#: src/Plugin/ProductFieldsDefinition.php:53
+msgid "Make sure you use @ sign and domain extention like .com"
+msgstr ""
+
+#: src/Plugin/ProductFieldsDefinition.php:59
+msgid "Recipient message"
+msgstr "Messaggio per il Destinatario"
+
+#: src/Plugin/RegisterEditor.php:30
+#: src/Plugin/RegisterEditor.php:31
+#: src/Plugin/RegisterEditor.php:32
+#: src/Plugin/RegisterEditor.php:33
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/html-account.php:17
+msgid "PDF Coupons"
+msgstr "PDF Coupons"
+
+#: src/Plugin/RegisterEditor.php:34
+#: src/Plugin/RegisterEditor.php:35
+msgid "Add New"
+msgstr "Aggiungi nuovo"
+
+#: src/Plugin/RegisterEditor.php:36
+msgid "New"
+msgstr "Nuovo"
+
+#: src/Plugin/RegisterEditor.php:37
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Edit"
+msgstr "Modifica"
+
+#: src/Plugin/RegisterEditor.php:38
+msgid "Views"
+msgstr "Vedi"
+
+#: src/Plugin/RegisterEditor.php:39
+msgid "Templates"
+msgstr "Templates"
+
+#: src/Plugin/RegisterEditor.php:40
+msgid "Search"
+msgstr "Cerca"
+
+#: src/Plugin/RegisterEditor.php:41
+msgid "Parent:"
+msgstr "Genitore:"
+
+#: src/Plugin/RegisterEditor.php:42
+msgid "No found."
+msgstr "Non trovato."
+
+#: src/Plugin/RegisterEditor.php:43
+msgid "No found in Trash."
+msgstr "Non trovato nel Cestino."
+
+#: src/Plugin/RegisterEditor.php:47
+msgid "Manage coupons templates."
+msgstr "Gestisci i modelli di coupon."
+
+#: src/Plugin/Settings/GeneralSettings.php:49
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/MainSettings.php:46
+msgid "Expiry date format"
+msgstr "Formato data di scadenza"
+
+#: src/Plugin/Settings/GeneralSettings.php:50
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/MainSettings.php:46
+#, php-format
+msgid "Define coupon expiry date format according to %1$sWordPress date formatting%2$s."
+msgstr "Definisci il formato della data di scadenza del coupon in base a %1$sFormattazione della data di WordPress%2$s."
+
+#: src/Plugin/Settings/GeneralSettings.php:53
+#: src/Plugin/Settings/GeneralSettings.php:104
+#: src/Plugin/Settings/GeneralSettings.php:114
+#: src/Plugin/Settings/GeneralSettings.php:119
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/CouponSettings.php:46
+msgid "Enable"
+msgstr "Abilita"
+
+#: src/Plugin/Settings/GeneralSettings.php:55
+msgid "PDF as attachment"
+msgstr "PDF come allegato"
+
+#: src/Plugin/Settings/GeneralSettings.php:56
+msgid "Enable to add PDF coupons as email attachments. If this option is disabled, recipients will only be able to download the coupon via a link in the email."
+msgstr "Abilita l'aggiunta di coupon PDF come allegati e-mail. Se questa opzione è disabilitata, i destinatari potranno scaricare il coupon solo tramite un link nell'e-mail."
+
+#: src/Plugin/Settings/GeneralSettings.php:60
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/MainSettings.php:46
+msgid "Below Add to cart button"
+msgstr "Sotto il pulsante Aggiungi al carrello"
+
+#: src/Plugin/Settings/GeneralSettings.php:61
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/MainSettings.php:46
+msgid "Above Add to cart button"
+msgstr "Sopra il pulsante Aggiungi al carrello"
+
+#: src/Plugin/Settings/GeneralSettings.php:65
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/MainSettings.php:46
+msgid "Coupon fields position on the product page"
+msgstr ""
+
+#: src/Plugin/Settings/GeneralSettings.php:67
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/MainSettings.php:46
+msgid "Select where the coupon fields will be displayed on the product page."
+msgstr "Seleziona dove verranno visualizzati i campi del coupon nella pagina del prodotto."
+
+#: src/Plugin/Settings/GeneralSettings.php:73
+msgid "Coupon code"
+msgstr "Codice Coupon"
+
+#. translators: %1$s start url, %2$s close url.
+#: src/Plugin/Settings/GeneralSettings.php:76
+msgid "In this section you can define your own settings for coupon code."
+msgstr "In questa sezione puoi definire le tue impostazioni per il codice coupon."
+
+#: src/Plugin/Settings/GeneralSettings.php:80
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/CouponSettings.php:46
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/coupon-code-prefix.php:31
+msgid "Coupon code prefix"
+msgstr "Prefisso Codice Coupon"
+
+#: src/Plugin/Settings/GeneralSettings.php:81
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/CouponSettings.php:46
+msgid "Define the prefix which will be used as a beginning of your coupon code. Leave empty if you don’t want to use the prefix. Use <code>{order_id}</code> shortcode if you want to use the order number."
+msgstr "Definisci il prefisso che verrà utilizzato come inizio del tuo codice coupon. Lascia vuoto se non vuoi usare il prefisso. Utilizza lo shortcode <code>{order_id}</code> se desideri utilizzare il numero d'ordine."
+
+#: src/Plugin/Settings/GeneralSettings.php:87
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/CouponSettings.php:46
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/coupon-code-length.php:30
+msgid "Number of random characters"
+msgstr "Numero di caratteri casuali"
+
+#: src/Plugin/Settings/GeneralSettings.php:89
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/CouponSettings.php:46
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/coupon-code-length.php:30
+msgid "The number of random characters in the coupon code. Random characters will be used for generating unique coupon codes. Choose the number between 5 and 30."
+msgstr "Il numero di caratteri casuali nel codice coupon. I caratteri casuali verranno utilizzati per generare codici coupon univoci. Scegli il numero tra 5 e 30."
+
+#: src/Plugin/Settings/GeneralSettings.php:96
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/CouponSettings.php:46
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/coupon-code-suffix.php:30
+msgid "Coupon code suffix"
+msgstr "Suffisso Codice Coupon"
+
+#: src/Plugin/Settings/GeneralSettings.php:98
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/CouponSettings.php:46
+msgid "Define the suffix which will be used as a end of your coupon code. Leave empty if you don’t want to use the suffix. Use <code>{order_id}</code> shortcode if you want to use the order number."
+msgstr "Definisci il suffisso che verrà utilizzato come fine del tuo codice coupon. Lascia vuoto se non vuoi usare il suffisso. Utilizza lo shortcode <code>{order_id}</code> se desideri utilizzare il numero d'ordine."
+
+#: src/Plugin/Settings/GeneralSettings.php:106
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/CouponSettings.php:46
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/html-account.php:42
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/html-account.php:106
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/html-account.php:118
+msgid "Coupon value"
+msgstr ""
+
+#: src/Plugin/Settings/GeneralSettings.php:108
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/CouponSettings.php:46
+msgid "Always use the regular price of the product for the coupon value."
+msgstr ""
+
+#: src/Plugin/Settings/GeneralSettings.php:116
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/CouponSettings.php:46
+msgid "Show field tips"
+msgstr ""
+
+#: src/Plugin/Settings/GeneralSettings.php:117
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/CouponSettings.php:46
+msgid "Show tooltips for fields."
+msgstr ""
+
+#: src/Plugin/Settings/GeneralSettings.php:121
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/CouponSettings.php:46
+msgid "Show textarea counter"
+msgstr ""
+
+#: src/Plugin/Settings/GeneralSettings.php:122
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/CouponSettings.php:46
+msgid "Show character counter below textarea."
+msgstr ""
+
+#: src/Plugin/Settings/GeneralSettings.php:125
+msgid "PHP Settings"
+msgstr ""
+
+#: src/Plugin/Settings/GeneralSettings.php:128
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/MainSettings.php:46
+msgid "Allow URL Fopen"
+msgstr ""
+
+#: src/Plugin/Settings/GeneralSettings.php:146
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/MainSettings.php:62
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/delay-type.php:24
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/product-settings/html-coupon-code.php:34
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/product-settings/html-email.php:28
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/variation/html-product-variation-settings.php:155
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/variation/html-product-variation-settings.php:197
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Disabled"
+msgstr ""
+
+#: src/Plugin/Settings/GeneralSettings.php:149
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/MainSettings.php:62
+msgid "Enabled"
+msgstr ""
+
+#. Translators: link.
+#: src/PluginDisabler/FlexibleCouponFreeDisabler.php:55
+#, php-format
+msgid "\"Flexible Coupons PDF for WooCommerce\" plugin can be removed now since the PRO version took over its functionalities.%1$s%2$sClick here%3$s to deactivate \"Flexible Coupons PDF for WooCommerce\" plugin."
+msgstr "Il plug-in \"Flexible Coupons PDF per WooCommerce\" può essere rimosso ora poiché la versione PRO ha assunto le sue funzionalità.%1$s%2$sFai clic qui%3$s per disattivare il plug-in \"Flexible Coupons PDF for WooCommerce\"."
+
+#. translators: %s: Recipient name.
+#. translators: %s: Customer name.
+#: src/Views/emails/coupon-recipient.php:24
+#: src/Views/emails/coupon.php:24
+#: src/Views/emails/plain/coupon-recipient.php:25
+#: src/Views/emails/plain/coupon.php:25
+#, php-format
+msgid "Hi %s,"
+msgstr "Ciao %s,"
+
+#. translators: %1$s: Recipient name, %2$s: Site URL, %3$s: Site name, %4$s: Expiry date.
+#: src/Views/emails/coupon-recipient.php:34
+#, php-format
+msgid "Thanks to %1$s you get a gift voucher for use in the <a href=\"%2$s\">%3$s</a> store. The coupon is valid to %4$s."
+msgstr ""
+
+#: src/Views/emails/coupon-recipient.php:51
+#: src/Views/emails/plain/coupon-recipient.php:46
+#: src/Views/emails/plain/coupon.php:38
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Helpers/EmailStrings.php:17
+msgid "Coupon information"
+msgstr "Informazioni"
+
+#. translators: %s: Coupon code.
+#: src/Views/emails/coupon-recipient.php:60
+#: src/Views/emails/coupon.php:47
+#: src/Views/emails/plain/coupon-recipient.php:49
+#: src/Views/emails/plain/coupon.php:41
+#, php-format
+msgid "Coupon code: %s"
+msgstr "Codice Coupon: %s"
+
+#. translators: %s: Coupon value.
+#: src/Views/emails/coupon-recipient.php:70
+#: src/Views/emails/coupon.php:54
+#: src/Views/emails/plain/coupon-recipient.php:52
+#: src/Views/emails/plain/coupon.php:43
+#, php-format
+msgid "Coupon value: %s"
+msgstr "Valore Coupon: %s"
+
+#. translators: %s: Coupon expiry date.
+#. translators: %s: Expiry date.
+#: src/Views/emails/coupon-recipient.php:89
+#: src/Views/emails/coupon.php:71
+#: src/Views/emails/plain/coupon-recipient.php:56
+#: src/Views/emails/plain/coupon.php:46
+#, php-format
+msgid "Expiry date: %s"
+msgstr "Scadenza: %s"
+
+#: src/Views/emails/coupon-recipient.php:95
+#: src/Views/emails/coupon.php:80
+msgid "Download PDF with the coupon &raquo;"
+msgstr "Scarica il PDF del tuo Coupon &raquo;"
+
+#: src/Views/emails/coupon-recipient.php:103
+#: src/Views/emails/plain/coupon-recipient.php:63
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Helpers/EmailStrings.php:17
+msgid "A message from the buyer:"
+msgstr "Un messaggio per te:"
+
+#: src/Views/emails/coupon-recipient.php:107
+#: src/Views/emails/coupon.php:101
+#: src/Views/emails/plain/coupon-recipient.php:69
+#: src/Views/emails/plain/coupon.php:75
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Helpers/EmailStrings.php:17
+msgid "Thanks for reading!"
+msgstr ""
+
+#. translators: %1$s: Order number, %2$s: Order date.
+#: src/Views/emails/coupon.php:33
+#: src/Views/emails/plain/coupon.php:30
+#, php-format
+msgid "In response to an order %1$s placed %2$s, we are sending you a coupon for shopping in our shop."
+msgstr ""
+
+#: src/Views/emails/coupon.php:88
+#: src/Views/emails/plain/coupon.php:57
+msgid "Coupon fields:"
+msgstr "Campi coupon:"
+
+#. translators: %s: Recipient name.
+#: src/Views/emails/coupon.php:91
+#: src/Views/emails/plain/coupon.php:60
+#, php-format
+msgid "Recipient name: %s"
+msgstr "Nome del Destinatario: %s"
+
+#. translators: %s: Recipient e-mail.
+#: src/Views/emails/coupon.php:94
+#: src/Views/emails/plain/coupon.php:65
+#, php-format
+msgid "Recipient e-mail: %s"
+msgstr "Email del Destinatario: %s"
+
+#. translators: %s: Message for recipient.
+#: src/Views/emails/coupon.php:97
+#: src/Views/emails/plain/coupon.php:70
+#, php-format
+msgid "Message for recipient: %s"
+msgstr "Messaggio per il Destinatario: %s"
+
+#. translators: %1$s: Recipient name, %2$s: Site URL, %3$s: Site name, %4$s: Expiry date.
+#: src/Views/emails/plain/coupon-recipient.php:31
+#, php-format
+msgid "Thanks to %1$s you get a gift voucher for use in the %2$s (%3$s) store. The coupon is valid to %4$s."
+msgstr ""
+
+#. translators: %s: Download link.
+#: src/Views/emails/plain/coupon-recipient.php:42
+#: src/Views/emails/plain/coupon.php:50
+#, php-format
+msgid "Download PDF with the coupon from: %s"
+msgstr "Scarica il PDF con il coupon da: %s"
+
+#: vendor_prefixed/wpdesk/ltv-dashboard-widget/src/DashboardWidget.php:65
+msgid "Grow your business with WP Desk"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/ltv-dashboard-widget/src/DashboardWidget.php:291
+msgid "Buy now"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/ltv-dashboard-widget/src/DashboardWidget.php:293
+msgid "Learn more"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/ltv-dashboard-widget/src/DashboardWidget.php:296
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/html-order-coupon-generated.php:35
+msgid "Download"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/ltv-dashboard-widget/src/DashboardWidget.php:307
+msgid "More info"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:189
+#, php-format
+msgid "The &#8220;%s&#8221; plugin cannot run on PHP versions older than %s. Please contact your host and ask them to upgrade."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:192
+#, php-format
+msgid "The &#8220;%s&#8221; plugin cannot run on WordPress versions older than %s. Please update WordPress."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:195
+#, php-format
+msgid "The &#8220;%s&#8221; plugin cannot run on WooCommerce versions older than %s. Please update WooCommerce."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:198
+#, php-format
+msgid "The &#8220;%s&#8221; plugin cannot run without OpenSSL module version at least %s. Please update OpenSSL module."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:285
+#, php-format
+msgid "The &#8220;%1$s&#8221; plugin requires at least %2$s version of %3$s to work correctly. Please update it to its latest release."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:391
+#, php-format
+msgid "The &#8220;%s&#8221; plugin cannot run without %s active. Please install and activate %s plugin."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:428
+#, php-format
+msgid "The &#8220;%s&#8221; plugin requires free %s plugin. <a href=\"%s\">Install %s</a>"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:434
+#, php-format
+msgid "The &#8220;%s&#8221; plugin requires activating %s plugin. <a href=\"%s\">Activate %s</a>"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:476
+#, php-format
+msgid "The &#8220;%s&#8221; plugin cannot run without %s PHP module installed. Please contact your host and ask them to install %s."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:501
+#, php-format
+msgid "The &#8220;%s&#8221; plugin cannot run without %s PHP setting set to %s. Please contact your host and ask them to set %s."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker_With_Update_Disable.php:29
+#, php-format
+msgid "The &#8220;%s&#8221; plugin is temporarily disabled since the required %s plugin is being upgraded."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-builder/src/Plugin/AbstractPlugin.php:181
+msgid "Support"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-builder/src/Plugin/AbstractPlugin.php:184
+msgid "Docs"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-builder/src/Plugin/AbstractPlugin.php:188
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/SettingsForm.php:52
+msgid "Settings"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/AjaxHandler.php:45
+msgid "Saved"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/AjaxHandler.php:84
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/CustomizeEditPage.php:91
+msgid "Enter template title"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/AjaxHandler.php:88
+msgid "Template does not contain [coupon_code] shortcode"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/AjaxHandler.php:96
+msgid "Data cannot be saved"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "General"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Images"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Text"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Shortcodes"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "QR Code"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Select format"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Page orientation"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Vertical"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Horizontal"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Background color"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Color"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Select"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Select images"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Add to area"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Remove from project"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Fit to screen"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Crop"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Layer up"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Layer down"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Clone element"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Delete element"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Change image"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Align right"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Align left"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Align center"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Justify"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Font size"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Change font size"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Font family"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Change font family"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Double click to edit"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Font color"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Bold text"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Italic text"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Header 1"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Header 2"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Header 3"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:70
+msgid "Content"
+msgstr ""
+
+#. translators: %1$s: anchor opening tag, %2$s: anchor closing tag
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:72
+#, php-format
+msgid "%1$sUpgrade to PRO →%2$s and enable more shortcodes"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:75
+msgid "Flexible Coupons PRO"
+msgstr ""
+
+#. translators: %1$s: anchor opening tag, %2$s: anchor closing tag
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:77
+#, php-format
+msgid "This is an add-on for the PRO version. %1$sUpgrade to PRO →%2$s"
+msgstr ""
+
+#. translators: %1$s: anchor opening tag, %2$s: anchor closing tag
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:82
+#, php-format
+msgid "Add custom shortcodes with Flexible PDF Coupons PRO addon: %1$sCustom Shortcodes →%2$s"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:85
+msgid "Place a generated QR code on the template. Enable users to manage QR codes with the Event Ticket QR Scanner."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:85
+msgid "Read more in plugin docs"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:85
+msgid "Add QR codes with Flexible PDF Coupons PRO addon"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:85
+msgid "Event Ticket QR Scanner"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:85
+msgid "To use QR codes you need"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:85
+msgid "Send coupons by email and schedule gift card delivery with Flexible PDF Coupons PRO addon"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:85
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/EmailSettings.php:39
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/product-settings/html-email.php:23
+msgid "Advanced Sending"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:85
+msgid "Send coupons by email and schedule gift card delivery"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Assets.php:85
+msgid "Sending"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/CustomizeEditPage.php:53
+msgid "Editor"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/RegisterPostType.php:41
+msgctxt "post type general name"
+msgid "Editor"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/RegisterPostType.php:41
+msgctxt "post type singular name"
+msgid "Editor"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/RegisterPostType.php:41
+msgctxt "admin menu"
+msgid "Editor"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/RegisterPostType.php:41
+msgctxt "add new on admin bar"
+msgid "Editor"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/RegisterPostType.php:42
+msgid "Manage editor templates."
+msgstr ""
+
+#. translators: %1$s: break line, %2$s: anchor opening tag, %3$s: anchor closing tag
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Views/html-editor-meta-box.php:39
+#, php-format
+msgid "%1$sUpgrade to PRO →%2$s to fully unlock all the features"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-canva-editor/src/Editor/Views/html-editor-meta-box.php:47
+msgid "Save template"
+msgstr ""
+
+#. translators: field title.
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Cart/Cart.php:487
+#, php-format
+msgid "<strong>%s</strong>  is required field."
+msgstr ""
+
+#. translators: field title.
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Cart/Cart.php:497
+#, php-format
+msgid "<strong>%1$s</strong>  is to short. Minimum length: %2$d."
+msgstr ""
+
+#. translators: field title.
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Cart/Cart.php:507
+#, php-format
+msgid "<strong>%1$s</strong>  is to long. Maximum length: %2$d."
+msgstr ""
+
+#. translators: field title.
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Cart/Cart.php:517
+#, php-format
+msgid "<strong>%s</strong>  has invalid email."
+msgstr ""
+
+#. translators: field title.
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Cart/Cart.php:527
+#, php-format
+msgid "<strong>%s</strong> has an invalid date."
+msgstr ""
+
+#. translators: field title.
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Cart/Cart.php:537
+#, php-format
+msgid "<strong>%s</strong> has a date from the past."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Coupon/GenerateCoupon.php:323
+msgid "Cannot generate coupon. Unknown order ID or item ID"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Coupon/GenerateCoupon.php:332
+msgid "Cannot generate coupon"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Helpers/EmailStrings.php:17
+msgid "Hi {recipient_name},"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Helpers/EmailStrings.php:17
+msgid "Thanks to {buyer_name} you get a gift voucher for use in the {site_url} ({site_title}) store."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Helpers/EmailStrings.php:17
+msgid "Download PDF with the coupon from: {coupon_url}"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Helpers/EmailStrings.php:17
+msgid "Coupon code: {coupon_code}"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Helpers/EmailStrings.php:17
+msgid "Coupon value: {coupon_value}"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Helpers/EmailStrings.php:17
+msgid "Expiry date: {coupon_expiry}"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Helpers/EmailStrings.php:17
+msgid "{recipient_message}"
+msgstr ""
+
+#. translators: %1$s: anchor opening tag, %2$s: anchor closing tag
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Integration/Assets.php:106
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/variation/html-product-variation-settings.php:47
+#, php-format
+msgid "Read the %1$splugin documentation →%2$s"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Integration/SampleTemplates.php:82
+msgid "Sample template"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Order/MakeOrder.php:55
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/html-order-coupon-generated.php:33
+msgid "Download PDF coupon"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Order/OrderMetaBox.php:83
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Product/ProductEditPage.php:83
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Product/ProductEditPage.php:106
+msgid "PDF Coupon"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/PDF/Download.php:54
+msgid "This coupon not exits or expired!"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/PDF/PDF.php:143
+msgid "Unknown template"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/PDF/PDF.php:148
+msgid "Coupon doesn't exists."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/PDF/PDF.php:162
+msgid "Template empty or corrupted. Please check template in the editor."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Product/ProductEditPage.php:106
+msgid "Convert this product to PDF Coupon"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Defaults/DefaultEmailTemplateAjax.php:24
+msgid "Default Coupon Email"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Defaults/DefaultEmailTemplateAjax.php:31
+msgid "Unauthorized"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/SettingsForm.php:94
+msgid "Your settings have been saved."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/CouponSettings.php:41
+msgid "Coupon Code Format"
+msgstr ""
+
+#. translators: %1$s: anchor opening tag, %2$s: anchor closing tag
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/CouponSettings.php:43
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/MainSettings.php:43
+#, php-format
+msgid "Read more in the %1$splugin documentation →%2$s"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/CouponSettings.php:46
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/EmailSettings.php:39
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/product-settings/html-coupon-code.php:32
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/product-settings/html-email.php:26
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/product-settings/html-form-fields.php:21
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/product-settings/html-purchase.php:27
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/CouponSettings.php:46
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/EmailSettings.php:39
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/MainSettings.php:46
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/product-settings/html-coupon-code.php:32
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/product-settings/html-email.php:26
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/product-settings/html-form-fields.php:21
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/product-settings/html-purchase.php:27
+msgid "Upgrade to PRO and enable options below"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/CouponSettings.php:46
+msgid "UI Settings"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/CouponSettings.php:46
+msgid "Codes Import"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/CouponSettings.php:46
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/product-settings/html-coupon-code.php:29
+msgid "Coupon Codes Import"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/CouponSettings.php:46
+msgid "Buy Flexible PDF Coupons PRO - Coupon Codes Import and enable options below"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/CouponSettings.php:46
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/EmailSettings.php:39
+msgid "Add-on Bundle"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/CouponSettings.php:46
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/EmailSettings.php:39
+msgid "Get Flexible Coupons PRO with add-ons in one Bundle and enable options below"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/CouponSettings.php:46
+msgid "Predefined coupon codes"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/CouponSettings.php:46
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/EmailSettings.php:39
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/MainSettings.php:46
+msgid "Save Changes"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/EmailSettings.php:33
+msgid "Email Settings"
+msgstr ""
+
+#. translators: %1$s: first sentence, %2$s: anchor opening tag, %3$s: anchor closing tag
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/EmailSettings.php:35
+#, php-format
+msgid "Read more in the %2$splugin documentation →%3$s"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/EmailSettings.php:36
+msgid "For more specific email delay settings, visit the product edit page."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/EmailSettings.php:39
+msgid "Attach PDF file to coupon email"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/EmailSettings.php:39
+msgid "Attachments in the e-mail"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/EmailSettings.php:39
+msgid "Email Templates"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/EmailSettings.php:39
+msgid "Buy Flexible PDF Coupons PRO - Advanced Sending and enable options below"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/EmailSettings.php:39
+msgid "Email templates"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/EmailSettings.php:54
+msgid "Email"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/MainSettings.php:41
+msgid "Automatic Coupon Generation"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/MainSettings.php:46
+msgid "Automatically generate coupons"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/MainSettings.php:46
+msgid "If you want the coupon to be generated automatically, select order status. Coupon will be generated and sent automatically when order status is changed to selected status."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/MainSettings.php:46
+msgid "Display Formating"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/MainSettings.php:53
+msgid "Do not generate"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Tabs/MainSettings.php:76
+msgid "Main settings"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Settings/Views/addon.php:27
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/addon.php:14
+msgid "Add-on - "
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/coupon-code-enable.php:25
+msgid "Define own coupon code"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/coupon-code-enable.php:25
+msgid "Enable this option to overwrite plugin settings and configure your own coupon code settings for this product."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/coupon-code-import-list.php:28
+msgid "Select Import"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/coupon-code-import-list.php:28
+msgid "Select an import to associate coupon codes from that import with this product."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/coupon-code-prefix.php:31
+msgid "Define the prefix which will be used as a beginning of your coupon code. Leave empty if you don’t want to use the prefix. Use {order_id} shortcode if you want to use the order number."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/coupon-code-suffix.php:30
+msgid "Define the suffix which will be used as a end of your coupon code. Leave empty if you don’t want to use the suffix. Use {order_id} shortcode if you want to use the order number."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/delay-fixed-date.php:27
+msgid "Date"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/delay-interval.php:27
+msgid "Interval"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/delay-interval.php:27
+msgid "Hours"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/delay-interval.php:27
+msgid "Days"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/delay-interval.php:27
+msgid "Weeks"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/delay-interval.php:27
+msgid "Months"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/delay-type.php:24
+msgid "Simple Delay"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/delay-type.php:24
+msgid "Send email on Fixed date"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/delay-type.php:24
+msgid "Send email on Customer defined date"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/delay-type.php:29
+msgid "Email Delay Type"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/delay-type.php:29
+msgid "Select the type of email delay. If you do not want to delay it, you can deactivate this feature by selecting Disabled."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/delay-type.php:29
+msgid "Read about each type of delay in the documentation →"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/delay-value.php:27
+msgid "Delay"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/disable-pdf-coupon.php:24
+msgid "Disable the PDF coupon for this variation"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/email-template-list.php:28
+msgid "Select Email Template"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/email-template-list.php:28
+msgid "Select an email template to associate with this product."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/expiring-date-own.php:24
+msgid "Own expiration time"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/expiring-date-own.php:24
+msgid "Define own time from purchase to expiration of a generated coupon."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/expiring-date.php:24
+msgid "never"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/expiring-date.php:24
+msgid "7 days"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/expiring-date.php:24
+msgid "14 days"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/expiring-date.php:24
+msgid "30 days"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/expiring-date.php:24
+msgid "60 days"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/expiring-date.php:24
+msgid "90 days"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/expiring-date.php:24
+msgid "365 days"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/expiring-date.php:24
+msgid "Set your own date"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/expiring-date.php:25
+msgid "Expiration time"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/expiring-date.php:25
+msgid "Time from purchase to expiration of a generated coupon"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/free-shipping.php:25
+msgid "Allow free shipping"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/free-shipping.php:25
+msgid "Check if you want the coupon to provide free shipping. The coupon requirement for free shipping must be included in the shipping method."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/include-categories.php:30
+msgid "Product categories"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/include-categories.php:42
+msgid "Any category"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/include-categories.php:53
+msgid "Categories for which the coupon will be used. Do not select any to apply to all categories."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/include-products.php:29
+msgid "Products"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/include-products.php:41
+#: vendor_prefixed/wpdesk/wp-forms/templates/product-select.php:22
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/include-products.php:57
+msgid "Products for which the coupon will be used. Do not select any to apply to all products."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/multiple-pdfs/multiple-coupons-enable.php:29
+msgid "Split coupons by product quantity"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/multiple-pdfs/multiple-coupons-enable.php:29
+msgid "Enable this option to split coupons as different products in cart."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/multiple-pdfs/multiple-coupons-forms-limit.php:30
+msgid "Limit recipient forms per product"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/multiple-pdfs/multiple-coupons-forms-limit.php:30
+msgid "Enter the maximum number of recipient forms on the product page."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/multiple-pdfs/multiple-coupons-send-to-first-email.php:29
+msgid "Send coupons to first recipient"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/multiple-pdfs/multiple-coupons-send-to-first-email.php:29
+msgid "Enable this option to send all bought coupons to email of first recipient. This option disables email field for other recipients."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/product-fields.php:31
+msgid "Show or hide this field in product page."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/product-fields.php:34
+msgid "Required"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/product-template.php:25
+msgid "Coupon template"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/product-template.php:25
+msgid "Select coupon template for this product"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/usage-limit.php:25
+msgid "Allow to multiuse"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/fields/usage-limit.php:25
+msgid "Check this option if you want to allow customer to spread the coupon value over several purchases. For example, a coupon worth $100 for two purchases of $50."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/html-account.php:34
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/html-account.php:89
+msgid "Coupon recipient"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/html-account.php:47
+msgid "Value to use"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/html-account.php:52
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/html-account.php:133
+msgid "Expiration date"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/html-account.php:79
+msgid "Coupon Code:"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/html-account.php:126
+msgid "One-time use coupon"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/html-order-coupon-generated.php:14
+msgid "Coupon code:"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/html-order-coupon-generated.php:26
+msgid "View PDF"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/html-order-coupon-generated.php:28
+msgid "View"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/html-order-coupon.php:19
+msgid "Product name:"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/html-order-coupon.php:33
+msgid "Generate coupon"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/product-settings/html-coupon-code.php:21
+msgid "Coupon code settings"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/product-settings/html-coupon-code.php:29
+msgid "Buy Flexible PDF Coupons PRO - Coupon Codes Import and enable options"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/product-settings/html-email.php:21
+msgid "Email settings"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/product-settings/html-email.php:23
+msgid "Buy Flexible PDF Coupons PRO - Advanced Sending and enable options"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/product-settings/html-form-fields.php:19
+msgid "Product Form Fields"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/product-settings/html-purchase.php:22
+msgid "Product purchase settings"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/product-settings/html-purchase.php:24
+msgid "Multiple PDFs"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/product-settings/html-purchase.php:24
+msgid "Buy Flexible PDF Coupons PRO - Multiple PDFs and enable options"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/product-settings/html-usage.php:17
+msgid "Coupon usage settings"
+msgstr ""
+
+#. translators: %1$s: anchor opening tag, %2$s: anchor closing tag
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/variation/html-product-variation-settings.php:68
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/variation/html-product-variation-settings.php:96
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/variation/html-product-variation-settings.php:149
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/variation/html-product-variation-settings.php:177
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/variation/html-variation-select.php:17
+#, php-format
+msgid "%1$sUpgrade to PRO →%2$s and enable options below"
+msgstr ""
+
+#. translators: %1$s: anchor opening tag, %2$s: anchor closing tag
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/variation/html-product-variation-settings.php:86
+#, php-format
+msgid "Buy %1$sFlexible PDF Coupons PRO - Multiple PDFs →%2$s and enable options below"
+msgstr ""
+
+#. translators: %1$s: anchor opening tag, %2$s: anchor closing tag
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/variation/html-product-variation-settings.php:139
+#, php-format
+msgid "Buy %1$sFlexible PDF Coupons PRO - Coupon Codes Import →%2$s and enable option below"
+msgstr ""
+
+#. translators: %1$s: anchor opening tag, %2$s: anchor closing tag
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/variation/html-product-variation-settings.php:167
+#, php-format
+msgid "Buy %1$sFlexible PDF Coupons PRO - Advanced Sending →%2$s and enable options below"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/variation/html-variation-select.php:23
+msgid "Manage Flexible PDF Coupons settings for variation"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-coupons-core/src/Coupons/Views/dashboard/variation/html-variation-select.php:23
+msgid "Enable individual Flexible PDF Coupons options at variation level"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-forms/templates/input-image.php:46
+msgid "Set image"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-forms/templates/input-image.php:57
+msgid "Remove image"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-forms/templates/input-image.php:82
+msgid "Select or Upload Media"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-forms/templates/input-image.php:86
+msgid "Use this media"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Emergency"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Alert"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Critical"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Error"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Warning"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Notice"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Info"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Debug"
+msgstr ""
+
+#. Translators: directory.
+#: vendor_prefixed/wpdesk/wp-logs/src/WP/WPCapture.php:23
+#, php-format
+msgid "Can not enable WP Desk Debug log! Cannot create directory %s or this directory is not writeable!"
+msgstr ""
+
+#. Translators: directory.
+#: vendor_prefixed/wpdesk/wp-logs/src/WP/WPCapture.php:36
+#, php-format
+msgid "Can not enable WP Desk Debug log! Cannot create file %s!"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/LicenseServer/PluginExternalBlocking.php:32
+#, php-format
+msgid "<b>Warning!</b> You're blocking external requests which means you won't be able to get %1$s updates. Please add %2$s to %3$s."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/LicenseServer/PluginUpgrade.php:81
+#, php-format
+msgid "Error while connecting to remote server %s. Please contact your hosting provider or try again later. Errors:  "
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/LicenseServer/PluginUpgrade.php:152
+msgid "License server is currently unavailable. Please, try again later."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/LicenseServer/PluginUpgrade.php:154
+#, php-format
+msgid "Error while connecting to remote server %1$s. Please contact with your hosting provider. Cannot parse response. Response code: %2$s Message: %3$s"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/LicenseServer/PluginUpgrade.php:157
+#, php-format
+msgid "Error while connecting to remote server %1$s. Please contact with your hosting provider. Cannot parse response: %2$s"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/templates/impossible-to-upgrade.php:12
+#, php-format
+msgid "This version of %1$s plugin cannot be automatically upgraded. Download the plugin from %2$syour account%3$s to receive automatic updates in future."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/class-wpdesk-tracker.php:164
+msgid "Submit &amp; Deactivate"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/OptOut.php:42
+#, php-format
+msgid "You successfully opted out of collecting usage data by %1$s. If you change your mind, you can always opt in later in the plugin's quick links."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/PluginActionLinks.php:70
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-notice.php:41
+msgid "Enable usage tracking"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/PluginActionLinks.php:75
+msgid "Disable usage tracking"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:23
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:15
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-notice.php:19
+#, php-format
+msgid "Hey %s,"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:26
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:18
+msgid "Please help us improve our plugins! If you opt-in, we will collect some non-sensitive data and usage information anonymously. If you skip this, that's okay! All plugins will work just fine."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:35
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:27
+msgid "Allow & Continue &rarr;"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:40
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:32
+msgid "Skip"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:47
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:39
+msgid "What permissions are being granted?"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:56
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:48
+msgid "Your Site Overview"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:59
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:51
+msgid "WP version, PHP info"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:67
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:59
+msgid "Plugin Usage"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:70
+#, php-format
+msgid "Current settings and usage information of %1$s plugins"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:78
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:70
+msgid "Your Store Overview"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:81
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:73
+msgid "Anonymized and non-sensitive store usage information"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:91
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:83
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-notice.php:27
+msgid "Find out more &raquo;"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:62
+msgid "Current settings and usage information of WP Desk plugins"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:11
+#, php-format
+msgid "You are deactivating %s plugin."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:19
+msgid " If you have a moment, please let us know why you are deactivating plugin (anonymous feedback):"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:28
+msgid "The plugin suddenly stopped working"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:38
+msgid "The plugin broke my site"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:48
+msgid "I found a better plugin"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:53
+msgid "What's the plugin's name?"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:63
+msgid "I only needed the plugin for a short period"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:73
+msgid "I no longer need the plugin"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:83
+msgid "It's a temporary deactivation. I'm just debugging an issue."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:93
+msgid "Other"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:98
+msgid "Kindly tell us the reason so we can improve"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:107
+msgid "Cancel"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:110
+msgid "Skip &amp; Deactivate"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-notice.php:22
+msgid "We need your help to improve <strong>WP Desk plugins</strong>, so they are more useful for you and the rest of <strong>30,000+ users</strong>. By collecting data on how you use our plugins, you will help us a lot. We will not collect any sensitive data, so you can feel safe."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-opt-out-notice.php:11
+msgid "You successfully opted out of collecting usage data by WP Desk. If you change your mind, you can always opt in later in the plugin's quick links."
+msgstr ""
+
+#. Plugin Name of the plugin
+#: flexible-coupons-pro.php:53
+msgid "Flexible PDF Coupons Pro for WooCommerce"
+msgstr "Flexible PDF Coupons Pro per WooCommerce"
+
+#: src/Views/emails/coupon-recipient.php:14
+msgid "Thanks to %s you get a gift voucher for use in the <a href=\"%s\">%s</a> store. The coupon is valid to %s."
+msgstr "Grazie a %s hai ricevuto un buono da utilizzare presso <a href=\"%s\">%s</a>. Il Coupon è valido fino al %s."
+
+#: src/Views/emails/coupon.php:12
+#: src/Views/emails/plain/coupon.php:22
+msgid "In response to an order %s placed %s, we are sending you a coupon for shopping in our shop."
+msgstr "In risposta a un ordine %s effettuato %s, ti inviamo un coupon per fare acquisti nel nostro negozio."
+
+#: src/Views/emails/plain/coupon-recipient.php:22
+msgid "Thanks to %s you get a gift voucher for use in the %s (%s) store. The coupon is valid to %s."
+msgstr "Grazie a %s hai ricevuto un buono da utilizzare presso %s (%s). Il Coupon è valido fino al %s."

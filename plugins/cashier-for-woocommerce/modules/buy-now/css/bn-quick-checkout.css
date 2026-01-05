@@ -1,0 +1,17 @@
+.mfp-iframe-scaler iframe {
+	background: transparent
+}
+
+.mfp-iframe-holder .mfp-content {
+	max-width: 75%;
+}
+
+.mfp-iframe-scaler .mfp-close:hover {
+	background:none;
+}
+
+@media all and (max-width: 767px) {
+	.mfp-iframe-holder .mfp-content {
+		height: 70%;
+	}
+}

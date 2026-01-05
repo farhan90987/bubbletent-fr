@@ -1,0 +1,11 @@
+Import started at 2025-01-06 11:12:44
+[2025-01-06 11:12:46] Successfully updated post ID: 149075
+[2025-01-06 11:12:47] Successfully updated post ID: 149077
+[2025-01-06 11:12:49] Successfully updated post ID: 149079
+[2025-01-06 11:12:50] Successfully updated post ID: 149547
+[2025-01-06 11:12:51] Successfully updated post ID: 149624
+[2025-01-06 11:12:52] Successfully updated post ID: 149811
+[2025-01-06 11:12:53] Successfully updated post ID: 149859
+[2025-01-06 11:12:54] Successfully updated post ID: 149894
+[2025-01-06 11:12:55] Successfully updated post ID: 151255
+[2025-01-06 11:12:56] Successfully updated post ID: 152143

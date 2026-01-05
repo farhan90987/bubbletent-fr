@@ -1,0 +1,251 @@
+.double-booking-tool .date-filters {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+}
+
+.double-booking-tool .date-filters label {
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.double-booking-tool .date-filters select,
+.double-booking-tool .date-filters input[type="date"] {
+    margin-right: 20px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #8c8f94;
+}
+
+.double-booking-tool .booking-summary {
+    background: #f8f9fa;
+    padding: 15px;
+    border-left: 4px solid #0073aa;
+    margin-bottom: 20px;
+}
+
+.double-booking-tool .double-booking-alert {
+    color: #d63638;
+    font-weight: bold;
+}
+
+.double-booking-tool .table-filters {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+}
+
+.double-booking-tool .table-filters h3 {
+    margin-top: 0;
+    color: #1d2327;
+}
+
+.double-booking-tool .filter-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.double-booking-tool .filter-row label {
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.double-booking-tool .filter-row select,
+.double-booking-tool .filter-row input[type="text"] {
+    margin-right: 20px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #8c8f94;
+}
+
+.double-booking-tool #orders-table {
+    margin-top: 20px;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.double-booking-tool .order-status {
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+.double-booking-tool .status-processing {
+    background-color: #0073aa;
+}
+
+.double-booking-tool .status-completed {
+    background-color: #46b450;
+}
+
+.double-booking-tool .status-on-hold {
+    background-color: #ffb900;
+}
+
+.double-booking-tool .status-pending {
+    background-color: #ffb900;
+}
+
+.double-booking-tool .status-cancelled {
+    background-color: #a00;
+}
+
+.double-booking-tool .status-refunded {
+    background-color: #6c757d;
+}
+
+.double-booking-tool .status-failed {
+    background-color: #dc3545;
+}
+
+.double-booking-tool #export_btn {
+    margin-left: auto;
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #fff;
+}
+
+.double-booking-tool #export_btn:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+/* Double booking group styling */
+.double-booking-group {
+    border-left: 4px solid #ff6b6b;
+    background-color: #fff5f5;
+}
+
+.double-booking-row {
+    transition: all 0.3s ease;
+}
+
+.double-booking-row:hover {
+    background-color: #ffeaea !important;
+}
+
+.double-booking-date {
+    color: #d63031;
+    font-weight: bold;
+}
+
+.double-booking-badge {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.double-booking-row:hover ~ .double-booking-row[data-group]:hover,
+.double-booking-row[data-group]:hover ~ .double-booking-row {
+    background-color: #fff0f0 !important;
+}
+
+.double-booking-row[data-group] {
+    border-top: 1px dashed #ffd6d6;
+}
+
+.double-booking-row[data-group]:first-child {
+    border-top: 2px solid #ff6b6b;
+}
+
+.double-booking-row[data-group]:last-child {
+    border-bottom: 2px solid #ff6b6b;
+}
+
+.double-booking-highlighted {
+    animation: pulse-highlight 2s ease-in-out;
+    box-shadow: 0 0 0 2px #ff6b6b;
+}
+
+@keyframes pulse-highlight {
+    0% { box-shadow: 0 0 0 0 rgba(255, 107, 107, 0.7); }
+    70% { box-shadow: 0 0 0 10px rgba(255, 107, 107, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(255, 107, 107, 0); }
+}
+
+/* ===== ENHANCED SMOOBU STATUS STYLING ===== */
+.double-booking-tool .smoobu-status {
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: #fff !important; /* Force white text */
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 12px;
+    display: inline-block;
+    min-width: 100px;
+    text-align: center;
+    background-color: #6c757d; /* Default gray for unknown status */
+}
+
+/* Specific status colors */
+.double-booking-tool .smoobu-status.confirmed,
+.double-booking-tool .smoobu-status.active,
+.double-booking-tool .smoobu-status.booked {
+    background-color: #46b450 !important;
+}
+
+.double-booking-tool .smoobu-status.pending,
+.double-booking-tool .smoobu-status.request,
+.double-booking-tool .smoobu-status.inquiry {
+    background-color: #ffb900 !important;
+    color: #000 !important; /* Dark text for light backgrounds */
+}
+
+.double-booking-tool .smoobu-status.cancelled,
+.double-booking-tool .smoobu-status.canceled,
+.double-booking-tool .smoobu-status.deleted {
+    background-color: #dc3545 !important;
+}
+
+.double-booking-tool .smoobu-status.completed,
+.double-booking-tool .smoobu-status.finished,
+.double-booking-tool .smoobu-status.checked-out {
+    background-color: #0073aa !important;
+}
+
+.double-booking-tool .smoobu-status.no-smoobu-id,
+.double-booking-tool .smoobu-status.api-key-missing,
+.double-booking-tool .smoobu-status.api-error,
+.double-booking-tool .smoobu-status.not-found,
+.double-booking-tool .smoobu-status.not-found-in-smoobu,
+.double-booking-tool .smoobu-status.status-unknown {
+    background-color: #6c757d !important;
+}
+
+/* Additional statuses that might come from Smoobu */
+.double-booking-tool .smoobu-status.reserved {
+    background-color: #17a2b8 !important;
+}
+
+.double-booking-tool .smoobu-status.provisional {
+    background-color: #6f42c1 !important;
+}
+
+.double-booking-tool .smoobu-status.option {
+    background-color: #e83e8c !important;
+}
+
+/* Ensure text is visible on all backgrounds */
+.double-booking-tool .smoobu-status {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+/* Hover effects */
+.double-booking-tool .smoobu-status:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+    transition: all 0.2s ease;
+}

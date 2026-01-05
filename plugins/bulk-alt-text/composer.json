@@ -1,0 +1,15 @@
+{
+    "name": "root/bulk-alt-text",
+    "autoload": {
+        "psr-4": {
+            "BulkMetaUpdater\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4.0",
+        "phpoffice/phpspreadsheet": "^1.18"
+    },
+    "config": {
+        "vendor-dir": "lib/vendor"
+    }
+}

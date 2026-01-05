@@ -1,0 +1,12 @@
+{
+    "name": "root/excel-importer",
+    "require": {
+        "php": ">=7.4.0",
+        "phpoffice/phpspreadsheet": "^1.18"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4.0"
+        }
+    }
+}
