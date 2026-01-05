@@ -1,0 +1,219 @@
+.smoobu-custom-info-container .smoobu-section-divider {
+    border: 0.6px Solid #54775E;
+    width: 100%;
+    margin: 1vw 0;
+}
+body .custom-product h1 a {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    font-size: 3.2rem;
+    font-weight: 800;
+    color: #647867;
+    text-decoration: none;
+}
+.smoobu-custom-info-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vw;
+    align-items: center;
+    margin-top: 2.5vw;
+    margin-bottom: 3vw;
+}
+.smoobu-custom-info-container .travel-date {
+    margin-top: 5vh;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.2175;
+    color: #54775e;
+    font-weight: 700;
+}
+.smoobu-dates-selection-box {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding-left: 0rem;
+    align-items: flex-end;
+    border-radius: 2rem;
+    width: 100%;
+}
+.smoobu-custom-info-container .smoobu-dates-selection-box .smoobu-date-entry-box .smoobu-date-entry-label {
+    color: #54775e;
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-align: center;
+}
+.smoobu-custom-info-container .smoobu-dates-selection-box .smoobu-date-entry-box .smoobu-calendar {
+    color: #808080;
+    margin: 0 0 16px 0;
+    width: 22ch;
+    height: 4ch;
+    font-size: 1.55rem;
+    background-color: #D9D9D9;
+    padding: 0;
+    border: none;
+    box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.06);
+    font-weight: 500;
+    opacity: 1;
+    display: block;
+    border-radius: 36px;
+    text-align: center;
+}
+
+
+
+.guests-count-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1vw;
+    width: 100%;
+    align-items: flex-end;
+    column-gap: 6vw !important;
+}
+.smoobu-custom-info-container .guests-count-container .guest-instruction-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: #54775E;
+}
+.guests-count-container .guest-instruction-container span:first-child {
+    font-weight: 700;
+}
+.smoobu-custom-info-container .guests-count-container .guests-count-box {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1vw;
+}
+.guests-count-container .guests-count-box .smoobu-guest-entry-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.smoobu-custom-info-container .guests-count-container .guests-count-box .smoobu-guest-entry-box label {
+    color: #54775e;
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-align: center;
+}
+.smoobu-custom-info-container .guests-count-container .guests-count-box .smoobu-guest-entry-box select {
+    border-radius: 50px;
+    width: 15ch;
+    height: 4ch;
+    padding: 5px;
+    background-color: #D9D9D9;
+    border: 0;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.custom_booking {
+    width: 100%;
+}
+.woocommerce-billing-fields h3{
+    color: #54775E;
+/*    font-family: Montserrat;*/
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin: 0 0 2rem;
+}
+
+.custom_booking_fields {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.1vw 1vw;
+    width: 100% !important;
+}
+.custom_booking_fields.woocommerce-billing-fields__field-wrapper > p {
+    width: 100% !important;
+}
+.custom_booking_fields > p input {
+    max-width: 100%;
+    height: 48px;
+    line-height: 48px;
+    margin-bottom: 10px;
+}
+.resp_wrap {
+    text-align: center;
+    margin-top: 2.5vw;
+    margin-bottom: 3vw;
+}
+.resp_wrap h3 {
+    font-size: 3rem;
+    line-height: 1.2175;
+    color: #54775e;
+    font-weight: 700;
+
+}
+.resp_wrap p {
+    font-family: "Inter", Sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #131613;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+body {
+    overflow-x: hidden !important;
+}
+
+body .woocommerce .woocommerce-checkout .col2-set .smoobu-custom-info-container .smoobu-dates-selection-box .smoobu-date-entry-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body .woocommerce .woocommerce-checkout .col2-set .smoobu-custom-info-container .smoobu-dates-selection-box .smoobu-date-entry-box .smoobu-date-entry-label {
+    color: #54775e;
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-family: Montserrat, "Inter", Sans-serif;
+}
+body .woocommerce .woocommerce-checkout .col2-set .smoobu-custom-info-container .smoobu-dates-selection-box .smoobu-date-entry-box .smoobu-calendar {
+    font-size: 1rem;
+    width: 22ch;
+    height: 4ch;
+    font-size: 1.4rem;
+}
+body .woocommerce .woocommerce-checkout .col2-set .smoobu-custom-info-container .guests-count-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1vw;
+    width: 100%;
+}
+body .woocommerce .woocommerce-checkout .col2-set .smoobu-custom-info-container .guests-count-container .guests-count-box .smoobu-guest-entry-box label {
+    color: #54775e;
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin: 0;
+    font-family: Montserrat, "Inter", Sans-serif;
+    font-weight: 700;
+}
+body .woocommerce .woocommerce-checkout .col2-set .smoobu-custom-info-container .guests-count-container .guests-count-box .smoobu-guest-entry-box select {
+    border-radius: 20px;
+    width: 13ch;
+    height: 3ch;
+    padding: 0;
+    background-color: #D9D9D9;
+    border: 0;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 667px) {
+    body .woocommerce .woocommerce-checkout .col2-set .smoobu-custom-info-container .smoobu-dates-selection-box .smoobu-date-entry-box .smoobu-calendar {
+        width: 16ch;
+    }
+    body .woocommerce .woocommerce-checkout .col2-set .smoobu-custom-info-container .guests-count-container {
+        flex-direction: column;
+        row-gap: 1vw;
+    }
+    body .woocommerce .woocommerce-checkout .col2-set .smoobu-custom-info-container .guests-count-container .guests-count-box {
+        justify-content: space-evenly;
+    }
+}

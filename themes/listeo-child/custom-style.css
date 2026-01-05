@@ -1,0 +1,397 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(assets/Montserrat-VariableFont_wght.ttf);
+}
+
+.maintop h1
+{ text-align:center; 
+padding-top:35px; 
+padding-bottom:5px;
+	color: #647867;
+text-align: center;
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700; 
+line-height: normal;
+}
+
+.subheading{
+	color: #647867;
+text-align: center;
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-top:25px;
+padding-bottom:20px;
+}
+
+.icontext{
+	color: #54775E;
+font-family: Montserrat;
+font-size: 15px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.icontops
+{
+	padding-bottom:20px;
+}
+.mainhr{ margin-bottom:33px; background:#54775E; height:1px !important;}
+
+h3.heading33{
+	padding-bottom:20px;
+	text-align:center;
+	color: #647867;
+text-align: center;
+font-family: Montserrat;
+font-size: 34px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.description-long p{color: #54775E;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;}
+
+.description-long .readmore {
+	color: #54775E;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration-line: underline;
+}
+.linkright{ width:100%; text-align:right; }
+
+.mainhr1{ margin-top:50px; margin-bottom:25px; 
+background:#54775E; height:1px !important;
+} 
+.textalignrigh{ text-align:right;}
+
+.buttonpop{
+	
+	color: #FFF;
+	background:#74907C !important;
+	border:none !important;
+	border-radius:15px;
+	padding: 5px 18px;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.middlesection h4 { 
+	color: #54775E;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;}
+
+ul.middlelist li {
+color: #54775E;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+ul.middlelist{ margin-top:15px;}
+
+.readmorebtn
+{
+	color: #54775E;
+font-family: Montserrat;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+background:tranparent !important;
+border:none !important;
+}
+
+
+.mainfaqheader button{
+	color: #54775E;
+font-family: Montserrat;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.mainfaqheader button{
+	color: #54775E;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.description div
+{
+	padding-top:10px;
+	padding-bottom:15px;
+		color: #54775E;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+button.btn.btn-link i {
+    margin-right: 10px;
+}
+
+.faq.mainfaqcard {
+    margin-bottom: 10px;
+}
+
+.faqmainbtn{ margin-top:20px; margin-bottom:20px; }
+
+.reviewcount{
+color: #647867;
+text-align: center;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;	
+}
+
+div.avatar {
+    display: block;
+    float: none;
+    padding: 0 20px 0 0;
+    position: relative !important;
+    left: 0px;
+	text-align:center;
+}
+
+.avatar h5 {margin-top:10px;}
+
+.avatar a{
+	color: #000;
+	
+text-align: center;
+font-family: Montserrat;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.comment-content {
+    padding: 10px !important;
+}
+
+.comment-content p {color: #000;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;}
+
+.colreviews{ padding-left:7px !important; padding-right:7px !important;}
+
+/*.eachreview {
+    background: #a9bbaf;
+    border-radius: 15px;
+    padding-top: 10px;
+    width: 100%;
+    padding-bottom: 10px; 
+    min-height: 370px;
+}*/
+
+.google-reviews-read-more a {
+    color: #fff !important;
+    background: #54775e !important;
+	    margin-left: 10px;
+}
+
+.google-reviews-read-more.bottom {
+    margin-top: 15px;
+}
+
+section.comments.listing-reviews {
+    margin-top: 15px;
+}
+
+.modelpopdesgn .modal-header h5.modal-title{color: #647867;
+text-align: center;
+font-family: Montserrat;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;}
+
+.modelpopdesgn .modal-header {
+    padding-bottom: 17px;
+}
+
+.modelpopdesgn .modal-body {
+    padding-top: 20px;
+}
+
+
+.modelpopdesgn .modal-body h5 {
+	color: #54775E;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.modelpopdesgn .modal-body ul li {
+    list-style: none;
+	color: #54775E;
+font-family: Montserrat;
+font-size: 17px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.modelpopdesgn .modal-body ul {
+    margin-top: 19px !important;
+}
+
+
+
+.modelpopdesgn hr {width: 75%;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;}
+	
+	
+	
+.scrollbarnew .modal-body::-webkit-scrollbar {
+    width: 15px;
+}
+        
+.scrollbarnew .modal-body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+        
+.scrollbarnew .modal-body::-webkit-scrollbar-thumb {
+ /*   border-radius: 0px;
+  background-image: url("https://devwebgency1.de/wp-content/themes/listeo-child/listeo-core/Ellipse 1.svg");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: contain;	
+	position:absolute;*/
+	background: #54775E; 
+  border-radius: 10px;  
+}
+
+.scrollbarnew .modal-body::-webkit-scrollbar-thumb:hover {
+  background: #54773E; 
+}
+
+
+
+.scrollbarnew .modal-body {
+	height:400px; 
+	overflow-y:scroll;
+}
+
+.modelpopdesgn p{ color: #54775E;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;}
+
+.textalignother .modal-title{ text-align:center; width:100%; }
+
+.textalignother  .modal-body { padding-left:40px;}
+
+div#myModal4 .modal-body {
+    padding-top: 0px !important;
+}
+
+div#myModal4 .modal-body ul li {
+    margin-bottom: 12px;
+}
+
+div#myModal4 h5.modal-title {
+    text-align: center;
+    width: 100%;
+}
+
+
+.faqheadingn{
+	    border-bottom: 1px solid;
+		color: #647867;
+text-align: center;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;}
+
+
+#myModal8 input#form1 {
+    background: #d9d9d9;
+    border-radius: 20px;
+	padding:6px;
+}
+
+#myModal8 .input-group {
+    margin-bottom: 30px;
+}
+
+#myModal8 .mainfaq {
+    margin-top: 30px;
+}
+
+#myModal8 .fa-plus:before {
+    content: "\f067";
+    border: 1px solid;
+    padding: 4px 6px;
+    border-radius: 20px;
+}
+
+#myModal8 .seacjbtn {
+    background: transparent;
+    border: none;
+}
+
+#myModal8  .fa-search:before {
+    content: "\f002";
+    font-size: 13px;
+    color: black;
+    margin-right: 14px;
+}
+
+#myModal8 .form-outline {
+    width: 98%;
+}
+
+
+
+#myModal8 .seacjbtn {
+    /* background: #d9d9d9; */
+    /* border: 1px #d9d9d9; */
+    /* border-radius: 0px 20px 20px 0px; */
+    /* padding: 5px; */
+    position: absolute;
+    right: 0px;
+    top: 5px;
+}
