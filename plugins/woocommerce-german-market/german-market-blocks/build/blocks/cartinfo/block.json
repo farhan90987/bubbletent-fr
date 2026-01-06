@@ -1,0 +1,29 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "german-market-blocks/cartinfo",
+	"version": "0.1.0",
+	"title": "German Market Cart Info",
+	"category": "german-market",
+	"description": "Show German Market Cart Info.",
+	"example": {},
+	"supports": {
+		"align": false,
+		"html": false,
+		"multiple": false,
+		"reusable": false,
+		"inserter": false,
+		"lock": false
+	},
+	"textdomain": "german-market-blocks",
+	"attributes": {
+		"lock": {
+			"type": "object",
+			"default": {
+				"remove": true,
+				"move": false
+			}
+		}
+	},
+	"parent": [ "woocommerce/cart-items-block" ]
+}

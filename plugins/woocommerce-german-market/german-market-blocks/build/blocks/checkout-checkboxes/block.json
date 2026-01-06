@@ -1,0 +1,17 @@
+{
+	"apiVersion": 2,
+	"name": "german-market/checkout-checkboxes",
+	"version": "2.0.0",
+	"title": "German Market Checkboxes",
+	"category": "german-market",
+	"description": "Adds the German Market checkboxes to the checkout",
+	"supports": {
+		"html": false,
+		"align": false,
+		"multiple": false,
+		"reusable": true,
+		"lock": false
+	},
+	"parent": ["woocommerce/checkout-fields-block", "woocommerce/checkout-totals-block" ],
+	"textdomain": "woocommerce-german-market"
+}

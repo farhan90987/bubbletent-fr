@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-05T13:54:07+00:00\n"
+"PO-Revision-Date: 2024-03-05 14:54+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: build/blocks/product-age-rating/index.js:1
+msgid "Hide if age is 0"
+msgstr "Nicht anzeigen, wenn das Alter 0 ist"
+
+#: build/blocks/product-age-rating/index.js:1
+#: build/blocks/product-gtin/index.js:1
+msgid "Prefix"
+msgstr "Präfix"
+
+#: build/blocks/product-age-rating/index.js:1
+msgid "Suffix"
+msgstr "Suffix"
+
+#: build/blocks/product-tax-and-shipping/index.js:1
+msgid "Delimiter"
+msgstr "Trennzeichen"
+
+#: build/gateways/purchase-on-account/blocks.js:1
+msgid "Purchase On Acccount"
+msgstr "Kauf auf Rechnung"
+
+#: build/gateways/sepa-direct-debit/blocks.js:1
+msgid "Sepa Direct Debit"
+msgstr "SEPA"

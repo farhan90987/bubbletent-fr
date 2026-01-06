@@ -1,0 +1,641 @@
+
+/* Define Colors */
+:root {
+    --wgm-dhl-yellow: #fcc40f;
+    --wgm-dhl-green:  #73AF55;
+    --wgm-dhl-red:    #D06079;
+    --wgm-gray:       #f6f6f6;
+    --wgm-border-gray: #ccc;
+    --wgm-blue:       #34495e;
+}
+
+#wgm_dhl_package_services {
+    border-top: 5px solid var(--wgm-blue);
+    border-bottom: 5px solid var(--wgm-blue);
+}
+
+#wgm_dhl_package_services .postbox-header {
+    background: var(--wgm-gray);
+}
+
+#wgm_dhl_package_services .inside {
+    padding: 0; /* 0 12px 12px */
+}
+
+#wgm_dhl_package_services .wgm-meta-content-wrapper {
+        padding: 0 12px;
+}
+
+#wgm_dhl_package_services .wgm-meta-content-wrapper .inner {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#wgm_dhl_package_services .wgm-meta-content-wrapper .inner.select {
+    padding-bottom: 15px;
+}
+
+#wgm_dhl_package_services .button-primary.internetmarke {
+    background-color: var(--wgm-dhl-yellow);
+    background-image: url(../images/icon-deutsche-post.gif);
+    background-position: 6px 5px;
+    background-repeat: no-repeat;
+    background-size: auto 15px;
+    padding-left: 30px;
+    color: black;
+}
+
+#wgm_dhl_package_services a.internetmarke.dashicons-download {
+    background-color: var(--wgm-dhl-yellow);
+    color: #000;
+    text-decoration: none;
+    text-shadow: none;
+    display: inline-block;
+    font-size: 22px;
+    padding-top: 4px;
+    min-height: 30px;
+    min-width: 70px;
+    margin: 0;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#wgm_dhl_package_services .border-bottom {
+    border-bottom: 1px solid var(--wgm-border-gray);
+}
+
+#wgm_dhl_package_services  .padding {
+    padding: 10px 0 15px;
+}
+
+#wgm_dhl_package_services  .padding-checkbox {
+    padding: 10px 0;
+}
+
+.german-market .select2-container {
+    max-width: inherit !important;
+}
+
+.flex-fields {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.flex-fields label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+input[type='password'] {
+    height: 42px;
+}
+
+.form-table .forminp-text p.description {
+    font-size: 13px;
+    color: inherit;
+}
+
+.table-view-list .dhl_shipping_label_download,
+.table-view-list .dhl_shipping_label_create,
+.table-view-list .dhl_shipping_label_download:hover,
+.table-view-list .dhl_shipping_label_create:hover {
+    background: transparent url(../images/icon-download.png) center center no-repeat !important;
+    background-size: 15px auto !important;
+}
+
+.table-view-list .woocommerce_dhl_shipping_internetmarke_label_download,
+.table-view-list .woocommerce_dhl_shipping_internetmarke_label_download:hover {
+    background: transparent url(../images/icon-deutsche-post.png) center center no-repeat !important;
+    background-size: 15px auto !important;
+}
+
+.table-view-list .dhl_shipping_label_create {
+    filter: grayscale(1);
+}
+
+.table-view-list .dhl_shipping_label_loading {
+    background: transparent url(../../../../../assets/images/icon-loading.gif) center center no-repeat !important;
+    background-size: 15px auto !important;
+}
+
+.wgm-api-status {
+    display: inline-block;
+    padding: 6px 25px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+.wgm-api-status.success {
+    color: green;
+    border-color: green;
+    box-shadow: 0 0 1px green;
+    font-weight: bold;
+}
+
+.wgm-api-status.error {
+        color: red;
+    border-color: red;
+    box-shadow: 0 0 1px red;
+    font-weight: bold;
+}
+
+#wgm_dhl_error {
+    color: red;
+    border-top: 2px solid transparent;
+    background: #fae8e8;
+    overflow:hidden;
+    transition:max-height 700ms ease, border-top-color 700ms ease;
+    height:auto;
+    max-height:0;
+}
+#wgm_dhl_error.open {
+    border-top-color: red;
+    max-height:400px;
+}
+
+#wgm_dhl_error .inner {
+    padding: 0 12px 12px;
+}
+#wgm_dhl_error p {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+#wgm_dhl_error ul.wgm-dhl-error {
+    list-style: disc;
+    margin-left: 1em;
+}
+
+/*
+ * Internetmarke Wizard
+ */
+
+#internetmarke_wizard {
+    display: none;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .4);
+    color: black;
+    z-index: 9999;
+}
+
+#internetmarke_wizard button.button-primary {
+    padding: 4px 10px;
+}
+
+#internetmarke_wizard #wizard-wrapper {
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    max-width: 1100px;
+    height: 800px;
+    top: 50%;
+    margin-top: -370px;
+    left: 50%;
+    margin-left: -550px;
+    transform: scale(1.0);
+    transition: transform .3s; /* Animation */
+}
+
+@media only screen and (max-width: 1920px) {
+    #internetmarke_wizard #wizard-wrapper {
+        transform: scale(0.9);
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #internetmarke_wizard #wizard-wrapper {
+        transform: scale(0.8);
+    }
+}
+
+#internetmarke_wizard #internetmarke_checkout_wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#internetmarke_wizard #internetmarke_checkout_wrapper_header {
+}
+
+#internetmarke_wizard #internetmarke_checkout_wrapper_inner {
+    width: 300%;
+    transition: margin-left 500ms ease-in-out;
+}
+
+#internetmarke_wizard #internetmarke_checkout_wrapper_header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#internetmarke_wizard #internetmarke_checkout_wrapper_header a.close {
+    display: inline-block;
+    float: right;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#internetmarke_wizard #internetmarke_checkout_step_1,
+#internetmarke_wizard #internetmarke_checkout_step_2,
+#internetmarke_wizard #internetmarke_checkout_step_3 {
+    display: inline-block;
+    float: left;
+    width: 33.33%;
+    height: 100%;
+}
+
+#internetmarke_wizard #wizard-wrapper .header {
+    background: var(--wgm-dhl-yellow);
+    padding: 50px 20px 15px 20px;
+    min-height: 100px;
+}
+
+#internetmarke_wizard #wizard-wrapper .header li {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+}
+
+#internetmarke_wizard #wizard-wrapper .header li.current {
+    text-decoration: underline;
+}
+
+#internetmarke_wizard #wizard-wrapper .header li:hover {
+    cursor: pointer;
+}
+
+#internetmarke_wizard #wizard-wrapper .content {
+    padding: 30px 20px;
+    min-height: 365px;
+}
+
+#internetmarke_wizard #wizard-wrapper #internetmarke_checkout_step_2 .content {
+    min-height: 455px;
+}
+
+#internetmarke_wizard h3 {
+    font-weight: bolder;
+    font-size: 1.4em;
+    margin: 0.5rem 0;
+}
+
+#internetmarke_wizard .content h3 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+#internetmarke_wizard .content .products ul.product-list li,
+#internetmarke_wizard .content .portokasse li {
+    background: #eaeaea;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#internetmarke_wizard .content .portokasse li {
+    padding: 0;
+}
+
+#internetmarke_wizard .content .portokasse li div {
+    padding: 10px 20px;
+}
+
+#internetmarke_wizard .content .portokasse li div.portokasse-balance {
+    background: #f0f0f0;
+    padding-left: 43px;
+}
+
+#internetmarke_wizard .content .portokasse li div.portokasse-balance .value  {
+    display: inline-block;
+    float: right;
+}
+
+#internetmarke_wizard .content .products ul.product-list li.current,
+#internetmarke_wizard .content .portokasse li.current {
+    background: var(--wgm-dhl-yellow);
+}
+
+#internetmarke_wizard .content .layout li,
+#internetmarke_wizard .content .services li {
+    margin-bottom: 15px;
+}
+
+#internetmarke_wizard .content .options span {
+    display: block;
+    margin-top: 10px;
+}
+
+#internetmarke_wizard .voucher-layout-wrapper {
+    margin-top: 30px;
+}
+
+#internetmarke_wizard .label {
+    border: 1px solid #ccc;
+    min-height: 190px;
+    padding: 15px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#internetmarke_wizard .label .sender-address {
+    left: 5%;
+    font-size: .7em;
+}
+
+#internetmarke_wizard .label .shipping-address {
+    top: 43%;
+    left: 5%;
+    line-height: 1.2em;
+    font-size: .95em;
+}
+
+#internetmarke_wizard .label .sender-address,
+#internetmarke_wizard .label .shipping-address {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    cursor: default;
+}
+
+#internetmarke_wizard .label img {
+    max-width: 100%;
+    max-height: 186px;
+    width: auto;
+    height: auto;
+}
+
+#internetmarke_wizard .label.addresszone .sender-address,
+#internetmarke_wizard .label.addresszone .shipping-address {
+    display: block;
+}
+
+#internetmarke_wizard .label.frankingzone .sender-address,
+#internetmarke_wizard .label.frankingzone .shipping-address {
+    display: none;
+}
+
+#internetmarke_wizard .total {
+    background: var(--wgm-dhl-yellow);
+    padding: 15px 20px;
+}
+
+#internetmarke_wizard .total p {
+    font-size: 2em;
+    font-weight: bolder;
+    margin: 0;
+}
+
+#internetmarke_wizard .description {
+    clear: both;
+    background: #eaeaea;
+    padding: 15px 20px;
+    min-height: 110px;
+}
+
+#internetmarke_wizard #internetmarke_checkout_step_2 .description {
+    min-height: 20px;
+}
+
+#internetmarke_wizard .description h3 {
+    margin-top: 0;
+}
+
+#internetmarke_wizard .description .dimensions li {
+    margin: 0;
+}
+
+#internetmarke_wizard .description table td.attribute {
+    font-weight: bold;
+}
+
+#internetmarke_wizard .footer {
+    padding: 15px 20px;
+}
+
+#internetmarke_wizard .footer .last {
+    text-align: right;
+}
+
+#internetmarke_wizard .product-summary li {
+    border-bottom: 1px solid #aaa;
+    padding: 10px 0;
+}
+
+#internetmarke_wizard .product-summary .product-title {
+    font-weight: bold;
+}
+
+#internetmarke_wizard .product-summary .product-title input {
+    display: inline-block;
+    float: right;
+    width: 50px;
+    margin-top: -5px;
+    text-align: center;
+    padding-right: 0;
+    font-weight: normal;
+}
+
+#internetmarke_wizard .product-summary .product-title span.dashicons {
+    display: inline-block;
+    float: right;
+    margin-left: .4em;
+    cursor: pointer;
+}
+
+#internetmarke_wizard .product-summary .product-title span.dashicons:hover {
+    color: var(--wgm-dhl-yellow);
+}
+
+#internetmarke_wizard .product-totals ul li {
+    padding: 15px;
+    margin-bottom: 0;
+}
+
+#internetmarke_wizard .product-totals ul li.even {
+    background-color: #f5f5f5;
+}
+
+#internetmarke_wizard .product-totals ul li:not(.empty-cart) {
+    font-weight: bold;
+}
+
+#internetmarke_wizard .product-totals ul li .product-total {
+    text-align: right;
+    display: inline-block;
+    float: right;
+}
+
+#internetmarke_wizard .product-totals ul li.totals {
+    display: none;
+    font-weight: 700;
+    border-top: 1px solid;
+    font-size: 1.3em;
+    background: var(--wgm-dhl-yellow);
+}
+
+#internetmarke_wizard .product-totals ul li.totals .price {
+    text-align: right;
+    display: inline-block;
+    float: right;
+}
+
+#internetmarke_wizard button.update-cart {
+    float: right;
+}
+
+#internetmarke_wizard #internetmarke_checkout_step_3 .wrapper-success,
+#internetmarke_wizard #internetmarke_checkout_step_3 .wrapper-error {
+    display: none;
+}
+
+#internetmarke_wizard #internetmarke_checkout_step_3 svg {
+    width: 100px;
+    display: block;
+    margin: 40px auto 0;
+}
+
+#internetmarke_wizard #internetmarke_checkout_step_3 .path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 0;
+}
+
+#internetmarke_wizard #internetmarke_checkout_step_3 .path.circle {
+     -webkit-animation: dash .9s ease-in-out;
+     animation: dash .9s ease-in-out;
+}
+
+#internetmarke_wizard #internetmarke_checkout_step_3 .path.line {
+     stroke-dashoffset: 1000;
+     -webkit-animation: dash .9s .35s ease-in-out forwards;
+     animation: dash .9s .35s ease-in-out forwards;
+}
+
+#internetmarke_wizard #internetmarke_checkout_step_3 .path.check {
+     stroke-dashoffset: -100;
+     -webkit-animation: dash-check .9s .35s ease-in-out forwards;
+     animation: dash-check .9s .35s ease-in-out forwards;
+}
+
+#internetmarke_wizard #internetmarke_checkout_step_3 p {
+    text-align: center;
+}
+
+#internetmarke_wizard #internetmarke_checkout_step_3 p.info-success,
+#internetmarke_wizard #internetmarke_checkout_step_3 p.info-error {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 1.25em;
+}
+
+#internetmarke_wizard #internetmarke_checkout_step_3 p.info-success {
+     color: var(--wgm-dhl-green);
+}
+
+#internetmarke_wizard #internetmarke_checkout_step_3 p.info-error {
+     color: var(--wgm-dhl-red);
+ }
+
+#internetmarke_wizard #internetmarke_checkout_step_3 p.info-additional {
+    margin: 0 auto 40px;
+}
+
+#internetmarke_wizard #internetmarke_checkout_step_3 p.info-download-button a.button-primary {
+    padding: 10px 25px;
+}
+
+@-webkit-keyframes dash {
+    0% {
+        stroke-dashoffset: 1000;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes dash {
+    0% {
+        stroke-dashoffset: 1000;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@-webkit-keyframes dash-check {
+    0% {
+        stroke-dashoffset: -100;
+    }
+    100% {
+        stroke-dashoffset: 900;
+    }
+}
+
+@keyframes dash-check {
+    0% {
+        stroke-dashoffset: -100;
+    }
+    100% {
+        stroke-dashoffset: 900;
+    }
+}
+
+/**
+ * Preude Grid Classes
+ */
+
+#internetmarke_wizard .col-4,
+#internetmarke_wizard .col-6,
+#internetmarke_wizard .col-8 {
+    display: inline-block;
+    float: left;
+    margin-right: 2%;
+}
+
+#internetmarke_wizard .col-4 {
+    width: 31.8333%;
+}
+
+#internetmarke_wizard .col-6 {
+    width: 49%;
+}
+
+#internetmarke_wizard .col-8 {
+    width: 66%;
+}
+
+#internetmarke_wizard .last {
+    margin-right: 0;
+}
+
+/**
+ * Clearfix:after
+ */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}

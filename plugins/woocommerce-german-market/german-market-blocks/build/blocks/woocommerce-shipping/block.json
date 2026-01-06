@@ -1,0 +1,17 @@
+{
+	"apiVersion": 2,
+	"name": "german-market/woocommerce-shipping",
+	"version": "2.0.0",
+	"title": "Additional Shipping Information",
+	"category": "german-market",
+	"description": "Adds the German Market block to enter a date of birth, client number and select a parcel shop or packstation",
+	"supports": {
+		"html": false,
+		"align": false,
+		"multiple": false,
+		"reusable": true,
+		"lock": false
+	},
+	"parent": [ "woocommerce/checkout-fields-block" ],
+	"textdomain": "woocommerce-german-market"
+}

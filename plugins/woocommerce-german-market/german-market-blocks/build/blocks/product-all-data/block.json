@@ -1,0 +1,40 @@
+{
+	"apiVersion": 2,
+	"name": "german-market-blocks/product-all-data",
+	"version": "2.0.0",
+	"category": "german-market-product-elements",
+	"supports": {
+		"html": false,
+		"align": true,
+		"multiple": true,
+		"reusable": true,
+		"lock": false,
+		"color": {
+			"text": true,
+			"background": true,
+			"link": false,
+			"__experimentalSkipSerialization": true
+		},
+		"typography": {
+			"fontSize": false,
+			"lineHeight": false,
+			"__experimentalFontFamily": false,
+			"__experimentalFontWeight": false,
+			"__experimentalFontStyle": false,
+			"__experimentalLetterSpacing": false
+		},
+		"spacing": {
+			"margin": true, 
+			"padding": true,
+			"blockGap": true
+		},
+		"customClassName": false
+	},
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"textdomain": "woocommerce-german-market"
+}

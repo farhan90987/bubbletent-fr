@@ -1,0 +1,193 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MarketPress AutoUpdater\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-07 12:45+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"POT-Revision-Date: Mon Aug 01 2016 11:40:12 GMT+0200 (CEST)\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class-MarketPress_Auto_Update.php:207 class-MarketPress_Auto_Update.php:756
+#: class-MarketPress_Auto_Update.php:911
+#, php-format
+msgid "The license has been %sexpired%s!"
+msgstr ""
+
+#: class-MarketPress_Auto_Update.php:357 class-MarketPress_Auto_Update.php:430
+#, php-format
+msgid ""
+"The license has already been updated? Click %shere%s to check the license "
+"status and hide this message."
+msgstr ""
+
+#: class-MarketPress_Auto_Update.php:388
+#, php-format
+msgid "Your %s licence is going to expire in %s days."
+msgstr ""
+
+#: class-MarketPress_Auto_Update.php:390
+#, php-format
+msgid "Your %s licence is going to expire in one day."
+msgstr ""
+
+#: class-MarketPress_Auto_Update.php:392
+#, php-format
+msgid "Your %s licence is going to expire today."
+msgstr ""
+
+#: class-MarketPress_Auto_Update.php:406 class-MarketPress_Auto_Update.php:752
+#: class-MarketPress_Auto_Update.php:757 class-MarketPress_Auto_Update.php:913
+msgid "With an expired license you will not receive any updates or support."
+msgstr ""
+
+#: class-MarketPress_Auto_Update.php:406 class-MarketPress_Auto_Update.php:752
+#: class-MarketPress_Auto_Update.php:757 class-MarketPress_Auto_Update.php:774
+#: class-MarketPress_Auto_Update.php:779 class-MarketPress_Auto_Update.php:913
+#, php-format
+msgid "The owner of the license should please visit %s and renew the license."
+msgstr ""
+
+#: class-MarketPress_Auto_Update.php:503
+msgid "License"
+msgstr ""
+
+#: class-MarketPress_Auto_Update.php:568
+msgid "License Key"
+msgstr ""
+
+#: class-MarketPress_Auto_Update.php:577
+msgid "Delete License Key"
+msgstr ""
+
+#: class-MarketPress_Auto_Update.php:582
+msgid "Activate License Key"
+msgstr ""
+
+#: class-MarketPress_Auto_Update.php:630
+msgid "License Status"
+msgstr ""
+
+#: class-MarketPress_Auto_Update.php:639 class-MarketPress_Auto_Update.php:737
+#, php-format
+msgid "Enter a valid license key from %s below."
+msgstr ""
+
+#: class-MarketPress_Auto_Update.php:644 class-MarketPress_Auto_Update.php:738
+msgid "Help! I need to retrieve my key."
+msgstr ""
+
+#: class-MarketPress_Auto_Update.php:651
+#, php-format
+msgid ""
+"<strong>All is fine.</strong> You are using a valid license key from %s for "
+"this plugin."
+msgstr ""
+
+#: class-MarketPress_Auto_Update.php:697
+msgid "Access Expires"
+msgstr ""
+
+#: class-MarketPress_Auto_Update.php:736
+msgid "Your license could not be activated, the license key could not be found."
+msgstr ""
+
+#: class-MarketPress_Auto_Update.php:742
+#, php-format
+msgid ""
+"Your license could not be activated, there is no valid license for %s for "
+"this key."
+msgstr ""
+
+#: class-MarketPress_Auto_Update.php:743
+#, php-format
+msgid "Please check your licenses at %s."
+msgstr ""
+
+#: class-MarketPress_Auto_Update.php:751
+#, php-format
+msgid "The license has been %sexpired%s since %s%s%s!"
+msgstr ""
+
+#: class-MarketPress_Auto_Update.php:763
+msgid "Your license could not be activated because it has already expired."
+msgstr ""
+
+#: class-MarketPress_Auto_Update.php:764
+#, php-format
+msgid "Please visit %s to renew your license."
+msgstr ""
+
+#: class-MarketPress_Auto_Update.php:768
+msgid ""
+"Your license could not be activated because your domain limit has been "
+"reached."
+msgstr ""
+
+#: class-MarketPress_Auto_Update.php:769
+#, php-format
+msgid ""
+"Please visit %s to manage the domains you use or to upgrade your license."
+msgstr ""
+
+#: class-MarketPress_Auto_Update.php:773
+msgid "Your license key could not be found."
+msgstr ""
+
+#: class-MarketPress_Auto_Update.php:774 class-MarketPress_Auto_Update.php:779
+#: class-MarketPress_Auto_Update.php:784 class-MarketPress_Auto_Update.php:789
+#: class-MarketPress_Auto_Update.php:796
+msgid "You will not receive any updates or support."
+msgstr ""
+
+#: class-MarketPress_Auto_Update.php:778
+#, php-format
+msgid "There is no valid license for %s for the used license key."
+msgstr ""
+
+#: class-MarketPress_Auto_Update.php:783
+msgid "The domain limit has been reached for this license."
+msgstr ""
+
+#: class-MarketPress_Auto_Update.php:784
+#, php-format
+msgid ""
+"The owner of the license should please visit %s to manage the domains or to "
+"upgrade the license."
+msgstr ""
+
+#: class-MarketPress_Auto_Update.php:788
+msgid "There is something wrong with this license."
+msgstr ""
+
+#: class-MarketPress_Auto_Update.php:790
+msgid ""
+"Please try again later to check the license status. If this error still "
+"exists, please contact our support team at \"support@marketpress.com\"."
+msgstr ""
+
+#: class-MarketPress_Auto_Update.php:794
+msgid "The license key could not be verified."
+msgstr ""
+
+#: class-MarketPress_Auto_Update.php:795
+msgid ""
+"Please check your server settings (wp-config.php) to see if \"marketpress."
+"de\" and \"marketpress.com\" are among the accessible hosts "
+"(WP_ACCESSIBLE_HOSTS)."
+msgstr ""
