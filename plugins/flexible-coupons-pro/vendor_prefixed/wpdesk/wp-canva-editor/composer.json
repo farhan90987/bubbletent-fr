@@ -1,0 +1,67 @@
+{
+    "name": "wpdesk\/wp-canva-editor",
+    "version": "1.5.0",
+    "description": "Visual editor",
+    "license": "MIT",
+    "keywords": [
+        "wordpress",
+        "wp-canva-editor",
+        "visual-editor",
+        "react",
+        "pdf",
+        "pdf builder"
+    ],
+    "homepage": "https:\/\/gitlab.com\/wpdesk\/wp-canva-editor",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "piotr.potrebka",
+            "email": "piotr.potrebka@wpdesk.net"
+        }
+    ],
+    "config": {
+        "sort-packages": true,
+        "platform": {
+            "php": "7.4.33"
+        },
+        "allow-plugins": {
+            "phpstan\/extension-installer": true,
+            "dealerdirect\/phpcodesniffer-composer-installer": true
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "wpdesk\/wp-coupons-interfaces": "^1.1.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "10up\/wp_mock": "*",
+        "mockery\/mockery": "*",
+        "phpunit\/phpunit": "^9",
+        "wpdesk\/phpstan-rules": "^1.1",
+        "wpdesk\/wp-builder": "^2",
+        "wpdesk\/wp-code-sniffer": "^1.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "FlexibleCouponsProVendor\\WPDesk\\Library\\WPCanvaEditor\\": "src\/Editor"
+        }
+    },
+    "autoload-dev": {},
+    "extra": {
+        "text-domain": "wp-canva-editor",
+        "translations-folder": "lang",
+        "po-files": {
+            "pl_PL": "pl_PL.po"
+        }
+    },
+    "scripts": {
+        "phpcs": "phpcs",
+        "phpcbf": "phpcbf src",
+        "phpunit-unit": "phpunit --configuration phpunit-unit.xml --coverage-text --colors=never",
+        "phpunit-unit-fast": "phpunit --configuration phpunit-unit.xml --no-coverage",
+        "phpunit-integration": "phpunit --configuration phpunit-integration.xml --coverage-text --colors=never",
+        "phpunit-integration-fast": "phpunit --configuration phpunit-integration.xml --no-coverage",
+        "generate-pot": "wp i18n make-pot . lang\/wp-canva-editor.pot"
+    }
+}

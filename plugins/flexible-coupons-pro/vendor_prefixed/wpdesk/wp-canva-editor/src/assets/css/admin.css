@@ -1,0 +1,102 @@
+#wpdesk-coupons_editor_metabox .inside {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+#wpdesk-coupons_editor_metabox {
+    border: 0;
+    background-color: transparent;
+}
+
+#wpdesk-coupons_editor_metabox .postbox-header,
+#wpdesk-coupons_editor_metabox .handlediv,
+#wpdesk-coupons_editor_metabox h2.hndle {
+    display: none;
+}
+
+#wpdesk-coupons_editor_metabox .inside {
+    background-color: #FFF;
+    border: 1px solid #DDD;
+}
+
+#wpdesk-canva-root {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#post-body-content {
+    margin-bottom: 10px;
+}
+
+.publishing-actions-box {
+    padding: 10px;
+    border-bottom: 1px solid #EEE;
+    text-align: right;
+    position: relative;
+}
+
+.publishing-actions-box .black-box {
+    background-color: #23282d;
+    width: 100px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+
+.publishing-actions-box .process_save {
+    position: relative;
+    margin-right: 10px;
+}
+
+.publishing-actions-box .process_save .spinner {
+    float: none;
+}
+
+
+div.notice.notice-warning,
+.wrap > div.notice {
+    display: none;
+}
+
+.generated-coupons {
+    margin: 10px 0;
+}
+
+.generated-coupons a {
+    text-decoration: none;
+}
+
+.generated-coupons > div {
+    padding: 5px 0;
+}
+
+#wpdesk-coupons_editor_metabox .pro-link-box {
+    font-weight: bold;
+    margin-left: 100px;
+    float: left;
+    display: none;
+}
+
+a.pro-link {
+    color: #FF9743;
+}
+
+a.docs-link {
+    color: #734a93;
+}
+
+a.shortcode-link {
+    color: #C882FF;
+}
+
+a.tickets-link {
+    color: #d2a0d1;;
+}
+
+a.sending-link {
+    color: #a3339f;
+}

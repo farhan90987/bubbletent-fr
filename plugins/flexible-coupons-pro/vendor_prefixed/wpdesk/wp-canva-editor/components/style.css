@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne:ital,wght@0,400;1,400&display=swap');
+
+[contenteditable] {
+    -webkit-user-select: text;
+    user-select: text;
+}
+
+#wpdesk-canva-area {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: #EEE;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.editor-area p, .editor-area h1, .editor-area h2, .editor-area h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#editor-area {
+    background-color: #FFF;
+    width: 595px;
+    height: 842px;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+#editor-area .area-border-center-vertical {
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    border-left: 1px dashed #EF93FC;
+    content: "";
+    width: 1px;
+    height: 100%;
+}
+
+#editor-area .area-border-center-vertical-for-object {
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    bottom: 0;
+    left: 70%;
+    border-left: 1px dashed #EF93FC;
+    content: "";
+    width: 1px;
+    height: 100%;
+}
+
+
+#editor-area .area-border-center-horizontal {
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    right: 0;
+    top: 50%;
+    border-top: 1px dashed #EF93FC;
+    content: "";
+    height: 1px;
+    width: 100%;
+}
+
+#editor-area .area-border-top {
+    position: absolute;
+    z-index: 100;
+    right: 0;
+    left: 0;
+    top: 0;
+    border-top: 1px dashed #EF93FC;
+}
+
+#editor-area .area-border-left {
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0px;
+    bottom: 0;
+    border-left: 1px dashed #EF93FC;
+    width: 0px;
+}
+
+#editor-area .area-border-right {
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    border-right: 1px dashed #EF93FC;
+    width: 0px;
+}
+
+
+#editor-area .area-border-bottom {
+    position: absolute;
+    z-index: 100;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border-top: 1px dashed #EF93FC;
+    box-sizing: border-box;
+}
+
+#editor-object-properties {
+    width: 100%;
+    padding: 10px;
+    background-color: #FFF;
+    border-bottom: 1px solid #EEE;
+    box-sizing: border-box;
+    z-index: 200;
+    position: relative;
+}
+
+.editor-menu-image img {
+    max-width: 100%;
+}
+
+#editor-area img {
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#editor-area .grid {
+    display: none;
+}
+
+.objectProperties {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.objectProperties > div {
+    position: relative;
+    width: 50%;
+}
+
+.objectProperties > div.right {
+    text-align: right;
+}

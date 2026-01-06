@@ -1,0 +1,334 @@
+#coupons-editor .inside {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+#coupons-editor {
+    border: 0;
+    background-color: transparent;
+}
+
+#coupons-editor .handlediv,
+#coupons-editor h2.hndle {
+    display: none;
+}
+
+#coupons-editor .inside {
+    background-color: #FFF;
+    border: 1px solid #DDD;
+}
+
+#post-body-content {
+    margin-bottom: 10px;
+}
+
+.publishing-actions-box {
+    padding: 10px;
+    border-bottom: 1px solid #EEE;
+    text-align: right;
+    position: relative;
+}
+
+.publishing-actions-box .black-box {
+    background-color: #23282d;
+    width: 100px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.publishing-actions-box .process_save {
+    position: relative;
+    margin-right: 10px;
+}
+
+.publishing-actions-box .process_save .spinner {
+    float: none;
+}
+
+.generated-coupons {
+    margin: 10px 0;
+}
+
+.generated-coupons a {
+    text-decoration: none;
+}
+
+.generated-coupons > div {
+    padding: 5px 0;
+}
+
+.has-been-used {
+    color: green;
+}
+
+.fc-options-group {
+    float: none;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    padding-left: 0.8rem;
+    padding-bottom: 0.6rem;
+}
+
+.fc-options-group .input-container{
+    position: relative;
+    max-width: 724px;
+}
+
+.fc-options-group h3{
+    font-size: 0.9rem;
+}
+
+.fc-options-group .short {
+    width: 80% !important;
+}
+
+.checkbox-wrapper-right label {
+    padding-right: 10px;
+}
+
+.fc-options-group::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.fc-custom-fields-group {
+
+}
+
+.checkbox-wrapper {
+    display: flex;
+}
+
+.checkbox-wrapper-left {
+    flex: 50%;
+}
+
+.checkbox-wrapper-right {
+    flex: 20%;
+    text-align: right;
+}
+
+.woocommerce_options_panel .checkbox-wrapper-right label {
+    text-align: right;
+    padding: 0 10px 0 0;
+    margin: 0 0 0 -160px;
+}
+
+#woocommerce-coupon-data ul.wc-tabs li a::before {
+    content: "\f524" !important;
+}
+
+.flexible_coupon_recipient_name_required_field label {
+    padding: 0 10px;
+}
+
+#woocommerce-product-data ul.wc-tabs li.pdfcoupons_tab a::before {
+    content: "\f524";
+}
+
+#woocommerce-product-data ul.wc-tabs li.hide {
+    display: none !important;
+}
+
+p.expiring-date-own {
+    display: none;
+}
+
+.show_if_simple_delay,
+.show_if_fixed_date_delay,
+.show_if_pdf_coupon,
+.show_if_variation_manage_coupons,
+.show_if_variation_manage_prefix {
+    display: none;
+}
+
+.fc-options-group label, .fc-options-group legend {
+    float: left;
+    width: 150px;
+    padding: 0;
+    margin: 0 0 0 -162px;
+}
+
+.fc-options-group p.form-field {
+    padding: 5px 20px 5px 162px !important;
+    clear: both;
+}
+
+.fc-options-group input,
+.fc-options-group textarea,
+.fc-options-group select {
+    float: left;
+}
+
+.woocommerce_variable_attributes .fc_variation_base_on {
+    float: none;
+}
+
+#pdfcoupon_product_data_variation {
+    border-bottom: 1px solid #eee;
+}
+
+.editor-right-menu {
+    width: 240px;
+}
+
+.editor-right-menu .editor-menu-image {
+    overflow-y: auto !important;
+    height: 100vh;
+}
+
+.form-table td.header-column {
+    padding: 20px 10px 20px 0;
+}
+
+.field-clone-wrapper {
+	margin: 0 0 2px;
+}
+
+.field-clone-element-container .field-clone-wrapper .add-email-field {
+	display: none;
+	cursor: pointer;
+}
+.field-clone-element-container .field-clone-wrapper:first-child .add-email-field {
+	display: inline-block;
+}
+
+.field-clone-element-container .field-clone-wrapper:first-child .remove-email-field {
+	display: none;
+}
+
+.field-clone-element-container .field-clone-wrapper .remove-email-field {
+	display: inline-block;
+	cursor: pointer;
+}
+
+.form-table .form-table-field {
+    width: 230px;
+}
+
+a.pro-link {
+    color: #FF9743;
+}
+
+a.docs-link {
+    color: #734a93;
+}
+
+a.sending-link {
+    color: #a3339f;
+}
+
+.marketing-content {
+    font-weight: bold;
+}
+
+#pdfcoupon_product_data {
+    padding: 20px 0;
+}
+
+#pdfcoupon_product_data p.form-field {
+    margin: 0 !important;
+    padding: 10px 20px 10px 162px !important;
+}
+
+#pdfcoupon_product_data .checkbox {
+    margin: 5px 0 !important;
+}
+
+.addon-pill-container {
+    position: absolute;
+    right: 2rem;
+    top: 0;
+    display: inline-block;
+}
+
+.addon-pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 16px;
+    border-radius: 2rem;
+    background-color: #a3339f;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    position: relative;
+}
+
+.addon-pill:hover {
+    background-color: rgba(163,51,159,0.9);
+    color: white;
+}
+
+.addon-pill-text {
+    margin-right: 8px;
+}
+
+.addon-pill-arrow {
+    display: none;
+    transition: opacity 0.3s ease;
+    font-size: 1rem;
+    margin-bottom: 0.1rem;
+    line-height: 0;
+    margin-right: 0.3rem;
+}
+
+.addon-pill:hover .addon-pill-arrow {
+    display: block;
+}
+
+.tooltip {
+    visibility: hidden;
+    width: 220px;
+    background-color: rgba(51,51,51,0.9);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    top: 120%;
+    right: 0;
+    margin-left: -110px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.addon-pill-container:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 80%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color:  transparent transparent rgba(51,51,51,0.9) transparent;
+}
+
+.addon-pill-container.addon-pill-container__settings {
+    position: absolute;
+    left: 210px;
+    top: -2.8rem;
+}
+
+.addon-pill-container.cupon-code-pill {
+    left: 230px;
+    top: -4.5rem;
+}
+
+.addon-pill-container.email-pill {
+    top: -6.4rem;
+}
+
+.addon-pill-container.sending-pill{
+    left: auto;
+}

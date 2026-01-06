@@ -1,0 +1,82 @@
+{
+    "name": "wpdesk\/wp-coupons-core",
+    "description": "Coupons library",
+    "license": "MIT",
+    "keywords": [
+        "wordpress",
+        "woocommerce",
+        "woocommerce-coupons",
+        "pdf",
+        "pdf builder"
+    ],
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "piotr.potrebka",
+            "email": "piotr.potrebka@wpdesk.net"
+        }
+    ],
+    "config": {
+        "sort-packages": true,
+        "platform": {
+            "php": "7.4.33"
+        },
+        "allow-plugins": {
+            "dealerdirect\/phpcodesniffer-composer-installer": true,
+            "cweagans\/composer-patches": true,
+            "wpdesk\/wp-wpdesk-composer": true,
+            "phpstan\/extension-installer": true
+        },
+        "gitlab-domains": [
+            "gitlab.wpdesk.dev"
+        ]
+    },
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*",
+        "mpdf\/mpdf": "v8.0.10",
+        "psr\/log": "^1.1.0",
+        "wpdesk\/wp-builder": "^2.0",
+        "wpdesk\/wp-coupons-interfaces": "1.1.0",
+        "wpdesk\/wp-forms": "^3",
+        "wpdesk\/wp-notice": "^3.1.1",
+        "wpdesk\/wp-persistence": "3.0",
+        "wpdesk\/wp-view": "^2"
+    },
+    "require-dev": {
+        "10up\/wp_mock": "*",
+        "mockery\/mockery": "*",
+        "phpunit\/phpunit": "^9",
+        "wpdesk\/phpstan-rules": "^1.2",
+        "wpdesk\/wp-code-sniffer": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "FlexibleCouponsProVendor\\WPDesk\\Library\\WPCoupons\\": "src\/Coupons"
+        }
+    },
+    "autoload-dev": {},
+    "extra": {
+        "text-domain": "wp-coupons-core",
+        "translations-folder": "lang",
+        "po-files": {
+            "pl_PL": "pl_PL.po"
+        }
+    },
+    "scripts": {
+        "phpcs": "phpcs --warning-severity=0",
+        "phpcbf": "phpcbf src",
+        "phpstan": "vendor\/bin\/phpstan",
+        "phpunit-unit": "phpunit --configuration phpunit-unit.xml --coverage-text --colors=never",
+        "phpunit-unit-fast": "phpunit --configuration phpunit-unit.xml --no-coverage",
+        "phpunit-integration": "phpunit --configuration phpunit-integration.xml --coverage-text --colors=never",
+        "phpunit-integration-fast": "phpunit --configuration phpunit-integration.xml --no-coverage",
+        "generate-pot": "wp i18n make-pot . lang\/wp-coupons-core.pot --domain=wp-coupons-core"
+    },
+    "repositories": {
+        "wpdesk": {
+            "type": "composer",
+            "url": "https:\/\/gitlab.wpdesk.dev\/api\/v4\/group\/wpdesk\/-\/packages\/composer\/"
+        }
+    }
+}
