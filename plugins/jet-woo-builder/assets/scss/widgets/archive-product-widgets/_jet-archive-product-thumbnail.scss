@@ -1,0 +1,12 @@
+.elementor-widget-jet-woo-builder-archive-product-thumbnail {
+	img {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	a img {
+		ul.products li.product & {
+			margin: 0;
+		}
+	}
+}

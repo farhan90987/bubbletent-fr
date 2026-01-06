@@ -1,0 +1,37 @@
+{
+    "name": "wpdesk\/wp-plugin-flow-paid",
+    "description": "WP Desk Plugin Flow Paid",
+    "license": "propertiary",
+    "keywords": [
+        "wordpress",
+        "plugin"
+    ],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Krzysiek",
+            "email": "krzysiek@wpdesk.pl"
+        }
+    ],
+    "require": {
+        "php": ">=7.4 || ^8",
+        "wpdesk\/wp-wpdesk-license": "^4.0.0",
+        "wpdesk\/wp-plugin-flow-common": "^1.0.1"
+    },
+    "config": {
+        "gitlab-domains": [
+            "gitlab.wpdesk.dev"
+        ]
+    },
+    "autoload-dev": {
+        "classmap": [
+            "vendor\/wpdesk\/wp-basic-requirements"
+        ]
+    },
+    "repositories": {
+        "wpdesk": {
+            "type": "composer",
+            "url": "https:\/\/gitlab.wpdesk.dev\/api\/v4\/group\/wpdesk\/-\/packages\/composer\/"
+        }
+    }
+}

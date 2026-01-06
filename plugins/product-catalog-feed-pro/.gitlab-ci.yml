@@ -1,0 +1,47 @@
+stages:
+  - deploy
+
+deploy_master:
+  stage: deploy
+  script:
+
+    - if [ -z "$CREDENTIALS_MASTER" ] || [ -z "$DEP_FOLDER_MASTER" ] || [ -z "$DEP_FOLDER_MASTER2" ]; then echo "Need to set variables"; exit 1; fi
+    - if [ -z "$SSH_PORT_MASTER" ]; then SSH_PORT_MASTER=22; fi
+    - rsync -avz  -e 'ssh -p '$SSH_PORT_MASTER --delete --checksum
+      --exclude "/.git/"
+      --exclude "/.gitlab-ci.yml"
+      --exclude "/.gitignore"
+      --exclude "/.idea/"
+      ./ $CREDENTIALS_MASTER:$DEP_FOLDER_MASTER/
+    - rsync -avz  -e 'ssh -p '$SSH_PORT_MASTER --delete --checksum
+      --exclude "/.git/"
+      --exclude "/.gitlab-ci.yml"
+      --exclude "/.gitignore"
+      --exclude "/.idea/"
+      ./ $CREDENTIALS_MASTER:$DEP_FOLDER_MASTER2/
+  only:
+    - master
+
+
+deploy_test:
+  stage: deploy
+  script:
+    - if [ -z "$CREDENTIALS_MASTER" ] || [ -z "$DEP_FOLDER_2_FBWP" ] || [ -z "$DEP_FOLDER_2_FBWP8" ]; then echo "Need to set variables"; exit 1; fi
+    - if [ -z "$SSH_PORT_MASTER" ]; then SSH_PORT_MASTER=22; fi
+    - sed -i "s/define( 'WPWOOF_SL_ITEM_NAME', 'Product Catalog Feed Pro' );/define( 'WPWOOF_SL_ITEM_NAME', 'Product Catalog Feed Pro deploy2test' );/g" ./product-catalog-feed-pro.php
+    # add "-deploy2test" to Version
+    - sed -i "s/Version:[[:space:]]*[0-9]\+\(\.[0-9]\+\)\{1,3\}$/&-deploy2test/g" ./product-catalog-feed-pro.php
+    - rsync -avz  -e 'ssh -p '$SSH_PORT_MASTER --delete --checksum
+      --exclude "/.git/"
+      --exclude "/.gitlab-ci.yml"
+      --exclude "/.gitignore"
+      --exclude "/.idea/"
+      ./ $CREDENTIALS_MASTER:$DEP_FOLDER_2_FBWP/
+    - rsync -avz  -e 'ssh -p '$SSH_PORT_MASTER --delete --checksum
+      --exclude "/.git/"
+      --exclude "/.gitlab-ci.yml"
+      --exclude "/.gitignore"
+      --exclude "/.idea/"
+      ./ $CREDENTIALS_MASTER:$DEP_FOLDER_2_FBWP8/
+  only:
+    - deploy2test

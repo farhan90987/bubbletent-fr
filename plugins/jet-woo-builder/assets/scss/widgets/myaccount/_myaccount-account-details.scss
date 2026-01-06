@@ -1,0 +1,13 @@
+.woocommerce {
+	.elementor-jet-myaccount-account-details {
+		.woocommerce-EditAccountForm label {
+			display: block;
+		}
+	}
+
+	.elementor-invisible {
+		.form-row .required {
+			visibility: hidden;
+		}
+	}
+}

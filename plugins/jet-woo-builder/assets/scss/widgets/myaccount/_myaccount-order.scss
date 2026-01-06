@@ -1,0 +1,11 @@
+.woocommerce .elementor-jet-myaccount-order {
+	.woocommerce-info:before {
+		top: 50%;
+		left: 20px;
+		transform: translateY(-50%);
+	}
+
+	table.my_account_orders {
+		margin: 0;
+	}
+}

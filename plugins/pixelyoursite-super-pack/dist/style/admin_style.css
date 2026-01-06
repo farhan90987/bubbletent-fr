@@ -1,0 +1,110 @@
+#pys .pys_flex_block {
+    display: flex;
+}
+
+#pys .condition .condition_search {
+    width: 304px;
+}
+
+#pys .remove-conditions-row.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+
+#pys .pixel_conditions {
+    display: flex;
+    width: 100%;
+}
+
+#pys .pixel_conditions .pixel_conditions_col {
+    width: auto;
+}
+
+#pys .pixel_conditions .condition_search {
+    position: relative;
+    width: 304px;
+}
+
+#pys .pixel_conditions .condition_search ul {
+    display: none;
+    position: absolute;
+    background: #F1F2F8;
+    left: 0;
+    right: 0;
+    top: 43px;
+    border: 1px solid #BAC7D5;
+    border-top: 0;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    z-index: 100;
+}
+
+#pys .pixel_conditions .condition_search ul li{
+    padding: 8px;
+}
+
+#pys .pixel_conditions .condition_search ul .item {
+    padding: 8px 14px;
+    cursor: pointer;
+}
+
+#pys .pixel_conditions .condition_search ul .item:not(:last-child) {
+    border-bottom: 1px solid #BAC7D5;
+}
+
+#pys .pixel_conditions .condition_search .view_input.open + ul {
+    display: block;
+}
+
+#pys .pixel_conditions .condition_search ul input {
+    width: 100%;
+}
+
+#pys .condition-group {
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+    width: auto;
+    flex-wrap: wrap;
+}
+
+#pys .condition-group .condition, #pys .condition-group .condition_search_wrap {
+    display: flex;
+    gap: 16px;
+}
+
+#pys .pixel_conditions_wrap .pixel_conditions:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+@media screen and (max-width: 1450px) {
+    #pys .pixel_conditions_wrap.conditions-count-2 .pixel_conditions:not(:last-child){
+        border-bottom: 1px solid rgba(186, 199, 213, 0.5);
+        padding-bottom: 16px;
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (max-width: 1750px) {
+    #pys .pixel_conditions_wrap.conditions-count-3 .pixel_conditions:not(:last-child){
+        border-bottom: 1px solid rgba(186, 199, 213, 0.5);
+        padding-bottom: 16px;
+        margin-bottom: 16px;
+    }
+}
+
+.wpml_lags .small-checkbox {
+    width: fit-content;
+}
+
+.wpml_lags .small-checkbox:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+#pys .remove_pixel {
+    position: absolute;
+    top: 24px;
+    right: 22px;
+
+}
