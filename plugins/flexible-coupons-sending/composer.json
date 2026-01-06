@@ -1,0 +1,87 @@
+{
+	"name": "wpdesk/flexible-coupons-sending",
+	"authors": [
+		{
+			"name": "Andrzej Misiewicz",
+			"email": "andrzej.misiewicz@wpdesk.eu"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"WPDesk\\FCS\\": "src"
+		},
+		"classmap": [
+			"vendor_prefixed"
+		]
+	},
+	"autoload-dev": {
+	},
+	"config": {
+		"autoloader-suffix": "FCS",
+		"sort-packages": true,
+		"platform": {
+			"php": "7.4.33"
+		},
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true,
+			"cweagans/composer-patches": true,
+			"wpdesk/wp-codeception": true,
+			"wpdesk/wp-wpdesk-composer": true,
+			"kylekatarnls/update-helper": true,
+			"phpstan/extension-installer": true,
+			"composer/installers": true
+		},
+		"platform-check": false,
+		"gitlab-domains": ["gitlab.wpdesk.dev"]
+	},
+	"prefer-stable": true,
+	"minimum-stability": "stable",
+	"require": {
+		"php": ">=7.4",
+		"woocommerce/action-scheduler": "^3.5.3",
+		"wpdesk/wp-wpdesk-helper-override": "^1.1.0"
+	},
+	"require-dev": {
+		"10up/wp_mock": "*",
+		"monolog/monolog": "*",
+		"phpunit/phpunit": "^9",
+		"wpdesk/phpstan-rules": "^1.2",
+		"wpdesk/wp-builder": "^2.0.0",
+		"wpdesk/wp-code-sniffer": "^1.3",
+		"wpdesk/wp-codeception": "^2",
+		"wpdesk/wp-logs": "^1.10",
+		"wpdesk/wp-plugin-flow-paid": "^2.0",
+		"wpdesk/wp-wpdesk-composer": "^3.0",
+		"wpdesk/wp-migrations": "^1.1"
+	},
+	"extra": {
+		"text-domain": "flexible-coupons-sending",
+		"translations-folder": "lang",
+		"translation-file-headers": {
+			"Project-Id-Version": "Plugin Template",
+			"Last-Translator": "Grzegorz Rola <grola@wpdesk.pl>",
+			"X-Poedit-WPHeader": "flexible-coupons-sending.php"
+		},
+		"po-files": {
+			"pl_PL": "pl_PL.po"
+		},
+		"php-requires": "7.4"
+	},
+	"scripts": {
+		"test": "echo composer is alive",
+		"phpcs": "phpcs",
+		"phpcbf": "phpcbf src",
+		"phpunit-unit": "phpunit --configuration phpunit-unit.xml --coverage-text --colors=never",
+		"phpunit-unit-coverage": "phpunit --configuration phpunit-unit.xml --coverage-html build-coverage",
+		"phpunit-integration": "phpunit --configuration phpunit-integration.xml --coverage-text --colors=never",
+		"docs": "apigen generate"
+	},
+	"repositories": {
+		"wpdesk": {
+			"type": "composer",
+			"url": "https://gitlab.wpdesk.dev/api/v4/group/wpdesk/-/packages/composer/"
+		}
+	},
+	"version": "2.0.3",
+	"type": "wordpress-plugin"
+}

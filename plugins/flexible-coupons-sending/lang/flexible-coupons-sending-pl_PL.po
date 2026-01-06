@@ -1,0 +1,597 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Flexible PDF Coupons PRO - Advanced Sending 2.0.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/flexible-coupons-sending\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-09-07T01:31:22+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: pl_PL\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: flexible-coupons-sending\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Basepath: ../src\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor_prefixed\n"
+
+#. Plugin Name of the plugin
+#: flexible-coupons-sending.php
+msgid "Flexible PDF Coupons PRO - Advanced Sending"
+msgstr "Kupony PDF WooCommerce PRO - Zaawansowana Wysyłka"
+
+#. Plugin URI of the plugin
+#: flexible-coupons-sending.php
+msgid "https://wpde.sk/flexible-coupons-buy-advanced-sending"
+msgstr "https://www.wpdesk.pl/sklep/kupony-woocommerce-pro-zaawansowana-wysylka"
+
+#. Description of the plugin
+#: flexible-coupons-sending.php
+msgid "Send coupons by email and schedule gift card delivery for any day of one's choice."
+msgstr "Wysyłaj kupony mailem i zaplanuj dostawę karty podarunkowej na dowolny wybrany dzień."
+
+#. Author of the plugin
+#: flexible-coupons-sending.php
+msgid "WP Desk"
+msgstr "WP Desk"
+
+#. Author URI of the plugin
+#: flexible-coupons-sending.php
+msgid "https://www.wpdesk.net/"
+msgstr "https://www.wpdesk.pl/"
+
+#: src/Email/SendingBuyerEmail.php:37
+msgid "Coupon for buyer (Advanced Sending for Flexible Coupons Pro)"
+msgstr "Kupon dla kupjącego (Kupony WooCommerce PRO - Zaawansowana Wysyłka)"
+
+#: src/Email/SendingBuyerEmail.php:38
+msgid "This message goes to the coupon buyer."
+msgstr "Ta wiadomość trafi do kupującego kupon."
+
+#: src/Email/SendingBuyerEmail.php:39
+#: src/Email/SendingRecipientEmail.php:44
+msgid "Coupon"
+msgstr "Kupon"
+
+#: src/Email/SendingEmail.php:108
+msgid "Enable/Disable"
+msgstr ""
+
+#: src/Email/SendingEmail.php:110
+msgid "Enable this email notification"
+msgstr ""
+
+#: src/Email/SendingRecipientEmail.php:42
+msgid "Coupon for recipient (Advanced Sending for Flexible Coupons Pro)"
+msgstr "Kupon dla odbiorcy (Kupony WooCommerce PRO - Zaawansowana Wysyłka)"
+
+#: src/Email/SendingRecipientEmail.php:43
+msgid "This message goes to the coupon recipient."
+msgstr "Ta wiadomość trafi do odbiorcy kuponu."
+
+#: src/Migrations/Version200.php:26
+msgid "Default Imported Template"
+msgstr ""
+
+#. translators: %s Flexible Coupons Pro version.
+#: src/Plugin.php:75
+#, php-format
+msgid "This version of Flexible PDF Coupons PRO - Advanced Sending plugin is not compatible with Flexible Coupons Pro %s. Please upgrade Flexible PDF Coupons PRO - Advanced Sending to the newest version."
+msgstr ""
+
+#: src/Plugin.php:151
+msgid "Start Here"
+msgstr ""
+
+#: src/PostType/EmailTemplate.php:20
+#: src/PostType/EmailTemplate.php:22
+msgid "Email Templates"
+msgstr ""
+
+#: src/PostType/EmailTemplate.php:21
+#: src/PostType/EmailTemplate.php:23
+msgid "Email Template"
+msgstr ""
+
+#: src/PostType/EmailTemplate.php:24
+msgid "Add New"
+msgstr ""
+
+#: src/PostType/EmailTemplate.php:25
+msgid "Add New Email Template"
+msgstr ""
+
+#: src/PostType/EmailTemplate.php:26
+msgid "New Email Template"
+msgstr ""
+
+#: src/PostType/EmailTemplate.php:27
+msgid "Edit Email Template"
+msgstr ""
+
+#: src/PostType/EmailTemplate.php:28
+msgid "View Email Template"
+msgstr ""
+
+#: src/PostType/EmailTemplate.php:29
+msgid "All Email Templates"
+msgstr ""
+
+#: src/PostType/EmailTemplate.php:30
+msgid "Search Email Templates"
+msgstr ""
+
+#: src/PostType/EmailTemplate.php:31
+msgid "No email templates found."
+msgstr ""
+
+#: src/PostType/EmailTemplate.php:32
+msgid "No email templates found in Trash."
+msgstr ""
+
+#: src/Product/ProductFieldsDefinition.php:26
+msgid "Send coupon to recipient on"
+msgstr "Wyślij kupon do odbiorcy w dniu"
+
+#: src/Repository/EmailTemplateRepository.php:81
+msgid "Email template not found."
+msgstr ""
+
+#: src/Settings/EmailTemplateAjax.php:51
+msgid "Template ID is required for update."
+msgstr ""
+
+#: src/Settings/EmailTemplateAjax.php:61
+msgid "Cannot unset the default template when it is the only one."
+msgstr ""
+
+#: src/Settings/EmailTemplateAjax.php:81
+msgid "Invalid template ID"
+msgstr ""
+
+#: src/Settings/EmailTemplateAjax.php:99
+msgid "Template deleted"
+msgstr ""
+
+#: src/Settings/EmailTemplateAjax.php:124
+msgid "Unauthorized"
+msgstr ""
+
+#: src/Settings/Product/EmailTemplateListOptionFetcher.php:33
+msgid "— Select —"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:189
+#: Basic_Requirement_Checker.php:202
+#, php-format
+msgid "The &#8220;%s&#8221; plugin cannot run on PHP versions older than %s. Please contact your host and ask them to upgrade."
+msgstr "Wtyczka &#8220;%s&#8221; nie może działać na wersjach PHP starszych niż %s. Skontaktuj się z administratorem hostingu i poproś o aktualizację wersji PHP."
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:192
+#: Basic_Requirement_Checker.php:206
+#, php-format
+msgid "The &#8220;%s&#8221; plugin cannot run on WordPress versions older than %s. Please update WordPress."
+msgstr "Wtyczka &#8220;%s&#8221; nie może działać na wersjach WordPressa starszych niż %s. Wykonaj aktualizację WordPressa."
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:195
+#: Basic_Requirement_Checker.php:210
+#, php-format
+msgid "The &#8220;%s&#8221; plugin cannot run on WooCommerce versions older than %s. Please update WooCommerce."
+msgstr "Wtyczka &#8220;%s&#8221; nie może działać na wersjach WooCommerce starszych niż %s. Wykonaj aktualizację WooCommerce."
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:198
+#: Basic_Requirement_Checker.php:214
+#, php-format
+msgid "The &#8220;%s&#8221; plugin cannot run without OpenSSL module version at least %s. Please update OpenSSL module."
+msgstr "Wtyczka &#8220;%s&#8221; nie może działać bez aktywacji OpenSSL co najmniej w wersji %s. Wykonaj aktualizację OpenSSL."
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:285
+#: Basic_Requirement_Checker.php:308
+#, php-format
+msgid "The &#8220;%1$s&#8221; plugin requires at least %2$s version of %3$s to work correctly. Please update it to its latest release."
+msgstr "Do poprawnego działania wtyczki &#8220;%1$s&#8221; wymagana jest wtyczka %3$s co najmniej w wersji %2$s. Wykonaj jej aktualizację."
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:391
+#: Basic_Requirement_Checker.php:395
+#, php-format
+msgid "The &#8220;%s&#8221; plugin cannot run without %s active. Please install and activate %s plugin."
+msgstr "Wtyczka &#8220;%s&#8221; nie może działać bez aktywacji %s. Zainstaluj i aktywuj wtyczkę %s."
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:428
+#, php-format
+msgid "The &#8220;%s&#8221; plugin requires free %s plugin. <a href=\"%s\">Install %s</a>"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:434
+#: Basic_Requirement_Checker.php:465
+#, php-format
+msgid "The &#8220;%s&#8221; plugin requires activating %s plugin. <a href=\"%s\">Activate %s</a>"
+msgstr "Wtyczka &#8220;%s&#8221; wymaga aktywnej wtyczki %s. <a href=\"%s\">Włącz %s</a>"
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:476
+#: Basic_Requirement_Checker.php:512
+#, php-format
+msgid "The &#8220;%s&#8221; plugin cannot run without %s PHP module installed. Please contact your host and ask them to install %s."
+msgstr "Wtyczka &#8220;%s&#8221; nie może działać bez modułu PHP: %s. Skontaktuj się z administratorem hostingu i poproś o instalację %s."
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:501
+#: Basic_Requirement_Checker.php:540
+#, php-format
+msgid "The &#8220;%s&#8221; plugin cannot run without %s PHP setting set to %s. Please contact your host and ask them to set %s."
+msgstr "Wtyczka &#8220;%s&#8221; nie może działać bez ustawienia PHP %s ustawionego na %s. Skontaktuj się z administratorem hostingu i poproś o ustawienie %s."
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker_With_Update_Disable.php:29
+#: Basic_Requirement_Checker_With_Update_Disable.php:27
+#, php-format
+msgid "The &#8220;%s&#8221; plugin is temporarily disabled since the required %s plugin is being upgraded."
+msgstr "Wtyczka &#8220;%s&#8221; została chwilowo wyłączona, ponieważ wymagana wtyczka %s jest właśnie aktualizowana."
+
+#: vendor_prefixed/wpdesk/wp-builder/src/Plugin/AbstractPlugin.php:181
+#: Plugin/AbstractPlugin.php:195
+msgid "Support"
+msgstr "Wsparcie"
+
+#: vendor_prefixed/wpdesk/wp-builder/src/Plugin/AbstractPlugin.php:184
+#: Plugin/AbstractPlugin.php:201
+msgid "Docs"
+msgstr "Dokumentacja"
+
+#: vendor_prefixed/wpdesk/wp-builder/src/Plugin/AbstractPlugin.php:188
+#: Plugin/AbstractPlugin.php:208
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+#: deprecated/wpdesk-logger.php:70
+msgid "Disabled"
+msgstr "Wyłączono"
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+#: deprecated/wpdesk-logger.php:71
+msgid "Emergency"
+msgstr "Wypadek"
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+#: deprecated/wpdesk-logger.php:72
+msgid "Alert"
+msgstr "Ostrzeżenie"
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+#: deprecated/wpdesk-logger.php:73
+msgid "Critical"
+msgstr "Błąd krytyczny"
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+#: deprecated/wpdesk-logger.php:74
+msgid "Error"
+msgstr "Błąd"
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+#: deprecated/wpdesk-logger.php:75
+msgid "Warning"
+msgstr "Ostrzeżenie"
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+#: deprecated/wpdesk-logger.php:76
+msgid "Notice"
+msgstr "Powiadomienie"
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+#: deprecated/wpdesk-logger.php:77
+msgid "Info"
+msgstr "Informacja"
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+#: deprecated/wpdesk-logger.php:78
+msgid "Debug"
+msgstr "Debugowanie"
+
+#. Translators: directory.
+#: vendor_prefixed/wpdesk/wp-logs/src/WP/WPCapture.php:23
+#: WP/WPCapture.php:25
+#, php-format
+msgid "Can not enable WP Desk Debug log! Cannot create directory %s or this directory is not writeable!"
+msgstr "Nie można włączyć WP Desk Debug log! Nie można utworzyć katalogu %s lub brak uprawnień do zapisu w tym katalogu!"
+
+#. Translators: directory.
+#: vendor_prefixed/wpdesk/wp-logs/src/WP/WPCapture.php:36
+#: WP/WPCapture.php:44
+#, php-format
+msgid "Can not enable WP Desk Debug log! Cannot create file %s!"
+msgstr "Nie można włączyć logowania błędów za pomocą WP Desk Debug! Nie można utworzyć pliku %s!"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/LicenseServer/PluginExternalBlocking.php:32
+#: src/LicenseServer/PluginExternalBlocking.php:39
+#, php-format
+msgid "<b>Warning!</b> You're blocking external requests which means you won't be able to get %1$s updates. Please add %2$s to %3$s."
+msgstr "<b>Ostrzeżenie!</b> Blokujesz zewnętrzne żądania, co oznacza, że nie będziesz mógł otrzymywać aktualizacji %1$s. Proszę dodać %2$s do %3$s."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/LicenseServer/PluginUpgrade.php:81
+#: LicenseServer/PluginUpgrade.php:93
+#, php-format
+msgid "Error while connecting to remote server %s. Please contact your hosting provider or try again later. Errors:  "
+msgstr "Błąd podczas łączenia się ze zdalnym serwerem %s. Skontaktuj się z dostawcą usługi hostingowej lub spróbuj ponownie później. Błędy:"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/LicenseServer/PluginUpgrade.php:152
+msgid "License server is currently unavailable. Please, try again later."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/LicenseServer/PluginUpgrade.php:154
+#, php-format
+msgid "Error while connecting to remote server %1$s. Please contact with your hosting provider. Cannot parse response. Response code: %2$s Message: %3$s"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/LicenseServer/PluginUpgrade.php:157
+#, php-format
+msgid "Error while connecting to remote server %1$s. Please contact with your hosting provider. Cannot parse response: %2$s"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/templates/impossible-to-upgrade.php:12
+#: templates/impossible-to-upgrade.php:10
+#, php-format
+msgid "This version of %1$s plugin cannot be automatically upgraded. Download the plugin from %2$syour account%3$s to receive automatic updates in future."
+msgstr "Ta wersja wtyczki %1$s nie może być automatycznie zaktualizowana. Pobierz wtyczkę ze %2$sswojego konta%3$s, aby otrzymywać automatyczne aktualizacje w przyszłości."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/class-wpdesk-tracker.php:164
+#: src/class-wpdesk-tracker.php:253
+msgid "Submit &amp; Deactivate"
+msgstr "Wyślij i dezaktywuj"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/OptOut.php:42
+#: src/PSR/WPDesk/Tracker/OptOut.php:45
+#, php-format
+msgid "You successfully opted out of collecting usage data by %1$s. If you change your mind, you can always opt in later in the plugin's quick links."
+msgstr "Twoja rezygnacja ze zbierania danych użytkowania wtyczek przez %1$s została przyjęta. Jeśli zmienisz zdanie, zawsze możesz włączyć zgodę ponownie za pomocą szybkich linków na liście wtyczek."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/PluginActionLinks.php:70
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-notice.php:41
+#: src/PSR/WPDesk/Tracker/PluginActionLinks.php:55
+msgid "Enable usage tracking"
+msgstr "Włącz śledzenie użycia"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/PluginActionLinks.php:75
+#: src/PSR/WPDesk/Tracker/PluginActionLinks.php:58
+msgid "Disable usage tracking"
+msgstr "Wyłącz śledzenie użycia"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:23
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:15
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-notice.php:19
+#: src/PSR/WPDesk/Tracker/views/tracker-connect.php:15
+#: src/views/tracker-connect.php:7
+#: src/views/tracker-notice.php:7
+#, php-format
+msgid "Hey %s,"
+msgstr "Hej %s,"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:26
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:18
+#: src/PSR/WPDesk/Tracker/views/tracker-connect.php:16
+#: src/views/tracker-connect.php:8
+msgid "Please help us improve our plugins! If you opt-in, we will collect some non-sensitive data and usage information anonymously. If you skip this, that's okay! All plugins will work just fine."
+msgstr "Proszę pomóż nam udoskonalić nasze wtyczki! Jeśli się zgodzisz, będziemy zbierać niewrażliwe dane użytkowania anonimowo. Jeśli pominiesz ten krok, w porządku! Wszystkie wtyczki będą działać niezależnie od Twojej decyzji."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:35
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:27
+#: src/PSR/WPDesk/Tracker/views/tracker-connect.php:21
+#: src/views/tracker-connect.php:13
+msgid "Allow & Continue &rarr;"
+msgstr "Pozwól i kontynuuj &rarr;"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:40
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:32
+#: src/PSR/WPDesk/Tracker/views/tracker-connect.php:22
+#: src/views/tracker-connect.php:14
+msgid "Skip"
+msgstr "Pomiń"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:47
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:39
+#: src/PSR/WPDesk/Tracker/views/tracker-connect.php:27
+#: src/views/tracker-connect.php:19
+msgid "What permissions are being granted?"
+msgstr "Jakie uprawnienia są przyznawane?"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:56
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:48
+#: src/PSR/WPDesk/Tracker/views/tracker-connect.php:34
+#: src/views/tracker-connect.php:26
+msgid "Your Site Overview"
+msgstr "Dane witryny"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:59
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:51
+#: src/PSR/WPDesk/Tracker/views/tracker-connect.php:35
+#: src/views/tracker-connect.php:27
+msgid "WP version, PHP info"
+msgstr "Wersja WP, wersja PHP"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:67
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:59
+#: src/PSR/WPDesk/Tracker/views/tracker-connect.php:41
+#: src/views/tracker-connect.php:33
+msgid "Plugin Usage"
+msgstr "Dane użytkowania wtyczek"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:70
+#: src/PSR/WPDesk/Tracker/views/tracker-connect.php:42
+#, php-format
+msgid "Current settings and usage information of %1$s plugins"
+msgstr "Ustawienia i informacje o użytkowaniu wtyczek %1$s"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:78
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:70
+#: src/PSR/WPDesk/Tracker/views/tracker-connect.php:48
+#: src/views/tracker-connect.php:40
+msgid "Your Store Overview"
+msgstr "Dane sklepu"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:81
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:73
+#: src/PSR/WPDesk/Tracker/views/tracker-connect.php:49
+#: src/views/tracker-connect.php:41
+msgid "Anonymized and non-sensitive store usage information"
+msgstr "Tylko niewrażliwe i anonimowe dane o użytkowaniu sklepu"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:91
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:83
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-notice.php:27
+#: src/PSR/WPDesk/Tracker/views/tracker-connect.php:55
+#: src/views/tracker-connect.php:47
+#: src/views/tracker-notice.php:9
+msgid "Find out more &raquo;"
+msgstr "Dowiedz się więcej &raquo;"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:62
+#: src/views/tracker-connect.php:34
+msgid "Current settings and usage information of WP Desk plugins"
+msgstr "Ustawienia i informacje o użytkowaniu wtyczek WP Desk"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:11
+#: src/views/tracker-deactivate.php:3
+#, php-format
+msgid "You are deactivating %s plugin."
+msgstr "Dezaktywujesz wtyczkę %s."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:19
+#: src/views/tracker-deactivate.php:9
+msgid " If you have a moment, please let us know why you are deactivating plugin (anonymous feedback):"
+msgstr " Jeśli masz chwilę, prosimy daj nam znać dlaczego dezaktywujesz wtyczkę (anonimowa opinia):"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:28
+#: src/views/tracker-deactivate.php:16
+msgid "The plugin suddenly stopped working"
+msgstr "Wtyczka nagle przestała działać"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:38
+#: src/views/tracker-deactivate.php:24
+msgid "The plugin broke my site"
+msgstr "Wtyczka zepsuła moją stronę"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:48
+#: src/views/tracker-deactivate.php:32
+msgid "I found a better plugin"
+msgstr "Znalazłem lepszą wtyczkę"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:53
+#: src/views/tracker-deactivate.php:35
+msgid "What's the plugin's name?"
+msgstr "Jaka to wtyczka?"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:63
+#: src/views/tracker-deactivate.php:43
+msgid "I only needed the plugin for a short period"
+msgstr "Potrzebowałem wtyczki tylko przez krótki okres"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:73
+#: src/views/tracker-deactivate.php:51
+msgid "I no longer need the plugin"
+msgstr "Nie potrzebuję już wtyczki"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:83
+#: src/views/tracker-deactivate.php:59
+msgid "It's a temporary deactivation. I'm just debugging an issue."
+msgstr "Jest to tymczasowa dezaktywacja, debuguję problem."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:93
+#: src/views/tracker-deactivate.php:67
+msgid "Other"
+msgstr "Inny"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:98
+#: src/views/tracker-deactivate.php:70
+msgid "Kindly tell us the reason so we can improve"
+msgstr "Napisz nam powód abyśmy mogli go poprawić"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:107
+#: src/views/tracker-deactivate.php:77
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:110
+#: src/views/tracker-deactivate.php:78
+msgid "Skip &amp; Deactivate"
+msgstr "Pomiń i dezaktywuj"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-notice.php:22
+#: src/views/tracker-notice.php:8
+msgid "We need your help to improve <strong>WP Desk plugins</strong>, so they are more useful for you and the rest of <strong>30,000+ users</strong>. By collecting data on how you use our plugins, you will help us a lot. We will not collect any sensitive data, so you can feel safe."
+msgstr "Potrzebujemy Twojej pomocy, aby dalej rozwijać <strong>wtyczki WP Desk</strong> i były one jeszcze bardziej pomocne dla Ciebie i pozostałych ponad <strong>30 000 użytkowników</strong>. Zbierając dane na temat tego jak korzystasz z naszych wtyczek bardzo nam w tym pomożesz. Nie będziemy zbierać żadnych danych wrażliwych, więc możesz czuć się bezpiecznie."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-opt-out-notice.php:11
+#: src/views/tracker-opt-out-notice.php:3
+msgid "You successfully opted out of collecting usage data by WP Desk. If you change your mind, you can always opt in later in the plugin's quick links."
+msgstr "Twoja rezygnacja ze zbierania danych użytkowania wtyczek przez WP Desk została przyjęta. Jeśli zmienisz zdanie, zawsze możesz włączyć zgodę ponownie za pomocą szybkich linków na liście wtyczek."
+
+#: src/Settings/Tabs/EmailSettings.php:41
+msgid "Read more about Flexible Coupons in the plugin docs →"
+msgstr "Przeczytaj więcej o Kuponach PDF WooCommerce w dokumentacji wtyczki →"
+
+#: src/Settings/Tabs/EmailSettings.php:46
+msgid "Email settings"
+msgstr "Ustawienia E-mail"
+
+#: src/Settings/Tabs/EmailSettings.php:49
+msgid "Attachments in the e-mail"
+msgstr "Załączniki w e-mailu"
+
+#: src/Settings/Tabs/EmailSettings.php:50
+msgid "Attach PDF file to coupon email"
+msgstr "Dołącz plik PDF do e-maila z kuponem"
+
+#: src/Settings/Tabs/EmailSettings.php:52
+msgid "Email templates"
+msgstr "Szablon wiadomości"
+
+#: src/Settings/Tabs/EmailSettings.php:55
+msgid "Additional recipients"
+msgstr "Dodaj dodatkowych odbiorców"
+
+#: src/Settings/Tabs/EmailSettings.php:56
+msgid "E-mail address"
+msgstr "Adres e-mail"
+
+#: src/Settings/Tabs/EmailSettings.php:57
+msgid "Add additional recipients"
+msgstr "Dodaj dodatkowych odbiorców"
+
+#: src/Settings/Tabs/EmailSettings.php:60
+msgid "Email subject"
+msgstr "Temat e-maila"
+
+#: src/Settings/Tabs/EmailSettings.php:63
+#: src/Settings/Tabs/EmailSettings.php:68
+msgid "You can use the following placeholders: {recipient_name}, {recipient_message}, {recipient_email}, {buyer_name}, {coupon_url}, {coupon_code}, {coupon_value}, {coupon_expiry}, {site_title}, {site_url}, {admin_email}, {current_date}, {site_description}"
+msgstr "Możesz użyć następujących placeholderów:  {recipient_name}, {recipient_message}, {recipient_email}, {buyer_name}, {coupon_url}, {coupon_code}, {coupon_value}, {coupon_expiry}, {site_title}, {site_url}, {admin_email}, {current_date}, {site_description}"
+
+#: src/Settings/Tabs/EmailSettings.php:66
+msgid "E-mail body"
+msgstr "Treść e-maila"
+
+#: src/Settings/Tabs/EmailSettings.php:74
+msgid "Save Changes"
+msgstr "Zapisz zmiany"
+
+#: Basic_Requirement_Checker.php:456
+#, php-format
+msgid "The &#8220;%s&#8221; plugin requires free %s plugin. <a href=\"%s\">Install%s</a>"
+msgstr "Wtyczka &#8220;%s&#8221; wymaga bezpłatnej wtyczki %s. <a href=\"%s\">Zainstaluj %s</a>"
+
+#: LicenseServer/PluginUpgrade.php:175
+#, php-format
+msgid "Error while connecting to remote server %s. Please contact with your hosting provider. Cannot parse response. Response code: %s Message: %s"
+msgstr "Błąd podczas łączenia się ze zdalnym serwerem %s. Skontaktuj się z dostawcą usługi hostingowej. Nie można przeanalizować odpowiedzi. Kod odpowiedzi: %s Wiadomość: %s"
+
+#: LicenseServer/PluginUpgrade.php:179
+#, php-format
+msgid "Error while connecting to remote server %s. Please contact with your hosting provider. Cannot parse response: %s"
+msgstr "Błąd podczas łączenia się ze zdalnym serwerem %s. Skontaktuj się z dostawcą usługi hostingowej. Nie można przeanalizować odpowiedzi: %s"
+
+#: src/views/tracker-notice.php:15
+msgid "Allow"
+msgstr "Pozwól"

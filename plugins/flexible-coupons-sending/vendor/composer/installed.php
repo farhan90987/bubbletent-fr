@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'wpdesk/flexible-coupons-sending',
+        'pretty_version' => '2.0.3',
+        'version' => '2.0.3.0',
+        'reference' => 'cdd1e9b2b9e2d0a799bdb98ba454d88fe66fab5e',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => false,
+    ),
+    'versions' => array(
+        'woocommerce/action-scheduler' => array(
+            'pretty_version' => '3.9.2',
+            'version' => '3.9.2.0',
+            'reference' => 'efbb7953f72a433086335b249292f280dd43ddfe',
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../woocommerce/action-scheduler',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'wpdesk/flexible-coupons-sending' => array(
+            'pretty_version' => '2.0.3',
+            'version' => '2.0.3.0',
+            'reference' => 'cdd1e9b2b9e2d0a799bdb98ba454d88fe66fab5e',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'wpdesk/wp-wpdesk-helper-override' => array(
+            'pretty_version' => '1.1.0',
+            'version' => '1.1.0.0',
+            'reference' => '77844fc71da7ebb7645f10f0fc15f5294fed8542',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../wpdesk/wp-wpdesk-helper-override',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

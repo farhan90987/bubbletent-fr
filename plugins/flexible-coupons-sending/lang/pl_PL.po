@@ -1,0 +1,425 @@
+# This file is distributed under the same license as the Flexible PDF Coupons PRO - Advanced Sending plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Flexible PDF Coupons PRO - Advanced Sending 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/flexible-coupons-"
+"sending\n"
+"POT-Creation-Date: 2024-11-20T14:51:42+00:00\n"
+"PO-Revision-Date: 2024-11-20 16:04+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Domain: flexible-coupons-sending\n"
+
+#. Plugin Name of the plugin
+#: flexible-coupons-sending.php
+msgid "Flexible PDF Coupons PRO - Advanced Sending"
+msgstr "Kupony PDF WooCommerce PRO - Zaawansowana Wysyłka"
+
+#. Plugin URI of the plugin
+#: flexible-coupons-sending.php
+msgid "https://wpde.sk/flexible-coupons-buy-advanced-sending"
+msgstr ""
+"https://www.wpdesk.pl/sklep/kupony-woocommerce-pro-zaawansowana-wysylka"
+
+#. Description of the plugin
+#: flexible-coupons-sending.php
+msgid ""
+"Send coupons by email and schedule gift card delivery for any day of one's "
+"choice."
+msgstr ""
+"Wysyłaj kupony mailem i zaplanuj dostawę karty podarunkowej na dowolny "
+"wybrany dzień."
+
+#. Author of the plugin
+#: flexible-coupons-sending.php
+msgid "WP Desk"
+msgstr "WP Desk"
+
+#. Author URI of the plugin
+#: flexible-coupons-sending.php
+msgid "https://www.wpdesk.net/"
+msgstr "https://www.wpdesk.pl/"
+
+#: src/Email/SendingBuyerEmail.php:26
+msgid "Coupon for buyer (Advanced Sending for Flexible Coupons Pro)"
+msgstr "Kupon dla kupjącego (Kupony WooCommerce PRO - Zaawansowana Wysyłka)"
+
+#: src/Email/SendingBuyerEmail.php:27
+msgid "This message goes to the coupon buyer."
+msgstr "Ta wiadomość trafi do kupującego kupon."
+
+#: src/Email/SendingBuyerEmail.php:28 src/Email/SendingRecipientEmail.php:33
+msgid "Coupon"
+msgstr "Kupon"
+
+#: src/Email/SendingRecipientEmail.php:31
+msgid "Coupon for recipient (Advanced Sending for Flexible Coupons Pro)"
+msgstr "Kupon dla odbiorcy (Kupony WooCommerce PRO - Zaawansowana Wysyłka)"
+
+#: src/Email/SendingRecipientEmail.php:32
+msgid "This message goes to the coupon recipient."
+msgstr "Ta wiadomość trafi do odbiorcy kuponu."
+
+#: src/Product/ProductFieldsDefinition.php:26
+msgid "Send coupon to recipient on"
+msgstr "Wyślij kupon do odbiorcy w dniu"
+
+#: src/Settings/Tabs/EmailSettings.php:41
+msgid "Read more about Flexible Coupons in the plugin docs →"
+msgstr "Przeczytaj więcej o Kuponach PDF WooCommerce w dokumentacji wtyczki →"
+
+#: src/Settings/Tabs/EmailSettings.php:46
+msgid "Email settings"
+msgstr "Ustawienia E-mail"
+
+#: src/Settings/Tabs/EmailSettings.php:49
+msgid "Attachments in the e-mail"
+msgstr "Załączniki w e-mailu"
+
+#: src/Settings/Tabs/EmailSettings.php:50
+msgid "Attach PDF file to coupon email"
+msgstr "Dołącz plik PDF do e-maila z kuponem"
+
+#: src/Settings/Tabs/EmailSettings.php:52
+msgid "Email templates"
+msgstr "Szablon wiadomości"
+
+#: src/Settings/Tabs/EmailSettings.php:55
+msgid "Additional recipients"
+msgstr "Dodaj dodatkowych odbiorców"
+
+#: src/Settings/Tabs/EmailSettings.php:56
+msgid "E-mail address"
+msgstr "Adres e-mail"
+
+#: src/Settings/Tabs/EmailSettings.php:57
+msgid "Add additional recipients"
+msgstr "Dodaj dodatkowych odbiorców"
+
+#: src/Settings/Tabs/EmailSettings.php:60
+msgid "Email subject"
+msgstr "Temat e-maila"
+
+#: src/Settings/Tabs/EmailSettings.php:63
+#: src/Settings/Tabs/EmailSettings.php:68
+msgid ""
+"You can use the following placeholders: {recipient_name}, "
+"{recipient_message}, {recipient_email}, {buyer_name}, {coupon_url}, "
+"{coupon_code}, {coupon_value}, {coupon_expiry}, {site_title}, {site_url}, "
+"{admin_email}, {current_date}, {site_description}"
+msgstr ""
+"Możesz użyć następujących placeholderów:  {recipient_name}, "
+"{recipient_message}, {recipient_email}, {buyer_name}, {coupon_url}, "
+"{coupon_code}, {coupon_value}, {coupon_expiry}, {site_title}, {site_url}, "
+"{admin_email}, {current_date}, {site_description}"
+
+#: src/Settings/Tabs/EmailSettings.php:66
+msgid "E-mail body"
+msgstr "Treść e-maila"
+
+#: src/Settings/Tabs/EmailSettings.php:74
+msgid "Save Changes"
+msgstr "Zapisz zmiany"
+
+#~ msgid "Opis pola"
+#~ msgstr "Opis pola"
+
+#~ msgid "Set image"
+#~ msgstr "Wstaw obraz"
+
+#~ msgid "Remove image"
+#~ msgstr "Usuń obraz"
+
+#~ msgid "Select or Upload Media"
+#~ msgstr "Wybierz lub prześlij media"
+
+#~ msgid "Use this media"
+#~ msgstr "Wybierz"
+
+#~ msgid "Search for a product&hellip;"
+#~ msgstr "Szukaj produktu&hellip;"
+
+#~ msgid ""
+#~ "Plugin's API key has been successfully activated. You are now fully "
+#~ "eligible to receive plugin updates and support."
+#~ msgstr ""
+#~ "Klucz API wtyczki został pomyślnie aktywowany. Masz teraz pełen dostęp do "
+#~ "jej aktualizacji oraz dedykowanego wsparcia technicznego."
+
+#~ msgid ""
+#~ "Plugin's API key has been successfully activated, but your subscription "
+#~ "has expired. In order to receive the upcoming updates and support please "
+#~ "renew your subscription."
+#~ msgstr ""
+#~ "Klucz API wtyczki został pomyślnie aktywowany, jednak okres ważności "
+#~ "Twojej subskrypcji dobiegł końca. Odnów subskrypcję, aby ponownie uzyskać "
+#~ "dostęp do najnowszych aktualizacji wtyczki oraz dedykowanego wsparcia "
+#~ "technicznego."
+
+#~ msgid ""
+#~ "In order to receive the upcoming updates and support please enter the "
+#~ "plugin's API key obtained after the purchase."
+#~ msgstr ""
+#~ "Wprowadź klucz API wtyczki otrzymany po zakupie, aby móc pobrać jej "
+#~ "nadchodzące aktualizacje i otrzymać wsparcie techniczne, gdy zajdzie taka "
+#~ "potrzeba."
+
+#~ msgid ""
+#~ "You can find it in %1$sMy Account / API Keys%2$s tab. %3$sLearn more "
+#~ "about activating the API key →%4$s"
+#~ msgstr ""
+#~ "Klucz API wtyczki znajdziesz w zakładce %1$sMoje konto / Klucze API%2$s. "
+#~ "Dowiedz się więcej o %3$saktywacji klucza API →%4$s"
+
+#~ msgid "Key: "
+#~ msgstr "Klucz: "
+
+#~ msgid "Deactivate license"
+#~ msgstr "Dezaktywuj licencję"
+
+#~ msgid "Renew subscription →"
+#~ msgstr "Odnów subskrypcję →"
+
+#~ msgid "Activate license"
+#~ msgstr "Aktywuj licencję"
+
+#~ msgid "The action failed with an error: "
+#~ msgstr "Akcja zakończyła się niepoprawnie z błędem: "
+
+#~ msgid "Enter license key"
+#~ msgstr "Wprowadź klucz licencyjny"
+
+#~ msgid ""
+#~ "<b>Warning!</b> You're blocking external requests which means you won't "
+#~ "be able to get %s updates. Please add %s to %s."
+#~ msgstr ""
+#~ "<b>Uwaga!</b> Blokujesz zewnętrzne połączenia i nie będziesz otrzymywać "
+#~ "aktualizacji wtyczki: %s. Proszę dodaj host %s do %s."
+
+#~ msgid ""
+#~ "Error while connecting to remote server %s. Please contact your hosting "
+#~ "provider or try again later. Errors:  "
+#~ msgstr ""
+#~ "Błąd podczas łączenia się ze zdalnym serwerem %s. Skontaktuj się z "
+#~ "dostawcą usług hostingowych lub spróbuj ponownie później. Błędy: "
+
+#~ msgid ""
+#~ "Error while connecting to remote server %s. Please contact with your "
+#~ "hosting provider. Cannot parse response. Response code: %s Message: %s"
+#~ msgstr ""
+#~ "Błąd podczas łączenia się ze zdalnym serwerem %s. Skontaktuj się ze swoim "
+#~ "dostawcą usług hostingowych. Nie można przeanalizować odpowiedzi. Kod "
+#~ "odpowiedzi: %s Wiadomość: %s"
+
+#~ msgid ""
+#~ "Error while connecting to remote server %s. Please contact with your "
+#~ "hosting provider. Cannot parse response: %s"
+#~ msgstr ""
+#~ "Błąd podczas łączenia się ze zdalnym serwerem %s. Skontaktuj się ze swoim "
+#~ "dostawcą usług hostingowych. Nie można przeanalizować odpowiedzi: %s"
+
+#~ msgid ""
+#~ "Connection failed to the Subscription Key API server. Try again later."
+#~ msgstr "Nie udało się połączyć z serwerem subskrypcji. Spróbuj później."
+
+#~ msgid "Plugin license activated. "
+#~ msgstr "Licencja wtyczki została aktywowana. "
+
+#~ msgid "Plugin license deactivated. "
+#~ msgstr "Licencja wtyczki została dezaktywowana. "
+
+#~ msgid "No WP Desk plugins found."
+#~ msgstr "Nie znaleziono wtyczek WP Desk."
+
+#~ msgid "Plugin"
+#~ msgstr "Wtyczka"
+
+#~ msgid "Subscription Status"
+#~ msgstr "Status subskrypcji"
+
+#~ msgid "Subscription Data"
+#~ msgstr "Dane subskrypcji"
+
+#~ msgid "Deactivated"
+#~ msgstr "Nieaktywna"
+
+#~ msgid "Activated"
+#~ msgstr "Aktywna"
+
+#~ msgid "Key:"
+#~ msgstr "Klucz:"
+
+#~ msgid "Email:"
+#~ msgstr "Email:"
+
+#~ msgid "Activate"
+#~ msgstr "Aktywuj"
+
+#~ msgid "Deactivate"
+#~ msgstr "Dezaktywuj"
+
+#~ msgid "WP Desk Subscriptions"
+#~ msgstr "Subskrypcje WP Desk"
+
+#~ msgid ""
+#~ "Get your subscription keys <a href=\"%s\" target=\"_blank\">here</a>. You "
+#~ "can activate/deactivate API keys <strong>unlimited times on different "
+#~ "domains</strong> as long as you have an active subscription."
+#~ msgstr ""
+#~ "Pobierz klucze API <a href=\"%s\" target=\"_blank\">tutaj</a>. Możesz "
+#~ "aktywować i dezaktywować klucze API <strong>dowolną ilość razy na różnych "
+#~ "domenach</strong>, pod warunkiem, że subskrypcja jest aktywna."
+
+#~ msgid "Subscriptions"
+#~ msgstr "Subskrypcje"
+
+#~ msgid ""
+#~ "Your plugin subscription has expired. In order to update the plugin "
+#~ "please %1$srenew your subscription%2$s"
+#~ msgstr ""
+#~ "Okres ważności Twojej subskrypcji dobiegł końca. Aby zaktualizować "
+#~ "wtyczkę %1$sodnów subskrypcję%2$s"
+
+#~ msgid ""
+#~ "An active subscription API key is required to download the plugin "
+#~ "updates. In order to update the plugin please %1$sactivate your API "
+#~ "key%2$s"
+#~ msgstr ""
+#~ "Do pobrania aktualizacji wymagany jest aktywny klucz API subskrypcji. Aby "
+#~ "zaktualizować wtyczkę %1$saktywuj jej klucz API%2$s"
+
+#~ msgid ""
+#~ "You successfully opted out of collecting usage data by %1$s. If you "
+#~ "change your mind, you can always opt in later in the plugin's quick links."
+#~ msgstr ""
+#~ "Twoja rezygnacja ze zbierania danych użytkowania wtyczek przez %1$s "
+#~ "została przyjęta. Jeśli zmienisz zdanie, zawsze możesz włączyć zgodę "
+#~ "ponownie za pomocą szybkich linków na liście wtyczek."
+
+#~ msgid "Hey %s,"
+#~ msgstr "Hej %s,"
+
+#~ msgid ""
+#~ "Please help us improve our plugins! If you opt-in, we will collect some "
+#~ "non-sensitive data and usage information anonymously. If you skip this, "
+#~ "that's okay! All plugins will work just fine."
+#~ msgstr ""
+#~ "Proszę pomóż nam udoskonalić nasze wtyczki! Jeśli się zgodzisz, będziemy "
+#~ "zbierać niewrażliwe dane użytkowania anonimowo. Jeśli pominiesz ten krok, "
+#~ "w porządku! Wszystkie wtyczki będą działać niezależnie od Twojej decyzji."
+
+#~ msgid "Allow & Continue &rarr;"
+#~ msgstr "Pozwól i kontynuuj &rarr;"
+
+#~ msgid "Skip"
+#~ msgstr "Pomiń"
+
+#~ msgid "What permissions are being granted?"
+#~ msgstr "Jakie uprawnienia są przyznawane?"
+
+#~ msgid "Your Site Overview"
+#~ msgstr "Dane witryny"
+
+#~ msgid "WP version, PHP info"
+#~ msgstr "Wersja WP, wersja PHP"
+
+#~ msgid "Plugin Usage"
+#~ msgstr "Dane użytkowania wtyczek"
+
+#~ msgid "Current settings and usage information of %1$s plugins"
+#~ msgstr "Ustawienia i informacje o użytkowaniu wtyczek %1$s"
+
+#~ msgid "Your Store Overview"
+#~ msgstr "Dane sklepu"
+
+#~ msgid "Anonymized and non-sensitive store usage information"
+#~ msgstr "Tylko niewrażliwe i anonimowe dane o użytkowaniu sklepu"
+
+#~ msgid "Find out more &raquo;"
+#~ msgstr "Dowiedz się więcej &raquo;"
+
+#~ msgid "Current settings and usage information of WP Desk plugins"
+#~ msgstr "Ustawienia i informacje o użytkowaniu wtyczek WP Desk"
+
+#~ msgid "You are deactivating %s plugin."
+#~ msgstr "Dezaktywujesz wtyczkę %s."
+
+#~ msgid ""
+#~ " If you have a moment, please let us know why you are deactivating plugin "
+#~ "(anonymous feedback):"
+#~ msgstr ""
+#~ " Jeśli masz chwilę, prosimy daj nam znać dlaczego dezaktywujesz wtyczkę "
+#~ "(anonimowa opinia):"
+
+#~ msgid "The plugin suddenly stopped working"
+#~ msgstr "Wtyczka nagle przestała działać"
+
+#~ msgid "The plugin broke my site"
+#~ msgstr "Wtyczka zepsuła moją stronę"
+
+#~ msgid "I found a better plugin"
+#~ msgstr "Znalazłem lepszą wtyczkę"
+
+#~ msgid "What's the plugin's name?"
+#~ msgstr "Jaka to wtyczka?"
+
+#~ msgid "I only needed the plugin for a short period"
+#~ msgstr "Potrzebowałem wtyczki tylko przez krótki okres"
+
+#~ msgid "I no longer need the plugin"
+#~ msgstr "Nie potrzebuję już wtyczki"
+
+#~ msgid "It's a temporary deactivation. I'm just debugging an issue."
+#~ msgstr "Jest to tymczasowa dezaktywacja, debuguję problem."
+
+#~ msgid "Other"
+#~ msgstr "Inny"
+
+#~ msgid "Kindly tell us the reason so we can improve"
+#~ msgstr "Napisz nam powód abyśmy mogli go poprawić"
+
+#~ msgid "Cancel"
+#~ msgstr "Anuluj"
+
+#~ msgid "Skip &amp; Deactivate"
+#~ msgstr "Pomiń i dezaktywuj"
+
+#~ msgid ""
+#~ "We need your help to improve <strong>WP Desk plugins</strong>, so they "
+#~ "are more useful for you and the rest of <strong>30,000+ users</strong>. "
+#~ "By collecting data on how you use our plugins, you will help us a lot. We "
+#~ "will not collect any sensitive data, so you can feel safe."
+#~ msgstr ""
+#~ "Potrzebujemy Twojej pomocy, aby dalej rozwijać <strong>wtyczki WP Desk</"
+#~ "strong> i były one jeszcze bardziej pomocne dla Ciebie i pozostałych "
+#~ "ponad <strong>30 000 użytkowników</strong>. Zbierając dane na temat tego "
+#~ "jak korzystasz z naszych wtyczek bardzo nam w tym pomożesz. Nie będziemy "
+#~ "zbierać żadnych danych wrażliwych, więc możesz czuć się bezpiecznie."
+
+#~ msgid ""
+#~ "You successfully opted out of collecting usage data by WP Desk. If you "
+#~ "change your mind, you can always opt in later in the plugin's quick links."
+#~ msgstr ""
+#~ "Twoja rezygnacja ze zbierania danych użytkowania wtyczek przez WP Desk "
+#~ "została przyjęta. Jeśli zmienisz zdanie, zawsze możesz włączyć zgodę "
+#~ "ponownie za pomocą szybkich linków na liście wtyczek."
+
+#~ msgid "Advanced email sending for Flexible Coupons"
+#~ msgstr "Kupony WooCommerce PRO - Zaawansowana Wysyłka"
+
+#~ msgid "Opt-in"
+#~ msgstr "Opt-in"
+
+#~ msgid "Opt-out"
+#~ msgstr "Opt-out"
+
+#~ msgid "Submit &amp; Deactivate"
+#~ msgstr "Wyślij i dezaktywuj"
+
+#~ msgid "Allow"
+#~ msgstr "Pozwól"
