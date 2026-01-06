@@ -1,0 +1,2167 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo_j\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2023-09-19 07:16+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your Name <you@example.com>\n"
+"Language-Team: Your Team <translations@example.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: app/Admin/AdminColumns.php:56
+msgid "Upsell Total"
+msgstr ""
+
+#: app/Admin/AdminPage.php:42
+msgid "Style and colors"
+msgstr ""
+
+#: app/Admin/AdminPage.php:43 views/admin/pages/styles.page.php:231
+#: views/admin/partials/nav_bar.template.php:17
+msgid "Upsells"
+msgstr ""
+
+#: app/Admin/AdminPage.php:44 views/admin/pages/styles.page.php:256
+#: views/admin/partials/nav_bar.template.php:22
+msgid "Gifts"
+msgstr ""
+
+#: app/Admin/AdminPage.php:45 views/admin/pages/shortcodes.page.php:90
+#: views/admin/pages/shortcodes.page.php:91 views/admin/pages/shortcodes.page.php:99
+#: views/admin/partials/nav_bar.template.php:27
+msgid "Dynamic bar"
+msgstr ""
+
+#: app/Admin/AdminPage.php:46 views/admin/partials/nav_bar.template.php:32
+msgid "Shop pages"
+msgstr ""
+
+#: app/Admin/AdminPage.php:47 views/admin/partials/nav_bar.template.php:37
+msgid "Excluded pages"
+msgstr ""
+
+#: app/Admin/AdminPage.php:48
+msgid "Statistics"
+msgstr ""
+
+#: app/Admin/AdminPage.php:49 views/admin/partials/nav_bar.template.php:42
+msgid "Shortcodes"
+msgstr ""
+
+#: app/Admin/AdminPage.php:50
+msgid "Integrations"
+msgstr ""
+
+#: app/Admin/AdminPage.php:55
+msgid "Support"
+msgstr ""
+
+#: app/Admin/AdminPage.php:62
+msgid "J Cart Upsell"
+msgstr ""
+
+#: app/Admin/AdminPage.php:88
+msgid "type"
+msgstr ""
+
+#: app/Admin/AdminPage.php:93
+msgid "upsell type"
+msgstr ""
+
+#: app/Ajax/AjaxConfig.php:39
+msgid "Test mode activated"
+msgstr ""
+
+#: app/Ajax/AjaxConfig.php:39
+msgid "Live mode activated"
+msgstr ""
+
+#: app/Ajax/AjaxConfig.php:41
+msgid ""
+"The test mode has been activated: J Cart Upsell and Cross-sell now is visible only to admins"
+msgstr ""
+
+#: app/Ajax/AjaxConfig.php:42
+msgid "Live mode activated: J Cart Upsell and Cross-sell on full charge!"
+msgstr ""
+
+#: app/Ajax/AjaxGift.php:39
+msgid "Your gift has been deleted"
+msgstr ""
+
+#: app/Ajax/AjaxGift.php:40
+msgid "Gift deleted"
+msgstr ""
+
+#: app/Ajax/AjaxGift.php:116
+msgid "Your gift has been updated"
+msgstr ""
+
+#: app/Ajax/AjaxGift.php:117 views/admin/pages/gifts.page.php:84
+msgid "Gift updated"
+msgstr ""
+
+#: app/Ajax/AjaxIntegrations.php:43
+msgid "Integration enabled"
+msgstr ""
+
+#: app/Ajax/AjaxIntegrations.php:43
+msgid "Integration disabled"
+msgstr ""
+
+#: app/Ajax/AjaxIntegrations.php:45
+msgid "The selected integration has been enabled"
+msgstr ""
+
+#: app/Ajax/AjaxIntegrations.php:46
+msgid "The selected integration has been disabled"
+msgstr ""
+
+#: app/Ajax/AjaxStats.php:43
+msgid "You need to create the advanced stats table first"
+msgstr ""
+
+#: app/Ajax/AjaxStats.php:44
+msgid "Table missing"
+msgstr ""
+
+#: app/Ajax/AjaxStats.php:51
+msgid "Advanced stats activated"
+msgstr ""
+
+#: app/Ajax/AjaxStats.php:51
+msgid "Advanced stats disabled"
+msgstr ""
+
+#: app/Ajax/AjaxStats.php:53
+msgid "Advanced stats activated: now you can monitor which upsell works better and where"
+msgstr ""
+
+#: app/Ajax/AjaxStats.php:54
+msgid "Advanced stats disabled: no more monitor"
+msgstr ""
+
+#: app/Ajax/AjaxUpsell.php:58
+msgid "Your upsell has been deleted"
+msgstr ""
+
+#: app/Ajax/AjaxUpsell.php:59
+msgid "Upsell deleted"
+msgstr ""
+
+#: app/Ajax/AjaxUpsell.php:120
+msgid "Your upsell has been updated"
+msgstr ""
+
+#: app/Ajax/AjaxUpsell.php:121 views/admin/pages/upsells.page.php:67
+msgid "Upsell updated"
+msgstr ""
+
+#: app/Ajax/AjaxUpsell.php:148
+msgid "Your upsells have been reordered"
+msgstr ""
+
+#: app/Ajax/AjaxUpsell.php:149
+msgid "Upsells reordered"
+msgstr ""
+
+#: app/Ajax/BaseAjax.php:29
+msgid "Something went wrong"
+msgstr ""
+
+#: app/Ajax/BaseAjax.php:30
+msgid "Error"
+msgstr ""
+
+#: app/Api/Api.php:30
+msgid "Invalid input format."
+msgstr ""
+
+#: app/Api/Api.php:35
+#, php-format
+msgid "%s was not registered as a request argument."
+msgstr ""
+
+#: app/Api/Api.php:38
+msgid "Something went terribly wrong."
+msgstr ""
+
+#: app/Core/UpsellatorProduct.php:179
+msgid "you saved"
+msgstr ""
+
+#: app/Options/OptionCartPage.php:27
+msgid "Next to order total"
+msgstr ""
+
+#: app/Options/OptionCartPage.php:28
+msgid "Before shipping methods"
+msgstr ""
+
+#: app/Options/OptionCartPage.php:29
+msgid "After cart coupon"
+msgstr ""
+
+#: app/Options/OptionCartPage.php:30
+msgid "Before cart table"
+msgstr ""
+
+#: app/Options/OptionCartPage.php:31 app/Options/OptionCheckout.php:28
+msgid "Before pay button"
+msgstr ""
+
+#: app/Options/OptionCheckout.php:27
+msgid "Before cart recap"
+msgstr ""
+
+#: app/Options/OptionConfig.php:158
+msgid "Shopping cart"
+msgstr ""
+
+#: app/Options/OptionShippingBar.php:40
+msgid "gift"
+msgstr ""
+
+#: app/Options/OptionShippingBar.php:41
+msgid "flight"
+msgstr ""
+
+#: app/Options/OptionShippingBar.php:42
+msgid "truck"
+msgstr ""
+
+#: app/Options/OptionShippingBar.php:43
+msgid "bicycle"
+msgstr ""
+
+#: app/Options/OptionShippingBar.php:44
+msgid "camera"
+msgstr ""
+
+#: app/Options/OptionShippingBar.php:45
+msgid "hamburger"
+msgstr ""
+
+#: app/Options/OptionShippingBar.php:46
+msgid "videocamera"
+msgstr ""
+
+#: app/Options/OptionShippingBar.php:47
+msgid "tablet"
+msgstr ""
+
+#: app/Options/OptionShippingBar.php:48
+msgid "thumbs up"
+msgstr ""
+
+#: app/Options/OptionShippingBar.php:49
+msgid "heart"
+msgstr ""
+
+#: app/Options/OptionShopPages.php:26
+msgid "Before add to cart qty"
+msgstr ""
+
+#: app/Options/OptionShopPages.php:27
+msgid "Before add to cart form"
+msgstr ""
+
+#: app/Options/OptionShopPages.php:28
+msgid "After add to cart form"
+msgstr ""
+
+#: app/Options/OptionShopPages.php:29
+msgid "Product meta list"
+msgstr ""
+
+#: app/Options/OptionShopPages.php:32
+msgid "Before loop title"
+msgstr ""
+
+#: app/Options/OptionShopPages.php:33
+msgid "After loop title"
+msgstr ""
+
+#: app/Options/OptionShopPages.php:34
+msgid "After loop item"
+msgstr ""
+
+#: app/Options/OptionShopPages.php:35
+msgid "Before loop item"
+msgstr ""
+
+#: app/Options/OptionStats.php:24
+msgid "one day"
+msgstr ""
+
+#: app/Options/OptionStats.php:25
+msgid "one week"
+msgstr ""
+
+#: app/Options/OptionStats.php:26
+msgid "one month"
+msgstr ""
+
+#: app/Options/OptionStats.php:27
+msgid "one year"
+msgstr ""
+
+#: app/Traits/TraitWooCommerceHelper.php:68
+msgid "standard shipping"
+msgstr ""
+
+#: app/Utility/Notice.php:49
+#, php-format
+msgid "<b>%s</b>: %s"
+msgstr ""
+
+#: app/WooCommerceActions/CouponsActions.php:36
+msgid "Coupon code applied successfully."
+msgstr ""
+
+#: app/WooCommerceActions/CouponsActions.php:52
+#, php-format
+msgid ""
+"Sorry, coupon \"%s\" has already been applied and cannot be used in conjunction with other "
+"coupons."
+msgstr ""
+
+#: app/WooCommerceActions/CouponsActions.php:56 app/WooCommerceActions/CouponsActions.php:68
+msgid "Invalid coupon code"
+msgstr ""
+
+#: app/WooCommerceActions/CouponsActions.php:63
+msgid "Coupon code already applied!"
+msgstr ""
+
+#: app/WooCommerceActions/CouponsActions.php:84
+msgid "There was a problem removing this coupon."
+msgstr ""
+
+#: app/WooCommerceActions/CouponsActions.php:89
+msgid "Coupon has been removed."
+msgstr ""
+
+#: assets/admin/js/upsellator-admin.js:124 assets/admin/js/upsellator-admin.js:143
+msgid "Premium required"
+msgstr ""
+
+#: assets/admin/js/upsellator-admin.js:125 assets/admin/js/upsellator-admin.js:144
+msgid ""
+"purchase our <b><a href=\"/wp-admin/admin.php?page=wc-j-upsellator-pricing\">premium "
+"version</a></b> to unlock these features"
+msgstr ""
+
+#: assets/admin/js/upsellator-admin.js:216
+msgid "Background mode"
+msgstr ""
+
+#: assets/admin/js/upsellator-admin.js:217
+msgid "we have hidden some options because they are not needed in this mode"
+msgstr ""
+
+#: assets/admin/js/upsellator-admin.js:281 assets/admin/js/upsellator-admin.js:361
+msgid "Yes, remove"
+msgstr ""
+
+#: assets/admin/js/upsellator-admin.js:309
+msgid "Yes, clear"
+msgstr ""
+
+#: assets/admin/js/upsellator-admin.js:446 assets/admin/js/upsellator-admin.js:504
+#: assets/admin/js/upsellator-admin.js:557
+msgid "Searching..."
+msgstr ""
+
+#: assets/admin/js/upsellator-admin.js:447 assets/admin/js/upsellator-admin.js:505
+#: assets/admin/js/upsellator-admin.js:558
+msgid "No results found, sorry"
+msgstr ""
+
+#: assets/admin/js/upsellator-admin.js:448 assets/admin/js/upsellator-admin.js:506
+#: assets/admin/js/upsellator-admin.js:559
+msgid "We need at least 3 characters"
+msgstr ""
+
+#: assets/admin/js/upsellator-admin.js:744
+msgid "Product already added"
+msgstr ""
+
+#: assets/admin/js/upsellator-admin.js:745
+msgid ""
+"This product is already added. Change product or remove this from the active upsells/gifts"
+msgstr ""
+
+#: templates/modal/footer.php:14
+msgid "items<br>in cart"
+msgstr ""
+
+#: templates/modal/footer.php:21
+msgid "Shipping"
+msgstr ""
+
+#: templates/modal/footer.php:30
+msgid "Subtotal"
+msgstr ""
+
+#: templates/modal/footer.php:37
+msgid "discounted"
+msgstr ""
+
+#: templates/modal/footer/coupon.php:4
+msgid "Type your coupon code"
+msgstr ""
+
+#: templates/modal/footer/coupon.php:6
+msgid "Apply"
+msgstr ""
+
+#: views/admin/pages/dynamic-bar.page.php:33 views/admin/pages/main.page.php:109
+#: views/admin/pages/shop-pages.page.php:26 views/admin/pages/shortcodes.page.php:25
+#: views/admin/pages/styles.page.php:42
+msgid "Settings updated"
+msgstr ""
+
+#: views/admin/pages/dynamic-bar.page.php:45 views/admin/pages/dynamic-bar.page.php:115
+msgid "Goal"
+msgstr ""
+
+#: views/admin/pages/dynamic-bar.page.php:51
+msgid "text displayed during goal"
+msgstr ""
+
+#: views/admin/pages/dynamic-bar.page.php:65 views/admin/pages/dynamic-bar.page.php:136
+msgid "Delete goal"
+msgstr ""
+
+#: views/admin/pages/dynamic-bar.page.php:66 views/admin/pages/dynamic-bar.page.php:137
+msgid "Do you want to remove the selected goal?"
+msgstr ""
+
+#: views/admin/pages/dynamic-bar.page.php:89 views/admin/pages/main.page.php:590
+#: views/admin/pages/main.page.php:676 views/admin/pages/stats/settings.page.php:62
+msgid "Active"
+msgstr ""
+
+#: views/admin/pages/dynamic-bar.page.php:94 views/admin/pages/gifts.page.php:157
+#: views/admin/pages/gifts.page.php:173 views/admin/pages/main.page.php:197
+#: views/admin/pages/main.page.php:211 views/admin/pages/main.page.php:225
+#: views/admin/pages/main.page.php:242 views/admin/pages/main.page.php:366
+#: views/admin/pages/main.page.php:420 views/admin/pages/main.page.php:598
+#: views/admin/pages/main.page.php:682 views/admin/pages/shop-pages.page.php:68
+#: views/admin/pages/shop-pages.page.php:93 views/admin/pages/shop-pages.page.php:110
+#: views/admin/pages/shortcodes.page.php:104 views/admin/pages/shortcodes.page.php:142
+#: views/admin/pages/stats/settings.page.php:67
+#: views/admin/partials/gift_items.template.php:163
+#: views/admin/partials/gift_items.template.php:179
+msgid "active"
+msgstr ""
+
+#: views/admin/pages/dynamic-bar.page.php:94 views/admin/pages/gifts.page.php:157
+#: views/admin/pages/main.page.php:197 views/admin/pages/main.page.php:211
+#: views/admin/pages/main.page.php:225 views/admin/pages/main.page.php:242
+#: views/admin/pages/main.page.php:250 views/admin/pages/main.page.php:598
+#: views/admin/pages/main.page.php:607 views/admin/pages/main.page.php:682
+#: views/admin/pages/shop-pages.page.php:68 views/admin/pages/shop-pages.page.php:93
+#: views/admin/pages/shop-pages.page.php:110 views/admin/pages/shortcodes.page.php:104
+#: views/admin/pages/shortcodes.page.php:142 views/admin/pages/shortcodes.page.php:150
+#: views/admin/pages/stats/settings.page.php:67
+#: views/admin/partials/gift_items.template.php:163
+msgid "inactive"
+msgstr ""
+
+#: views/admin/pages/dynamic-bar.page.php:98
+msgid "Activate/Deactivate dynamic bar"
+msgstr ""
+
+#: views/admin/pages/dynamic-bar.page.php:105
+msgid ""
+"<b>Set your dynamic bar goals.</b><br>To dynamically display the missing amount, use the "
+"{price_left} placeholder.<br><br>\r\n"
+"                                                                   Common use 1: create a "
+"xx gift triggered at 50€, set a bar goal at 50€ and put as text <b>Add another {price_left} "
+"to get the xx gift</b><br>\r\n"
+"                                                                   Common use 2: set a goal "
+"at the same amount of your free shipping limit and put as text <b>Add another {price_left} "
+"to get the free shipping</b>"
+msgstr ""
+
+#: views/admin/pages/dynamic-bar.page.php:148
+msgid "You have no goal set."
+msgstr ""
+
+#: views/admin/pages/dynamic-bar.page.php:149
+msgid "To display the dynamic bar, add your first goal."
+msgstr ""
+
+#: views/admin/pages/dynamic-bar.page.php:158
+msgid "Add new goal"
+msgstr ""
+
+#: views/admin/pages/dynamic-bar.page.php:162
+msgid "Success text"
+msgstr ""
+
+#: views/admin/pages/dynamic-bar.page.php:167
+msgid "Text displayed when all goals are completed"
+msgstr ""
+
+#: views/admin/pages/dynamic-bar.page.php:175 views/admin/partials/nav_bar.template.php:12
+msgid "Style"
+msgstr ""
+
+#: views/admin/pages/dynamic-bar.page.php:176
+msgid "Dynamic bar colors"
+msgstr ""
+
+#: views/admin/pages/dynamic-bar.page.php:182
+msgid "Bar type"
+msgstr ""
+
+#: views/admin/pages/dynamic-bar.page.php:185
+msgid "Small line 2"
+msgstr ""
+
+#: views/admin/pages/dynamic-bar.page.php:186
+msgid "Big line"
+msgstr ""
+
+#: views/admin/pages/dynamic-bar.page.php:192
+msgid "Default color"
+msgstr ""
+
+#: views/admin/pages/dynamic-bar.page.php:199
+msgid "Default color ( empty )"
+msgstr ""
+
+#: views/admin/pages/dynamic-bar.page.php:206
+msgid "Success color"
+msgstr ""
+
+#: views/admin/pages/dynamic-bar.page.php:214 views/admin/pages/gifts.page.php:480
+#: views/admin/pages/upsells.page.php:377 views/admin/partials/gift_items.template.php:488
+#: views/admin/partials/upsell_items.template.php:410
+msgid "Preview"
+msgstr ""
+
+#: views/admin/pages/dynamic-bar.page.php:225
+msgid "Keep shopping, you need another"
+msgstr ""
+
+#: views/admin/pages/dynamic-bar.page.php:227
+msgid "to reach the goal"
+msgstr ""
+
+#: views/admin/pages/dynamic-bar.page.php:236 views/admin/pages/exclusion.page.php:106
+#: views/admin/pages/main.page.php:881 views/admin/pages/shop-pages.page.php:141
+#: views/admin/pages/shortcodes.page.php:164 views/admin/pages/styles.page.php:279
+msgid "Save"
+msgstr ""
+
+#: views/admin/pages/exclusion.page.php:20
+msgid "Configuration saved"
+msgstr ""
+
+#: views/admin/pages/exclusion.page.php:47
+msgid ""
+"Exclude some pages from displaying the Upsellator modal cart.<br><br>\r\n"
+"                                                  Choose a mode to decide if selected pages "
+"should or should not show the modal cart.<br> \r\n"
+"                                                  Activate a page clicking on the switch."
+"<br><br>\r\n"
+"                                                  <u><b>Checkout page</b> and <b>Cart page</"
+"b> are excluded by default</u>"
+msgstr ""
+
+#: views/admin/pages/exclusion.page.php:56
+msgid "Selection mode"
+msgstr ""
+
+#: views/admin/pages/exclusion.page.php:59
+msgid "Exclude selected pages"
+msgstr ""
+
+#: views/admin/pages/exclusion.page.php:60
+msgid "Allow selected pages"
+msgstr ""
+
+#: views/admin/pages/exclusion.page.php:64
+msgid "only allow selected pages or exclude selected pages"
+msgstr ""
+
+#: views/admin/pages/exclusion.page.php:73
+msgid "Search a page"
+msgstr ""
+
+#: views/admin/pages/exclusion.page.php:78
+msgid "search a page typing at least 3 characters"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:89
+msgid "Something went wrong. Does this product exists?"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:111
+msgid ""
+"Gifts are products automatically added to the customer cart when met some conditions. If "
+"they remove something from cart and this condition is no longer met, the product is "
+"automatically removed from cart.<br><br>\r\n"
+"                                        <b>Do you want to hide the gift products from your "
+"store?</b><br>Set them as password protected: you can use them as gift but your cutomers "
+"will not find them in the store. \r\n"
+"                                        "
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:118
+msgid "Create a new gift"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:124
+msgid "New gift"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:125
+msgid "Create a new gift for your store"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:136 views/admin/pages/stats/advanced.page.php:133
+#: views/admin/pages/upsells.page.php:119
+msgid "Product"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:139 views/admin/pages/stats/advanced.page.php:55
+#: views/admin/pages/upsells.page.php:122
+#: views/admin/partials/selects/product-list.template.php:11
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:140 views/admin/pages/stats/advanced.page.php:56
+#: views/admin/pages/upsells.page.php:123
+msgid "Nothing selected"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:145
+msgid "Choose the product you want to gift"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:152 views/admin/pages/gifts.page.php:168
+#: views/admin/partials/gift_items.template.php:158
+#: views/admin/partials/gift_items.template.php:174
+msgid "One per order"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:161 views/admin/pages/gifts.page.php:177
+#: views/admin/partials/gift_items.template.php:167
+#: views/admin/partials/gift_items.template.php:183
+msgid ""
+"Uncheck if you want to give this gift based on products quantity and not only once per order"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:185 views/admin/partials/gift_items.template.php:191
+msgid "Gift quantity"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:192 views/admin/partials/gift_items.template.php:198
+msgid "How many of this product should be gifted when triggered"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:198 views/admin/pages/upsells.page.php:177
+#: views/admin/partials/gift_items.template.php:204
+#: views/admin/partials/upsell_items.template.php:211
+msgid "Active from"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:205 views/admin/pages/upsells.page.php:184
+#: views/admin/partials/gift_items.template.php:211
+#: views/admin/partials/upsell_items.template.php:218
+msgid "Subtotal needed to trigger the product"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:211 views/admin/partials/gift_items.template.php:217
+msgid "Active to"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:218 views/admin/partials/gift_items.template.php:224
+msgid "Subtotal limit to trigger the product. Leave 0 for no limit."
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:226 views/admin/pages/gifts.page.php:254
+#: views/admin/partials/gift_items.template.php:232
+#: views/admin/partials/gift_items.template.php:260
+msgid "Needs an applied coupon"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:230 views/admin/pages/gifts.page.php:258
+#: views/admin/partials/gift_items.template.php:236
+#: views/admin/partials/gift_items.template.php:264
+msgid "No coupon needed"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:246 views/admin/pages/gifts.page.php:262
+#: views/admin/partials/gift_items.template.php:252
+#: views/admin/partials/gift_items.template.php:268
+msgid "Product is gifted only if the customer has this coupon applied"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:270 views/admin/partials/gift_items.template.php:278
+msgid "Exclude virtual products"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:276 views/admin/partials/gift_items.template.php:284
+msgid "exclude"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:276 views/admin/partials/gift_items.template.php:284
+msgid "don't exclude"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:280 views/admin/partials/gift_items.template.php:288
+msgid "Exclude virtual products from the cart total limit (option above)"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:286 views/admin/pages/upsells.page.php:226
+#: views/admin/partials/gift_items.template.php:294
+#: views/admin/partials/upsell_items.template.php:240
+msgid "Only for logged users"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:292 views/admin/pages/gifts.page.php:308
+#: views/admin/pages/gifts.page.php:324 views/admin/pages/gifts.page.php:340
+#: views/admin/pages/main.page.php:155 views/admin/pages/main.page.php:183
+#: views/admin/pages/main.page.php:283 views/admin/pages/main.page.php:517
+#: views/admin/pages/main.page.php:553 views/admin/pages/main.page.php:569
+#: views/admin/pages/main.page.php:851 views/admin/pages/main.page.php:869
+#: views/admin/pages/upsells.page.php:196 views/admin/pages/upsells.page.php:212
+#: views/admin/pages/upsells.page.php:232 views/admin/pages/upsells.page.php:263
+#: views/admin/pages/upsells.page.php:279 views/admin/pages/upsells.page.php:295
+#: views/admin/partials/gift_items.template.php:300
+#: views/admin/partials/gift_items.template.php:316
+#: views/admin/partials/gift_items.template.php:332
+#: views/admin/partials/gift_items.template.php:348
+#: views/admin/partials/upsell_items.template.php:230
+#: views/admin/partials/upsell_items.template.php:246
+#: views/admin/partials/upsell_items.template.php:277
+#: views/admin/partials/upsell_items.template.php:297
+#: views/admin/partials/upsell_items.template.php:313
+#: views/admin/partials/upsell_items.template.php:329
+msgid "yes"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:292 views/admin/pages/gifts.page.php:308
+#: views/admin/pages/gifts.page.php:324 views/admin/pages/gifts.page.php:340
+#: views/admin/pages/main.page.php:155 views/admin/pages/main.page.php:183
+#: views/admin/pages/main.page.php:283 views/admin/pages/main.page.php:366
+#: views/admin/pages/main.page.php:420 views/admin/pages/main.page.php:517
+#: views/admin/pages/main.page.php:553 views/admin/pages/main.page.php:569
+#: views/admin/pages/main.page.php:851 views/admin/pages/main.page.php:869
+#: views/admin/pages/upsells.page.php:196 views/admin/pages/upsells.page.php:212
+#: views/admin/pages/upsells.page.php:232 views/admin/pages/upsells.page.php:263
+#: views/admin/pages/upsells.page.php:279 views/admin/pages/upsells.page.php:295
+#: views/admin/partials/gift_items.template.php:300
+#: views/admin/partials/gift_items.template.php:316
+#: views/admin/partials/gift_items.template.php:332
+#: views/admin/partials/gift_items.template.php:348
+#: views/admin/partials/upsell_items.template.php:230
+#: views/admin/partials/upsell_items.template.php:246
+#: views/admin/partials/upsell_items.template.php:277
+#: views/admin/partials/upsell_items.template.php:297
+#: views/admin/partials/upsell_items.template.php:313
+#: views/admin/partials/upsell_items.template.php:329
+msgid "no"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:296 views/admin/partials/gift_items.template.php:304
+msgid "Gift valid only for logged users"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:302 views/admin/partials/gift_items.template.php:310
+msgid "Gifted individually"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:312 views/admin/partials/gift_items.template.php:320
+msgid ""
+"Gift triggered only if the same product (standard) is not already in cart.  If the gift is "
+"already in cart, it will be removed after the upsell add."
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:318 views/admin/partials/gift_items.template.php:326
+msgid "Dont trigger if upselled"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:328 views/admin/partials/gift_items.template.php:336
+msgid ""
+"Do not trigger this gift if the same product is already in cart as upsell. If the gift is "
+"already in cart, it will be removed after the upsell add."
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:334 views/admin/partials/gift_items.template.php:342
+msgid "Display banner"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:344 views/admin/partials/gift_items.template.php:352
+msgid "Display as banner on the modal cart if not already triggered"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:350 views/admin/partials/gift_items.template.php:358
+msgid "Banner text"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:356 views/admin/partials/gift_items.template.php:364
+msgid "Banner text, ex: reach 25$ to get this special gift"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:362 views/admin/pages/upsells.page.php:310
+#: views/admin/partials/gift_items.template.php:371
+#: views/admin/partials/upsell_items.template.php:343
+msgid "Cart must have"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:366 views/admin/pages/upsells.page.php:316
+#: views/admin/partials/gift_items.template.php:375
+#: views/admin/partials/upsell_items.template.php:349
+msgid "No conditions"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:367 views/admin/pages/upsells.page.php:317
+#: views/admin/pages/upsells.page.php:325 views/admin/partials/gift_items.template.php:384
+#: views/admin/partials/upsell_items.template.php:358
+msgid "One of these products"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:368 views/admin/partials/gift_items.template.php:377
+msgid "At least a product with category/attribute"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:375
+msgid "Gift this product if cart contains one of the specified products"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:379 views/admin/pages/upsells.page.php:329
+#: views/admin/partials/upsell_items.template.php:362
+msgid ""
+"If you fill both category and attribute, the trigger product must have one category AND one "
+"attribute from the list."
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:405 views/admin/partials/gift_items.template.php:413
+msgid "Quantity needed"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:414 views/admin/partials/gift_items.template.php:422
+msgid ""
+"Gift is triggered if customer has in cart X quantity of one of the previous selected "
+"products"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:424 views/admin/pages/main.page.php:437
+#: views/admin/pages/upsells.page.php:353 views/admin/partials/gift_items.template.php:432
+#: views/admin/partials/upsell_items.template.php:386
+msgid "Heading"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:430 views/admin/partials/gift_items.template.php:438
+msgid "Short text to define your gift"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:436 views/admin/pages/main.page.php:447
+#: views/admin/pages/upsells.page.php:365 views/admin/partials/gift_items.template.php:444
+#: views/admin/partials/upsell_items.template.php:398
+msgid "Description"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:442 views/admin/partials/gift_items.template.php:450
+msgid "Long text to define your gift"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:450 views/admin/partials/gift_items.template.php:458
+msgid "Shop label"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:456 views/admin/partials/gift_items.template.php:464
+msgid ""
+"If shop label option is enabled, this text is displayed as a label in the product loop pages"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:466 views/admin/pages/shop-pages.page.php:102
+#: views/admin/partials/gift_items.template.php:474
+msgid "Single product text"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:472 views/admin/partials/gift_items.template.php:480
+msgid ""
+"If single product text option is enabled, this text is displayed before the short "
+"description"
+msgstr ""
+
+#: views/admin/pages/gifts.page.php:532
+msgid "Create gift"
+msgstr ""
+
+#: views/admin/pages/main.page.php:140
+msgid "Base settings"
+msgstr ""
+
+#: views/admin/pages/main.page.php:141
+msgid "J Cart Upsell base settings"
+msgstr ""
+
+#: views/admin/pages/main.page.php:145
+msgid ""
+"<b>Modal cart trigger</b><br><br>If you want to trigger ( open/close ) the modal cart "
+"trough an element of your theme, just add to that element this class<br><b>wc-j-upsellator-"
+"show-cart</b>"
+msgstr ""
+
+#: views/admin/pages/main.page.php:150
+msgid "Only background cart"
+msgstr ""
+
+#: views/admin/pages/main.page.php:159
+msgid ""
+"If you want to keep your theme modal cart, activate this option to use J Cart Upsell and "
+"cross-sell only for background logic"
+msgstr ""
+
+#: views/admin/pages/main.page.php:164
+msgid "Open cart position"
+msgstr ""
+
+#: views/admin/pages/main.page.php:167
+msgid "Right"
+msgstr ""
+
+#: views/admin/pages/main.page.php:168
+msgid "Left"
+msgstr ""
+
+#: views/admin/pages/main.page.php:169
+msgid "Hidden"
+msgstr ""
+
+#: views/admin/pages/main.page.php:173
+msgid "The position of the modal cart button trigger: left, right or hidden"
+msgstr ""
+
+#: views/admin/pages/main.page.php:178
+msgid "Coupon code"
+msgstr ""
+
+#: views/admin/pages/main.page.php:187
+msgid "Display coupon code input in the modal cart"
+msgstr ""
+
+#: views/admin/pages/main.page.php:192
+msgid "Open modal on product add"
+msgstr ""
+
+#: views/admin/pages/main.page.php:201
+msgid "Automatically open the modal cart when the customer adds a product"
+msgstr ""
+
+#: views/admin/pages/main.page.php:206
+msgid "Single product AJAX"
+msgstr ""
+
+#: views/admin/pages/main.page.php:215
+msgid "Use AJAX in the single page product"
+msgstr ""
+
+#: views/admin/pages/main.page.php:220
+msgid "Block page scroll"
+msgstr ""
+
+#: views/admin/pages/main.page.php:229
+msgid "Disable or enable page scroll when modal cart is opened"
+msgstr ""
+
+#: views/admin/pages/main.page.php:234
+msgid "Recap order table"
+msgstr ""
+
+#: views/admin/pages/main.page.php:256
+msgid "Display in the WooCommerce order table a column about your upsells"
+msgstr ""
+
+#: views/admin/pages/main.page.php:261
+msgid "Currency position"
+msgstr ""
+
+#: views/admin/pages/main.page.php:267
+msgid "before price"
+msgstr ""
+
+#: views/admin/pages/main.page.php:267
+msgid "after price"
+msgstr ""
+
+#: views/admin/pages/main.page.php:272
+msgid "The position of the currency: before or after price"
+msgstr ""
+
+#: views/admin/pages/main.page.php:277
+msgid "Shipping total"
+msgstr ""
+
+#: views/admin/pages/main.page.php:288
+msgid "Display the shipping total in the modal cart"
+msgstr ""
+
+#: views/admin/pages/main.page.php:304
+msgid ""
+"Default: standard theme.<br>Logo: displays your website logo in the header of the modal cart"
+msgstr ""
+
+#: views/admin/pages/main.page.php:317
+msgid "Logo displayed on the top right of the modal cart.<br>Reccomendend size: 300px x 60px"
+msgstr ""
+
+#: views/admin/pages/main.page.php:322
+msgid "Change logo"
+msgstr ""
+
+#: views/admin/pages/main.page.php:328
+msgid "Header text"
+msgstr ""
+
+#: views/admin/pages/main.page.php:333
+msgid "Text displayed on the modal header, top right"
+msgstr ""
+
+#: views/admin/pages/main.page.php:346
+msgid "Modal cart with items"
+msgstr ""
+
+#: views/admin/pages/main.page.php:347
+msgid "Modal cart text when not empty"
+msgstr ""
+
+#: views/admin/pages/main.page.php:351
+msgid "Checkout order"
+msgstr ""
+
+#: views/admin/pages/main.page.php:356
+msgid "Modal cart checkout button text"
+msgstr ""
+
+#: views/admin/pages/main.page.php:361
+msgid "Go to cart button"
+msgstr ""
+
+#: views/admin/pages/main.page.php:370 views/admin/pages/main.page.php:424
+msgid "Display or not the go to cart button"
+msgstr ""
+
+#: views/admin/pages/main.page.php:375 views/admin/pages/main.page.php:380
+msgid "Go to cart text"
+msgstr ""
+
+#: views/admin/pages/main.page.php:385
+msgid "Add to cart"
+msgstr ""
+
+#: views/admin/pages/main.page.php:390
+msgid "Upsell add to cart button text"
+msgstr ""
+
+#: views/admin/pages/main.page.php:395
+msgid "Go to product"
+msgstr ""
+
+#: views/admin/pages/main.page.php:400
+msgid "Upsell go to product button text"
+msgstr ""
+
+#: views/admin/pages/main.page.php:405
+msgid "Free product"
+msgstr ""
+
+#: views/admin/pages/main.page.php:410
+msgid "Free item text (instead of 0,0)"
+msgstr ""
+
+#: views/admin/pages/main.page.php:415
+msgid "Cart items count"
+msgstr ""
+
+#: views/admin/pages/main.page.php:432
+msgid "Empty modal cart"
+msgstr ""
+
+#: views/admin/pages/main.page.php:433
+msgid "Settings for modal cart when empty"
+msgstr ""
+
+#: views/admin/pages/main.page.php:442
+msgid "Heading of empty modal cart"
+msgstr ""
+
+#: views/admin/pages/main.page.php:452
+msgid "Text of empty modal cart"
+msgstr ""
+
+#: views/admin/pages/main.page.php:457
+msgid "Empty icon"
+msgstr ""
+
+#: views/admin/pages/main.page.php:460
+msgid "No icon"
+msgstr ""
+
+#: views/admin/pages/main.page.php:472
+msgid "Go to shop button"
+msgstr ""
+
+#: views/admin/pages/main.page.php:477
+msgid "Text of the go to shop button"
+msgstr ""
+
+#: views/admin/pages/main.page.php:482
+msgid "Go to shop url"
+msgstr ""
+
+#: views/admin/pages/main.page.php:485
+msgid "Choose a page"
+msgstr ""
+
+#: views/admin/pages/main.page.php:495
+msgid "Target of the go to shop button"
+msgstr ""
+
+#: views/admin/pages/main.page.php:504
+msgid "Modal cart"
+msgstr ""
+
+#: views/admin/pages/main.page.php:507
+msgid "Upsells options"
+msgstr ""
+
+#: views/admin/pages/main.page.php:511
+msgid "Label if no discount"
+msgstr ""
+
+#: views/admin/pages/main.page.php:522
+msgid "Show the upsell label if set without any discount"
+msgstr ""
+
+#: views/admin/pages/main.page.php:526 views/admin/pages/main.page.php:621
+#: views/admin/pages/main.page.php:692
+msgid "Display mode"
+msgstr ""
+
+#: views/admin/pages/main.page.php:530 views/admin/pages/main.page.php:625
+#: views/admin/pages/main.page.php:696
+msgid "One at time"
+msgstr ""
+
+#: views/admin/pages/main.page.php:531 views/admin/pages/main.page.php:626
+#: views/admin/pages/main.page.php:697
+msgid "Carousel"
+msgstr ""
+
+#: views/admin/pages/main.page.php:532 views/admin/pages/main.page.php:627
+#: views/admin/pages/main.page.php:698
+msgid "Stacked"
+msgstr ""
+
+#: views/admin/pages/main.page.php:542 views/admin/pages/main.page.php:637
+#: views/admin/pages/main.page.php:708
+msgid ""
+"Upsells display: only 1, all with carousel, all stacked. If stacked selected, you can "
+"choose the max number of products displayed at time."
+msgstr ""
+
+#: views/admin/pages/main.page.php:547
+msgid "Random order"
+msgstr ""
+
+#: views/admin/pages/main.page.php:558
+msgid "Upsells on random order"
+msgstr ""
+
+#: views/admin/pages/main.page.php:563
+msgid "Prevent from coupon discount"
+msgstr ""
+
+#: views/admin/pages/main.page.php:574
+msgid "Prevent coupon from discounting upsells"
+msgstr ""
+
+#: views/admin/pages/main.page.php:586
+msgid "Manage upsells on checkout page"
+msgstr ""
+
+#: views/admin/pages/main.page.php:614
+msgid "Propose your upsell in the checkout order recap"
+msgstr ""
+
+#: views/admin/pages/main.page.php:646 views/admin/pages/main.page.php:713
+#: views/admin/pages/stats/advanced.page.php:137
+msgid "Position"
+msgstr ""
+
+#: views/admin/pages/main.page.php:658
+msgid "Position of upsells in checkout page."
+msgstr ""
+
+#: views/admin/pages/main.page.php:669 views/admin/pages/stats/advanced.page.php:94
+msgid "Cart page"
+msgstr ""
+
+#: views/admin/pages/main.page.php:672
+msgid "Manage upsells on cart page page"
+msgstr ""
+
+#: views/admin/pages/main.page.php:687
+msgid "Propose your upsell in the cart page"
+msgstr ""
+
+#: views/admin/pages/main.page.php:725
+msgid "Position of upsells in cart page."
+msgstr ""
+
+#: views/admin/pages/main.page.php:734
+msgid "Labels"
+msgstr ""
+
+#: views/admin/pages/main.page.php:735
+msgid "Labels of different type of products in the modal cart"
+msgstr ""
+
+#: views/admin/pages/main.page.php:739
+msgid "On sale"
+msgstr ""
+
+#: views/admin/pages/main.page.php:744
+msgid "Label text for products set on sale by WooCommerce"
+msgstr ""
+
+#: views/admin/pages/main.page.php:749 views/admin/partials/upsell_items.template.php:68
+msgid "Upsell"
+msgstr ""
+
+#: views/admin/pages/main.page.php:754
+msgid "Label text for upsell items added to the cart"
+msgstr ""
+
+#: views/admin/pages/main.page.php:759 views/admin/pages/stats/base.page.php:301
+msgid "Gift"
+msgstr ""
+
+#: views/admin/pages/main.page.php:764
+msgid "Label text for gift items added to the cart"
+msgstr ""
+
+#: views/admin/pages/main.page.php:772
+msgid "Advanced"
+msgstr ""
+
+#: views/admin/pages/main.page.php:773
+msgid "Advanced options"
+msgstr ""
+
+#: views/admin/pages/main.page.php:777
+msgid "Skip other fragments"
+msgstr ""
+
+#: views/admin/pages/main.page.php:782
+msgid "skip fragments"
+msgstr ""
+
+#: views/admin/pages/main.page.php:782
+msgid "use all"
+msgstr ""
+
+#: views/admin/pages/main.page.php:786
+msgid ""
+"Ignore or not cart fragments created by other plugins: activate for more performance, keep "
+"this deactivated for more compatibility"
+msgstr ""
+
+#: views/admin/pages/main.page.php:791
+msgid "Force totals recalculations"
+msgstr ""
+
+#: views/admin/pages/main.page.php:796
+msgid "forced"
+msgstr ""
+
+#: views/admin/pages/main.page.php:796
+msgid "default"
+msgstr ""
+
+#: views/admin/pages/main.page.php:800
+msgid ""
+"Force cart totals recalculations if cache prevent the cart to update: this may lower "
+"performances"
+msgstr ""
+
+#: views/admin/pages/main.page.php:805
+msgid "Cart total without VAT"
+msgstr ""
+
+#: views/admin/pages/main.page.php:810
+msgid "excluded"
+msgstr ""
+
+#: views/admin/pages/main.page.php:810
+msgid "included"
+msgstr ""
+
+#: views/admin/pages/main.page.php:814
+msgid ""
+"Activate this options if you want to display cart subtotal without VAT. This option also "
+"change how upsells/gifts limit are evaluted."
+msgstr ""
+
+#: views/admin/pages/main.page.php:819
+msgid "Hide quantity buttons"
+msgstr ""
+
+#: views/admin/pages/main.page.php:827
+msgid "hidden"
+msgstr ""
+
+#: views/admin/pages/main.page.php:827 views/admin/pages/main.page.php:835
+msgid "visible"
+msgstr ""
+
+#: views/admin/pages/main.page.php:841
+msgid "Hide quantity buttons on -- all -- modal cart products"
+msgstr ""
+
+#: views/admin/pages/main.page.php:846
+msgid "WC notices on modal cart"
+msgstr ""
+
+#: views/admin/pages/main.page.php:859
+msgid ""
+"Display WC notices directly on modal cart, without page reload.<br>Set the time in seconds "
+"after which the notices auto-disappear."
+msgstr ""
+
+#: views/admin/pages/main.page.php:864
+msgid "Display upsell discount"
+msgstr ""
+
+#: views/admin/pages/main.page.php:873
+msgid "Display the discount amount for each upsell product in the cart and checkout page"
+msgstr ""
+
+#: views/admin/pages/shop-pages.page.php:47
+msgid ""
+"Sometimes you may want to show directly in the shop pages of your store if a product "
+"triggers a free gift. \r\n"
+"                                                 Activating this option, a label will be "
+"displayed on top of the product.<br><br>\r\n"
+"                                                 <b>Every gift has its own text: you can "
+"change the text directly in the gift page.</b>"
+msgstr ""
+
+#: views/admin/pages/shop-pages.page.php:53
+msgid ""
+"<b>Every website has its own style and it's impossible to make something perfect for every "
+"theme. You proably need to custom edit the CSS in order \r\n"
+"                                                   to make these badges fit your design.</b>"
+msgstr ""
+
+#: views/admin/pages/shop-pages.page.php:59
+msgid "Loop labels"
+msgstr ""
+
+#: views/admin/pages/shop-pages.page.php:63 views/admin/pages/shop-pages.page.php:88
+msgid ""
+"A new option named <b>shop label</b> has been activated for gifts. Edit that to decide what "
+"kind of text\r\n"
+"                                                                                    display "
+"when a product can trigger a gift.<br><br>Example: <b>Buy this to get a free shirt!</b>"
+msgstr ""
+
+#: views/admin/pages/shop-pages.page.php:79
+msgid "Display labels in the standard shop pages of WooCommerce"
+msgstr ""
+
+#: views/admin/pages/shop-pages.page.php:84
+msgid "Single product labels"
+msgstr ""
+
+#: views/admin/pages/shop-pages.page.php:97
+msgid "Display labels in the single product page"
+msgstr ""
+
+#: views/admin/pages/shop-pages.page.php:106
+msgid ""
+"A new option named <b>single product text</b> has been activated for gifts. Edit that to "
+"display a custom text\r\n"
+"                                                                                    in the "
+"single product page, before the add to cart form.<br><br>Example: <b>Buy this to get a free "
+"shirt!</b>"
+msgstr ""
+
+#: views/admin/pages/shop-pages.page.php:121
+msgid ""
+"Gift have a field called single product text. Activating this you can display that text in "
+"the single product page, before the add to cart form."
+msgstr ""
+
+#: views/admin/pages/shop-pages.page.php:126
+msgid "Label style"
+msgstr ""
+
+#: views/admin/pages/shop-pages.page.php:134
+msgid "The style of labels"
+msgstr ""
+
+#: views/admin/pages/shortcodes.page.php:48
+msgid "Counter shortcode"
+msgstr ""
+
+#: views/admin/pages/shortcodes.page.php:53
+msgid "Icon type and color are based on what you have selected on <b>style</b> tab"
+msgstr ""
+
+#: views/admin/pages/shortcodes.page.php:55 views/admin/pages/styles.page.php:207
+msgid "Default"
+msgstr ""
+
+#: views/admin/pages/shortcodes.page.php:65
+msgid "With price"
+msgstr ""
+
+#: views/admin/pages/shortcodes.page.php:75
+msgid "Without icon"
+msgstr ""
+
+#: views/admin/pages/shortcodes.page.php:96
+msgid "Display the dynamic bar via shortcode</b>"
+msgstr ""
+
+#: views/admin/pages/shortcodes.page.php:127
+msgid "Upsells shortcode"
+msgstr ""
+
+#: views/admin/pages/shortcodes.page.php:132
+msgid "Display upsells via shortcode. Settings are taken from <b>cart page upsells</b>"
+msgstr ""
+
+#: views/admin/pages/shortcodes.page.php:135
+msgid "Upsells Shortcode"
+msgstr ""
+
+#: views/admin/pages/stats/advanced.page.php:30 views/admin/pages/stats/base.page.php:24
+#: views/admin/pages/stats/base.page.php:38
+msgid "from"
+msgstr ""
+
+#: views/admin/pages/stats/advanced.page.php:36 views/admin/pages/stats/base.page.php:30
+#: views/admin/pages/stats/base.page.php:44
+msgid "to"
+msgstr ""
+
+#: views/admin/pages/stats/advanced.page.php:42
+msgid "position"
+msgstr ""
+
+#: views/admin/pages/stats/advanced.page.php:45 views/admin/pages/stats/base.page.php:54
+msgid "all"
+msgstr ""
+
+#: views/admin/pages/stats/advanced.page.php:46
+msgid "modal"
+msgstr ""
+
+#: views/admin/pages/stats/advanced.page.php:47
+msgid "cart"
+msgstr ""
+
+#: views/admin/pages/stats/advanced.page.php:48
+msgid "checkout"
+msgstr ""
+
+#: views/admin/pages/stats/advanced.page.php:53
+msgid "product"
+msgstr ""
+
+#: views/admin/pages/stats/advanced.page.php:66 views/admin/pages/stats/base.page.php:64
+msgid "Filter"
+msgstr ""
+
+#: views/admin/pages/stats/advanced.page.php:77
+msgid "Modal"
+msgstr ""
+
+#: views/admin/pages/stats/advanced.page.php:78 views/admin/pages/stats/advanced.page.php:95
+#: views/admin/pages/stats/advanced.page.php:111
+msgid "conv. rate"
+msgstr ""
+
+#: views/admin/pages/stats/advanced.page.php:110
+msgid "Checkout"
+msgstr ""
+
+#: views/admin/pages/stats/advanced.page.php:138
+msgid "Shown"
+msgstr ""
+
+#: views/admin/pages/stats/advanced.page.php:139
+msgid "Added"
+msgstr ""
+
+#: views/admin/pages/stats/advanced.page.php:140
+msgid "Bought"
+msgstr ""
+
+#: views/admin/pages/stats/advanced.page.php:141
+msgid "Removed"
+msgstr ""
+
+#: views/admin/pages/stats/advanced.page.php:142 views/admin/pages/stats/base.page.php:270
+msgid "Sold total"
+msgstr ""
+
+#: views/admin/pages/stats/advanced.page.php:151
+msgid "No upsell shown in the selected period"
+msgstr ""
+
+#: views/admin/pages/stats/advanced.page.php:156 views/admin/pages/stats/base.page.php:101
+#: views/admin/pages/stats/base.page.php:284 views/admin/pages/stats/base.page.php:319
+msgid "Total"
+msgstr ""
+
+#: views/admin/pages/stats/advanced.page.php:176 views/admin/pages/stats/settings.page.php:138
+msgid ""
+"To start logging advanced data about upsells, you need first to create the database table."
+msgstr ""
+
+#: views/admin/pages/stats/advanced.page.php:178
+msgid ""
+"Go to <strong>Settings</strong> tab and click <strong>Create now</strong> to start logging!"
+msgstr ""
+
+#: views/admin/pages/stats/base.page.php:50
+msgid "order status"
+msgstr ""
+
+#: views/admin/pages/stats/base.page.php:53
+msgid "completed/processing"
+msgstr ""
+
+#: views/admin/pages/stats/base.page.php:55
+msgid "completed"
+msgstr ""
+
+#: views/admin/pages/stats/base.page.php:56
+msgid "processing"
+msgstr ""
+
+#: views/admin/pages/stats/base.page.php:57
+msgid "cancelled"
+msgstr ""
+
+#: views/admin/pages/stats/base.page.php:70
+msgid "Summary"
+msgstr ""
+
+#: views/admin/pages/stats/base.page.php:79
+msgid "Orders"
+msgstr ""
+
+#: views/admin/pages/stats/base.page.php:93
+msgid "orders during the selected period"
+msgstr ""
+
+#: views/admin/pages/stats/base.page.php:115
+msgid "Total amount"
+msgstr ""
+
+#: views/admin/pages/stats/base.page.php:123
+msgid "Sold products"
+msgstr ""
+
+#: views/admin/pages/stats/base.page.php:137
+msgid "N. of sold products"
+msgstr ""
+
+#: views/admin/pages/stats/base.page.php:149
+msgid "Upsell gain"
+msgstr ""
+
+#: views/admin/pages/stats/base.page.php:157
+msgid "total increase thanks to upsells"
+msgstr ""
+
+#: views/admin/pages/stats/base.page.php:165
+msgid "Upsell total"
+msgstr ""
+
+#: views/admin/pages/stats/base.page.php:179
+msgid "Total sold via upsell"
+msgstr ""
+
+#: views/admin/pages/stats/base.page.php:186
+msgid "Sold upsells"
+msgstr ""
+
+#: views/admin/pages/stats/base.page.php:200
+msgid "N. of sold products via upsell"
+msgstr ""
+
+#: views/admin/pages/stats/base.page.php:208
+msgid "Average order"
+msgstr ""
+
+#: views/admin/pages/stats/base.page.php:217
+msgid "Average order total"
+msgstr ""
+
+#: views/admin/pages/stats/base.page.php:231
+msgid "average order total in the selected period"
+msgstr ""
+
+#: views/admin/pages/stats/base.page.php:239
+msgid "Average order upsell"
+msgstr ""
+
+#: views/admin/pages/stats/base.page.php:253
+msgid "average upsell in the selected period"
+msgstr ""
+
+#: views/admin/pages/stats/base.page.php:269 views/admin/pages/stats/base.page.php:304
+msgid "Qty"
+msgstr ""
+
+#: views/admin/pages/stats/base.page.php:279
+msgid "No upsell sold in the selected period"
+msgstr ""
+
+#: views/admin/pages/stats/base.page.php:305
+msgid "Total value"
+msgstr ""
+
+#: views/admin/pages/stats/base.page.php:314
+msgid "No gifts given in the selected period"
+msgstr ""
+
+#: views/admin/pages/stats/settings.page.php:23
+msgid "Data cleared"
+msgstr ""
+
+#: views/admin/pages/stats/settings.page.php:30
+msgid "Table cleared"
+msgstr ""
+
+#: views/admin/pages/stats/settings.page.php:51
+msgid ""
+"Log advanced data about <strong>Upsells</strong> and clear data if you don't need it "
+"anymore."
+msgstr ""
+
+#: views/admin/pages/stats/settings.page.php:71
+msgid "Activate/Deactivate"
+msgstr ""
+
+#: views/admin/pages/stats/settings.page.php:77
+msgid "Clear data older than"
+msgstr ""
+
+#: views/admin/pages/stats/settings.page.php:86
+msgid "Clear data"
+msgstr ""
+
+#: views/admin/pages/stats/settings.page.php:86
+msgid "Are you sure to clear all the data older than the selected period?"
+msgstr ""
+
+#: views/admin/pages/stats/settings.page.php:87
+msgid "Clear"
+msgstr ""
+
+#: views/admin/pages/stats/settings.page.php:99 views/admin/pages/stats/settings.page.php:132
+msgid "Stored data"
+msgstr ""
+
+#: views/admin/pages/stats/settings.page.php:100
+msgid "Table name"
+msgstr ""
+
+#: views/admin/pages/stats/settings.page.php:105
+msgid "Table size"
+msgstr ""
+
+#: views/admin/pages/stats/settings.page.php:110
+msgid "Table size (kb)"
+msgstr ""
+
+#: views/admin/pages/stats/settings.page.php:115
+msgid "Total rows"
+msgstr ""
+
+#: views/admin/pages/stats/settings.page.php:120
+msgid "Number of table rows"
+msgstr ""
+
+#: views/admin/pages/stats/settings.page.php:139
+msgid "Click <strong>Create now</strong> and start logging!"
+msgstr ""
+
+#: views/admin/pages/stats/settings.page.php:145
+msgid "Create now"
+msgstr ""
+
+#: views/admin/pages/styles.page.php:69
+msgid "Modal cart global details"
+msgstr ""
+
+#: views/admin/pages/styles.page.php:75
+msgid "Theme"
+msgstr ""
+
+#: views/admin/pages/styles.page.php:86
+msgid "Modal cart theme: default (large) or small"
+msgstr ""
+
+#: views/admin/pages/styles.page.php:125
+msgid "Cart base font-size: changing this value changes the size of all strings"
+msgstr ""
+
+#: views/admin/pages/styles.page.php:136
+msgid ""
+"Ratio of product images on the modal cart: width / height. Keep 1 for squared images, > 1 "
+"for horizontal images, < 1 for vertical images."
+msgstr ""
+
+#: views/admin/pages/styles.page.php:146
+msgid "Buttons"
+msgstr ""
+
+#: views/admin/pages/styles.page.php:147
+msgid "Modal cart buttons colors"
+msgstr ""
+
+#: views/admin/pages/styles.page.php:163 views/admin/pages/styles.page.php:191
+#: views/admin/pages/styles.page.php:220 views/admin/pages/styles.page.php:244
+#: views/admin/pages/styles.page.php:269
+msgid "Fonts"
+msgstr ""
+
+#: views/admin/pages/styles.page.php:179
+msgid "Modal Close"
+msgstr ""
+
+#: views/admin/pages/styles.page.php:180
+msgid "Modal cart close button"
+msgstr ""
+
+#: views/admin/pages/styles.page.php:200
+msgid ""
+"J Cart Upsell divides the products into 3 different types: <b>upsells</b>, <b>gifts</b> and "
+"<b>standard</b>.<br>\r\n"
+"                                You can set a different color for each of these type of "
+"products."
+msgstr ""
+
+#: views/admin/pages/styles.page.php:208
+msgid "Default products label style"
+msgstr ""
+
+#: views/admin/pages/styles.page.php:232
+msgid "Upsell products label style"
+msgstr ""
+
+#: views/admin/pages/styles.page.php:237 views/admin/pages/styles.page.php:262
+msgid "Background"
+msgstr ""
+
+#: views/admin/pages/styles.page.php:257
+msgid "Gift products label style"
+msgstr ""
+
+#: views/admin/pages/support.page.php:19
+msgid ""
+"Thanks for using our <b>J Cart Upsell and cross-sell</b> plugin.<br>\r\n"
+"                                                For help and questions, contact us "
+"at<br><br><strong>giacomo.zoffoli@growthackers.io</strong>"
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:72
+msgid ""
+"Something went wrong. Does the added product exists? If it's a variable one, you should add "
+"one of its variations."
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:94
+msgid ""
+"Upsell products will be displayed to the customer in their modal cart.<br>\r\n"
+"                                                Upsells are evaluated one by one: if the "
+"first one met the set requirements, it will be displayed. If not, the next one will be "
+"evaluated. \r\n"
+"                                                If the customer already has that product "
+"added, the upsell is skipped.<br><br>\r\n"
+"                                                <b>Upsell items can be added only once to "
+"cart by the customer and their quantity cannot be changed</b>"
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:101
+msgid "Create a new upsell"
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:107
+msgid "New Upsell"
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:108
+msgid "Create a new upsell for your store"
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:128
+msgid "Choose the product you want to propose"
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:134 views/admin/partials/upsell_items.template.php:168
+msgid "Upsell quantity"
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:141 views/admin/partials/upsell_items.template.php:175
+msgid "How many of this product should be upselled"
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:147 views/admin/partials/upsell_items.template.php:181
+msgid "Discount type"
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:151 views/admin/partials/upsell_items.template.php:185
+msgid "Percentage"
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:152 views/admin/partials/upsell_items.template.php:186
+msgid "Flat amount"
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:153 views/admin/partials/upsell_items.template.php:187
+msgid "None"
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:157 views/admin/partials/upsell_items.template.php:191
+msgid "Type of discount: flat amount,percentage or none"
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:163 views/admin/partials/upsell_items.template.php:197
+msgid "Discount amount"
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:171 views/admin/partials/upsell_items.template.php:205
+msgid ""
+"Amount of the discount, based on previous choice. If upsell quantity is greater than 1, "
+"this discount refers to a single unit."
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:190 views/admin/partials/upsell_items.template.php:224
+msgid "Keep in cart"
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:200 views/admin/partials/upsell_items.template.php:234
+msgid "If added to cart, keep it even if trigger conditions are not met anymore"
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:206 views/admin/partials/upsell_items.template.php:271
+msgid "Allow quantity change"
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:220 views/admin/partials/upsell_items.template.php:285
+msgid ""
+"Customer can change upsell item quantity after adding it to cart. Set the max allowed "
+"quantity, leave zero for no limit."
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:236 views/admin/partials/upsell_items.template.php:250
+msgid "Upsell valid only for logged users"
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:242 views/admin/partials/upsell_items.template.php:256
+msgid "Button action"
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:246 views/admin/partials/upsell_items.template.php:260
+msgid "Add product to cart"
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:247 views/admin/partials/upsell_items.template.php:261
+msgid "Go to product page"
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:251 views/admin/partials/upsell_items.template.php:265
+msgid ""
+"What happens when customer clicks the button: add the product to cart or go to the product "
+"page"
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:257 views/admin/partials/upsell_items.template.php:291
+msgid "Sold individually"
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:267 views/admin/partials/upsell_items.template.php:301
+msgid "Upsell triggered only if the same product is not already in cart"
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:273 views/admin/partials/upsell_items.template.php:307
+msgid "Hide if already gifted"
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:283 views/admin/partials/upsell_items.template.php:317
+msgid "Do not show this upsell if this product is already in cart as gift"
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:289 views/admin/partials/upsell_items.template.php:323
+msgid "Check also for parent product"
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:299 views/admin/partials/upsell_items.template.php:333
+msgid "Check also if parent product matches"
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:306 views/admin/partials/upsell_items.template.php:339
+msgid "Cart items"
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:311 views/admin/partials/upsell_items.template.php:344
+msgid "Cart must not have"
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:318 views/admin/partials/upsell_items.template.php:351
+msgid "A product with category/attribute"
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:359 views/admin/partials/upsell_items.template.php:392
+msgid "Short text to define your upsell"
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:371 views/admin/partials/upsell_items.template.php:404
+msgid "Long text to define your upsell"
+msgstr ""
+
+#: views/admin/pages/upsells.page.php:434
+msgid "Create upsell"
+msgstr ""
+
+#: views/admin/partials/excluded_pages.template.php:23
+msgid "Remove from list"
+msgstr ""
+
+#: views/admin/partials/gift_items.template.php:4
+msgid "Active gifts"
+msgstr ""
+
+#: views/admin/partials/gift_items.template.php:5
+msgid "Your active gifts"
+msgstr ""
+
+#: views/admin/partials/gift_items.template.php:9
+msgid ""
+"To remove a gift, click <b>delete</b>.<br>To edit an existing one, click <b>edit</b>. \r\n"
+"                                        "
+msgstr ""
+
+#: views/admin/partials/gift_items.template.php:51
+msgid "Gift product"
+msgstr ""
+
+#: views/admin/partials/gift_items.template.php:59
+#: views/admin/partials/gift_items.template.php:69
+#: views/admin/partials/upsell_items.template.php:79
+msgid "subtotal"
+msgstr ""
+
+#: views/admin/partials/gift_items.template.php:111
+#: views/admin/partials/upsell_items.template.php:113
+msgid "This product not set to publish"
+msgstr ""
+
+#: views/admin/partials/gift_items.template.php:118
+#: views/admin/partials/upsell_items.template.php:120
+msgid "Non enough quantity in stock,<br>current stock is"
+msgstr ""
+
+#: views/admin/partials/gift_items.template.php:124
+msgid "Out of stock"
+msgstr ""
+
+#: views/admin/partials/gift_items.template.php:132
+#: views/admin/partials/upsell_items.template.php:145
+msgid "Pause/Active"
+msgstr ""
+
+#: views/admin/partials/gift_items.template.php:138
+#: views/admin/partials/upsell_items.template.php:151
+msgid "Reduce"
+msgstr ""
+
+#: views/admin/partials/gift_items.template.php:139
+#: views/admin/partials/upsell_items.template.php:152
+msgid "Edit"
+msgstr ""
+
+#: views/admin/partials/gift_items.template.php:144
+#: views/admin/partials/gift_items.template.php:145
+msgid "Delete Gift"
+msgstr ""
+
+#: views/admin/partials/gift_items.template.php:146
+msgid "Do you want to remove the selected gift?"
+msgstr ""
+
+#: views/admin/partials/gift_items.template.php:376
+#: views/admin/partials/upsell_items.template.php:350
+msgid "One of this/these products"
+msgstr ""
+
+#: views/admin/partials/gift_items.template.php:388
+msgid ""
+"A product with these categories/attributes. Logic between different fields is AND. Logic "
+"between values in the same field is OR. Leave a field empty to skip that evaluation."
+msgstr ""
+
+#: views/admin/partials/gift_items.template.php:537
+msgid "Update gift"
+msgstr ""
+
+#: views/admin/partials/nav_bar.template.php:7
+#: views/admin/partials/stats_nav_bar.template.php:19
+msgid "Settings"
+msgstr ""
+
+#: views/admin/partials/plugin_description.template.php:21
+msgid "You are on test mode, switch to Live!"
+msgstr ""
+
+#: views/admin/partials/plugin_description.template.php:21
+msgid "Switch to Test Mode"
+msgstr ""
+
+#: views/admin/partials/plugin_description.template.php:36
+msgid "Go Premium"
+msgstr ""
+
+#: views/admin/partials/plugin_description.template.php:45
+msgid "Buy me a coffee"
+msgstr ""
+
+#: views/admin/partials/selects/attribute-list-2.template.php:4
+#: views/admin/partials/selects/attribute-list.template.php:4
+msgid "Attributes"
+msgstr ""
+
+#: views/admin/partials/selects/attribute-list-2.template.php:11
+#: views/admin/partials/selects/attribute-list.template.php:11
+msgid "Search for an attribute&hellip;"
+msgstr ""
+
+#: views/admin/partials/selects/attribute-list-2.template.php:42
+#: views/admin/partials/selects/attribute-list.template.php:42
+msgid "Cart must have/must not have a product with one of these attributes"
+msgstr ""
+
+#: views/admin/partials/selects/category-list.template.php:4
+msgid "Categories"
+msgstr ""
+
+#: views/admin/partials/selects/category-list.template.php:11
+msgid "Search for a category&hellip;"
+msgstr ""
+
+#: views/admin/partials/selects/category-list.template.php:37
+msgid "Cart must have/must have not a product of this category"
+msgstr ""
+
+#: views/admin/partials/selects/product-list.template.php:4
+msgid "Product/s"
+msgstr ""
+
+#: views/admin/partials/selects/product-list.template.php:35
+msgid "Cart must/must not have one of these products"
+msgstr ""
+
+#: views/admin/partials/stats_nav_bar.template.php:7
+msgid "Stats"
+msgstr ""
+
+#: views/admin/partials/stats_nav_bar.template.php:14
+#: views/admin/partials/stats_nav_bar.template.php:25
+msgid "Advanced Stats"
+msgstr ""
+
+#: views/admin/partials/upsell_items.template.php:4
+msgid "Active Upsells"
+msgstr ""
+
+#: views/admin/partials/upsell_items.template.php:5
+msgid "Your active upsells"
+msgstr ""
+
+#: views/admin/partials/upsell_items.template.php:9
+msgid ""
+"To remove an upsell, click <b>delete</b>.<br>To edit an existing one, click <b>edit</b>."
+msgstr ""
+
+#: views/admin/partials/upsell_items.template.php:10
+msgid "To change order, drag and drop by clicking on the <strong>sorting icon</strong>."
+msgstr ""
+
+#: views/admin/partials/upsell_items.template.php:130
+msgid "This product is password protected and can't be  be upselled"
+msgstr ""
+
+#: views/admin/partials/upsell_items.template.php:137
+msgid "This product not purchasable"
+msgstr ""
+
+#: views/admin/partials/upsell_items.template.php:157
+msgid "Delete Upsell"
+msgstr ""
+
+#: views/admin/partials/upsell_items.template.php:158
+msgid "Do you want to remove the selected upsell?"
+msgstr ""
+
+#: views/admin/partials/upsell_items.template.php:477
+msgid "Update upsell"
+msgstr ""
+
+#: views/admin/partials/upsell_items.template.php:488
+msgid "Save order"
+msgstr ""
+
+#: views/partials/upsell/upsell_item.template.php:37
+msgid "off"
+msgstr ""
+
+#: views/partials/upsell/upsell_item.template.php:43
+msgid "save"
+msgstr ""
+
+#: views/partials/wctimeline_items_list.template.php:71
+msgid "Sorry, maximum allowed quantity is"
+msgstr ""
+
+#: views/partials/wctimeline_items_list.template.php:77
+msgid "Sorry, we have just"
+msgstr ""
+
+#: views/partials/wctimeline_items_list.template.php:78
+msgid "items in stock"
+msgstr ""

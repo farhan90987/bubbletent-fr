@@ -1,0 +1,1 @@
+<div class="wc-timeline-notifications"></div>

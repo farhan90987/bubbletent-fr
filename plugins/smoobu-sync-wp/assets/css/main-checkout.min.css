@@ -1,0 +1,1791 @@
+/*!********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/jquery-timepicker/jquery.timepicker.css ***!
+  \********************************************************************************************************/
+/**
+ * jQuery Timepicker
+ * http://timepicker.co
+ *
+ * Enhances standard form input fields helping users to select (or type) times.
+ *
+ * Copyright (c) 2016 Willington Vega; Licensed MIT, GPL
+ */
+
+ .ui-timepicker-container {
+    position: absolute;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.ui-timepicker {
+    box-sizing: content-box;
+    display: block;
+    height: 205px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0 1px;
+    text-align: center;
+}
+
+.ui-timepicker-viewport {
+    box-sizing: content-box;
+    display: block;
+    height: 205px;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    overflow-x: hidden; /* IE */
+}
+
+.ui-timepicker-standard {
+    /* overwrites .ui-widget */
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 1.1em;
+    /* overwrites .ui-widget-content */
+    background-color: #FFF;
+    border: 1px solid #AAA;
+    color: #222;
+    /* overwrites .ui-menu */
+    margin: 0;
+    padding: 2px;
+}
+.ui-timepicker-standard a {
+    border: 1px solid transparent;
+    color: #222;
+    display: block;
+    padding: 0.2em 0.4em;
+    text-decoration: none;
+}
+.ui-timepicker-standard .ui-state-hover {
+    /* overwrites .ui-state-hover */
+    background-color: #DADADA;
+    border: 1px solid #999;
+    font-weight: normal;
+    color: #212121;
+}
+.ui-timepicker-standard .ui-menu-item {
+    /* overwrites .ui-menu and .ui-menu-item */
+    /*clear: left;
+    float: left;*/
+    margin: 0;
+    padding: 0;
+}
+
+.ui-timepicker-corners,
+.ui-timepicker-corners .ui-corner-all {
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.ui-timepicker-hidden {
+    /* overwrites .ui-helper-hidden */
+    display: none;
+}
+
+.ui-timepicker-no-scrollbar .ui-timepicker {
+    border: none;
+}
+
+/*!************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/custom-checkout.scss ***!
+  \************************************************************************************************************************/
+/***************************************
+* Body Structure
+****************************************/
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #ffffff;
+  font-family: Montserrat;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=time],
+input[type=checkbox],
+textarea,
+select,
+.smoobu-addinfo-container textarea,
+.woocommerce-checkout .select2-container .select2-selection {
+  border: 1px solid #000000;
+  outline: 0;
+}
+
+body .woocommerce {
+  font-family: Montserrat;
+}
+body .woocommerce .woocommerce-checkout input[type=text]:focus,
+body .woocommerce .woocommerce-checkout input[type=email]:focus,
+body .woocommerce .woocommerce-checkout input[type=tel]:focus,
+body .woocommerce .woocommerce-checkout input[type=time]:focus,
+body .woocommerce .woocommerce-checkout input[type=checkbox]:focus,
+body .woocommerce .woocommerce-checkout input:focus,
+body .woocommerce .woocommerce-checkout textarea:focus,
+body .woocommerce .woocommerce-checkout select:focus,
+body .woocommerce .woocommerce-checkout a:focus,
+body .woocommerce .woocommerce-checkout textarea:focus {
+  outline: none;
+}
+body .woocommerce .woocommerce-checkout input[type=text]:focus,
+body .woocommerce .woocommerce-checkout input[type=email]:focus,
+body .woocommerce .woocommerce-checkout input[type=tel]:focus,
+body .woocommerce .woocommerce-checkout input[type=time]:focus,
+body .woocommerce .woocommerce-checkout input[type=checkbox]:focus,
+body .woocommerce .woocommerce-checkout input:focus,
+body .woocommerce .woocommerce-checkout textarea:focus {
+  color: #808080;
+  transition: box-shadow 0.2s !important;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.07);
+  border: 1px solid #d8d8d8;
+  opacity: 1;
+}
+body .woocommerce .woocommerce-checkout.checkout {
+  display: grid;
+  grid-template-columns: 9fr 7fr;
+  column-gap: 5vw;
+}
+@media screen and (max-width: 768px) {
+  body .woocommerce .woocommerce-checkout.checkout {
+    grid-template-columns: 1fr;
+    column-gap: revert;
+    row-gap: 2vh;
+  }
+}
+body .woocommerce .woocommerce-checkout .col2-set {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+}
+body .woocommerce .woocommerce-checkout .col2-set .smoobu-section-divider {
+  border: 0.6px Solid #54775E;
+  width: 100%;
+  margin: 1vw 0;
+}
+body .woocommerce .woocommerce-checkout .col2-set .custom-product h1 a {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  font-size: 3.2rem;
+  font-weight: 800;
+  color: #647867;
+  text-decoration: none;
+  font-family: Montserrat;
+}
+body .woocommerce .woocommerce-checkout .col2-set .smoobu-custom-info-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1vw;
+  align-items: center;
+  margin-top: 5vw;
+}
+body .woocommerce .woocommerce-checkout .col2-set .smoobu-custom-info-container .travel-date {
+  margin-top: 5vh;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.2175;
+  color: #54775e;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+body .woocommerce .woocommerce-checkout .col2-set .smoobu-custom-info-container .smoobu-dates-selection-box .smoobu-date-entry-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .woocommerce .woocommerce-checkout .col2-set .smoobu-custom-info-container .smoobu-dates-selection-box .smoobu-date-entry-box .smoobu-date-entry-label {
+  color: #54775e;
+  font-weight: 700;
+  font-size: 1.6rem;
+  font-family: Montserrat;
+}
+body .woocommerce .woocommerce-checkout .col2-set .smoobu-custom-info-container .smoobu-dates-selection-box .smoobu-date-entry-box .smoobu-calendar {
+  font-size: 1rem;
+  width: 22ch;
+  height: 4ch;
+  font-size: 1.4rem;
+}
+@media screen and (max-width: 667px) {
+  body .woocommerce .woocommerce-checkout .col2-set .smoobu-custom-info-container .smoobu-dates-selection-box .smoobu-date-entry-box .smoobu-calendar {
+    width: 16ch;
+  }
+}
+body .woocommerce .woocommerce-checkout .col2-set .smoobu-custom-info-container .guests-count-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1vw;
+  width: 100%;
+}
+@media screen and (max-width: 667px) {
+  body .woocommerce .woocommerce-checkout .col2-set .smoobu-custom-info-container .guests-count-container {
+    flex-direction: column;
+    row-gap: 1vw;
+  }
+}
+body .woocommerce .woocommerce-checkout .col2-set .smoobu-custom-info-container .guests-count-container .guest-instruction-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: #54775E;
+}
+@media screen and (max-width: 667px) {
+  body .woocommerce .woocommerce-checkout .col2-set .smoobu-custom-info-container .guests-count-container .guest-instruction-container {
+    align-items: center;
+  }
+}
+body .woocommerce .woocommerce-checkout .col2-set .smoobu-custom-info-container .guests-count-container .guest-instruction-container span:first-child {
+  font-weight: 700;
+}
+body .woocommerce .woocommerce-checkout .col2-set .smoobu-custom-info-container .guests-count-container .guest-instruction-container .guest-instructions {
+  font-size: 1.4rem;
+}
+body .woocommerce .woocommerce-checkout .col2-set .smoobu-custom-info-container .guests-count-container .guest-instruction-container .guest-number-text {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+body .woocommerce .woocommerce-checkout .col2-set .smoobu-custom-info-container .guests-count-container .guests-count-box {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1vw;
+}
+@media screen and (max-width: 667px) {
+  body .woocommerce .woocommerce-checkout .col2-set .smoobu-custom-info-container .guests-count-container .guests-count-box {
+    justify-content: space-evenly;
+  }
+}
+body .woocommerce .woocommerce-checkout .col2-set .smoobu-custom-info-container .guests-count-container .guests-count-box .smoobu-guest-entry-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .woocommerce .woocommerce-checkout .col2-set .smoobu-custom-info-container .guests-count-container .guests-count-box .smoobu-guest-entry-box label {
+  color: #54775e;
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin: 0;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+body .woocommerce .woocommerce-checkout .col2-set .smoobu-custom-info-container .guests-count-container .guests-count-box .smoobu-guest-entry-box select {
+  border-radius: 20px;
+  width: 13ch;
+  height: 3ch;
+  padding: 0;
+  background-color: #D9D9D9;
+  border: 0;
+  font-size: 1.4rem;
+  text-align: center;
+}
+body .woocommerce .woocommerce-checkout .col2-set .col-1 {
+  max-width: 100%;
+  padding: 0;
+}
+body .woocommerce .woocommerce-checkout .col2-set .col-1 .woocommerce-billing-fields h3 {
+  color: #54775E;
+  font-family: Montserrat;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 0 0 2rem;
+}
+body .woocommerce .woocommerce-checkout .col2-set .col-1 .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1vw;
+  width: 100%;
+}
+body .woocommerce .woocommerce-checkout .col2-set .col-1 .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper .form-row.property-id-container.validate-required {
+  display: none;
+}
+body .woocommerce .woocommerce-checkout .col2-set .col-1 .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper label {
+  font-family: Montserrat;
+}
+body .woocommerce .woocommerce-checkout .col2-set .col-1 .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper input {
+  font-family: Montserrat;
+}
+body .woocommerce .woocommerce-checkout .col2-set .col-1 .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper #billing_country_field .woocommerce-input-wrapper .select2.select2-container.select2-container--default .selection .select2-selection.select2-selection--single {
+  border: 1px solid #000000;
+  outline: 0;
+}
+body .woocommerce .woocommerce-checkout .col2-set .col-1 .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper #billing_country_field .woocommerce-input-wrapper .select2.select2-container.select2-container--default.select2-container--below.select2-container--open .selection .select2-selection.select2-selection--single,
+body .woocommerce .woocommerce-checkout .col2-set .col-1 .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper #billing_country_field .woocommerce-input-wrapper .select2.select2-container.select2-container--default.select2-container--open.select2-container--above .selection .select2-selection.select2-selection--single,
+body .woocommerce .woocommerce-checkout .col2-set .col-1 .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper #billing_country_field .woocommerce-input-wrapper .select2.select2-container.select2-container--default.select2-container--focus .selection .select2-selection.select2-selection--single {
+  border: 1px solid #d8d8d8;
+  outline: 0;
+}
+body .woocommerce .woocommerce-checkout .col2-set .col-2 {
+  flex: revert;
+  margin: 0;
+}
+body .woocommerce .woocommerce-checkout .col2-set .smoobu-addinfo-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1vw;
+}
+body .woocommerce .woocommerce-checkout .col2-set .smoobu-addinfo-container label {
+  font-family: Montserrat;
+}
+body .woocommerce .woocommerce-checkout .col2-set .smoobu-addinfo-container .form-row.notes .woocommerce-input-wrapper textarea {
+  font-family: Montserrat;
+}
+body .woocommerce .woocommerce-checkout .col2-set .smoobu-addinfo-container .form-row.validate-required .woocommerce-input-wrapper input {
+  width: 50%;
+  margin-right: 1vw;
+  font-family: Montserrat;
+}
+body .woocommerce .woocommerce-checkout .col2-set .instructions-container h3 {
+  color: #54775E;
+  font-family: Montserrat;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin: 0 0 1rem;
+  font-weight: 700;
+}
+body .woocommerce .woocommerce-checkout .col2-set .instructions-container .cancellation-info-box,
+body .woocommerce .woocommerce-checkout .col2-set .instructions-container .payments-instruction-box {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  font-size: 1.4rem;
+}
+body .woocommerce .woocommerce-checkout .col2-set .instructions-container .cancellation-info-box span:first-child,
+body .woocommerce .woocommerce-checkout .col2-set .instructions-container .payments-instruction-box span:first-child {
+  font-weight: 600;
+}
+body .woocommerce .woocommerce-checkout .col2-set p {
+  margin: 0;
+  width: 100% !important;
+}
+body .woocommerce .woocommerce-checkout #order_review {
+  height: fit-content;
+}
+body .woocommerce .woocommerce-checkout #order_review .featured-product-image h3 {
+  font-size: 2.3rem;
+  font-weight: 500;
+  color: #000000;
+  font-family: Montserrat;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table thead .product-name {
+  font-family: Montserrat;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tbody .cart_item td {
+  color: #000000;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tbody .custom-content-row:not(.custom-content-row-header) {
+  display: flex;
+  flex-direction: column;
+  background: rgba(84, 119, 94, 0.3098039216);
+  border-radius: 15px;
+  padding: 1vw 1vw 1vw 2vw;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tbody .custom-content-row {
+  row-gap: 1vw;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tbody .custom-content-row .custom-product-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 1vw;
+  font-family: Montserrat;
+  align-items: center;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tbody .custom-content-row .custom-product-row p:first-child .input-checkbox.add-on-checkbox {
+  max-width: 1.5ch;
+  min-width: 1.5ch;
+  width: 1.5ch;
+  height: 1.5ch;
+  border: 1px solid #000000;
+  outline: 0;
+  accent-color: #54775e;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tbody .custom-content-row .custom-product-row p {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tbody .custom-content-row .custom-product-row .form-row.form-row-wide {
+  /* display: block; */
+  line-height: normal;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tbody .custom-content-row .custom-product-row .form-row.form-row-wide .woocommerce-input-wrapper .checkbox {
+  font-family: Montserrat;
+  line-height: 1.1;
+  display: grid;
+  grid-template-columns: 1em auto;
+  column-gap: 1vw;
+  align-items: center;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tbody .custom-content-row .custom-product-row .form-row.form-row-wide .woocommerce-input-wrapper .checkbox input[type=checkbox] {
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+  /* Remove most all native input styles */
+  appearance: none;
+  /* For iOS < 15 */
+  background-color: #ffffff;
+  /* Not removed via appearance */
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  min-width: 1.15em;
+  min-height: 1.15em;
+  border: 1px solid currentColor;
+  border-radius: 0.15em;
+  transform: translateY(-0.075em);
+  display: grid;
+  place-content: center;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tbody .custom-content-row .custom-product-row .form-row.form-row-wide .woocommerce-input-wrapper .checkbox input[type=checkbox]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+  transform: scale(0);
+  transform-origin: bottom left;
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--form-control-color);
+  /* Windows High Contrast Mode */
+  background-color: #ffffff;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tbody .custom-content-row .custom-product-row .form-row.form-row-wide .woocommerce-input-wrapper .checkbox input[type=checkbox]:checked::before {
+  transform: scale(1);
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tbody .custom-content-row .custom-product-row .form-row.form-row-wide .woocommerce-input-wrapper .checkbox input[type=checkbox]:focus {
+  outline: max(2px, 0.15em) solid currentColor;
+  outline-offset: max(2px, 0.15em);
+  background-color: #54775e; /*var(--form-background);*/
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tbody .custom-content-row .custom-product-row .form-row.form-row-wide .woocommerce-input-wrapper .checkbox input[type=checkbox]:checked {
+  background-color: #54775e;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tbody .custom-content-row .addon-include-kids-container {
+  padding: 0;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tbody .custom-content-row .addon-include-kids-container .form-row.form-row-wide {
+  margin: 0;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tbody .custom-content-row .addon-include-kids-container .form-row.form-row-wide .checkbox {
+  font-family: Montserrat;
+  line-height: 1.1;
+  display: grid;
+  grid-template-columns: 1em auto;
+  column-gap: 1vw;
+  align-items: center;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tbody .custom-content-row .addon-include-kids-container .form-row.form-row-wide .checkbox input[type=checkbox] {
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+  /* Remove most all native input styles */
+  appearance: none;
+  /* For iOS < 15 */
+  background-color: #ffffff;
+  /* Not removed via appearance */
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  max-width: 0.95em;
+  max-height: 0.95em;
+  border: 1px solid currentColor;
+  border-radius: 0.05em;
+  transform: translateY(-0.075em);
+  display: grid;
+  place-content: center;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tbody .custom-content-row .addon-include-kids-container .form-row.form-row-wide .checkbox input[type=checkbox]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+  transform: scale(0);
+  transform-origin: bottom left;
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--form-control-color);
+  /* Windows High Contrast Mode */
+  background-color: #ffffff;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tbody .custom-content-row .addon-include-kids-container .form-row.form-row-wide .checkbox input[type=checkbox]:checked::before {
+  transform: scale(1);
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tbody .custom-content-row .addon-include-kids-container .form-row.form-row-wide .checkbox input[type=checkbox]:focus {
+  outline: max(2px, 0.15em) solid currentColor;
+  outline-offset: max(2px, 0.15em);
+  background-color: #54775e; /*var(--form-background);*/
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tbody .custom-content-row .addon-include-kids-container .form-row.form-row-wide .checkbox input[type=checkbox]:checked {
+  background-color: #54775e;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tbody .custom-content-row .addon-include-kids-container .form-row.form-row-wide .checkbox input[type=checkbox]:checked:after {
+  opacity: 0;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tbody .custom-content-row .addon-entry-container {
+  display: grid;
+  grid-template-columns: 2fr auto;
+  column-gap: 1.5vw;
+  font-family: Montserrat;
+  font-size: 1.4rem;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tbody .custom-content-row .addon-entry-container .addon-description {
+  text-align: left;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  word-spacing: -0.05em;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tbody .custom-content-row .addon-entry-container .addon-image-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tbody .custom-content-row .addon-entry-container .addon-image-container img {
+  object-fit: contain;
+  border-radius: 10px;
+  width: 7vw;
+  height: auto;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tfoot .cart-subtotal {
+  display: none !important;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tfoot .fee {
+  display: none !important;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tfoot .tax-rate {
+  display: none !important;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tfoot .coupon-container {
+  display: flex;
+  flex-direction: column;
+  font-family: Montserrat;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tfoot .coupon-container .coupon-head-block {
+  margin: 0;
+  padding: 0 !important;
+  font-family: Montserrat;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tfoot .coupon-container .coupon-head-block .checkout-coupon-toggle {
+  font-family: Montserrat;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tfoot .coupon-container .coupon-head-block .checkout-coupon-toggle .woocommerce-info {
+  background-color: rgba(84, 119, 94, 0.3098039216);
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 1.4rem;
+  font-weight: 800;
+  border-top: none;
+  border-top-color: revert;
+  border-radius: 15px;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tfoot .coupon-container .coupon-head-block .checkout-coupon-toggle .woocommerce-info a.show-coupon {
+  color: #54775e;
+  text-decoration: none;
+  background-color: transparent;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tfoot .order-total {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  align-items: center;
+  font-weight: 600;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat;
+  border-top: 2px solid;
+  padding-top: 2vh;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tfoot .order-total td, body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tfoot .order-total th {
+  font-size: 1.6rem;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tfoot .order-total td .st-total-info, body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tfoot .order-total th .st-total-info {
+  font-family: Montserrat;
+  font-size: 0.9rem;
+  color: #808080;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tfoot .extra-details {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  align-items: center;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tfoot .extra-details td, body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-review-order-table tfoot .extra-details th {
+  padding: 0;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-payment {
+  font-family: Montserrat;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-payment .place-order {
+  font-family: Montserrat;
+  margin: 0;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-payment .place-order .woocommerce-terms-and-conditions-wrapper {
+  font-family: Montserrat;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-payment .place-order .woocommerce-terms-and-conditions-wrapper .woocommerce-privacy-policy-text {
+  font-family: Montserrat;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-payment .place-order .woocommerce-terms-and-conditions-wrapper .woocommerce-privacy-policy-text p {
+  font-family: Montserrat;
+  font-size: 1.2rem;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-payment .place-order .woocommerce-terms-and-conditions-wrapper .form-row.validate-required .woocommerce-form__label span {
+  font-family: Montserrat;
+  font-size: 1.4rem;
+  display: revert;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-payment .place-order .form-row.validate-required {
+  margin-bottom: 1rem;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-payment .place-order .form-row.validate-required .woocommerce-form__label span {
+  font-family: Montserrat;
+  font-size: 1.4rem;
+  display: revert;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-payment .place-order #privacy_policy_field .woocommerce-input-wrapper .woocommerce-form__label-for-checkbox {
+  font-family: Montserrat;
+  font-size: 16px;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-payment .place-order #place_order {
+  font-family: Montserrat;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-payment .smoobu-payments-wrapper label, body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-payment .smoobu-payments-wrapper select {
+  font-family: Montserrat;
+  font-size: 1.4rem;
+}
+body .woocommerce .woocommerce-checkout #order_review .woocommerce-checkout-payment .payment_box p {
+  font-family: Montserrat;
+  font-size: 1.2rem;
+}
+@media screen and (max-width: 667px) {
+  body .woocommerce {
+    margin: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 100%;
+  }
+}
+body.woocommerce-checkout .select2-container .select2-dropdown {
+  border: 1px solid #d8d8d8;
+}
+body.woocommerce-checkout .ui-timepicker-container.ui-timepicker-standard {
+  border: 1px solid #d8d8d8;
+  font-family: Montserrat;
+}
+body.woocommerce-checkout .ui-timepicker-container.ui-timepicker-standard .ui-timepicker {
+  border: none;
+}
+
+/* .woocommerce-page form .form-row-first,
+.woocommerce-page form .form-row-last,
+.woocommerce form .form-row-last,
+.woocommerce form .form-row-first {
+	width: 100%;
+} */
+/* .custom-product h1 {
+	display: flex;
+} */
+/* .custom-product h1 a {
+	font-size: 3.2rem;
+	font-weight: 800;
+	color: #647867;
+	text-decoration:none;
+	font-family: Montserrat;
+} */
+/* .smoobu-addinfo-container {
+	display: flex;
+    flex-direction: column;
+    row-gap: 1vw;
+} */
+.woocommerce-checkout form .col2-set p.notes,
+.woocommerce-checkout form .col2-set p.validate-required {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Check In Date ad Guest Count Container */
+.travel-date {
+  margin-top: 15vh;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.2175;
+  color: #54775e;
+  font-family: Montserrat;
+}
+
+.smoobu-dates-selection-box {
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+  padding-left: 0rem;
+  align-items: flex-end;
+  border-radius: 2rem;
+  width: 100%;
+  /* column-gap: 2vh; */
+}
+
+.smoobu-dates-selection-box input {
+  border: none;
+  background-color: #d9d9d9;
+}
+
+/* Cancelations and Payment Instruction Container Section */
+.instructions-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+/* Order Review Section */
+.woocommerce-checkout form #order_review {
+  padding: 0;
+  background-color: #F5F5F5;
+  width: 100%;
+  border-radius: 30px;
+  padding: 3vw;
+}
+
+thead {
+  display: none;
+}
+
+/*********
+* Above is old block
+*********/
+.featured-product-image {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 3vh; */
+}
+
+.featured-product-image img {
+  object-fit: contain;
+  max-height: 200px;
+  border-radius: 30px;
+}
+
+body .woocommerce #order_review .cart_item {
+  background: none;
+  border: none;
+}
+
+.woocommerce-page table.shop_table tbody tr.cart_item,
+body .woocommerce #order_review .cart_item {
+  font-size: 1.6rem;
+  border-bottom: solid 1px;
+}
+
+.woocommerce-checkout form #order_review .woocommerce-checkout-review-order-table {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  background: none;
+  box-shadow: none;
+}
+
+.shop_table.woocommerce-checkout-review-order-table tbody {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1vh;
+  margin-bottom: 2rem;
+}
+
+/* Custom Content Block / Addon Block */
+.description {
+  display: none;
+}
+
+/* .custom-content-row {
+	display: flex;
+	flex-direction: column;
+	background: #54775e4f;
+	border-radius: 15px;
+	padding:1vw 1vw 1vw 2vw;
+} */
+p[id^=_custom_nights_],
+p[id^=_custom_person_] {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin: 1.5vh 0;
+}
+
+p[id^=_custom_nights_] label,
+p[id^=_custom_person_] label {
+  font-size: 1.2rem;
+}
+
+.custom-content-row.custom-content-row-header {
+  background-color: revert;
+  margin-top: 0;
+}
+
+body .woocommerce #order_review table.shop_table .cart_item:first-child .product-name,
+.custom-content-row.custom-content-row-header,
+.custom-content-row.custom-content-row-header th,
+body .woocommerce #order_review table.shop_table tfoot .order-total th,
+body .woocommerce #order_review table.shop_table tfoot .order-total td,
+body .woocommerce-checkout #order_review table.shop_table th.optional-text {
+  font-family: Montserrat;
+  padding-left: 0;
+}
+
+body .woocommerce #order_review table.shop_table th.optional-text,
+.custom-content-row.custom-content-row-header {
+  margin: revert;
+  padding: revert;
+  margin: 0;
+  padding: 0;
+}
+
+body .woocommerce-checkout #order_review table.shop_table th.custom-product-row,
+body .woocommerce-checkout #order_review table.shop_table td.addon-entry-container {
+  padding: 0;
+}
+
+/*********************
+* Add on Old
+*********************/
+body .woocommerce form .form-row input[id^=_custom_checkbox_].input-checkbox.add-on-checkbox:checked:after {
+  /* 	width: 0.75ch;
+  	height: 1.5ch; */
+  opacity: 0;
+}
+
+.woocommerce-checkout form #order_review .woocommerce-checkout-review-order-table th.custom-product-row p {
+  font-size: 1.6rem;
+}
+
+input[id^=_custom_checkbox_] {
+  vertical-align: middle;
+}
+
+p[id^=_custom_checkbox_] {
+  margin-left: 0;
+}
+
+p[id^=_custom_checkbox_] label {
+  font-size: 1.6rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  opacity: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+  margin: 0;
+}
+
+body .woocommerce form .form-row input[id^=_custom_nights_].input-text.add-on-input,
+body .woocommerce form .form-row input[id^=_custom_person_].input-text.add-on-input {
+  width: 5ch;
+  height: 4ch;
+  margin-right: 2ch;
+  padding: 0 1ch;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  outline: 0;
+}
+
+/*******************
+* Addon Old Ends
+*******************/
+/* Coupoun Section */
+/* .coupon-container {
+	display: flex;
+	flex-direction: column;
+} */
+/* .coupon-head-block {
+	margin: 0;
+	padding: 0 !important;
+} */
+/* Payment Block */
+select#smoobu-payments-container {
+  background: linear-gradient(180deg, rgb(172, 172, 175) 0%, rgba(215, 215, 218, 0.8701855742) 48%, rgb(245, 246, 246) 100%);
+  border: none;
+  width: 100%;
+}
+
+#payment div.payment_box {
+  position: relative;
+  width: 100%;
+  padding: 22px;
+  margin: 10px 0;
+  left: 0;
+  font-size: 13px;
+  line-height: 1.5em;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.03);
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.03);
+  background-color: #E9F7FE;
+  color: #5091b2;
+  border: 1px solid #b6d7e8;
+}
+
+#payment div.payment_box:after {
+  content: "";
+  display: block;
+  border: 8px solid #b6d7e8;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  position: absolute;
+  top: -3px;
+  left: 0;
+  margin: -1em 0 0 2em;
+}
+
+/* Total Block */
+.woocommerce-checkout form #order_review .woocommerce-checkout-review-order-table .order-total {
+  border-top: 1px solid #000000;
+}
+
+/* Policy */
+.place-order .form-row {
+  margin: 0;
+}
+
+.woocommerce-terms-and-conditions-wrapper {
+  margin-bottom: 1rem;
+}
+
+.woocommerce-terms-and-conditions-wrapper .woocommerce-privacy-policy-text p {
+  font-size: 1rem;
+}
+
+/* Place Order */
+body .woocommerce #payment #place_order,
+.woocommerce-page #payment #place_order .site .button:not(:hover):not(:active):not(.has-background),
+body .coupon-container .button:not(:hover):not(:active):not(.has-background) {
+  border-radius: 30px;
+  outline: 0;
+  background-color: #54775E;
+  border: none;
+  color: #ffffff;
+  margin: 0;
+  font-family: Montserrat;
+}
+
+body .woocommerce #payment #place_order:hover,
+.woocommerce-page #payment #place_order:hover,
+body .coupon-container .button:hover,
+body .woocommerce button.button:hover {
+  border-radius: 30px;
+  outline: 0;
+  border: 2px solid #54775E;
+  background-color: transparent !important;
+  border-color: currentColor;
+  color: #54775E;
+}
+
+/* Order Review Block */
+@media screen and (max-width: 667px) {
+  .woocommerce-checkout form[name=checkout] {
+    grid-template-columns: 1fr;
+    column-gap: revert;
+    row-gap: 2vh;
+  }
+  .woocommerce-billing-fields__field-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .woocommerce-checkout form #order_review {
+    background-color: #FFFFFF;
+    padding: 0;
+  }
+  .featured-product-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1rem;
+    /* margin-top: 3vh; */
+  }
+  .featured-product-image img {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 30px;
+  }
+  .custom-product h1 {
+    justify-content: center;
+  }
+  .custom-content-row {
+    padding: 1rem;
+  }
+  .custom-product h1 a {
+    font-size: 2rem;
+  }
+  /* 	.smoobu-date-entry-box .smoobu-calendar{
+  		width: 16ch;
+  	} */
+  .travel-date {
+    margin-top: 2vh;
+    font-size: 1.8rem;
+  }
+}
+/**************************
+* Bubble Tent specific CSS
+***************************/
+body > #wrapper > .solid {
+  display: none;
+}
+
+.ui-timepicker-standard {
+  padding: 0;
+}
+.ui-timepicker-standard a {
+  font-family: Montserrat;
+  text-align: center;
+  width: 100%;
+}
+.ui-timepicker-standard .ui-state-hover {
+  background-color: rgba(84, 119, 94, 0.3098039216);
+  border: none;
+}
+.ui-timepicker-standard .ui-menu li.ui-menu-item {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+/*!*************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/index.css ***!
+  \*************************************************************************************************************/
+:host {
+  --color-bg-default:#fff;
+  --color-bg-secondary:#f9f9f9;
+  --color-fg-default:#333;
+  --color-fg-primary:#54775e;
+  --color-fg-secondary:#748194;
+  --color-fg-selected:#fff;
+  --color-fg-muted:#9e9e9e;
+  --color-fg-accent:#e63757;
+  --color-btn-primary-bg:#fff;
+  --color-btn-primary-fg:#6b82ff;
+  --color-btn-primary-border:#6b82ff;
+  --color-btn-primary-hover-bg:#6b82ff;
+  --color-btn-primary-hover-fg:#fff;
+  --color-btn-primary-hover-border:#6b82ff;
+  --color-btn-primary-disabled-bg:#a2b0ff;
+  --color-btn-primary-disabled-fg:#fff;
+  --color-btn-primary-disabled-border:#a2b0ff;
+  --color-btn-secondary-bg:#fff;
+  --color-btn-secondary-fg:#748194;
+  --color-btn-secondary-border:#748194;
+  --color-btn-secondary-hover-bg:#748194;
+  --color-btn-secondary-hover-fg:#fff;
+  --color-btn-secondary-hover-border:#748194;
+  --color-btn-secondary-disabled-bg:#b5bbc4;
+  --color-btn-secondary-disabled-fg:#fff;
+  --color-btn-secondary-disabled-border:#b5bbc4;
+  --color-border-default:#ddd;
+  --color-border-locked:#f9f9f9;
+  --day-width:42px;
+  --day-height:37px;
+  --border-radius:2px;
+  --primary-color:#6b82ff;
+  --secondary-color:#748194;
+  --white-color:#fff;
+  --black-color:#333;
+  --lightgray-color:#f9f9f9;
+  --gray-color:#9e9e9e;
+  --red-color:#e63757;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container-easepick {
+  border-radius: 4px;
+  color: var(--color-fg-default);
+  cursor: default;
+  display: inline-block;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.8em;
+  height: 0;
+  overflow: hidden;
+  pointer-events: all;
+  position: absolute;
+  transform: scale(0);
+  transform-origin: top left;
+  transition: transform 0.3s ease-out;
+}
+
+.container-easepick.calc {
+  height: auto;
+  transform: none;
+  transition: none;
+  visibility: hidden;
+}
+
+.container-easepick.show {
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+  height: auto;
+  transform: scale(1);
+}
+
+.container-easepick.inline {
+  box-shadow: 0 7px 14px 0 rgba(65, 69, 88, 0.1), 0 3px 6px 0 rgba(0, 0, 0, 0.07);
+  height: auto;
+  left: 0;
+  position: relative;
+  top: 0;
+  transform: scaleY(1);
+}
+
+.container-easepick > main {
+  background-color: var(--color-bg-default);
+}
+
+.container-easepick > footer, .container-easepick > header {
+  background-color: var(--color-bg-secondary);
+  padding: 10px;
+}
+
+.container-easepick > footer .footer-buttons {
+  -moz-column-gap: 5px;
+  column-gap: 5px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container-easepick > footer .footer-buttons > button {
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.container-easepick > footer .footer-buttons > button.apply-button {
+  background-color: var(--color-btn-primary-bg);
+  border-color: var(--color-btn-primary-border);
+  color: var(--color-btn-primary-fg);
+}
+
+.container-easepick > footer .footer-buttons > button.apply-button:hover {
+  background-color: var(--color-btn-primary-hover-bg);
+  border-color: var(--color-btn-primary-hover-border);
+  color: var(--color-btn-primary-hover-fg);
+}
+
+.container-easepick > footer .footer-buttons > button.apply-button:disabled {
+  background-color: var(--color-btn-primary-disabled-bg);
+  border-color: var(--color-btn-primary-disabled-border);
+  color: var(--color-btn-primary-disabled-fg);
+  cursor: default;
+}
+
+.container-easepick > footer .footer-buttons > button.cancel-button {
+  background-color: var(--color-btn-secondary-bg);
+  border-color: var(--color-btn-secondary-border);
+  color: var(--color-btn-secondary-fg);
+}
+
+.container-easepick > footer .footer-buttons > button.cancel-button:hover {
+  background-color: var(--color-btn-secondary-hover-bg);
+  border-color: var(--color-btn-secondary-hover-border);
+  color: var(--color-btn-secondary-hover-fg);
+}
+
+.container-easepick > footer .footer-buttons > button.cancel-button:disabled {
+  background-color: var(--color-btn-secondary-disabled-bg);
+  border-color: var(--color-btn-secondary-disabled-border);
+  color: var(--color-btn-secondary-disabled-fg);
+  cursor: default;
+}
+
+.grid-1 {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-6 {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.grid-7 {
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.grid-8 {
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.grid-9 {
+  grid-template-columns: repeat(9, 1fr);
+}
+
+.grid-10 {
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.grid-11 {
+  grid-template-columns: repeat(11, 1fr);
+}
+
+.grid-12 {
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.calendars {
+  display: grid;
+}
+
+.calendars:not(.grid-1) .calendar > .header .month-name {
+  order: 2;
+  text-align: center;
+}
+
+.calendars:not(.grid-1) .calendar > .header .previous-button {
+  order: 1;
+  visibility: hidden;
+}
+
+.calendars:not(.grid-1) .calendar > .header .next-button {
+  order: 3;
+  visibility: hidden;
+}
+
+.calendars:not(.grid-1) .calendar:first-child > .header .previous-button, .calendars:not(.grid-1) .calendar:last-child > .header .next-button {
+  visibility: visible;
+}
+
+.calendar {
+  padding: 10px;
+}
+
+.calendar > .header {
+  align-items: center;
+  -moz-column-gap: 5px;
+  column-gap: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.calendar > .header .month-name {
+  flex: 1;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.calendar > .header .month-name > span {
+  font-weight: 700;
+}
+
+.calendar > .header button {
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  color: var(--color-btn-secondary-fg);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  padding: 4px 7px;
+}
+
+.calendar > .header button:hover {
+  background-color: var(--color-bg-secondary);
+}
+
+.calendar > .header button:hover > img, .calendar > .header button:hover > svg {
+  fill: var(--color-fg-primary);
+  color: var(--color-fg-primary);
+}
+
+.calendar > .header button > img, .calendar > .header button > svg {
+  fill: var(--color-btn-secondary-fg);
+  color: var(--color-btn-secondary-fg);
+  pointer-events: none;
+  transform: scale(0.7);
+}
+
+.calendar > .daynames-row, .calendar > .days-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  row-gap: 2px;
+}
+
+.calendar > .daynames-row > .day, .calendar > .daynames-row > .dayname, .calendar > .days-grid > .day, .calendar > .days-grid > .dayname {
+  align-items: center;
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  justify-content: center;
+}
+
+.calendar > .daynames-row > .dayname {
+  color: var(--color-fg-muted);
+  font-size: 12px;
+  padding: 5px 0;
+}
+
+.calendar > .days-grid > .day {
+  border: 1px solid transparent;
+  border-radius: 2px;
+  height: var(--day-height);
+  max-height: var(--day-height);
+  max-width: var(--day-width);
+  min-height: var(--day-height);
+  min-width: var(--day-width);
+  padding: 10px 0;
+  width: var(--day-width);
+}
+
+.calendar > .days-grid > .day:hover {
+  border: 1px solid var(--color-fg-primary);
+  color: var(--color-fg-primary);
+}
+
+.calendar > .days-grid > .day.today {
+  color: var(--color-fg-accent);
+}
+
+.calendar > .days-grid > .day.selected {
+  background-color: var(--color-fg-primary);
+  color: var(--color-fg-selected);
+}
+
+@media (max-width: 480px) {
+  .container-easepick:not(.inline) {
+    transform: scaleY(0) !important;
+    transform-origin: bottom center !important;
+  }
+  .container-easepick:not(.inline).show {
+    left: 0 !important;
+    position: fixed !important;
+    right: 0 !important;
+    transform: scaleY(1) !important;
+  }
+  .container-easepick {
+    width: 100%;
+  }
+  .calendars {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .calendars .calendar {
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .calendars .calendar:nth-child(n+2) {
+    display: none;
+  }
+  .calendars .calendar > .days-grid > .day {
+    height: auto;
+    max-height: unset;
+    max-width: unset;
+    min-height: unset;
+    min-width: unset;
+    width: auto;
+  }
+  .calendars .calendar > .header:not(.no-next-month) .next-button {
+    visibility: visible;
+  }
+}
+:host {
+  --color-fg-locked:#9e9e9e;
+  --color-bg-locked:#54775e;
+  --color-bg-unavailable:#f9f9f9;
+}
+
+.container-easepick.lock-plugin .calendars .calendar:first-child > .header.no-previous-month .previous-button, .container-easepick.lock-plugin .calendars .calendar:last-child > .header.no-next-month .next-button {
+  visibility: hidden;
+}
+
+.container-easepick.lock-plugin .calendar > .days-grid > .day.not-available {
+  background-color: var(--color-bg-unavailable);
+  color: var(--color-fg-locked);
+  font-style: italic;
+  pointer-events: none;
+}
+
+.container-easepick.lock-plugin .calendar > .days-grid > .day.locked {
+  background-color: transparent;
+  border: 1px solid var(--color-border-locked);
+  color: var(--color-fg-locked);
+  pointer-events: none;
+}
+
+.container-easepick.lock-plugin .calendar > .days-grid > .day.locked:not(.start):not(.end) {
+  background-image: repeating-linear-gradient(135deg, transparent, var(--color-bg-locked) 2px, transparent 2px, transparent 4px);
+  font-style: italic;
+}
+
+.container-easepick.lock-plugin .preset-plugin-container > button:disabled {
+  color: var(--color-fg-locked);
+  pointer-events: none;
+}
+
+.container-easepick.preset-plugin > main {
+  display: flex;
+}
+
+.container-easepick.preset-plugin > main.preset-left {
+  flex-direction: row-reverse;
+}
+
+.container-easepick.preset-plugin > main.preset-right {
+  flex-direction: row;
+}
+
+.container-easepick.preset-plugin > main.preset-left .preset-plugin-container, .container-easepick.preset-plugin > main.preset-right .preset-plugin-container {
+  flex-direction: column;
+  width: 130px;
+}
+
+.container-easepick.preset-plugin > main.preset-top {
+  flex-direction: column-reverse;
+}
+
+.container-easepick.preset-plugin > main.preset-bottom {
+  flex-direction: column;
+}
+
+.container-easepick.preset-plugin > main.preset-bottom .preset-plugin-container, .container-easepick.preset-plugin > main.preset-top .preset-plugin-container {
+  flex-direction: row;
+}
+
+.preset-plugin-container {
+  background-color: var(--color-bg-secondary);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.preset-plugin-container > button {
+  background-color: var(--color-bg-default);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: var(--color-fg-default);
+  padding: 5px;
+}
+
+.preset-plugin-container > button:hover {
+  border: 1px solid var(--color-fg-primary);
+  color: var(--color-fg-primary);
+  cursor: pointer;
+}
+
+:host {
+  --color-bg-inrange:#dce3de;
+  --color-bg-tooltip:#fff;
+  --color-fg-tooltip:#333;
+}
+
+.range-plugin-tooltip {
+  background-color: var(--color-bg-tooltip);
+  border-radius: var(--border-radius);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  color: var(--color-fg-tooltip);
+  font-size: 12px;
+  margin-top: -4px;
+  padding: 4px 8px;
+  pointer-events: none;
+  position: absolute;
+  visibility: hidden;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.range-plugin-tooltip:before {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid rgba(0, 0, 0, 0.12);
+  bottom: -5px;
+  content: "";
+  left: calc(50% - 5px);
+  position: absolute;
+}
+
+.range-plugin-tooltip:after {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid var(--color-bg-tooltip);
+  bottom: -4px;
+  content: "";
+  left: calc(50% - 4px);
+  position: absolute;
+}
+
+.container-easepick.range-plugin .calendar > .days-grid > .day {
+  position: relative;
+}
+
+.container-easepick.range-plugin .calendar > .days-grid > .day.in-range:last-of-type {
+  border-bottom-right-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+}
+
+.container-easepick.range-plugin .calendar > .days-grid > .day.in-range {
+  background-color: var(--color-bg-inrange);
+  border-radius: 0;
+}
+
+.container-easepick.range-plugin .calendar > .days-grid > .day.end, .container-easepick.range-plugin .calendar > .days-grid > .day.start {
+  background-color: var(--color-fg-primary);
+  color: var(--color-fg-selected);
+}
+
+.container-easepick.range-plugin .calendar > .days-grid > .day.start {
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 0;
+}
+
+.container-easepick.range-plugin .calendar > .days-grid > .day.start:after {
+  border: 8px solid transparent;
+  border-left: 8px solid var(--color-fg-primary);
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  right: -14px;
+  z-index: 1;
+}
+
+.container-easepick.range-plugin .calendar > .days-grid > .day.start.flipped {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 50%;
+}
+
+.container-easepick.range-plugin .calendar > .days-grid > .day.start.flipped:after {
+  border-left-color: transparent;
+  border-right-color: var(--color-fg-primary);
+  left: -14px;
+  right: auto;
+}
+
+.container-easepick.range-plugin .calendar > .days-grid > .day.end {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 50%;
+}
+
+.container-easepick.range-plugin .calendar > .days-grid > .day.end:after {
+  border: 8px solid transparent;
+  border-right: 8px solid var(--color-fg-primary);
+  content: "";
+  left: -14px;
+  pointer-events: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.container-easepick.range-plugin .calendar > .days-grid > .day.end.flipped {
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 0;
+}
+
+.container-easepick.range-plugin .calendar > .days-grid > .day.end.flipped:after {
+  border-left-color: var(--color-fg-primary);
+  border-right-color: transparent;
+  left: auto;
+  right: -14px;
+}
+
+.container-easepick.range-plugin .calendar > .days-grid > .day.start.end {
+  border-radius: var(--border-radius);
+}
+
+.container-easepick.range-plugin .calendar > .days-grid > .day.start.end:after {
+  content: none;
+}
+
+.container-easepick.range-plugin .calendar > .days-grid > div:not(.day) + .day.in-range {
+  border-bottom-left-radius: var(--border-radius);
+  border-top-left-radius: var(--border-radius);
+}
+
+.container-easepick.range-plugin .calendar > .days-grid > div:nth-child(7n).in-range {
+  border-bottom-right-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+}
+
+.container-easepick.range-plugin .calendar > .days-grid > div:nth-child(7n+1).in-range {
+  border-bottom-left-radius: var(--border-radius);
+  border-top-left-radius: var(--border-radius);
+}
+
+.container-easepick.preset-plugin main {
+  display: grid;
+}
+
+.container-easepick.preset-plugin main.preset-left > .calendars, .container-easepick.preset-plugin main.preset-top > .calendars {
+  order: 2;
+}
+
+.container-easepick.preset-plugin main.preset-left > .preset-plugin-container, .container-easepick.preset-plugin main.preset-top > .preset-plugin-container {
+  order: 1;
+}
+
+.container-easepick.preset-plugin main.preset-left, .container-easepick.preset-plugin main.preset-right {
+  grid-template-columns: auto auto;
+}
+
+.container-easepick.preset-plugin main.preset-left .preset-plugin-container, .container-easepick.preset-plugin main.preset-right .preset-plugin-container {
+  grid-row: span 2;
+  width: 130px;
+}
+
+.container-easepick.preset-plugin main.preset-bottom > .preset-plugin-container {
+  order: 4;
+}
+
+.container-easepick.preset-plugin main.preset-bottom, .container-easepick.preset-plugin main.preset-top {
+  grid-template-columns: auto;
+}
+
+.container-easepick.preset-plugin main > .time-plugin-container {
+  order: 3;
+}
+
+.container-easepick > main:not([class*=preset-]) {
+  flex-direction: column;
+}
+
+.time-plugin-container {
+  background-color: var(--color-bg-secondary);
+  border-bottom: 1px solid var(--color-border-default);
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.time-plugin-container input[type=time] {
+  font-size: 18px;
+}
+
+.time-plugin-container input[type=time], .time-plugin-container select {
+  background-color: var(--color-bg-default);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: var(--color-fg-default);
+}
+
+.time-plugin-container select {
+  margin: 0 3px;
+}
+
+.container-easepick.amp-plugin .calendars .calendar > .header .month-name {
+  align-items: center;
+  -moz-column-gap: 5px;
+  column-gap: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.container-easepick.amp-plugin .calendars .calendar > .header .month-name select {
+  border: none;
+  font-size: 14px;
+  padding: 3px;
+}
+
+.container-easepick.amp-plugin .calendars .calendar > .header .month-name select.month-name--dropdown {
+  font-weight: 700;
+}
+
+.container-easepick.amp-plugin .calendars .calendar > .header .reset-button {
+  order: 4;
+}
+
+.container-easepick.amp-plugin .calendars.calendars:not(.grid-1) .calendar > .header .reset-button {
+  visibility: hidden;
+}
+
+.container-easepick.amp-plugin .calendars.calendars:not(.grid-1) .calendar:last-child > .header .reset-button {
+  visibility: visible;
+}
+
+.container-easepick.amp-plugin.week-numbers .calendar > .daynames-row, .container-easepick.amp-plugin.week-numbers .calendar > .days-grid {
+  grid-template-columns: 30px repeat(7, 1fr);
+}
+
+.container-easepick.amp-plugin.week-numbers .calendar > .daynames-row .wnum-header, .container-easepick.amp-plugin.week-numbers .calendar > .daynames-row .wnum-item, .container-easepick.amp-plugin.week-numbers .calendar > .days-grid .wnum-header, .container-easepick.amp-plugin.week-numbers .calendar > .days-grid .wnum-item {
+  align-items: center;
+  color: var(--color-fg-muted);
+  display: flex;
+  font-size: 12px;
+  justify-content: center;
+}
+
+.container-easepick[data-theme=dark] {
+  --color-bg-default:#22272e;
+  --color-bg-secondary:#2d333b;
+  --color-bg-inrange:#2c542e;
+  --color-bg-locked:#ec775c;
+  --color-bg-unavailable:#545d68;
+  --color-bg-tooltip:#9e9e9e;
+  --color-fg-default:#adbac7;
+  --color-fg-primary:#46954a;
+  --color-fg-secondary:#202122;
+  --color-fg-muted:#9e9e9e;
+  --color-fg-accent:#ec775c;
+  --color-fg-locked:#9e9e9e;
+  --color-btn-primary-bg:#2d333b;
+  --color-btn-primary-fg:#46954a;
+  --color-btn-primary-border:#46954a;
+  --color-btn-primary-hover-bg:#46954a;
+  --color-btn-primary-hover-fg:#fff;
+  --color-btn-primary-hover-border:#46954a;
+  --color-btn-secondary-bg:#2d333b;
+  --color-btn-secondary-fg:#adbac7;
+  --color-btn-secondary-border:#adbac7;
+  --color-btn-secondary-hover-bg:#adbac7;
+  --color-btn-secondary-hover-fg:#202122;
+  --color-btn-secondary-hover-border:#adbac7;
+  --color-border-default:#373e47;
+  --color-border-locked:#2d333b;
+}
+/*!*********************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/hotel-example.css ***!
+  \*********************************************************************************************************************/
+.container.lock-plugin .calendar > .days-grid > .day.locked:not(.start):not(.end) {
+  background-image: repeating-linear-gradient(135deg, transparent, #ff9800 2px, transparent 0, transparent 4px);
+}
+
+/*# sourceMappingURL=main-checkout.min.css.map*/

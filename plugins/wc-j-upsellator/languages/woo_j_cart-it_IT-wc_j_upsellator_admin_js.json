@@ -1,0 +1,49 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
+            "lang": "it_IT"
+         },
+          "Yes, remove": [
+            "Si, rimuovi"
+         ],  
+         "Yes, clear": [
+            "Si, cancella"
+         ],        
+          "Cancel": [
+            "Annulla"
+         ],
+		   "Product already added": [
+            "Prodotto già presente"
+         ],
+		   "We need at least 3 characters": [
+            "Digita almeno 3 caratteri"
+         ],
+         "No results found, sorry": [
+            "Nessun risultato trovato"
+         ],
+         "Searching...": [
+            "Sto cercando..."
+         ],
+         "Premium required": [
+            "richiesto Premium"
+         ],
+		 "This product is already added. Change product or remove this from the active upsells/gifts": [
+            "Questo prodotto è già stato aggiunto. Cambia prodotto o rimuovilo da quelli attivi prima di aggiungerlo nuovamente."
+         ],
+         "purchase our <b><a href=\"/wp-admin/admin.php?page=wc-j-upsellator-pricing\">premium version</a></b> to unlock these features": [
+            "acquista la nostra <b><a href=\"/wp-admin/admin.php?page=wc-j-upsellator-pricing\">versione premium</a></b> per sbloccare queste funzioni"
+         ],
+         "Background mode": [
+            "Modalità background"
+         ],
+         "we have hidden some options because they are not needed in this mode": [
+            "abbiamo nascosto alcune opzioni in quanto non sono necessarie in questa modalità"
+         ]
+      }
+   }
+}
+

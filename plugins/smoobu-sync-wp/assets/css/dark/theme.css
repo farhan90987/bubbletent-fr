@@ -1,0 +1,310 @@
+/*!
+ * jQuery UI CSS Framework 1.12.1
+ * http://jqueryui.com
+ *
+ * Copyright jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/category/theming/
+ *
+ * To view and modify this theme, visit http://jqueryui.com/themeroller/?scope=.smoobu-calendar&folderName=smoobu-calendar&cornerRadiusShadow=8px&offsetLeftShadow=-7px&offsetTopShadow=-7px&thicknessShadow=7px&opacityShadow=60&bgImgOpacityShadow=30&bgTextureShadow=flat&bgColorShadow=cccccc&opacityOverlay=80&bgImgOpacityOverlay=50&bgTextureOverlay=flat&bgColorOverlay=5c5c5c&iconColorError=a83300&fcError=111111&borderColorError=ffb73d&bgImgOpacityError=40&bgTextureError=glass&bgColorError=ffc73d&iconColorHighlight=4b8e0b&fcHighlight=2e7db2&borderColorHighlight=cccccc&bgImgOpacityHighlight=80&bgTextureHighlight=highlight_soft&bgColorHighlight=eeeeee&iconColorActive=222222&fcActive=ffffff&borderColorActive=ffaf0f&bgImgOpacityActive=30&bgTextureActive=inset_soft&bgColorActive=f58400&iconColorHover=ffffff&fcHover=ffffff&borderColorHover=59b4d4&bgImgOpacityHover=40&bgTextureHover=glass&bgColorHover=0078a3&iconColorDefault=cccccc&fcDefault=eeeeee&borderColorDefault=666666&bgImgOpacityDefault=20&bgTextureDefault=glass&bgColorDefault=555555&iconColorContent=cccccc&fcContent=ffffff&borderColorContent=666666&bgImgOpacityContent=25&bgTextureContent=inset_soft&bgColorContent=000000&iconColorHeader=ffffff&fcHeader=ffffff&borderColorHeader=333333&bgImgOpacityHeader=25&bgTextureHeader=gloss_wave&bgColorHeader=333333&cornerRadius=6px&fsDefault=1.1em&fwDefault=bold&ffDefault=Segoe%20UI%2CArial%2Csans-serif
+ */
+
+
+/* Component containers
+----------------------------------*/
+
+.smoobu-calendar .ui-widget {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+.smoobu-calendar .ui-widget .ui-widget {
+    font-size: 1em;
+}
+
+.smoobu-calendar .ui-widget input,
+.smoobu-calendar .ui-widget select,
+.smoobu-calendar .ui-widget textarea,
+.smoobu-calendar .ui-widget button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+.smoobu-calendar .ui-widget.ui-widget-content {
+    /* border-shadow */
+    -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.50);
+    -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.50);
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.50);
+    /* border-radius */
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.smoobu-calendar .ui-widget-content {
+    /* general-bg */
+    background: #000000;
+    /* general */
+    color: #ffffff;
+}
+
+.smoobu-calendar .ui-widget-content a {
+    /* general */
+    color: #ffffff;
+}
+
+.smoobu-calendar .ui-widget-header {
+    /* header-bg */
+    background: #333333;
+    /* header */
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.smoobu-calendar .ui-widget-header a {
+    /* header */
+    color: #ffffff;
+}
+
+.smoobu-calendar .ui-widget-header th span {
+    /* days */
+    color: #dddddd;
+}
+
+
+/* Interaction states
+----------------------------------*/
+
+.smoobu-calendar .ui-state-default,
+.smoobu-calendar .ui-widget-content .ui-state-default,
+.smoobu-calendar .ui-widget-header .ui-state-default,
+.smoobu-calendar .ui-button,
+
+/* We use html here because we need a greater specificity to make sure disabled
+works properly when clicked or hovered */
+
+html .smoobu-calendar .ui-button.ui-state-disabled:hover,
+html .smoobu-calendar .ui-button.ui-state-disabled:active {
+    /* regular-bg */
+    background: #555555;
+    font-weight: normal;
+    /* regular */
+    color: #eeeeee;
+}
+
+.smoobu-calendar .ui-state-default a,
+.smoobu-calendar .ui-state-default a:link,
+.smoobu-calendar .ui-state-default a:visited,
+a.smoobu-calendar .ui-button,
+a:link.smoobu-calendar .ui-button,
+a:visited.smoobu-calendar .ui-button,
+.smoobu-calendar .ui-button {
+    /* regular */
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+.smoobu-calendar .ui-state-hover,
+.smoobu-calendar .ui-widget-content .ui-state-hover,
+.smoobu-calendar .ui-widget-header .ui-state-hover,
+.smoobu-calendar .ui-state-focus,
+.smoobu-calendar .ui-widget-content .ui-state-focus,
+.smoobu-calendar .ui-widget-header .ui-state-focus,
+.smoobu-calendar .ui-button:hover,
+.smoobu-calendar .ui-button:focus {
+    /* hover-bg */
+    background: #777777;
+    font-weight: normal;
+    /* hover */
+    color: #ffffff;
+}
+
+.smoobu-calendar .ui-state-hover a,
+.smoobu-calendar .ui-state-hover a:hover,
+.smoobu-calendar .ui-state-hover a:link,
+.smoobu-calendar .ui-state-hover a:visited,
+.smoobu-calendar .ui-state-focus a,
+.smoobu-calendar .ui-state-focus a:hover,
+.smoobu-calendar .ui-state-focus a:link,
+.smoobu-calendar .ui-state-focus a:visited,
+a.smoobu-calendar .ui-button:hover,
+a.smoobu-calendar .ui-button:focus {
+    /* hover */
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.smoobu-calendar .ui-state-active,
+.smoobu-calendar .ui-widget-content .ui-state-active,
+.smoobu-calendar .ui-widget-header .ui-state-active,
+a.smoobu-calendar .ui-button:active,
+.smoobu-calendar .ui-button:active,
+.smoobu-calendar .ui-button.ui-state-active:hover {
+    /* selected-bg */
+    background: #f58400;
+    font-weight: normal;
+    /* selected */
+    color: #ffffff;
+}
+
+.smoobu-calendar .ui-state-active a,
+.smoobu-calendar .ui-state-active a:link,
+.smoobu-calendar .ui-state-active a:visited {
+    /* selected */
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.smoobu-calendar .ui-datepicker-calendar tr th {
+    /* days */
+    color: #dddddd;
+}
+
+
+/* Interaction Cues
+----------------------------------*/
+
+.smoobu-calendar .ui-state-highlight,
+.smoobu-calendar .ui-widget-content .ui-state-highlight,
+.smoobu-calendar .ui-widget-header .ui-state-highlight {
+    /* highlighted bg */
+    background: #eeeeee;
+    /* highlighted */
+    color: #2e7db2;
+}
+
+.smoobu-calendar .ui-state-checked {
+    /* highlighted bg */
+    background: #eeeeee;
+}
+
+.smoobu-calendar .ui-state-highlight a,
+.smoobu-calendar .ui-widget-content .ui-state-highlight a,
+.smoobu-calendar .ui-widget-header .ui-state-highlight a {
+    color: #2e7db2;
+}
+
+.smoobu-calendar .ui-state-error,
+.smoobu-calendar .ui-widget-content .ui-state-error,
+.smoobu-calendar .ui-widget-header .ui-state-error {
+    background: #ffc73d;
+    color: #111111;
+}
+
+.smoobu-calendar .ui-state-error a,
+.smoobu-calendar .ui-widget-content .ui-state-error a,
+.smoobu-calendar .ui-widget-header .ui-state-error a {
+    color: #111111;
+}
+
+.smoobu-calendar .ui-state-error-text,
+.smoobu-calendar .ui-widget-content .ui-state-error-text,
+.smoobu-calendar .ui-widget-header .ui-state-error-text {
+    color: #111111;
+}
+
+.smoobu-calendar .ui-priority-primary,
+.smoobu-calendar .ui-widget-content .ui-priority-primary,
+.smoobu-calendar .ui-widget-header .ui-priority-primary {
+    font-weight: bold;
+}
+
+.smoobu-calendar .ui-priority-secondary,
+.smoobu-calendar .ui-widget-content .ui-priority-secondary,
+.smoobu-calendar .ui-widget-header .ui-priority-secondary {
+    opacity: .7;
+    filter: Alpha(Opacity=70);
+    /* support: IE8 */
+    font-weight: normal;
+}
+
+.smoobu-calendar .ui-state-disabled .ui-state-default,
+.smoobu-calendar .ui-widget-content .ui-state-disabled .ui-state-default,
+.smoobu-calendar .ui-widget-header .ui-state-disabled .ui-state-default {
+    /* disabled bg */
+    background-color: #222222;
+    /* disabled */
+    color: #666666;
+}
+
+
+/* Icons
+----------------------------------*/
+
+
+/* states and images */
+
+.smoobu-calendar .ui-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.smoobu-calendar .ui-datepicker .ui-datepicker-prev span,
+.smoobu-calendar .ui-datepicker .ui-datepicker-next span {
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -10px;
+    top: 50%;
+    margin-top: -10px;
+}
+
+.smoobu-calendar .ui-datepicker .ui-datepicker-prev span {
+    background-image: url("images/arrow-left.png");
+}
+
+.smoobu-calendar .ui-datepicker .ui-datepicker-next span {
+    background-image: url("images/arrow-right.png");
+}
+
+
+/* Misc visuals
+----------------------------------*/
+
+
+/* Corner radius */
+
+.smoobu-calendar .ui-corner-all,
+.smoobu-calendar .ui-corner-top,
+.smoobu-calendar .ui-corner-left,
+.smoobu-calendar .ui-corner-tl {
+    border-top-left-radius: 3px;
+}
+
+.smoobu-calendar .ui-corner-all,
+.smoobu-calendar .ui-corner-top,
+.smoobu-calendar .ui-corner-right,
+.smoobu-calendar .ui-corner-tr {
+    border-top-right-radius: 3px;
+}
+
+.smoobu-calendar .ui-corner-all,
+.smoobu-calendar .ui-corner-bottom,
+.smoobu-calendar .ui-corner-left,
+.smoobu-calendar .ui-corner-bl {
+    border-bottom-left-radius: 3px;
+}
+
+.smoobu-calendar .ui-corner-all,
+.smoobu-calendar .ui-corner-bottom,
+.smoobu-calendar .ui-corner-right,
+.smoobu-calendar .ui-corner-br {
+    border-bottom-right-radius: 3px;
+}
+
+
+/* Overlays */
+
+.smoobu-calendar .ui-widget-overlay {
+    background: #5c5c5c;
+    opacity: .8;
+    filter: Alpha(Opacity=80);
+    /* support: IE8 */
+}
+
+.smoobu-calendar .ui-widget-shadow {
+    -webkit-box-shadow: -7px -7px 7px #cccccc;
+    box-shadow: -7px -7px 7px #cccccc;
+}

@@ -1,0 +1,14 @@
+(function($) {	
+
+	$(document).ready(function() 
+	{
+		
+		$(document).on('click touch','.wc-j-upsellator-show-cart', function(){
+			
+			window.location.href = wc_timeline.cart_url;
+	
+			
+		});
+	});
+
+})( jQuery );	

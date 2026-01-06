@@ -1,0 +1,39 @@
+{
+	"name": "st/smoobu-calendar",
+	"description": "Effortlessly sync Smoobu property availability with your WordPress site.",
+	"type": "project",
+	"config": {
+		"platform": {
+			"php": "7.4"
+		},
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	},
+	"homepage": "https://devwebgency1.book-a-bubble.de/",
+	"license": "GPL-2.0+",
+	"authors": [
+		{
+			"name": "Nishit Kumar",
+			"email": "nisitkumar@gmail.com",
+			"homepage": "https://linkedin.com/in/nisitkumar"
+		}
+	],
+	"require": {
+		"php": ">=7.4"
+	},
+	"require-dev": {
+		"wp-coding-standards/wpcs": "^3.0",
+		"dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+		"phpcompatibility/phpcompatibility-wp": "^2.1",
+		"wp-phpunit/wp-phpunit": "^6.4",
+		"yoast/phpunit-polyfills": "^2",
+		"phpunit/phpunit": "^9"
+	},
+	"scripts": {
+		"phpunit": "phpunit"
+	},
+	"autoload": {
+        "classmap": ["classes/", "views/", "smoobu-calendar.php", "uninstall.php","activation.php", "constants.php" ]
+	}
+}

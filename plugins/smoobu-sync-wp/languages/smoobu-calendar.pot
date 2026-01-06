@@ -1,0 +1,817 @@
+# Copyright (C) 2024 Sagacitas Technologies Private Limited
+# This file is distributed under the same license as the SmoobuSyncWP plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: SmoobuSyncWP 1.2.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/smoobu-calendar\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-03-26T13:43:28+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+
+#. Plugin Name of the plugin
+msgid "SmoobuSyncWP"
+msgstr ""
+
+#. Description of the plugin
+msgid "Effortlessly sync Smoobu property availability with your WordPress site. Seamlessly register bookings via WooCommerce's single-page checkout."
+msgstr ""
+
+#. Author of the plugin
+msgid "Sagacitas Technologies Private Limited"
+msgstr ""
+
+#: classes/api/class-smoobu-api-booking.php:119
+#: classes/api/class-smoobu-api.php:117
+msgid "Sorry, but we have some technical issues. Please try again in a few minutes."
+msgstr ""
+
+#: classes/api/class-smoobu-api-booking.php:125
+#: classes/api/class-smoobu-api.php:123
+msgid "No results found"
+msgstr ""
+
+#. translators: API response error message.
+#: classes/api/class-smoobu-api-booking.php:128
+#: classes/api/class-smoobu-api.php:126
+msgid "API provider returned error message: %s"
+msgstr ""
+
+#: classes/api/class-smoobu-api-booking.php:133
+#: classes/api/class-smoobu-api.php:131
+msgid "Unexpected error happened"
+msgstr ""
+
+#: classes/class-smoobu-ajax.php:155
+msgid "Got the data."
+msgstr ""
+
+#: classes/class-smoobu-ajax.php:162
+msgid "Insufficient Data."
+msgstr ""
+
+#: classes/class-smoobu-main.php:110
+msgid "Template not found"
+msgstr ""
+
+#: classes/class-smoobu-main.php:233
+msgid "Connection successful. Do not forget to save your settings."
+msgstr ""
+
+#: classes/class-smoobu-main.php:234
+msgid "Connection failed. Error returned: "
+msgstr ""
+
+#: classes/class-smoobu-settings.php:52
+#: classes/class-smoobu-settings.php:62
+msgid "General Settings"
+msgstr ""
+
+#: classes/class-smoobu-settings.php:53
+#: src/js/blocks/calendar.jsx:7
+msgid "Smoobu Calendar"
+msgstr ""
+
+#: classes/class-smoobu-settings.php:63
+msgid "My Properties"
+msgstr ""
+
+#: classes/class-smoobu-settings.php:64
+msgid "Data Renewal"
+msgstr ""
+
+#: classes/class-smoobu-settings.php:65
+msgid "Webhook"
+msgstr ""
+
+#: classes/class-smoobu-settings.php:66
+msgid "Styling"
+msgstr ""
+
+#: classes/class-smoobu-settings.php:67
+msgid "FAQ"
+msgstr ""
+
+#: classes/class-smoobu-settings.php:225
+msgid "API key was saved, but we encountered an error while trying to update properties & availability information:"
+msgstr ""
+
+#: classes/class-smoobu-settings.php:230
+msgid "API key was saved and properties list & availability was sucessfully updated."
+msgstr ""
+
+#: classes/class-smoobu-settings.php:236
+#: classes/class-smoobu-settings.php:390
+#: classes/class-smoobu-settings.php:410
+msgid "Settings saved."
+msgstr ""
+
+#: classes/class-smoobu-settings.php:278
+msgid "Properties list was sucessfully updated"
+msgstr ""
+
+#: classes/class-smoobu-settings.php:296
+msgid "Properties availability was sucessfully updated"
+msgstr ""
+
+#: classes/class-smoobu-utility.php:80
+msgid "Please update your properties list under Settings -> Smoobu Calendar"
+msgstr ""
+
+#: classes/class-smoobu-utility.php:427
+msgid "General Background Color"
+msgstr ""
+
+#: classes/class-smoobu-utility.php:428
+msgid "Header Background Color"
+msgstr ""
+
+#: classes/class-smoobu-utility.php:429
+msgid "Header Font Color"
+msgstr ""
+
+#: classes/class-smoobu-utility.php:430
+msgid "Days Abbr Font Color"
+msgstr ""
+
+#: classes/class-smoobu-utility.php:431
+msgid "Regular Day Field Background Color "
+msgstr ""
+
+#: classes/class-smoobu-utility.php:432
+msgid "Regular Day Field Font Color"
+msgstr ""
+
+#: classes/class-smoobu-utility.php:433
+msgid "Disabled Day Field Background Color "
+msgstr ""
+
+#: classes/class-smoobu-utility.php:434
+msgid "Disabled Day Field Font Color"
+msgstr ""
+
+#: classes/class-smoobu-utility.php:435
+msgid "Highlighted Day Field Background Color"
+msgstr ""
+
+#: classes/class-smoobu-utility.php:436
+msgid "Highlighted Day Field Font Color"
+msgstr ""
+
+#: classes/class-smoobu-utility.php:437
+msgid "Hovered Day Field Background Color"
+msgstr ""
+
+#: classes/class-smoobu-utility.php:438
+msgid "Hovered Day Field Font Color"
+msgstr ""
+
+#: classes/class-smoobu-utility.php:439
+msgid "Selected Day Field Background Color"
+msgstr ""
+
+#: classes/class-smoobu-utility.php:440
+msgid "Selected Day Field Font Color"
+msgstr ""
+
+#: classes/class-smoobu-utility.php:456
+msgid "What is Smoobu Calendar plugin?"
+msgstr ""
+
+#: classes/class-smoobu-utility.php:457
+msgid "Smoobu Calendar is a plugin to display a calendar with busy/available days highlighted for a chosen property."
+msgstr ""
+
+#: classes/class-smoobu-utility.php:460
+msgid "How to get started?"
+msgstr ""
+
+#. translators: various general settings link.
+#: classes/class-smoobu-utility.php:464
+msgid "1. To get started, you need to go to Smoobu Calendar settings sub-page <a href=\"%s\">General Settings</a>, fill in your <b>API key</b> and save it. In order to verify your API key is correct, please click <b>Check Connection</b> button - you should see a <b>Connection successful</b> message a few seconds later."
+msgstr ""
+
+#: classes/class-smoobu-utility.php:471
+msgid "2. When you save your API key, your properties and their availability is updated automatically. To update it later, please see FAQ questions <b>How to update my properties list?</b> and <b>How to update my properties availability?</b>"
+msgstr ""
+
+#: classes/class-smoobu-utility.php:476
+msgid "3. To add a calendar, you can choose 1 out of 3 ways. You can add it to a sidebar by using <b>Smoobu Calendar Widget</b> widget. Alternatively, you can add it to a post or a page content by using a <b>Smoobu Calendar</b> Gutenberg block or by adding a shortcode."
+msgstr ""
+
+#. translators: my properties settings link.
+#: classes/class-smoobu-utility.php:483
+msgid "A list of all possible shortcodes can be found in <a href=\"%s\">My Properties</a> page.</div>"
+msgstr ""
+
+#: classes/class-smoobu-utility.php:491
+msgid "Where can I find my API key?"
+msgstr ""
+
+#: classes/class-smoobu-utility.php:493
+msgid "You can find your API keys in Smoobu admin panel. Go to Settings and scroll down until you see a \"For Developers\" section."
+msgstr ""
+
+#: classes/class-smoobu-utility.php:500
+msgid "Simply copy the content of the <b>API key</b> input."
+msgstr ""
+
+#: classes/class-smoobu-utility.php:508
+msgid "What is a webhook?"
+msgstr ""
+
+#: classes/class-smoobu-utility.php:510
+msgid "Webhook is a way to automatically push properties availability updates from Smoobu to your webpage. You will get automatic availability updates only if you have your webhook url set in the Smoobu admin panel."
+msgstr ""
+
+#. translators: settings page link and screenshot.
+#: classes/class-smoobu-utility.php:517
+msgid "To find your webhook url, go to <a href=\"%1$s\">Webhook</a> page. Copy the url, paste it under <b>Developers</b> settings in Smoobu admin panel (also see <b>Where can I find my API key?</b>) and save."
+msgstr ""
+
+#: classes/class-smoobu-utility.php:527
+msgid "How to update my properties list?"
+msgstr ""
+
+#. translators: data renewal settings page link.
+#: classes/class-smoobu-utility.php:530
+msgid "You can update your properties list by going to <a href=\"%s\">Data Renewal</a> page and clicking <b>Update Properties List</b> button."
+msgstr ""
+
+#: classes/class-smoobu-utility.php:538
+msgid "How to update my properties availability?"
+msgstr ""
+
+#. translators: data renewal settings page link.
+#: classes/class-smoobu-utility.php:541
+msgid "You can update your properties availability by going to <a href=\"%s\">Data Renewal</a> page and clicking <b>Update Properties Availability</b> button. Alternatively, you can set up your webhook to get availability updates automatically (see <b>What is a webhook?</b>)."
+msgstr ""
+
+#: classes/class-smoobu-utility.php:549
+msgid "What is calendar layout?"
+msgstr ""
+
+#: classes/class-smoobu-utility.php:550
+msgid "Calendar layout is a setting to choose how many rows and columns of months you want the calendar to have. The first number indicates number of rows and the second - number of columns. Currently, you can choose from 1 row x 3 columns to 3 rows x 1 colmun layout."
+msgstr ""
+
+#: classes/class-smoobu-utility.php:670
+msgid "We encountered an error while trying to update properties & availability information:"
+msgstr ""
+
+#: classes/class-smoobu-utility.php:675
+msgid "Properties list & availability was sucessfully updated."
+msgstr ""
+
+#: classes/class-smoobu-utility.php:681
+msgid "There seems to be an error in connecting to Smoobu. Check the API key."
+msgstr ""
+
+#: classes/class-smoobu-utility.php:687
+msgid "No API Key found."
+msgstr ""
+
+#: classes/widgets/class-smoobu-calendar-widget.php:98
+msgid "Title"
+msgstr ""
+
+#: classes/widgets/class-smoobu-calendar-widget.php:102
+msgid "Property"
+msgstr ""
+
+#: classes/widgets/class-smoobu-calendar-widget.php:108
+msgid "Layout"
+msgstr ""
+
+#: classes/widgets/class-smoobu-calendar-widget.php:114
+#: src/js/blocks/calendar.jsx:65
+msgid "Redirect Link"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:131
+msgid "< Book an overnight stay"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:173
+msgid "Travel Data"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:177
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:184
+#: views/calendar.php:42
+msgid "CheckIn"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:190
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:197
+#: views/calendar.php:49
+msgid "CheckOut"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:206
+msgid "Number of guests:"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:209
+msgid "Maximum 2 adults + 2 children (up to 14 years)"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:219
+msgid "Adults"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:230
+#: src/js/main-checkout.js:260
+msgid "Select"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:241
+msgid "Kids"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:298
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:299
+msgid "Message to the host"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:300
+msgid "Street/Number"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:301
+msgid "Country"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:302
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:303
+msgid "Email"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:304
+msgid "Town/City"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:305
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:306
+msgid "Postal code"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:314
+msgid "Property ID"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:315
+msgid "1881955"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:361
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:368
+msgid "Nachricht an den Gastgeber"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:374
+msgid "Check-in (hh:mm): 15:00 hours or later"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:392
+msgid "Details"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:395
+msgid "Cancellation Information"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:401
+msgid "Payment instructions"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:480
+msgid "Nights"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:543
+msgid "Optional"
+msgstr ""
+
+#. Translators: instruction to click and add coupon.
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:666
+msgid "Have a coupon? %s"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:667
+msgid "Click here to enter your code"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:677
+msgid "If you have a coupon code, please apply it below."
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:684
+msgid "Coupon code"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:693
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:695
+msgid "Apply coupon"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:771
+msgid ""
+"Ich habe die\n"
+"\t\t\t<a href=\"https://book-a-bubble.de/allgemeine_geschaeftsbedingungen/\">Allgemeinen Geschäftsbedingungen</a>, die\n"
+"\t\t\t<a href=\"https://book-a-bubble.de/datenschutz/\">Datenschutzbestimmung</a> und die\n"
+"\t\t\t<a href=\"https://book-a-bubble.de/widerruf/\">Widerrufsbelehrung</a> gelesen und akzeptiert."
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:823
+msgid "optional"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:1007
+msgid "Number of adults cannot be more than 2."
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:1208
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:1365
+msgid "Bookings beyond a year from now are currently unavailable."
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:1256
+msgid "Additional Discount"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:1324
+msgid "Please enter number of guests."
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:1339
+msgid "Check-in/Checkout fields cannot be empty."
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:1344
+msgid "Checkin date cannot be after Checkout date."
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:1354
+msgid "Property Id is not set."
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:1374
+msgid "There is a problem with the selected dates. Please reselect another date."
+msgstr ""
+
+#. translators: %s is a placeholder for minimum checkin time.
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:1390
+msgid "Check-in time cannot be before %s hrs."
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:1489
+msgid " is required."
+msgstr ""
+
+#. Translators: Addon description.
+#. Translators: Addon description with number of persons.
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:1494
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:1510
+msgid " is required for %s persons."
+msgstr ""
+
+#. Translators: Addon description with number of nights.
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:1498
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:1514
+msgid " is required for %s nights."
+msgstr ""
+
+#. Translators: Addon description with number of persons and nights.
+#: classes/woocomerce/class-smoobu-booking-from-woo.php:1504
+msgid " is required for %1$s persons for %2$s nights."
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:102
+msgid "Property Details"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:128
+msgid "Mapped Property Id"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:131
+msgid "property id from smoobu_property_details table to which this product is to be mapped."
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:137
+msgid "Owned Property"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:140
+msgid "Check whether property is owned."
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:149
+msgid "Maximum Adults"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:150
+msgid "Maximum Number of Adults Allowed"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:165
+msgid "Maximum Kids"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:166
+msgid "Maximum Number of Kids Allowed"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:192
+msgid "Tax On Room Tarrif ( % )"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:196
+msgid "Please modify this value if the tax has changed to other than 7%."
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:202
+msgid "Tax On Upgrades ( % )"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:206
+msgid "Please modify this value if the tax has changed to other than 19%."
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:213
+msgid "Minimum Lead Time"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:214
+msgid "Min. days between Booking and Arrival"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:226
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:227
+msgid "Extra guests / night"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:239
+msgid "Extra charges to start from"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:240
+msgid "Extra charges to start from ( xth guest)"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:254
+msgid "Check in Starts At"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:265
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:266
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:620
+msgid "Cancellation Policy"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:277
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:278
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:629
+msgid "Payment Instructions"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:288
+msgid "Add New Add On"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:316
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:323
+#: src/js/admin/main.js:173
+msgid "Add On Name*"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:328
+#: src/js/admin/main.js:182
+msgid "Add On Description"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:337
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:346
+#: src/js/admin/main.js:190
+msgid "Add On Charges"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:356
+msgid "Add-on Image"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:365
+#: src/js/admin/main.js:207
+msgid "Per Person"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:377
+#: src/js/admin/main.js:208
+msgid "Include Per Kid"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:390
+#: src/js/admin/main.js:224
+msgid "Per Night"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:401
+#: src/js/admin/main.js:231
+msgid "Remove"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:574
+msgid "Checkout Page"
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:575
+msgid "Customize information displayed on the checkout page."
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:621
+msgid "Enter the cancellation policy to display on the checkout page."
+msgstr ""
+
+#: classes/woocomerce/class-smoobu-wc-product-admin-tab.php:630
+msgid "Enter payment instructions to display on the checkout page."
+msgstr ""
+
+#: views/admin/settings/faq.php:13
+msgid "Smoobu Calendar - FAQ"
+msgstr ""
+
+#: views/admin/settings/general.php:23
+msgid "Smoobu Calendar - General Settings"
+msgstr ""
+
+#: views/admin/settings/general.php:26
+msgid "You can find your API key in Smoobu developers settings, API key field."
+msgstr ""
+
+#: views/admin/settings/general.php:41
+msgid "API Key"
+msgstr ""
+
+#: views/admin/settings/general.php:48
+msgid "Check Connection"
+msgstr ""
+
+#: views/admin/settings/general.php:55
+#: views/admin/settings/styling.php:129
+msgid "Save Changes"
+msgstr ""
+
+#: views/admin/settings/parts/notice.php:27
+msgid "Dismiss this notice."
+msgstr ""
+
+#: views/admin/settings/properties.php:13
+msgid "Smoobu Calendar - My Properties"
+msgstr ""
+
+#: views/admin/settings/properties.php:25
+msgid "Layout style"
+msgstr ""
+
+#: views/admin/settings/properties.php:40
+msgid "Property Name"
+msgstr ""
+
+#: views/admin/settings/properties.php:41
+msgid "Shortcode"
+msgstr ""
+
+#: views/admin/settings/renewal.php:23
+msgid "Smoobu Calendar - Data Renewal"
+msgstr ""
+
+#: views/admin/settings/renewal.php:34
+msgid "Update Properties List"
+msgstr ""
+
+#: views/admin/settings/renewal.php:35
+msgid "Update Properties Availability"
+msgstr ""
+
+#: views/admin/settings/styling.php:23
+msgid "Smoobu Calendar - Styling"
+msgstr ""
+
+#: views/admin/settings/styling.php:27
+msgid "Settings"
+msgstr ""
+
+#: views/admin/settings/styling.php:33
+msgid "Calendar Theme"
+msgstr ""
+
+#: views/admin/settings/styling.php:40
+msgid "<b>Warning!</b> Changing the theme will revoke all style customizations."
+msgstr ""
+
+#: views/admin/settings/styling.php:45
+msgid "Full Width Layout"
+msgstr ""
+
+#: views/admin/settings/styling.php:51
+msgid "Stretch calendar to full width"
+msgstr ""
+
+#: views/admin/settings/styling.php:55
+msgid "If checked, calendar will be always stretched to the width of the container."
+msgstr ""
+
+#: views/admin/settings/styling.php:62
+msgid "Style Customization"
+msgstr ""
+
+#: views/admin/settings/styling.php:69
+msgid "Custom Styling"
+msgstr ""
+
+#: views/admin/settings/styling.php:75
+msgid "Use custom styles"
+msgstr ""
+
+#: views/admin/settings/styling.php:79
+msgid "If checked, settings below will be used instead of default theme settings."
+msgstr ""
+
+#: views/admin/settings/styling.php:85
+msgid "Border Shadow"
+msgstr ""
+
+#: views/admin/settings/styling.php:91
+msgid "Show shadow around calendar borders"
+msgstr ""
+
+#: views/admin/settings/styling.php:99
+msgid "Border Radius"
+msgstr ""
+
+#: views/admin/settings/styling.php:104
+msgid "px"
+msgstr ""
+
+#: views/admin/settings/styling.php:130
+msgid "Reset Default Styling"
+msgstr ""
+
+#: views/admin/settings/styling.php:130
+msgid "Are you sure? This action will unretrievably reset all your custom styling!"
+msgstr ""
+
+#: views/admin/settings/webhook.php:13
+msgid "Smoobu Calendar - Webhook"
+msgstr ""
+
+#: views/admin/settings/webhook.php:15
+msgid "In order to receive automatic availability updates, paste the code below to Smoobu developers settings, webhookUrl field."
+msgstr ""
+
+#: views/admin/settings/webhook.php:28
+msgid "Webhook Url"
+msgstr ""
+
+#: views/calendar.php:34
+msgid "Night"
+msgstr ""
+
+#: views/calendar.php:103
+msgid "Reserve now"
+msgstr ""
+
+#: src/js/admin/main.js:201
+#: src/js/admin/main.js:251
+msgid "Upload Add On Image"
+msgstr ""
+
+#: src/js/admin/main.js:253
+msgid "Upload Image"
+msgstr ""
+
+#: src/js/admin/main.js:320
+#: src/js/main-checkout.js:422
+msgid "Check-in time cannot be before 3 pm."
+msgstr ""
+
+#: src/js/blocks/calendar.jsx:53
+msgid "Choose a Property"
+msgstr ""
+
+#: src/js/blocks/calendar.jsx:59
+msgid "Choose Layout"
+msgstr ""
+
+#: src/js/main.js:181
+msgid "Error calculating cost."
+msgstr ""
+
+#: src/js/main.js:239
+msgid "Error fetching average price."
+msgstr ""
