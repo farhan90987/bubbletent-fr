@@ -1,0 +1,16 @@
+2022-11-02 16:43:23 [ERROR] SYSTEM ERROR:0 : Call to a member function get_price_html() on bool
+/Applications/MAMP/htdocs/trace/wp-content/plugins/YayMail/includes/Helper/Products.php(231)
+#0 /Applications/MAMP/htdocs/trace/wp-content/plugins/YayMail/includes/Helper/Products.php(64): YayMail\Helper\Products::get_products_information(Array)
+#1 /Applications/MAMP/htdocs/trace/wp-content/plugins/YayMail/includes/Helper/Products.php(35): YayMail\Helper\Products::get_products_by_list_id('none', Array)
+#2 /Applications/MAMP/htdocs/trace/wp-content/plugins/YayMail/includes/Templates/Elements/YayMail/Blocks/FeaturedProducts.php(18): YayMail\Helper\Products::get_products_by_filter(Array)
+#3 /Applications/MAMP/htdocs/trace/wp-content/plugins/YayMail/includes/MailBuilder/YaymailElement.php(575): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/trace/wp-includes/class-wp-hook.php(308): YayMail\MailBuilder\YaymailElement->yaymail_featured_products(Array, Array, Array, 'c4ccd9b7-3684-4...', 927, false)
+#5 /Applications/MAMP/htdocs/trace/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 /Applications/MAMP/htdocs/trace/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/trace/wp-content/plugins/YayMail/includes/Ajax.php(165): do_action('YaymailFeatured...', Array, Array, Array, 'c4ccd9b7-3684-4...', 927, false)
+#8 /Applications/MAMP/htdocs/trace/wp-content/plugins/YayMail/includes/Ajax.php(283): YayMail\Ajax::getHtmlByElements(927, Array)
+#9 /Applications/MAMP/htdocs/trace/wp-includes/class-wp-hook.php(308): YayMail\Ajax->sendTestMail('')
+#10 /Applications/MAMP/htdocs/trace/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#11 /Applications/MAMP/htdocs/trace/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /Applications/MAMP/htdocs/trace/wp-admin/admin-ajax.php(188): do_action('wp_ajax_yaymail...')
+#13 {main}

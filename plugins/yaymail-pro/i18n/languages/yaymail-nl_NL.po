@@ -1,0 +1,3648 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YayMail Pro - WooCommerce Email Customizer\n"
+"POT-Creation-Date: 2025-05-28 16:05+0700\n"
+"PO-Revision-Date: 2025-05-28 16:05+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: yaymail.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: src/Abstracts/BaseController.php:28 src/Ajax.php:94 src/Ajax.php:125
+#: src/Ajax.php:188 src/Ajax.php:263 src/Ajax.php:303 src/Ajax.php:348
+#: src/Ajax.php:371 src/Ajax.php:425 src/Ajax.php:566 src/Ajax.php:605
+#: src/Ajax.php:650 src/Ajax.php:672 src/Ajax.php:694 src/Notices/Ajax.php:25
+msgid "Verify nonce failed"
+msgstr "Controleer of nonce mislukt is"
+
+#: src/Ajax.php:133 src/Ajax.php:196
+msgid "Can't find template"
+msgstr "Kan sjabloon niet vinden"
+
+#: src/Ajax.php:137 src/Ajax.php:200
+msgid "Can't find order"
+msgstr "Kan bestelling niet vinden"
+
+#: src/Ajax.php:141
+msgid "Can't find email"
+msgstr "Kan e-mail niet vinden"
+
+#: src/Ajax.php:165
+msgid "Email Test"
+msgstr "E-mailtest"
+
+#: src/Ajax.php:169 src/Ajax.php:281
+#, fuzzy
+#| msgid "Can't find email"
+msgid "Can't send email"
+msgstr "Kan e-mail niet vinden"
+
+#: src/Ajax.php:278
+msgid "Email Preview"
+msgstr "E-mail voorbeeld"
+
+#: src/Ajax.php:287
+msgid "No email content found"
+msgstr "Geen e-mailinhoud gevonden"
+
+#: src/Ajax.php:288
+msgid "No template found"
+msgstr "Geen sjabloon gevonden"
+
+#: src/Ajax.php:289
+#, fuzzy
+#| msgid "No results found"
+msgid "No subject found"
+msgstr "Geen resultaten gevonden"
+
+#: src/Ajax.php:410
+msgid "Export successfully"
+msgstr "Succesvol exporteren"
+
+#: src/Ajax.php:431
+msgid "Imported successfully "
+msgstr "Succesvol geïmporteerd "
+
+#: src/Ajax.php:431
+msgid " templates"
+msgstr " Sjablonen"
+
+#: src/Ajax.php:433
+msgid "Import failed."
+msgstr "Importeren mislukt."
+
+#: src/Ajax.php:436
+msgid "Not found import files."
+msgstr "Niet gevonden importbestanden."
+
+#: src/Ajax.php:571
+msgid "Attributes empty"
+msgstr "Attributen leeg"
+
+#: src/Elements/BillingAddress.php:30 src/Elements/BillingAddress.php:70
+#: src/Elements/BillingShippingAddress.php:90
+#: src/Migrations/Versions/Ver_4_0_0.php:810
+#: src/Shortcodes/BillingShortcodes.php:19
+#: templates/shortcodes/billing-shipping-address/main.php:53
+#: templates/shortcodes/billing-shipping-address/sample.php:39
+msgid "Billing Address"
+msgstr "Factuuradres"
+
+#: src/Elements/BillingAddress.php:42
+#: src/Elements/BillingShippingAddress.php:64 src/Elements/OrderDetails.php:59
+#: src/Elements/OrderDetailsDownload.php:62 src/Elements/ShippingAddress.php:53
+#: src/Integrations/AdvancedLocalPickupByZorem/Elements/AdvancedLocalPickupInstructionElement.php:53
+#: src/Integrations/AdvancedShipmentTrackingByZorem/Elements/TrackingInformationElement.php:57
+#: src/Integrations/TrackingMoreOrderTrackingForWc/Elements/TrackingInformationElement.php:54
+#: src/Integrations/WcAdminCustomOrderFieldBySkyverge/Elements/AdminCustomOrderFields.php:54
+#: src/Integrations/WooCommerceShipmentTracking/Elements/TrackingInformationElement.php:55
+#: src/Integrations/WooCommerceShippingTax/Elements/ShipmentTrackingElement.php:56
+#: src/Integrations/WooCommerceSoftwareAddon/Elements/SoftwareLicenseElement.php:56
+#: src/Integrations/WoocommerceShipmentTrackingProByPluginHive/Elements/TrackingInformationElement.php:54
+#: src/Integrations/YITHWooCommerceOrderShipmentTracking/Elements/YITHTrackingInformationElement.php:62
+msgid "Title color"
+msgstr "Titel kleur"
+
+#: src/Elements/BillingAddress.php:51
+#: src/Elements/BillingShippingAddress.php:72 src/Elements/Button.php:84
+#: src/Elements/FeaturedProducts.php:65 src/Elements/Footer.php:55
+#: src/Elements/Heading.php:79 src/Elements/Hook.php:54
+#: src/Elements/ImageBox.php:46 src/Elements/OrderDetails.php:66
+#: src/Elements/OrderDetailsDownload.php:69 src/Elements/ShippingAddress.php:60
+#: src/Elements/SimpleOffer.php:54 src/Elements/Text.php:53
+#: src/Elements/TextList.php:52 src/Elements/Title.php:88
+#: src/Integrations/AdvancedLocalPickupByZorem/Elements/AdvancedLocalPickupInstructionElement.php:60
+#: src/Integrations/AdvancedShipmentTrackingByZorem/Elements/TrackingInformationElement.php:64
+#: src/Integrations/TrackingMoreOrderTrackingForWc/Elements/TrackingInformationElement.php:61
+#: src/Integrations/WcAdminCustomOrderFieldBySkyverge/Elements/AdminCustomOrderFields.php:61
+#: src/Integrations/WooCommerceShipmentTracking/Elements/TrackingInformationElement.php:69
+#: src/Integrations/WooCommerceShippingTax/Elements/ShipmentTrackingElement.php:63
+#: src/Integrations/WooCommerceSoftwareAddon/Elements/SoftwareLicenseElement.php:63
+#: src/Integrations/WoocommerceShipmentTrackingProByPluginHive/Elements/TrackingInformationElement.php:61
+#: src/Integrations/YITHWooCommerceOrderShipmentTracking/Elements/YITHTrackingInformationElement.php:69
+msgid "Text color"
+msgstr "Tekstkleur"
+
+#: src/Elements/BillingAddress.php:60
+#: src/Elements/BillingShippingAddress.php:80 src/Elements/OrderDetails.php:73
+#: src/Elements/OrderDetailsDownload.php:76 src/Elements/ShippingAddress.php:67
+#: src/Elements/SimpleOffer.php:106
+#: src/Integrations/AdvancedLocalPickupByZorem/Elements/AdvancedLocalPickupInstructionElement.php:67
+#: src/Integrations/TrackingMoreOrderTrackingForWc/Elements/TrackingInformationElement.php:68
+#: src/Integrations/WcAdminCustomOrderFieldBySkyverge/Elements/AdminCustomOrderFields.php:68
+#: src/Integrations/WooCommerceShipmentTracking/Elements/TrackingInformationElement.php:62
+#: src/Integrations/WooCommerceShippingTax/Elements/ShipmentTrackingElement.php:70
+msgid "Border color"
+msgstr "Randkleur"
+
+#: src/Elements/BillingAddress.php:69
+#: src/Elements/BillingShippingAddress.php:89
+msgid "Billing title"
+msgstr "Titel van facturering"
+
+#: src/Elements/BillingAddress.php:76 src/Elements/ElementsHelper.php:260
+#: src/Elements/Footer.php:69 src/Elements/GlobalHeader.php:45
+#: src/Elements/Heading.php:93 src/Elements/OrderDetails.php:87
+#: src/Elements/OrderDetailsDownload.php:90 src/Elements/ShippingAddress.php:88
+#: src/Elements/SimpleOffer.php:113 src/Elements/SingleBanner.php:67
+#: src/Elements/Text.php:67
+#: src/Integrations/AdvancedLocalPickupByZorem/Elements/AdvancedLocalPickupInstructionElement.php:102
+#: src/Integrations/AdvancedShipmentTrackingByZorem/Elements/TrackingInformationElement.php:92
+#: src/Integrations/TrackingMoreOrderTrackingForWc/Elements/TrackingInformationElement.php:103
+#: src/Integrations/WcAdminCustomOrderFieldBySkyverge/Elements/AdminCustomOrderFields.php:89
+#: src/Integrations/WooCommerceShipmentTracking/Elements/TrackingInformationElement.php:111
+#: src/Integrations/WooCommerceShippingTax/Elements/ShipmentTrackingElement.php:105
+#: src/Integrations/WooCommerceSoftwareAddon/Elements/SoftwareLicenseElement.php:84
+#: src/Integrations/WoocommerceShipmentTrackingProByPluginHive/Elements/TrackingInformationElement.php:82
+#: src/Integrations/YITHWooCommerceOrderShipmentTracking/Elements/YITHTrackingInformationElement.php:90
+msgid "Content"
+msgstr "Inhoud"
+
+#: src/Elements/BillingShippingAddress.php:47
+#: src/Shortcodes/BillingShortcodes.php:91
+msgid "Billing Shipping Address"
+msgstr "Facturatie verzendadres"
+
+#: src/Elements/BillingShippingAddress.php:98 src/Elements/OrderDetails.php:164
+#: src/Elements/ShippingAddress.php:81
+msgid "Shipping title"
+msgstr "Titel verzendmethode"
+
+#: src/Elements/BillingShippingAddress.php:99
+#: src/Elements/ShippingAddress.php:25 src/Elements/ShippingAddress.php:82
+#: src/Migrations/Versions/Ver_4_0_0.php:811
+#: src/Shortcodes/ShippingShortcodes.php:19
+#: templates/shortcodes/billing-shipping-address/main.php:80
+#: templates/shortcodes/billing-shipping-address/sample.php:53
+msgid "Shipping Address"
+msgstr "Verzendadres"
+
+#: src/Elements/BillingShippingAddress.php:106
+msgid "Shipping Content"
+msgstr "Inhoud verzenden"
+
+#: src/Elements/BillingShippingAddress.php:113
+msgid "Billing Content"
+msgstr "Inhoud factureren"
+
+#: src/Elements/Button.php:26
+msgid "Button"
+msgstr "Knop"
+
+#: src/Elements/Button.php:37
+#, fuzzy
+#| msgid "Content align"
+msgid "Container padding"
+msgstr "Inhoud uitlijnen"
+
+#: src/Elements/Button.php:44
+msgid "Border radius"
+msgstr "Border radius"
+
+#: src/Elements/Button.php:61 src/Elements/SimpleOffer.php:121
+#: src/Elements/SingleBanner.php:104
+#: src/Integrations/AdvancedShipmentTrackingByZorem/Elements/TrackingInformationElement.php:85
+msgid "Button text"
+msgstr "Knop tekst"
+
+#: src/Elements/Button.php:62 src/Elements/TextList.php:122
+#: src/Elements/TextList.php:223 src/Elements/TextList.php:324
+msgid "Click me"
+msgstr "Klik hier"
+
+#: src/Elements/Button.php:76 src/Elements/SimpleOffer.php:135
+#: src/Elements/SingleBanner.php:125
+msgid "Button background color"
+msgstr "Button Achtergrondkleur"
+
+#: src/Elements/Button.php:92
+msgid "Font size"
+msgstr "Lettertype grootte"
+
+#: src/Elements/Button.php:104 src/Elements/Divider.php:66
+#: src/Elements/Space.php:47 src/Elements/Video.php:66
+msgid "Height"
+msgstr "Hoogte"
+
+#: src/Elements/ColumnLayout.php:36
+msgid "Column width (%)"
+msgstr "Breedte kolom (%)"
+
+#: src/Elements/ColumnLayout.php:41 src/Elements/Divider.php:42
+#: src/Elements/ElementsHelper.php:83 src/Elements/FeaturedProducts.php:46
+#: src/Elements/Footer.php:36 src/Elements/Heading.php:60
+#: src/Elements/Hook.php:35 src/Elements/Image.php:40
+#: src/Elements/OrderDetails.php:40 src/Elements/OrderDetailsDownload.php:43
+#: src/Elements/ShippingAddress.php:34 src/Elements/SimpleOffer.php:35
+#: src/Elements/SingleBanner.php:41 src/Elements/SocialIcon.php:41
+#: src/Elements/Text.php:34 src/Elements/Title.php:69 src/Elements/Video.php:33
+#: src/Integrations/AdvancedLocalPickupByZorem/Elements/AdvancedLocalPickupInstructionElement.php:34
+#: src/Integrations/AdvancedShipmentTrackingByZorem/Elements/TrackingInformationElement.php:38
+#: src/Integrations/TrackingMoreOrderTrackingForWc/Elements/TrackingInformationElement.php:35
+#: src/Integrations/WcAdminCustomOrderFieldBySkyverge/Elements/AdminCustomOrderFields.php:35
+#: src/Integrations/WooCommerceShipmentTracking/Elements/TrackingInformationElement.php:36
+#: src/Integrations/WooCommerceShippingTax/Elements/ShipmentTrackingElement.php:37
+#: src/Integrations/WooCommerceSoftwareAddon/Elements/SoftwareLicenseElement.php:37
+#: src/Integrations/WoocommerceShipmentTrackingProByPluginHive/Elements/TrackingInformationElement.php:35
+#: src/Integrations/YITHWooCommerceOrderShipmentTracking/Elements/YITHTrackingInformationElement.php:43
+msgid "Padding"
+msgstr "Padding"
+
+#: src/Elements/ColumnLayout.php:52 src/Elements/Divider.php:77
+#: src/Elements/ElementsHelper.php:171 src/Elements/FeaturedProducts.php:58
+#: src/Elements/Footer.php:48 src/Elements/Heading.php:72
+#: src/Elements/Hook.php:47 src/Elements/Image.php:66
+#: src/Elements/ImageBox.php:39 src/Elements/ImageList.php:41
+#: src/Elements/OrderDetails.php:52 src/Elements/OrderDetailsDownload.php:55
+#: src/Elements/ShippingAddress.php:46 src/Elements/SimpleOffer.php:47
+#: src/Elements/SingleBanner.php:53 src/Elements/SocialIcon.php:53
+#: src/Elements/Space.php:40 src/Elements/Text.php:46
+#: src/Elements/TextList.php:45 src/Elements/Title.php:81
+#: src/Elements/Video.php:45
+#: src/Integrations/AdvancedLocalPickupByZorem/Elements/AdvancedLocalPickupInstructionElement.php:46
+#: src/Integrations/AdvancedShipmentTrackingByZorem/Elements/TrackingInformationElement.php:50
+#: src/Integrations/TrackingMoreOrderTrackingForWc/Elements/TrackingInformationElement.php:47
+#: src/Integrations/WcAdminCustomOrderFieldBySkyverge/Elements/AdminCustomOrderFields.php:47
+#: src/Integrations/WooCommerceShipmentTracking/Elements/TrackingInformationElement.php:48
+#: src/Integrations/WooCommerceShippingTax/Elements/ShipmentTrackingElement.php:49
+#: src/Integrations/WooCommerceSoftwareAddon/Elements/SoftwareLicenseElement.php:49
+#: src/Integrations/WoocommerceShipmentTrackingProByPluginHive/Elements/TrackingInformationElement.php:47
+#: src/Integrations/YITHWooCommerceOrderShipmentTracking/Elements/YITHTrackingInformationElement.php:55
+msgid "Background color"
+msgstr "Achtergrondkleur"
+
+#: src/Elements/ColumnLayout.php:58 src/Elements/SingleBanner.php:90
+msgid "Background image"
+msgstr "Achtergrondafbeelding"
+
+#: src/Elements/ColumnLayout.php:71
+msgid "Inner border radius"
+msgstr "Straal binnengrens"
+
+#: src/Elements/ColumnLayout.php:86
+msgid "Inner background color"
+msgstr "Binnen-achtergrondkleur"
+
+#: src/Elements/ColumnLayout.php:112
+msgid "One Column"
+msgstr "Een kolom"
+
+#: src/Elements/ColumnLayout.php:113
+msgid "Two Columns"
+msgstr "Twee kolommen"
+
+#: src/Elements/ColumnLayout.php:114
+msgid "Three Columns"
+msgstr "Drie kolommen"
+
+#: src/Elements/ColumnLayout.php:115
+msgid "Four Columns"
+msgstr "Vier kolommen"
+
+#: src/Elements/Divider.php:26
+msgid "Divider"
+msgstr "Scheidingslijn"
+
+#: src/Elements/Divider.php:35 src/Elements/ElementsHelper.php:34
+#: src/Elements/Image.php:33 src/Elements/SocialIcon.php:34
+#: src/Elements/Title.php:34
+msgid "Align"
+msgstr "Uitlijnen"
+
+#: src/Elements/Divider.php:54 src/Elements/ElementsHelper.php:144
+#: src/Elements/Image.php:59 src/Elements/SocialIcon.php:60
+#: src/Elements/Video.php:59
+msgid "Width"
+msgstr "Breedte"
+
+#: src/Elements/Divider.php:84
+msgid "Line color"
+msgstr "Lijnkleur"
+
+#: src/Elements/Divider.php:91
+msgid "Line type"
+msgstr "Lijntype"
+
+#: src/Elements/Divider.php:96 src/Elements/SimpleOffer.php:84
+msgid "Solid"
+msgstr "Solid"
+
+#: src/Elements/Divider.php:100 src/Elements/SimpleOffer.php:88
+msgid "Double"
+msgstr "Dubbel"
+
+#: src/Elements/Divider.php:104 src/Elements/SimpleOffer.php:92
+msgid "Dotted"
+msgstr "Gestippeld"
+
+#: src/Elements/Divider.php:108 src/Elements/SimpleOffer.php:96
+msgid "Dashed"
+msgstr "Gestreept"
+
+#: src/Elements/ElementsHelper.php:117 src/Elements/Image.php:52
+msgid "Image URL"
+msgstr "Afbeelding URL"
+
+#: src/Elements/ElementsHelper.php:198 src/Elements/Image.php:73
+msgid "URL"
+msgstr "URL"
+
+#: src/Elements/ElementsHelper.php:231 src/Elements/FeaturedProducts.php:72
+#: src/Elements/Footer.php:62 src/Elements/Heading.php:86
+#: src/Elements/Hook.php:68 src/Elements/OrderDetails.php:80
+#: src/Elements/OrderDetailsDownload.php:83 src/Elements/ShippingAddress.php:74
+#: src/Elements/SimpleOffer.php:61 src/Elements/SingleBanner.php:60
+#: src/Elements/Text.php:60 src/Elements/Title.php:95
+#: src/Integrations/AdvancedLocalPickupByZorem/Elements/AdvancedLocalPickupInstructionElement.php:74
+#: src/Integrations/AdvancedShipmentTrackingByZorem/Elements/TrackingInformationElement.php:71
+#: src/Integrations/TrackingMoreOrderTrackingForWc/Elements/TrackingInformationElement.php:75
+#: src/Integrations/WcAdminCustomOrderFieldBySkyverge/Elements/AdminCustomOrderFields.php:75
+#: src/Integrations/WooCommerceShipmentTracking/Elements/TrackingInformationElement.php:76
+#: src/Integrations/WooCommerceShippingTax/Elements/ShipmentTrackingElement.php:77
+#: src/Integrations/WooCommerceSoftwareAddon/Elements/SoftwareLicenseElement.php:70
+#: src/Integrations/WoocommerceShipmentTrackingProByPluginHive/Elements/TrackingInformationElement.php:68
+#: src/Integrations/YITHWooCommerceOrderShipmentTracking/Elements/YITHTrackingInformationElement.php:76
+msgid "Font family"
+msgstr "Lettertype"
+
+#: src/Elements/ElementsHelper.php:292
+msgid "Type"
+msgstr "Type"
+
+#: src/Elements/ElementsHelper.php:324
+msgid "Weight"
+msgstr "Gewicht"
+
+#: src/Elements/FeaturedProducts.php:37
+msgid "Featured Products"
+msgstr "Aanbevolen producten"
+
+#: src/Elements/FeaturedProducts.php:79 src/Elements/SimpleOffer.php:149
+#: src/Elements/SingleBanner.php:139
+msgid "Showing items"
+msgstr "Items tonen"
+
+#: src/Elements/FeaturedProducts.php:86
+msgid "Top content"
+msgstr "Bovenkant inhoud"
+
+#: src/Elements/FeaturedProducts.php:95
+msgid "Product price color"
+msgstr "Productprijs kleur"
+
+#: src/Elements/FeaturedProducts.php:102
+msgid "Product original price color"
+msgstr "Product originele prijs kleur"
+
+#: src/Elements/FeaturedProducts.php:109
+msgid "Buy button text"
+msgstr "Koop knop tekst"
+
+#: src/Elements/FeaturedProducts.php:110
+#: templates/elements/featured-products.php:232
+#: templates/shortcodes/yaydp-on-sale-products/main.php:137
+msgid "BUY NOW"
+msgstr "KOOP NU"
+
+#: src/Elements/FeaturedProducts.php:116
+msgid "Buy button background color"
+msgstr "Knop achtergrondkleur kopen"
+
+#: src/Elements/FeaturedProducts.php:123
+msgid "Buy button text color"
+msgstr "Tekstkleur van de knop kopen"
+
+#: src/Elements/FeaturedProducts.php:130
+#, fuzzy
+#| msgid "Number of products per row"
+msgid "Products per row"
+msgstr "Aantal producten per rij"
+
+#: src/Elements/FeaturedProducts.php:141
+msgid "Product type"
+msgstr "Product type"
+
+#: src/Elements/FeaturedProducts.php:148
+msgid "Sorted by"
+msgstr "Sorted by"
+
+#: src/Elements/FeaturedProducts.php:153
+msgid "None"
+msgstr "Geen"
+
+#: src/Elements/FeaturedProducts.php:157
+msgid "Name A-Z"
+msgstr "Naam A-Z"
+
+#: src/Elements/FeaturedProducts.php:161
+msgid "Name Z-A"
+msgstr "Naam Z-A"
+
+#: src/Elements/FeaturedProducts.php:165
+msgid "Ascending Price"
+msgstr "Oplopende prijs"
+
+#: src/Elements/FeaturedProducts.php:169
+msgid "Descending Price"
+msgstr "Aflopende prijs"
+
+#: src/Elements/FeaturedProducts.php:173
+#: src/Shortcodes/BillingShortcodes.php:336
+#: src/Shortcodes/ShippingShortcodes.php:298
+msgid "Random"
+msgstr "Willekeurig"
+
+#: src/Elements/FeaturedProducts.php:183
+msgid "Number of featured products"
+msgstr "Aantal aanbevolen producten"
+
+#: src/Elements/FeaturedProducts.php:190
+msgid "Product categories"
+msgstr "Productcategorieën"
+
+#: src/Elements/FeaturedProducts.php:197
+msgid "Product tags"
+msgstr "Product tags"
+
+#: src/Elements/FeaturedProducts.php:204
+#: src/Migrations/Versions/Ver_4_0_0.php:819
+#: templates/shortcodes/order-details-download-product/main.php:18
+#: templates/shortcodes/order-details-download-product/sample.php:17
+msgid "Products"
+msgstr "Producten"
+
+#: src/Elements/Footer.php:27
+#: src/TemplatePatterns/SectionTemplates/Footer.php:18
+msgid "Footer"
+msgstr "Footer"
+
+#: src/Elements/Footer.php:76 src/Elements/Heading.php:100
+msgid "Hide text"
+msgstr "Tekst verbergen"
+
+#: src/Elements/GlobalFooter.php:27
+msgid "Global Footer"
+msgstr "Globale Footer"
+
+#: src/Elements/GlobalFooter.php:37
+msgid "Global footer"
+msgstr "Wereldwijde voettekst"
+
+#: src/Elements/GlobalHeader.php:28 src/Elements/Heading.php:33
+#: src/Elements/Heading.php:44 src/Elements/Heading.php:53
+#: src/Emails/GlobalHeaderFooter.php:33
+msgid "Email Heading"
+msgstr "E-mailkop"
+
+#: src/Elements/GlobalHeader.php:35
+msgid "Global Header"
+msgstr "Globale Header"
+
+#: src/Elements/GlobalHeader.php:52
+msgid "Global header"
+msgstr "Wereldwijde kop"
+
+#: src/Elements/HTML.php:39
+msgid "HTML"
+msgstr "HTML"
+
+#: src/Elements/HTML.php:48
+msgid "HTML code"
+msgstr "HTML-code"
+
+#: src/Elements/HTML.php:51
+msgid "Import HTML code"
+msgstr "HTML-code importeren"
+
+#: src/Elements/Hook.php:26
+msgid "Hook"
+msgstr "Haak"
+
+#: src/Elements/Hook.php:61
+msgid "Hook shortcode"
+msgstr "Haak shortcode"
+
+#: src/Elements/Image.php:24
+msgid "Image"
+msgstr "Afbeelding"
+
+#: src/Elements/Image.php:81 src/Elements/Logo.php:43
+msgid "ALT text"
+msgstr ""
+
+#: src/Elements/ImageBox.php:30
+msgid "Image Box"
+msgstr "Afbeeldingssectie"
+
+#: src/Elements/ImageList.php:32
+msgid "Image List"
+msgstr "Afbeeldingenlijst"
+
+#: src/Elements/ImageList.php:48 src/Elements/TextList.php:59
+msgid "Number of columns:"
+msgstr "Aantal kolommen:"
+
+#: src/Elements/Logo.php:27
+msgid "Logo"
+msgstr "Logo"
+
+#: src/Elements/OrderDetails.php:31
+#: src/Shortcodes/OrderDetails/OrderDetailsShortcodes.php:177
+msgid "Order Details"
+msgstr "Bestelgegevens"
+
+#: src/Elements/OrderDetails.php:94
+msgid "Payment instructions"
+msgstr "Betalingsinstructies"
+
+#: src/Elements/OrderDetails.php:101
+msgid "Order item title"
+msgstr "Titel van het artikel bestellen"
+
+#: src/Elements/OrderDetails.php:108 src/Elements/OrderDetailsDownload.php:104
+msgid "Product title"
+msgstr "Product titel"
+
+#: src/Elements/OrderDetails.php:109 src/Elements/OrderDetailsDownload.php:105
+#: src/Migrations/Versions/Ver_4_0_0.php:783
+#: src/Shortcodes/OrderDetails/OrderDetailsRenderer.php:49
+msgid "Product"
+msgstr "Product"
+
+#: src/Elements/OrderDetails.php:115
+msgid "Cost title"
+msgstr "Kosten titel"
+
+#: src/Elements/OrderDetails.php:116 src/Migrations/Versions/Ver_4_0_0.php:784
+#: src/Shortcodes/OrderDetails/OrderDetailsRenderer.php:50
+msgid "Cost"
+msgstr "Kosten"
+
+#: src/Elements/OrderDetails.php:122
+msgid "Quantity title"
+msgstr "Titel Hoeveelheid"
+
+#: src/Elements/OrderDetails.php:123 src/Migrations/Versions/Ver_4_0_0.php:785
+#: src/Shortcodes/OrderDetails/OrderDetailsRenderer.php:51
+msgid "Quantity"
+msgstr "Aantal"
+
+#: src/Elements/OrderDetails.php:129
+msgid "Price title"
+msgstr "Prijs titel"
+
+#: src/Elements/OrderDetails.php:130 src/Migrations/Versions/Ver_4_0_0.php:786
+#: src/Shortcodes/OrderDetails/OrderDetailsRenderer.php:52
+msgid "Price"
+msgstr "Prijs"
+
+#: src/Elements/OrderDetails.php:136
+msgid "Subtotal title"
+msgstr "Subtotaal titel"
+
+#: src/Elements/OrderDetails.php:137 src/Migrations/Versions/Ver_4_0_0.php:787
+#: src/Shortcodes/OrderDetails/OrderDetailsRenderer.php:53
+msgid "Subtotal:"
+msgstr "Subtotaal:"
+
+#: src/Elements/OrderDetails.php:143
+msgid "Payment method title"
+msgstr "Titel betaalmethode"
+
+#: src/Elements/OrderDetails.php:144 src/Migrations/Versions/Ver_4_0_0.php:788
+#: src/Shortcodes/OrderDetails/OrderDetailsRenderer.php:56
+msgid "Payment method:"
+msgstr "Betaalmethode:"
+
+#: src/Elements/OrderDetails.php:150
+msgid "Total title"
+msgstr "Totaal aantal titels"
+
+#: src/Elements/OrderDetails.php:151 src/Migrations/Versions/Ver_4_0_0.php:789
+#: src/Shortcodes/OrderDetails/OrderDetailsRenderer.php:57
+msgid "Total:"
+msgstr "Totaal:"
+
+#: src/Elements/OrderDetails.php:157
+msgid "Note title"
+msgstr "Notitie titel"
+
+#: src/Elements/OrderDetails.php:158 src/Migrations/Versions/Ver_4_0_0.php:790
+#: src/Shortcodes/OrderDetails/OrderDetailsRenderer.php:58
+msgid "Note:"
+msgstr "Notitie:"
+
+#: src/Elements/OrderDetails.php:165 src/Migrations/Versions/Ver_4_0_0.php:791
+#: src/Shortcodes/OrderDetails/OrderDetailsRenderer.php:54
+msgid "Shipping:"
+msgstr "Verzending:"
+
+#: src/Elements/OrderDetails.php:171
+msgid "Discount title"
+msgstr "Korting titel"
+
+#: src/Elements/OrderDetails.php:172 src/Migrations/Versions/Ver_4_0_0.php:792
+#: src/Shortcodes/OrderDetails/OrderDetailsRenderer.php:55
+msgid "Discount:"
+msgstr "Korting:"
+
+#: src/Elements/OrderDetailsDownload.php:34
+msgid "Order Details Download"
+msgstr "Bestelgegevens Downloaden"
+
+#: src/Elements/OrderDetailsDownload.php:97
+msgid "Header title"
+msgstr "Header titel"
+
+#: src/Elements/OrderDetailsDownload.php:111
+msgid "Expires title"
+msgstr "Verlopen titel"
+
+#: src/Elements/OrderDetailsDownload.php:112
+#: src/Migrations/Versions/Ver_4_0_0.php:820
+#: templates/shortcodes/order-details-download-product/main.php:19
+#: templates/shortcodes/order-details-download-product/sample.php:18
+msgid "Expires"
+msgstr "Verloopt"
+
+#: src/Elements/OrderDetailsDownload.php:118
+msgid "Download title"
+msgstr "Titel downloaden"
+
+#: src/Elements/OrderDetailsDownload.php:119
+#: src/Migrations/Versions/Ver_4_0_0.php:821
+#: templates/shortcodes/order-details-download-product/main.php:20
+#: templates/shortcodes/order-details-download-product/sample.php:19
+msgid "Download"
+msgstr "Download"
+
+#: src/Elements/SimpleOffer.php:26
+msgid "Simple Offer"
+msgstr "Eenvoudig aanbod"
+
+#: src/Elements/SimpleOffer.php:68
+msgid "Border width"
+msgstr "Randbreedte"
+
+#: src/Elements/SimpleOffer.php:79
+msgid "Border style"
+msgstr "Randstijl"
+
+#: src/Elements/SimpleOffer.php:122 src/Elements/SingleBanner.php:105
+#: templates/elements/simple-offer.php:77
+#: templates/elements/single-banner.php:115
+msgid "ORDER NOW"
+msgstr "BESTEL NU"
+
+#: src/Elements/SimpleOffer.php:128 src/Elements/SingleBanner.php:111
+msgid "Button URL"
+msgstr "Knop URL"
+
+#: src/Elements/SimpleOffer.php:142 src/Elements/SingleBanner.php:132
+msgid "Button text color"
+msgstr "Button Tekstkleur"
+
+#: src/Elements/SingleBanner.php:32
+msgid "Single Banner"
+msgstr "Enkele banner"
+
+#: src/Elements/SingleBanner.php:76
+msgid "Content width"
+msgstr "Content breedte"
+
+#: src/Elements/SingleBanner.php:83
+msgid "Content align"
+msgstr "Inhoud uitlijnen"
+
+#: src/Elements/SingleBanner.php:118
+msgid "Button align"
+msgstr "Knop uitlijning"
+
+#: src/Elements/SkeletonDivider.php:23
+msgid "Skeleton Divider"
+msgstr "Skelet verdeler"
+
+#: src/Elements/SocialIcon.php:25
+msgid "Social Icon"
+msgstr "Social media icoon"
+
+#: src/Elements/SocialIcon.php:71
+msgid "Icon spacing"
+msgstr "Afstand tussen pictogrammen"
+
+#: src/Elements/SocialIcon.php:82
+msgid "Styles theme"
+msgstr "Thema Stijlen"
+
+#: src/Elements/SocialIcon.php:89
+msgid "Socials"
+msgstr "Social media"
+
+#: src/Elements/Space.php:31
+msgid "Space"
+msgstr "Ruimte"
+
+#: src/Elements/Text.php:25
+msgid "Text"
+msgstr "Tekst"
+
+#: src/Elements/TextList.php:36
+msgid "Text List"
+msgstr "Tekst lijst"
+
+#: src/Elements/Title.php:25 src/Elements/Title.php:41
+#: src/Integrations/WcAdminCustomOrderFieldBySkyverge/Elements/AdminCustomOrderFields.php:82
+msgid "Title"
+msgstr "Titel"
+
+#: src/Elements/Title.php:42
+msgid "Enter your title here"
+msgstr "Vul hier je titel in"
+
+#: src/Elements/Title.php:48
+msgid "Title size"
+msgstr "Titel formaat"
+
+#: src/Elements/Title.php:55 src/Elements/Title.php:56
+msgid "Subtitle"
+msgstr "Ondertitel"
+
+#: src/Elements/Title.php:62
+msgid "Subtitle size"
+msgstr "Grootte ondertiteling"
+
+#: src/Elements/Video.php:24
+msgid "Video"
+msgstr "Video"
+
+#: src/Elements/Video.php:52
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: src/Elements/Video.php:73
+msgid "Video URL"
+msgstr "Video URL"
+
+#: src/Elements/Video.php:77
+msgid "Change video"
+msgstr "Video vervangen"
+
+#: src/Emails/CancelledOrder.php:32
+msgid "Order Cancelled: #{order_number}"
+msgstr "Geannuleerde bestelling: nummer {order_number}"
+
+#. translators: %1$s: order id, %2$s: customer name.
+#: src/Emails/CancelledOrder.php:35
+#, php-format
+msgid ""
+"Notification to let you know &mdash; order #%1$s belonging to %2$s has been "
+"cancelled:"
+msgstr ""
+"Notification to let you know &mdash; order #%1$s belonging to %2$s has been "
+"cancelled:"
+
+#: src/Emails/CancelledOrder.php:36 src/Emails/CustomerNote.php:37
+#: src/Emails/CustomerResetPassword.php:42
+msgid "Thanks for reading."
+msgstr "Bedankt voor je aandacht."
+
+#: src/Emails/CustomerCompletedOrder.php:32
+msgid "Thanks for shopping with us"
+msgstr "Bedankt dat u bij ons winkelt"
+
+#. translators: customer name.
+#. translators: customer username.
+#. translators: customer name.
+#. translators: customer username.
+#. translators: customer name.
+#: src/Emails/CustomerCompletedOrder.php:34 src/Emails/CustomerInvoice.php:35
+#: src/Emails/CustomerNewAccount.php:37 src/Emails/CustomerNote.php:34
+#: src/Emails/CustomerOnHoldOrder.php:36
+#: src/Emails/CustomerProcessingOrder.php:35
+#: src/Emails/CustomerRefundedOrder.php:36
+#: src/Emails/CustomerResetPassword.php:37
+#: src/Integrations/AdvancedShipmentTrackingByZorem/Emails/CustomerPartialShippedOrder.php:37
+#, php-format
+msgid "Hi %s,"
+msgstr "Hallo %s,"
+
+#: src/Emails/CustomerCompletedOrder.php:35
+msgid "We have finished processing your order."
+msgstr "Bedankt voor je bestelling. Hierbij de betalingsgegevens."
+
+#: src/Emails/CustomerCompletedOrder.php:36
+msgid "Thanks for shopping with us."
+msgstr "Dank je voor het vertrouwen in ons."
+
+#: src/Emails/CustomerFailedOrder.php:32
+msgid "Sorry, your order was unsuccessful"
+msgstr "Sorry, uw bestelling is mislukt"
+
+#: src/Emails/CustomerFailedOrder.php:33
+msgid "Hi [yaymail_billing_first_name]"
+msgstr "Hoi [yaymail_billing_first_name]"
+
+#: src/Emails/CustomerFailedOrder.php:34
+msgid ""
+"Unfortunately, we couldn't complete your order due to an issue with your "
+"payment method."
+msgstr ""
+"Helaas konden we je bestelling niet voltooien vanwege een probleem met je "
+"betaalmethode."
+
+#: src/Emails/CustomerFailedOrder.php:35
+msgid ""
+"If you'd like to continue with your purchase, please return to "
+"[yaymail_site_name] and try a different method of payment."
+msgstr ""
+"Als je verder wilt gaan met je aankoop, ga dan terug naar "
+"[yaymail_site_name] en probeer een andere betaalmethode."
+
+#: src/Emails/CustomerFailedOrder.php:36
+msgid "Your order details are as follows:"
+msgstr "Uw bestelgegevens zijn als volgt:"
+
+#: src/Emails/CustomerInvoice.php:32
+msgid "Details for order: #{order_number}"
+msgstr "Details voor bestelling: #{order_number}"
+
+#. translators: order date.
+#: src/Emails/CustomerInvoice.php:37
+#, php-format
+msgid "Here are the details of your order placed on  %s,"
+msgstr "Hier zijn de details van uw bestelling die op %s is geplaatst,"
+
+#: src/Emails/CustomerInvoice.php:38
+msgid "Thanks for using {site_url}!"
+msgstr "Bedankt dat je {site_url} gebruikt!"
+
+#: src/Emails/CustomerNewAccount.php:34
+msgid "Welcome to {site_title}"
+msgstr "Uw inschrijving"
+
+#. translators: %1$s: site name, %2$s: customer username, %3$s: account url .
+#: src/Emails/CustomerNewAccount.php:39
+#, php-format
+msgid ""
+"Thanks for creating an account on %1$s. Your username is %2$s. You can "
+"access your account area to view orders, change your password, and more at: "
+"%3$s"
+msgstr ""
+"Bedankt voor het aanmaken van een account bij %1$s. <br>\n"
+"De door jou gekozen gebruikersnaam is %2$s. \n"
+"Je kunt nu gaan winkelen.<br>\n"
+"Via Mijn Account %3$s, kun je o.a. jouw adresgegevens invullen, eerdere "
+"bestellingen bekijken en je wachtwoord wijzigen."
+
+#: src/Emails/CustomerNewAccount.php:40
+msgid "We look forward to seeing you soon."
+msgstr "Met vriendelijke groeten {site_title}"
+
+#: src/Emails/CustomerNote.php:32
+msgid "A note has been added to your order"
+msgstr "Een notitie is toegevoegd aan uw bestelling"
+
+#: src/Emails/CustomerNote.php:35
+msgid "The following note has been added to your order:"
+msgstr "Er is zojuist een notitie toegevoegd aan je bestelling:"
+
+#: src/Emails/CustomerNote.php:36
+msgid "As a reminder, here are your order details:"
+msgstr "Ter herinnering, dit zijn de details van uw bestelling:"
+
+#: src/Emails/CustomerOnHoldOrder.php:34
+msgid "Thank you for your order"
+msgstr "Bedankt voor uw bestelling"
+
+#: src/Emails/CustomerOnHoldOrder.php:37
+msgid ""
+"Thanks for your order. It's on-hold until we confirm that payment has been "
+"received. In the meantime, here's a reminder of what you ordered:"
+msgstr ""
+"Bedankt voor uw bestelling. Het staat in de wacht totdat we bevestigen dat "
+"de betaling is ontvangen. In de tussentijd is hier een herinnering aan wat "
+"je hebt besteld:"
+
+#: src/Emails/CustomerOnHoldOrder.php:38
+#: src/Integrations/AdvancedShipmentTrackingByZorem/Emails/CustomerPartialShippedOrder.php:39
+msgid "We look forward to fulfilling your order soon."
+msgstr "We doen ons best om jouw order zo snel mogelijk te voltooien."
+
+#: src/Emails/CustomerProcessingOrder.php:33
+msgid "Thank you for your order "
+msgstr "Bedankt voor uw bestelling "
+
+#. translators: order id.
+#: src/Emails/CustomerProcessingOrder.php:37
+#, php-format
+msgid ""
+"Just to let you know &mdash; we've received your order #%s,  and it is now "
+"being processed:"
+msgstr ""
+"Om je te laten weten - we hebben je bestelling #%s ontvangen en deze wordt "
+"nu verwerkt:"
+
+#: src/Emails/CustomerProcessingOrder.php:38
+msgid "Thanks for using [yaymail_site_url]!"
+msgstr "Bedankt voor het gebruik van [yaymail_site_url]!"
+
+#. translators: site name.
+#: src/Emails/CustomerRefundedOrder.php:38
+#, php-format
+msgid ""
+"Your order on %s has been refunded. There are more details below for your "
+"reference:"
+msgstr ""
+"Je bestelling op %s is gedeeltelijk terugbetaald. Ter referentie worden "
+"hieronder je bestelgegevens getoond:"
+
+#: src/Emails/CustomerRefundedOrder.php:39
+msgid "We hope to see you again soon."
+msgstr "We hopen je snel weer te mogen verwelkomen."
+
+#: src/Emails/CustomerResetPassword.php:35
+msgid "Password Reset Request"
+msgstr "Wachtwoord Reset Verzoek"
+
+#. translators: site name.
+#: src/Emails/CustomerResetPassword.php:39
+#, php-format
+msgid "Someone has requested a new password for the following account on %s:,"
+msgstr ""
+"Iemand heeft een nieuw wachtwoord aangevraagd voor het volgende account op "
+"%s:,"
+
+#: src/Emails/CustomerResetPassword.php:40
+msgid ""
+"If you didn't make this request, just ignore this email. If you'd like to "
+"proceed:"
+msgstr "Als u dit niet was dan kunt u deze mail negeren. Als u door wilt gaan:"
+
+#: src/Emails/CustomerResetPassword.php:41
+#: src/Shortcodes/CommonShortcodes.php:77
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: src/Emails/FailedOrder.php:33
+msgid "Order Failed: #{order_number}"
+msgstr "Bestelling mislukt: #{order_number}"
+
+#. translators: order_id and customer name.
+#: src/Emails/FailedOrder.php:36
+#, php-format
+msgid "Payment for order #%1$s from %2$s has failed. The order was as follows:"
+msgstr ""
+"Betaling voor bestelling #%1$s van %2$s is mislukt. De bestelling was als "
+"volgt:"
+
+#: src/Emails/FailedOrder.php:37
+msgid ""
+"Hopefully they'll be back. Read more about <a href=\\\"https://docs."
+"woocommerce.com/document/managing-orders/\\\">troubleshooting failed "
+"payments</a>."
+msgstr ""
+"Hopelijk komen ze terug. Lees meer over <a href=\"\\\"https://docs."
+"woocommerce.com/document/managing-orders/\\\"\">het oplossen van problemen "
+"met mislukte betalingen</a>."
+
+#: src/Emails/GlobalHeaderFooter.php:23
+msgid "Global header footer"
+msgstr "Globale koptekstvoettekst"
+
+#: src/Emails/GlobalHeaderFooter.php:24
+msgid "Global header footer recipient placeholder"
+msgstr ""
+"Tijdelijke aanduiding voor ontvanger van de algemene koptekst in de voettekst"
+
+#: src/Emails/NewOrder.php:33
+msgid "New order"
+msgstr "Nieuwe bestelling"
+
+#. translators: customer name.
+#: src/Emails/NewOrder.php:35
+#, php-format
+msgid "You’ve received the following order from %s:"
+msgstr "Je hebt een bestelling ontvangen van %s:"
+
+#: src/Emails/NewOrder.php:36
+msgid "Congratulations on the sale."
+msgstr "Hopelijk loopt alles goed met deze verkoop."
+
+#: src/Engine/Backend/SettingsPage.php:56
+#: src/YayCommerceMenu/RegisterMenu.php:171
+msgid "Email Builder Settings"
+msgstr "Instellingen voor E-mail Builder"
+
+#: src/Engine/Backend/SettingsPage.php:57
+#: src/Integrations/BackInStockNotifier/Shortcodes/BackInStockNotifierShortcodes.php:113
+#: src/Integrations/BackInStockNotifier/Shortcodes/BackInStockNotifierShortcodes.php:240
+#: src/Integrations/BackInStockNotifier/Shortcodes/BackInStockNotifierShortcodes.php:259
+#: src/YayCommerceMenu/RegisterMenu.php:171
+msgid "YayMail"
+msgstr "YayMail"
+
+#: src/Engine/Backend/SettingsPage.php:214
+msgid "View WooCommerce Email Builder"
+msgstr "Bekijk WooCommerce Email Builder"
+
+#: src/Engine/Backend/SettingsPage.php:214
+msgid "Start Customizing"
+msgstr "Kies je"
+
+#: src/Engine/Backend/SettingsPage.php:224
+msgid "Docs"
+msgstr "Documentatie"
+
+#: src/Engine/Backend/SettingsPage.php:225
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: src/Engine/Backend/SettingsPage.php:259
+msgid "Customize with YayMail"
+msgstr "Aanpassen met YayMail"
+
+#: src/Functions.php:386
+#: src/Integrations/BackInStockNotifier/Emails/NotifierInstockMail.php:23
+#: src/Integrations/BackInStockNotifier/Emails/NotifierSubscribeMail.php:23
+#: src/Utils/TemplateHelpers.php:165
+msgid "Customer"
+msgstr "Klant"
+
+#: src/Functions.php:388
+#, fuzzy
+#| msgid "Recipient(s)"
+msgid "Recipient"
+msgstr "Ontvanger(s)"
+
+#: src/Functions.php:394
+msgid "Admin"
+msgstr "Beheerder"
+
+#: src/Integrations/AdvancedLocalPickupByZorem/Elements/AdvancedLocalPickupInstructionElement.php:24
+#: src/Integrations/AdvancedLocalPickupByZorem/Shortcodes/AdvancedLocalPickupShortcodes.php:35
+msgid "Advanced Local Pickup Instruction"
+msgstr "Geavanceerde instructie voor lokale afhaling"
+
+#: src/Integrations/AdvancedLocalPickupByZorem/Elements/AdvancedLocalPickupInstructionElement.php:81
+msgid "Pickup information title"
+msgstr "Titel van de ophaalinformatie"
+
+#: src/Integrations/AdvancedLocalPickupByZorem/Elements/AdvancedLocalPickupInstructionElement.php:82
+msgid "Pickup information"
+msgstr "Ophaalinformatie"
+
+#: src/Integrations/AdvancedLocalPickupByZorem/Elements/AdvancedLocalPickupInstructionElement.php:88
+msgid "Pickup address title"
+msgstr "Titel van ophaaladres"
+
+#: src/Integrations/AdvancedLocalPickupByZorem/Elements/AdvancedLocalPickupInstructionElement.php:89
+#: src/Migrations/Versions/Ver_4_0_0.php:962
+msgid "Pickup Address"
+msgstr "Afhaaladres"
+
+#: src/Integrations/AdvancedLocalPickupByZorem/Elements/AdvancedLocalPickupInstructionElement.php:95
+msgid "Pickup hours title"
+msgstr "Titel ophaaluren"
+
+#: src/Integrations/AdvancedLocalPickupByZorem/Elements/AdvancedLocalPickupInstructionElement.php:96
+#: src/Migrations/Versions/Ver_4_0_0.php:963
+msgid "Pickup Hours"
+msgstr "Ophaaltijden"
+
+#: src/Integrations/AdvancedLocalPickupByZorem/Shortcodes/AdvancedLocalPickupShortcodes.php:56
+msgid "Sunday"
+msgstr "Zondag"
+
+#: src/Integrations/AdvancedLocalPickupByZorem/Shortcodes/AdvancedLocalPickupShortcodes.php:57
+msgid "Monday"
+msgstr "Maandag"
+
+#: src/Integrations/AdvancedLocalPickupByZorem/Shortcodes/AdvancedLocalPickupShortcodes.php:58
+msgid "Tuesday"
+msgstr "Dinsdag"
+
+#: src/Integrations/AdvancedLocalPickupByZorem/Shortcodes/AdvancedLocalPickupShortcodes.php:59
+msgid "Wednesday"
+msgstr "Woensdag"
+
+#: src/Integrations/AdvancedLocalPickupByZorem/Shortcodes/AdvancedLocalPickupShortcodes.php:60
+msgid "Thursday"
+msgstr "Donderdag"
+
+#: src/Integrations/AdvancedLocalPickupByZorem/Shortcodes/AdvancedLocalPickupShortcodes.php:61
+msgid "Friday"
+msgstr "Vrijdag"
+
+#: src/Integrations/AdvancedLocalPickupByZorem/Shortcodes/AdvancedLocalPickupShortcodes.php:62
+msgid "Saturday"
+msgstr "Zaterdag"
+
+#: src/Integrations/AdvancedLocalPickupByZorem/Templates/Shortcodes/advanced-local-pickup-instruction/main.php:215
+msgid " To "
+msgstr " Tot "
+
+#: src/Integrations/AdvancedShipmentTrackingByZorem/Elements/TrackingInformationElement.php:28
+#: src/Migrations/Versions/Ver_4_0_0.php:940
+#, fuzzy
+#| msgid "Tracking Information"
+msgid "Tracking Information (By Zorem)"
+msgstr "Tracking informatie"
+
+#: src/Integrations/AdvancedShipmentTrackingByZorem/Elements/TrackingInformationElement.php:78
+#: src/Integrations/TrackingMoreOrderTrackingForWc/Elements/TrackingInformationElement.php:82
+#: src/Integrations/WooCommerceShipmentTracking/Elements/TrackingInformationElement.php:83
+#: src/Integrations/WooCommerceShippingTax/Elements/ShipmentTrackingElement.php:84
+#: src/Integrations/WoocommerceShipmentTrackingProByPluginHive/Elements/TrackingInformationElement.php:75
+#: src/Integrations/YITHWooCommerceOrderShipmentTracking/Elements/YITHTrackingInformationElement.php:83
+msgid "Tracking title"
+msgstr "Titel volgen"
+
+#: src/Integrations/AdvancedShipmentTrackingByZorem/Elements/TrackingInformationElement.php:79
+#: src/Integrations/AdvancedShipmentTrackingByZorem/Shortcodes/TrackingInformationShortcodes.php:19
+#: src/Integrations/TrackingMoreOrderTrackingForWc/Elements/TrackingInformationElement.php:83
+#: src/Integrations/WooCommerceShipmentTracking/Elements/TrackingInformationElement.php:84
+#: src/Integrations/WooCommerceShipmentTracking/Shortcodes/TrackingInformationShortcodes.php:19
+#: src/Integrations/WoocommerceShipmentTrackingProByPluginHive/Elements/TrackingInformationElement.php:76
+#: src/Integrations/YITHWooCommerceOrderShipmentTracking/Elements/YITHTrackingInformationElement.php:84
+#: src/Migrations/Versions/Ver_4_0_0.php:943
+#: src/Migrations/Versions/Ver_4_0_0.php:948
+#: src/Migrations/Versions/Ver_4_0_0.php:954
+#: src/Migrations/Versions/Ver_4_0_0.php:958
+msgid "Tracking Information"
+msgstr "Tracking informatie"
+
+#: src/Integrations/AdvancedShipmentTrackingByZorem/Elements/TrackingInformationElement.php:86
+#: src/Integrations/AdvancedShipmentTrackingByZorem/Templates/Shortcodes/tracking-information/main.php:23
+#: src/Integrations/AdvancedShipmentTrackingByZorem/Templates/Shortcodes/tracking-information/sample.php:21
+#: src/Integrations/TrackingMoreOrderTrackingForWc/Elements/TrackingInformationElement.php:90
+#: src/Migrations/Versions/Ver_4_0_0.php:944
+#: src/Migrations/Versions/Ver_4_0_0.php:949
+msgid "Track Your Order"
+msgstr "Volg uw bestelling"
+
+#: src/Integrations/AdvancedShipmentTrackingByZorem/Emails/CustomerPartialShippedOrder.php:35
+msgid "Your Order is Partially Shipped"
+msgstr "Uw bestelling is gedeeltelijk verzonden"
+
+#: src/Integrations/AdvancedShipmentTrackingByZorem/Emails/CustomerPartialShippedOrder.php:38
+msgid "Hi there. we thought you'd like to know that your recent order from "
+msgstr ""
+"Hoi. We dachten dat je graag zou willen weten dat je recente bestelling van "
+
+#: src/Integrations/AdvancedShipmentTrackingByZorem/Emails/CustomerPartialShippedOrder.php:38
+msgid " has been partially shipped."
+msgstr " is gedeeltelijk verzonden."
+
+#: src/Integrations/AdvancedShipmentTrackingByZorem/Shortcodes/TrackingInformationShortcodes.php:55
+#: src/Integrations/TrackingMoreOrderTrackingForWc/Shortcodes/TrackingInformationShortcodes.php:75
+#: src/Integrations/TrackingMoreOrderTrackingForWc/Shortcodes/TrackingInformationShortcodes.php:106
+#: src/Integrations/WcAdminCustomOrderFieldBySkyverge/Shortcodes/AdminCustomOrderFieldsShortcodes.php:157
+#: src/Integrations/WooCommerceOrderStatusByTycheSoftwares/Shortcodes/WooCommerceOrderStatusByTycheSoftwaresShortcodes.php:52
+#: src/Integrations/WooCommerceOrderStatusByTycheSoftwares/Shortcodes/WooCommerceOrderStatusByTycheSoftwaresShortcodes.php:68
+#: src/Integrations/WooCommerceShipmentTracking/Shortcodes/TrackingInformationShortcodes.php:53
+#: src/Integrations/WooCommerceShippingTax/Templates/Shortcodes/tracking-information/main.php:16
+#: src/Integrations/WooCommerceSoftwareAddon/Templates/Shortcodes/license-info/main.php:18
+#: src/Integrations/WoocommerceShipmentTrackingProByPluginHive/Shortcodes/TrackingInformationByPluginHiveShortcodes.php:58
+#: src/Integrations/WoocommerceShipmentTrackingProByPluginHive/Shortcodes/TrackingInformationByPluginHiveShortcodes.php:96
+#: src/Integrations/WoocommerceShipmentTrackingProByPluginHive/Shortcodes/TrackingInformationByPluginHiveShortcodes.php:158
+#: src/Integrations/YITHWooCommerceOrderShipmentTracking/Shortcodes/YITHTrackingInformationShortcodes.php:112
+#: src/Integrations/YITHWooCommerceOrderShipmentTracking/Shortcodes/YITHTrackingInformationShortcodes.php:150
+#: src/Integrations/YITHWooCommerceOrderShipmentTracking/Shortcodes/YITHTrackingInformationShortcodes.php:178
+#: src/Integrations/YITHWooCommerceOrderShipmentTracking/Shortcodes/YITHTrackingInformationShortcodes.php:274
+#: src/Integrations/YITHWooCommerceOrderShipmentTracking/Shortcodes/YITHTrackingInformationShortcodes.php:301
+#: src/Integrations/YITHWooCommerceOrderShipmentTracking/Shortcodes/YITHTrackingInformationShortcodes.php:378
+msgid "No order found"
+msgstr "Geen bestelling gevonden"
+
+#. translators: %1$s: search number, %2$s: search total trackings
+#: src/Integrations/AdvancedShipmentTrackingByZorem/Templates/Shortcodes/tracking-information-pro-tpi/main.php:74
+#, php-format
+msgid "Shipment %1$s (out of %2$s):"
+msgstr "Verzending %1$s (buiten %2$s):"
+
+#: src/Integrations/AdvancedShipmentTrackingByZorem/Templates/Shortcodes/tracking-information/main.php:91
+#: src/Integrations/AdvancedShipmentTrackingByZorem/Templates/Shortcodes/tracking-information/sample.php:77
+msgid "Shipped"
+msgstr "Verzonden"
+
+#: src/Integrations/AdvancedShipmentTrackingByZorem/Templates/Shortcodes/tracking-information/main.php:98
+#: src/Integrations/AdvancedShipmentTrackingByZorem/Templates/Shortcodes/tracking-information/sample.php:84
+msgid "Shipped on"
+msgstr "Verzonden op"
+
+#: src/Integrations/AdvancedShipmentTrackingByZorem/Templates/Shortcodes/tracking-information/main.php:258
+msgid "No tracking found"
+msgstr "Geen tracking gevonden"
+
+#: src/Integrations/BackInStockNotifier/Emails/NotifierInstockMail.php:22
+msgid "Notifier Instock Mail"
+msgstr "Notifier Instock Mail"
+
+#: src/Integrations/BackInStockNotifier/Emails/NotifierInstockMail.php:36
+msgid "Product [yaymail_notifier_product_name] is back in stock"
+msgstr "Product [yaymail_notifier_product_name] is weer op voorraad"
+
+#: src/Integrations/BackInStockNotifier/Emails/NotifierInstockMail.php:37
+msgid "Hello [yaymail_notifier_subscriber_name],"
+msgstr "Hallo [yaymail_notifier_subscriber_name],"
+
+#: src/Integrations/BackInStockNotifier/Emails/NotifierInstockMail.php:38
+msgid "Thanks for your patience and finally the wait is over! "
+msgstr "Bedankt voor je geduld en eindelijk is het wachten voorbij! "
+
+#: src/Integrations/BackInStockNotifier/Emails/NotifierInstockMail.php:39
+msgid ""
+"Your Subscribed Product [yaymail_notifier_product_name] is now back in "
+"stock! "
+msgstr ""
+"Uw geabonneerde product [yaymail_notifier_product_name] is nu weer op "
+"voorraad! "
+
+#: src/Integrations/BackInStockNotifier/Emails/NotifierInstockMail.php:40
+msgid ""
+"We only have a limited amount of stock, and this email is not a guarantee "
+"you'll get one, so hurry to be one of the lucky shoppers who do Add this "
+"product [yaymail_notifier_product_name] directly to your cart "
+"[yaymail_notifier_cart_link]"
+msgstr ""
+"We hebben maar een beperkte hoeveelheid voorraad, en deze e-mail is geen "
+"garantie dat je er een krijgt, dus wees snel een van de gelukkige shoppers "
+"die dat wel doet Voeg dit product [yaymail_notifier_product_name] direct toe "
+"aan uw winkelwagen [yaymail_notifier_cart_link]"
+
+#: src/Integrations/BackInStockNotifier/Emails/NotifierSubscribeMail.php:22
+msgid "Notifier Subscribe Mail"
+msgstr "Notifier Abonneren Mail"
+
+#: src/Integrations/BackInStockNotifier/Emails/NotifierSubscribeMail.php:34
+msgid ""
+"You subscribed to [yaymail_notifier_product_name] at "
+"[yaymail_notifier_shopname]"
+msgstr ""
+"U hebt zich geabonneerd op [yaymail_notifier_product_name] op "
+"[yaymail_notifier_shopname]"
+
+#: src/Integrations/BackInStockNotifier/Emails/NotifierSubscribeMail.php:35
+msgid "Dear [yaymail_notifier_subscriber_name] ,"
+msgstr "Beste [yaymail_notifier_subscriber_name] ,"
+
+#: src/Integrations/BackInStockNotifier/Emails/NotifierSubscribeMail.php:36
+msgid ""
+"Thank you for subscribing to the #[yaymail_notifier_product_name]. We will "
+"email you once product back in stock"
+msgstr ""
+"Bedankt voor het abonneren op de #[yaymail_notifier_product_name]. We sturen "
+"u een e-mail zodra het product weer op voorraad is"
+
+#: src/Integrations/BackInStockNotifier/Shortcodes/BackInStockNotifierShortcodes.php:25
+msgid "Notifier Product ID"
+msgstr "Product-ID voor kennisgeving"
+
+#: src/Integrations/BackInStockNotifier/Shortcodes/BackInStockNotifierShortcodes.php:31
+msgid "Notifier Product Name"
+msgstr "Notifier Productnaam"
+
+#: src/Integrations/BackInStockNotifier/Shortcodes/BackInStockNotifierShortcodes.php:37
+msgid "Notifier Product Sku"
+msgstr "Notifier Product-SKU"
+
+#: src/Integrations/BackInStockNotifier/Shortcodes/BackInStockNotifierShortcodes.php:43
+msgid "Notifier Product Link"
+msgstr "Melding Product Link"
+
+#: src/Integrations/BackInStockNotifier/Shortcodes/BackInStockNotifierShortcodes.php:49
+msgid "Notifier Product Image"
+msgstr "Notifier Product Afbeelding"
+
+#: src/Integrations/BackInStockNotifier/Shortcodes/BackInStockNotifierShortcodes.php:55
+msgid "Notifier Shop Name"
+msgstr "Naam van de melder"
+
+#: src/Integrations/BackInStockNotifier/Shortcodes/BackInStockNotifierShortcodes.php:61
+msgid "Notifier Cart Link"
+msgstr "Notifier Cart Link"
+
+#: src/Integrations/BackInStockNotifier/Shortcodes/BackInStockNotifierShortcodes.php:67
+msgid "Notifier Subscriber Email"
+msgstr "E-mailadres voor abonnee melden"
+
+#: src/Integrations/BackInStockNotifier/Shortcodes/BackInStockNotifierShortcodes.php:73
+msgid "Notifier Subscriber Name"
+msgstr "Naam van de melder van de abonnee"
+
+#: src/Integrations/BackInStockNotifier/Shortcodes/BackInStockNotifierShortcodes.php:79
+msgid "Notifier Only Product Name"
+msgstr "Alleen voor kennisgever Productnaam"
+
+#: src/Integrations/CustomOrderStatusForWcByNuggethon/Emails/CustomOrderStatusForWcByNuggethon.php:46
+msgid "Order status for order [yaymail_order_id] has been changed."
+msgstr "De bestelstatus voor bestelling [yaymail_order_id] is gewijzigd."
+
+#: src/Integrations/CustomOrderStatusForWcByNuggethon/Emails/CustomOrderStatusForWcByNuggethon.php:62
+msgid "Pay with cash upon delivery."
+msgstr "Betaal contant bij aflevering."
+
+#: src/Integrations/CustomOrderStatusManagerByBrightPlugins/Emails/CustomOrderStatusEmail.php:48
+msgid "Order status changed to {order_status}"
+msgstr "Orderstatus gewijzigd in {order_status}"
+
+#: src/Integrations/FooEventsforWooCommerce/Shortcodes/FooEventsShortcodes.php:25
+msgid "FooEvents Ticket Details"
+msgstr "FooEvents Ticketdetails"
+
+#: src/Integrations/FooEventsforWooCommerce/Shortcodes/FooEventsShortcodes.php:174
+msgid "Slot"
+msgstr "Slot"
+
+#: src/Integrations/FooEventsforWooCommerce/Shortcodes/FooEventsShortcodes.php:185
+#: src/Integrations/FooEventsforWooCommerce/Templates/Shortcodes/ticket-details/main.php:68
+#: src/Integrations/FooEventsforWooCommerce/Templates/Shortcodes/ticket-details/main.php:79
+#: src/Integrations/FooEventsforWooCommerce/Templates/Shortcodes/ticket-details/sample.php:38
+#: src/Integrations/WooCommerceShipmentTracking/Elements/TrackingInformationElement.php:105
+#: src/Integrations/WooCommerceShipmentTracking/Templates/Shortcodes/tracking-information-by-wc-shipment-tracking/main.php:29
+#: src/Integrations/WooCommerceShipmentTracking/Templates/Shortcodes/tracking-information-by-wc-shipment-tracking/sample.php:17
+msgid "Date"
+msgstr "Datum"
+
+#: src/Integrations/FooEventsforWooCommerce/Templates/Shortcodes/ticket-details/main.php:50
+#: src/Integrations/FooEventsforWooCommerce/Templates/Shortcodes/ticket-details/sample.php:36
+msgid "Ticket Details"
+msgstr "Ticket details"
+
+#: src/Integrations/FooEventsforWooCommerce/Templates/Shortcodes/ticket-details/main.php:71
+#: src/Integrations/FooEventsforWooCommerce/Templates/Shortcodes/ticket-details/main.php:85
+#: src/Integrations/FooEventsforWooCommerce/Templates/Shortcodes/ticket-details/main.php:99
+#: src/Integrations/FooEventsforWooCommerce/Templates/Shortcodes/ticket-details/sample.php:39
+msgid "Start time"
+msgstr "Starttijd"
+
+#: src/Integrations/FooEventsforWooCommerce/Templates/Shortcodes/ticket-details/main.php:74
+#: src/Integrations/FooEventsforWooCommerce/Templates/Shortcodes/ticket-details/main.php:88
+#: src/Integrations/FooEventsforWooCommerce/Templates/Shortcodes/ticket-details/main.php:102
+#: src/Integrations/FooEventsforWooCommerce/Templates/Shortcodes/ticket-details/sample.php:40
+msgid "End time"
+msgstr "Eindtijd"
+
+#: src/Integrations/FooEventsforWooCommerce/Templates/Shortcodes/ticket-details/main.php:82
+msgid "End date"
+msgstr "Einddatum"
+
+#: src/Integrations/FooEventsforWooCommerce/Templates/Shortcodes/ticket-details/main.php:95
+msgid "Day "
+msgstr "Dag "
+
+#: src/Integrations/FooEventsforWooCommerce/Templates/Shortcodes/ticket-details/main.php:108
+#: src/Integrations/FooEventsforWooCommerce/Templates/Shortcodes/ticket-details/sample.php:42
+#: src/Shortcodes/CommonShortcodes.php:83
+msgid "Name"
+msgstr "Naam"
+
+#: src/Integrations/FooEventsforWooCommerce/Templates/Shortcodes/ticket-details/main.php:109
+#: src/Integrations/FooEventsforWooCommerce/Templates/Shortcodes/ticket-details/sample.php:43
+#: src/Integrations/WooCommerceOrderStatusManagerBySkyVer/Emails/WooCommerceOrderStatusManagerBySkyVer.php:94
+msgid "Email"
+msgstr "E-mail"
+
+#: src/Integrations/FooEventsforWooCommerce/Templates/Shortcodes/ticket-details/main.php:111
+#: src/Integrations/FooEventsforWooCommerce/Templates/Shortcodes/ticket-details/sample.php:44
+msgid "Telephone"
+msgstr "Telefoon"
+
+#: src/Integrations/FooEventsforWooCommerce/Templates/Shortcodes/ticket-details/main.php:114
+#: src/Integrations/FooEventsforWooCommerce/Templates/Shortcodes/ticket-details/sample.php:45
+msgid "Company"
+msgstr "Bedrijf"
+
+#: src/Integrations/FooEventsforWooCommerce/Templates/Shortcodes/ticket-details/main.php:117
+#: src/Integrations/FooEventsforWooCommerce/Templates/Shortcodes/ticket-details/sample.php:46
+msgid "Designation"
+msgstr "Functie"
+
+#. translators:  booking options
+#: src/Integrations/FooEventsforWooCommerce/Templates/Shortcodes/ticket-details/main.php:124
+#: src/Integrations/FooEventsforWooCommerce/Templates/Shortcodes/ticket-details/main.php:130
+#, php-format
+msgid "Booking %s"
+msgstr "Reserveringsstatus %s"
+
+#: src/Integrations/FooEventsforWooCommerce/Templates/Shortcodes/ticket-details/main.php:136
+msgid "Row"
+msgstr "Rij"
+
+#: src/Integrations/FooEventsforWooCommerce/Templates/Shortcodes/ticket-details/main.php:137
+msgid "Seat"
+msgstr "Stoel"
+
+#: src/Integrations/FooEventsforWooCommerce/Templates/Shortcodes/ticket-details/sample.php:37
+msgid "Sample Event"
+msgstr "Voorbeeld evenement"
+
+#: src/Integrations/FooEventsforWooCommerce/Templates/Shortcodes/ticket-details/sample.php:45
+msgid "Sample Company"
+msgstr "Voorbeeld bedrijf"
+
+#: src/Integrations/FooEventsforWooCommerce/Templates/Shortcodes/ticket-details/sample.php:46
+msgid "Manager"
+msgstr "Manager"
+
+#: src/Integrations/TrackingMoreOrderTrackingForWc/Elements/TrackingInformationElement.php:25
+#: src/Migrations/Versions/Ver_4_0_0.php:947
+#, fuzzy
+#| msgid "YITH Tracking Information - Track Code"
+msgid "Tracking Information (By TrackingMore)"
+msgstr "YITH-trackinginformatie - Trackcode"
+
+#: src/Integrations/TrackingMoreOrderTrackingForWc/Elements/TrackingInformationElement.php:89
+#: src/Integrations/WooCommerceShippingTax/Elements/ShipmentTrackingElement.php:91
+msgid "Courier title"
+msgstr "Titel van de koerier"
+
+#: src/Integrations/TrackingMoreOrderTrackingForWc/Elements/TrackingInformationElement.php:96
+#: src/Integrations/WooCommerceShipmentTracking/Elements/TrackingInformationElement.php:97
+#: src/Integrations/WooCommerceShippingTax/Elements/ShipmentTrackingElement.php:98
+msgid "Tracking number title"
+msgstr "Titel van trackingnummer"
+
+#: src/Integrations/TrackingMoreOrderTrackingForWc/Elements/TrackingInformationElement.php:97
+#: src/Integrations/WooCommerceShipmentTracking/Elements/TrackingInformationElement.php:98
+#: src/Integrations/WooCommerceShippingTax/Elements/ShipmentTrackingElement.php:99
+#: src/Migrations/Versions/Ver_4_0_0.php:950
+#: src/Migrations/Versions/Ver_4_0_0.php:968
+msgid "Tracking number"
+msgstr "Trackingnummer"
+
+#: src/Integrations/TrackingMoreOrderTrackingForWc/Shortcodes/TrackingInformationShortcodes.php:35
+msgid "TrackingMore Tracking Number"
+msgstr "TrackingMore trackingnummer"
+
+#: src/Integrations/TrackingMoreOrderTrackingForWc/Shortcodes/TrackingInformationShortcodes.php:42
+msgid "TrackingMore Courier"
+msgstr "TrackingMore Koerier"
+
+#: src/Integrations/TrackingMoreOrderTrackingForWc/Shortcodes/TrackingInformationShortcodes.php:49
+msgid "TrackingMore Tracking Information"
+msgstr "TrackingMeer trackinginformatie"
+
+#: src/Integrations/TrackingMoreOrderTrackingForWc/Shortcodes/TrackingInformationShortcodes.php:80
+#: src/Integrations/TrackingMoreOrderTrackingForWc/Shortcodes/TrackingInformationShortcodes.php:84
+#: src/Integrations/TrackingMoreOrderTrackingForWc/Shortcodes/TrackingInformationShortcodes.php:111
+#: src/Integrations/TrackingMoreOrderTrackingForWc/Shortcodes/TrackingInformationShortcodes.php:115
+msgid "No data"
+msgstr "Geen gegevens"
+
+#: src/Integrations/WcAdminCustomOrderFieldBySkyverge/Elements/AdminCustomOrderFields.php:25
+msgid "Admin Custom Order Fields By SkyVerge"
+msgstr "Admin Aangepaste volgorde velden door SkyVerge"
+
+#: src/Integrations/WcAdminCustomOrderFieldBySkyverge/Elements/AdminCustomOrderFields.php:83
+msgid "Additional Order Details"
+msgstr "Aanvullende bestelgegevens"
+
+#: src/Integrations/WcAdminCustomOrderFieldBySkyverge/Shortcodes/AdminCustomOrderFieldsShortcodes.php:47
+msgid "SkyVerge's WoocCommerce Admin Custom Order Field: "
+msgstr "Het WoocCommerce Admin aangepaste volgordeveld van SkyVerge: "
+
+#: src/Integrations/WcAdminCustomOrderFieldBySkyverge/Shortcodes/AdminCustomOrderFieldsShortcodes.php:64
+msgid "WooCommerce Admin Custom Order Field by SkyVerge"
+msgstr "WooCommerce Admin Aangepast volgveld door SkyVerge"
+
+#: src/Integrations/WooCommerceOrderStatusByTycheSoftwares/Emails/WooCommerceOrderStatusByTycheSoftwares.php:49
+#, php-format
+msgid "%1$s: #%2$s"
+msgstr ""
+
+#: src/Integrations/WooCommerceOrderStatusByTycheSoftwares/Emails/WooCommerceOrderStatusByTycheSoftwares.php:65
+msgid ""
+"Status changed from [yaymail_order_status_from] to [yaymail_order_status]"
+msgstr ""
+
+#. translators: WC Order Number, New Status & Date on which the order was placed.
+#: src/Integrations/WooCommerceOrderStatusByTycheSoftwares/Emails/WooCommerceOrderStatusByTycheSoftwares.php:147
+#, fuzzy, php-format
+#| msgid "Order status changed to {order_status}"
+msgid "[%1$s] Order #%2$s status changed to %3$s - %4$s"
+msgstr "Orderstatus gewijzigd in {order_status}"
+
+#. translators: $s: status to
+#: src/Integrations/WooCommerceOrderStatusByTycheSoftwares/Emails/WooCommerceOrderStatusByTycheSoftwares.php:152
+#, fuzzy, php-format
+#| msgid "Order status changed to {order_status}"
+msgid "Order status changed to %s"
+msgstr "Orderstatus gewijzigd in {order_status}"
+
+#: src/Integrations/WooCommerceOrderStatusByTycheSoftwares/Shortcodes/WooCommerceOrderStatusByTycheSoftwaresShortcodes.php:27
+#, fuzzy
+#| msgid "Order Status"
+msgid "WooCommerce Order Status"
+msgstr "Bestelstatus"
+
+#: src/Integrations/WooCommerceOrderStatusByTycheSoftwares/Shortcodes/WooCommerceOrderStatusByTycheSoftwaresShortcodes.php:34
+msgid "WooCommerce Order Status From"
+msgstr ""
+
+#: src/Integrations/WooCommerceOrderStatusByTycheSoftwares/Shortcodes/WooCommerceOrderStatusByTycheSoftwaresShortcodes.php:46
+#: src/Shortcodes/OrderDetails/OrderDetailsShortcodes.php:75
+msgid "Order Status"
+msgstr "Bestelstatus"
+
+#: src/Integrations/WooCommerceOrderStatusByTycheSoftwares/Shortcodes/WooCommerceOrderStatusByTycheSoftwaresShortcodes.php:62
+#, fuzzy
+#| msgid "Order Status"
+msgid "Order Status From"
+msgstr "Bestelstatus"
+
+#: src/Integrations/WooCommerceOrderStatusManagerBySkyVer/Emails/WooCommerceOrderStatusManagerBySkyVer.php:47
+msgid "Order has been updated"
+msgstr "Bestelling is bijgewerkt"
+
+#: src/Integrations/WooCommerceOrderStatusManagerBySkyVer/Emails/WooCommerceOrderStatusManagerBySkyVer.php:63
+msgid "Your order is now [yaymail_order_status]. Order details are as follows:"
+msgstr ""
+"Uw bestelling is nu [yaymail_order_status]. De details van de bestelling "
+"zijn als volgt:"
+
+#: src/Integrations/WooCommerceOrderStatusManagerBySkyVer/Emails/WooCommerceOrderStatusManagerBySkyVer.php:72
+msgid "Customer details"
+msgstr "Klantgegevens"
+
+#: src/Integrations/WooCommerceOrderStatusManagerBySkyVer/Emails/WooCommerceOrderStatusManagerBySkyVer.php:106
+msgid "Tel"
+msgstr "Tel"
+
+#: src/Integrations/WooCommerceShipmentTracking/Elements/TrackingInformationElement.php:26
+#: src/Migrations/Versions/Ver_4_0_0.php:974
+#, fuzzy
+#| msgid "PluginHive's Tracking Information - Shipment Tracking ID"
+msgid "Tracking Information (By WooCommerce Shipment Tracking)"
+msgstr "Trackinginformatie van PluginHive - Tracking-ID van zendingen"
+
+#: src/Integrations/WooCommerceShipmentTracking/Elements/TrackingInformationElement.php:90
+msgid "Provider title"
+msgstr "Titel van de aanbieder"
+
+#: src/Integrations/WooCommerceShipmentTracking/Elements/TrackingInformationElement.php:91
+#: src/Integrations/WooCommerceShipmentTracking/Templates/Shortcodes/tracking-information-by-wc-shipment-tracking/main.php:27
+#: src/Integrations/WooCommerceShipmentTracking/Templates/Shortcodes/tracking-information-by-wc-shipment-tracking/main.php:73
+#: src/Integrations/WooCommerceShipmentTracking/Templates/Shortcodes/tracking-information-by-wc-shipment-tracking/sample.php:15
+#: src/Integrations/WooCommerceShipmentTracking/Templates/Shortcodes/tracking-information-by-wc-shipment-tracking/sample.php:53
+#: src/Integrations/WooCommerceShipmentTracking/Templates/Shortcodes/tracking-information-by-wc-shipment-tracking/sample.php:54
+#: src/Integrations/WooCommerceShippingTax/Elements/ShipmentTrackingElement.php:92
+#: src/Migrations/Versions/Ver_4_0_0.php:967
+msgid "Provider"
+msgstr "Provider"
+
+#: src/Integrations/WooCommerceShipmentTracking/Elements/TrackingInformationElement.php:104
+msgid "Date title"
+msgstr "Datum titel"
+
+#: src/Integrations/WooCommerceShipmentTracking/Templates/Shortcodes/tracking-information-by-wc-shipment-tracking/main.php:28
+#: src/Integrations/WooCommerceShipmentTracking/Templates/Shortcodes/tracking-information-by-wc-shipment-tracking/main.php:76
+#: src/Integrations/WooCommerceShipmentTracking/Templates/Shortcodes/tracking-information-by-wc-shipment-tracking/sample.php:16
+#: src/Integrations/WooCommerceShipmentTracking/Templates/Shortcodes/tracking-information-by-wc-shipment-tracking/sample.php:56
+msgid "Tracking Number"
+msgstr "Traceringsnummer"
+
+#: src/Integrations/WooCommerceShipmentTracking/Templates/Shortcodes/tracking-information-by-wc-shipment-tracking/main.php:79
+#: src/Integrations/WooCommerceShipmentTracking/Templates/Shortcodes/tracking-information-by-wc-shipment-tracking/sample.php:59
+#: src/Integrations/WooCommerceShipmentTracking/Templates/Shortcodes/tracking-information-by-wc-shipment-tracking/sample.php:60
+msgid "Status"
+msgstr "Status"
+
+#: src/Integrations/WooCommerceShipmentTracking/Templates/Shortcodes/tracking-information-by-wc-shipment-tracking/main.php:83
+#: src/Integrations/WooCommerceShipmentTracking/Templates/Shortcodes/tracking-information-by-wc-shipment-tracking/sample.php:63
+msgid "Track"
+msgstr "Volgen"
+
+#: src/Integrations/WooCommerceShippingTax/Elements/ShipmentTrackingElement.php:27
+msgid "WC Shipping Tax Shipment Tracking"
+msgstr "WC Verzending Belasting Verzending Tracking"
+
+#: src/Integrations/WooCommerceShippingTax/Elements/ShipmentTrackingElement.php:85
+#: src/Migrations/Versions/Ver_4_0_0.php:966
+msgid "Tracking"
+msgstr "Tracking"
+
+#: src/Integrations/WooCommerceShippingTax/Shortcodes/ShipmentTrackingShortcodes.php:25
+msgid "Shipment Tracking Details"
+msgstr "Trackingsysteem Details"
+
+#: src/Integrations/WooCommerceShippingTax/Templates/Shortcodes/tracking-information/main.php:22
+#: src/Integrations/WooCommerceShippingTax/Templates/Shortcodes/tracking-information/main.php:65
+msgid "No tracking data"
+msgstr "Geen trackinggegevens"
+
+#: src/Integrations/WooCommerceSoftwareAddon/Elements/SoftwareLicenseElement.php:27
+msgid "WC Software License Information"
+msgstr "Informatie over WC-softwarelicenties"
+
+#: src/Integrations/WooCommerceSoftwareAddon/Elements/SoftwareLicenseElement.php:77
+msgid "License title"
+msgstr "Licentie titel"
+
+#: src/Integrations/WooCommerceSoftwareAddon/Elements/SoftwareLicenseElement.php:78
+#: src/Migrations/Versions/Ver_4_0_0.php:971
+msgid "License Keys"
+msgstr "Licentiesleutels"
+
+#: src/Integrations/WooCommerceSoftwareAddon/Shortcodes/SoftwareLicenseShortcodes.php:25
+msgid "Software License Info"
+msgstr "Informatie over softwarelicenties"
+
+#: src/Integrations/WooCommerceSoftwareAddon/Templates/Shortcodes/license-info/main.php:25
+msgid "No license data"
+msgstr "Geen licentiegegevens"
+
+#. translators: Version.
+#: src/Integrations/WooCommerceSoftwareAddon/Templates/Shortcodes/license-info/main.php:53
+#: src/Integrations/WooCommerceSoftwareAddon/Templates/Shortcodes/license-info/sample.php:29
+#, php-format
+msgid "Version %s"
+msgstr "Versie %s"
+
+#: src/Integrations/WooCommerceSoftwareAddon/Templates/Shortcodes/license-info/main.php:58
+#: src/Integrations/WooCommerceSoftwareAddon/Templates/Shortcodes/license-info/sample.php:34
+msgid "License Email:"
+msgstr "Licentie E-mail:"
+
+#: src/Integrations/WooCommerceSoftwareAddon/Templates/Shortcodes/license-info/main.php:59
+#: src/Integrations/WooCommerceSoftwareAddon/Templates/Shortcodes/license-info/sample.php:35
+msgid "License Key:"
+msgstr "Licentie Code:"
+
+#. translators: activations remaining.
+#: src/Integrations/WooCommerceSoftwareAddon/Templates/Shortcodes/license-info/main.php:64
+#, php-format
+msgid "%d activations remaining"
+msgstr "%d resterende activeringen"
+
+#: src/Integrations/WoocommerceShipmentTrackingProByPluginHive/Elements/TrackingInformationElement.php:25
+#: src/Migrations/Versions/Ver_4_0_0.php:952
+#, fuzzy
+#| msgid "Tracking Information by PluginHive"
+msgid "Tracking Information (By PluginHive)"
+msgstr "Tracking-informatie door PluginHive"
+
+#: src/Integrations/WoocommerceShipmentTrackingProByPluginHive/Elements/TrackingInformationElement.php:83
+msgid ""
+"Your order was shipped on "
+"[yaymail_order_tracking_information_by_pluginhive_date] via "
+"[yaymail_order_tracking_information_by_pluginhive_service]. To track "
+"shipment, please follow the link of shipment ID(s) "
+"[yaymail_order_tracking_information_by_pluginhive_tracking_id]"
+msgstr ""
+"Je bestelling is verzonden op "
+"[yaymail_order_tracking_information_by_pluginhive_date] via "
+"[yaymail_order_tracking_information_by_pluginhive_service]. Om de zending te "
+"volgen, volgt u de link met zendings-ID('s) "
+"[yaymail_order_tracking_information_by_pluginhive_tracking_id]"
+
+#: src/Integrations/WoocommerceShipmentTrackingProByPluginHive/Shortcodes/TrackingInformationByPluginHiveShortcodes.php:20
+msgid "PluginHive's Tracking Information - Shipment Service"
+msgstr "PluginHive's trackinginformatie - Verzendservice"
+
+#: src/Integrations/WoocommerceShipmentTrackingProByPluginHive/Shortcodes/TrackingInformationByPluginHiveShortcodes.php:26
+msgid "PluginHive's Tracking Information - Shipment Date"
+msgstr "PluginHive's trackinginformatie - Verzenddatum"
+
+#: src/Integrations/WoocommerceShipmentTrackingProByPluginHive/Shortcodes/TrackingInformationByPluginHiveShortcodes.php:32
+msgid "PluginHive's Tracking Information - Shipment Tracking ID"
+msgstr "Trackinginformatie van PluginHive - Tracking-ID van zendingen"
+
+#: src/Integrations/YITHWooCommerceOrderShipmentTracking/Elements/YITHTrackingInformationElement.php:22
+msgid ""
+"Your order has been picked up by "
+"<strong>[yaymail_yith_tracking_carrier_name]</strong> on "
+"<strong>[yaymail_yith_tracking_pickup_date]</strong>"
+msgstr ""
+"Uw bestelling is afgehaald door "
+"<strong>[yaymail_yith_tracking_carrier_name]</strong> op "
+"<strong>[yaymail_yith_tracking_pickup_date]</strong>"
+
+#: src/Integrations/YITHWooCommerceOrderShipmentTracking/Elements/YITHTrackingInformationElement.php:25
+msgid ""
+"Estimated delivery date: <strong>[yaymail_yith_tracking_estimated_delivery]</"
+"strong>"
+msgstr ""
+"Geschatte leverdatum: <strong>[yaymail_yith_tracking_estimated_delivery]</"
+"strong>"
+
+#: src/Integrations/YITHWooCommerceOrderShipmentTracking/Elements/YITHTrackingInformationElement.php:28
+msgid "Your tracking code is: <strong>[yaymail_yith_tracking_code]</strong>"
+msgstr "Uw trackingcode is: <strong>[yaymail_yith_tracking_code]</strong>"
+
+#: src/Integrations/YITHWooCommerceOrderShipmentTracking/Elements/YITHTrackingInformationElement.php:33
+#: src/Migrations/Versions/Ver_4_0_0.php:956
+#, fuzzy
+#| msgid "Tracking Information"
+msgid "Tracking Information (By YITH)"
+msgstr "Tracking informatie"
+
+#: src/Integrations/YITHWooCommerceOrderShipmentTracking/Shortcodes/YITHTrackingInformationShortcodes.php:31
+msgid "YITH Tracking Information - Carrier Name"
+msgstr "YITH-trackinginformatie - naam van de vervoerder"
+
+#: src/Integrations/YITHWooCommerceOrderShipmentTracking/Shortcodes/YITHTrackingInformationShortcodes.php:37
+msgid "YITH Tracking Information - Pickup Date"
+msgstr "YITH-trackinginformatie - Ophaaldatum"
+
+#: src/Integrations/YITHWooCommerceOrderShipmentTracking/Shortcodes/YITHTrackingInformationShortcodes.php:43
+msgid "YITH Tracking Information - Track Code"
+msgstr "YITH-trackinginformatie - Trackcode"
+
+#: src/Integrations/YITHWooCommerceOrderShipmentTracking/Shortcodes/YITHTrackingInformationShortcodes.php:51
+msgid "YITH Tracking Information - Estimated Delivery"
+msgstr "YITH-trackinginformatie - geschatte levering"
+
+#: src/Integrations/YITHWooCommerceOrderShipmentTracking/Shortcodes/YITHTrackingInformationShortcodes.php:57
+msgid "YITH Tracking Information - Track Link"
+msgstr "YITH-trackinginformatie - Track Link"
+
+#: src/Integrations/YITHWooCommerceOrderShipmentTracking/Shortcodes/YITHTrackingInformationShortcodes.php:59
+#: src/Integrations/YITHWooCommerceOrderShipmentTracking/Shortcodes/YITHTrackingInformationShortcodes.php:78
+#: src/Integrations/YITHWooCommerceOrderShipmentTracking/Shortcodes/YITHTrackingInformationShortcodes.php:132
+#: src/Integrations/YITHWooCommerceOrderShipmentTracking/Shortcodes/YITHTrackingInformationShortcodes.php:238
+msgid "Live track your order"
+msgstr "Volg uw bestelling live"
+
+#: src/Integrations/YITHWooCommerceOrderShipmentTracking/Shortcodes/YITHTrackingInformationShortcodes.php:67
+msgid "YITH Tracking Information - Track URL"
+msgstr "YITH-trackinginformatie - URL volgen"
+
+#: src/Integrations/YITHWooCommerceOrderShipmentTracking/Shortcodes/YITHTrackingInformationShortcodes.php:76
+msgid "YITH Tracking Information - Carrier Link"
+msgstr "YITH-trackinginformatie - Carrier Link"
+
+#: src/Integrations/YITHWooCommerceOrderShipmentTracking/Shortcodes/YITHTrackingInformationShortcodes.php:86
+msgid "YITH Tracking Information - Carrier URL (String)"
+msgstr "YITH-trackinginformatie - URL van vervoerder (tekenreeks)"
+
+#: src/License/EDD_SL_Plugin_Updater.php:501
+msgid "You do not have permission to install plugin updates"
+msgstr "U heeft onvoldoende rechten om deze plug-in te installeren"
+
+#: src/License/EDD_SL_Plugin_Updater.php:501
+msgid "Error"
+msgstr "Fout"
+
+#. translators: %s: search WooCommerce plugin link
+#: src/License/LicenseHandler.php:84
+#, php-format
+msgid ""
+"%1$s license key is required. %2$sPlease enter your license key to start "
+"using the plugin%3$s."
+msgstr ""
+"%1$s licentiesleutel is vereist. %2$sVoer uw licentiesleutel in om de plug-"
+"in te gaan gebruiken%3$s."
+
+#: src/License/views/not-activate-license-notification.php:3
+msgid ""
+"Please activate your license for access to premium features and automatic "
+"updates"
+msgstr ""
+
+#: src/Migrations/Versions/Ver_4_0_0.php:818
+msgid "Downloads"
+msgstr "Downloads"
+
+#: src/Migrations/Versions/Ver_4_0_0.php:961
+msgid "Pick up information"
+msgstr "Informatie ophalen"
+
+#: src/Migrations/Versions/Ver_4_0_0.php:1008
+msgid "Tracking information"
+msgstr "Tracking informatie"
+
+#: src/Models/MigrationModel.php:35
+msgid "Migration failed, please contact our Customer Support for help!"
+msgstr "Migratie mislukt, neem contact op met onze klantenservice voor hulp!"
+
+#: src/Models/MigrationModel.php:201
+msgid "Restoration failed"
+msgstr "Backup terugzetten mislukt"
+
+#: src/Models/TemplateModel.php:175 src/Models/TemplateModel.php:209
+#: src/Models/TemplateModel.php:221
+msgid "N/A"
+msgstr "N/A"
+
+#: src/Models/TemplateModel.php:207
+#, fuzzy
+#| msgid " (Pro)"
+msgid "Pro"
+msgstr " (Voor)"
+
+#: src/Models/TemplateModel.php:208
+#, fuzzy
+#| msgid " (Addon)"
+msgid "Addon"
+msgstr " (Toevoegen)"
+
+#: src/Notices/NoticeMain.php:119
+msgid ""
+"Please update the YayMail Addons to version 4.0 or later to ensure "
+"compatibility and optimal performance."
+msgstr ""
+"Werk de YayMail-add-ons bij naar versie 4.0 of hoger om compatibiliteit en "
+"optimale prestaties te garanderen."
+
+#: src/PostTypes/TemplatePostType.php:34 src/PostTypes/TemplatePostType.php:35
+msgid "Email Template"
+msgstr "E-mail Template"
+
+#: src/PostTypes/TemplatePostType.php:36
+msgid "Add New Email Template"
+msgstr "Voeg een nieuw e-mailsjabloon toe"
+
+#: src/PostTypes/TemplatePostType.php:37
+msgid "Add a new Email Template"
+msgstr "Een nieuwe e-mailsjabloon toevoegen"
+
+#: src/PostTypes/TemplatePostType.php:38
+msgid "Edit Email Template"
+msgstr "E-mail template bewerken"
+
+#: src/PostTypes/TemplatePostType.php:39
+msgid "New Email Template"
+msgstr "Nieuw e-mailsjabloon"
+
+#: src/PostTypes/TemplatePostType.php:40
+msgid "View Email Template"
+msgstr "Bekijk het e-mailsjabloon"
+
+#: src/PostTypes/TemplatePostType.php:41
+msgid "Search Email Template"
+msgstr "Zoek een e-mailsjabloon"
+
+#: src/PostTypes/TemplatePostType.php:42
+msgid "No Email Template found"
+msgstr "Geen e-mailsjabloon gevonden"
+
+#: src/PostTypes/TemplatePostType.php:43
+msgid "No Email Template currently trashed"
+msgstr "Er is momenteel geen e-mailsjabloon in de prullenbak"
+
+#: src/PreviewEmail/Integration/WcSubscriptions.php:38
+#, php-format
+msgid ""
+"This is not a valid subscription order. Please select a valid subscription "
+"order ID. <br><br>Go to orders page to check %s."
+msgstr ""
+"Dit is geen geldige abonnementsbestelling. Selecteer een geldige bestel-ID "
+"voor een abonnement. <br><br>Ga naar de bestelpagina om te controleren %s."
+
+#: src/PreviewEmail/PreviewEmailWoo.php:117
+#, fuzzy
+#| msgid "Product"
+msgid "Dummy Product"
+msgstr "Product"
+
+#: src/PreviewEmail/PreviewEmailWoo.php:121
+#, fuzzy
+#| msgid "Product image position"
+msgid "Dummy Product Variation"
+msgstr "Positie van de productafbeelding"
+
+#: src/PreviewEmail/PreviewEmailWoo.php:125
+msgid "Color"
+msgstr ""
+
+#: src/PreviewEmail/PreviewEmailWoo.php:125
+#, fuzzy
+#| msgid "Redo"
+msgid "Red"
+msgstr "Opnieuw"
+
+#: src/PreviewEmail/PreviewEmailWoo.php:126
+msgid "Size"
+msgstr ""
+
+#: src/PreviewEmail/PreviewEmailWoo.php:126
+msgid "Small"
+msgstr "Klein"
+
+#: src/PreviewEmail/PreviewEmailWoo.php:145
+#: src/Shortcodes/OrderDetails/OrderDetailsRenderer.php:74
+#: src/Shortcodes/PaymentsShortcodes.php:62
+#: templates/shortcodes/payment-instruction/main.php:31
+msgid "Direct bank transfer"
+msgstr "Directe Bankoverschrijving"
+
+#: src/PreviewEmail/PreviewEmailWoo.php:146
+#, fuzzy
+#| msgid "customer note"
+msgid "This is a customer note."
+msgstr "Opmerking van de klant"
+
+#: src/Shortcodes/BillingShortcodes.php:25
+msgid "Billing Address 1"
+msgstr "Factuuradres 1"
+
+#: src/Shortcodes/BillingShortcodes.php:31
+msgid "Billing Address 2"
+msgstr "Factuuradres 2"
+
+#: src/Shortcodes/BillingShortcodes.php:37
+msgid "Billing First Name"
+msgstr "Voornaam"
+
+#: src/Shortcodes/BillingShortcodes.php:43
+msgid "Billing Last Name"
+msgstr "Achternaam"
+
+#: src/Shortcodes/BillingShortcodes.php:49
+msgid "Billing Company"
+msgstr "Bedrijfsnaam"
+
+#: src/Shortcodes/BillingShortcodes.php:55
+msgid "Billing City"
+msgstr "Plaats"
+
+#: src/Shortcodes/BillingShortcodes.php:61
+msgid "Billing Country"
+msgstr "Land"
+
+#: src/Shortcodes/BillingShortcodes.php:67
+msgid "Billing State"
+msgstr "Provincie"
+
+#: src/Shortcodes/BillingShortcodes.php:73
+msgid "Billing Postal Code"
+msgstr "Facturatie Postcode"
+
+#: src/Shortcodes/BillingShortcodes.php:79
+msgid "Billing Phone"
+msgstr "Telefoonnummer"
+
+#: src/Shortcodes/BillingShortcodes.php:85
+msgid "Billing Email"
+msgstr "Factuur E-mail Adres"
+
+#: src/Shortcodes/BillingShortcodes.php:181
+#: src/Shortcodes/BillingShortcodes.php:203
+msgid "7400 Edwards Rd"
+msgstr "7400 Edwards Rd"
+
+#: src/Shortcodes/BillingShortcodes.php:225
+#: src/Shortcodes/ShippingShortcodes.php:187
+msgid "John"
+msgstr "John"
+
+#: src/Shortcodes/BillingShortcodes.php:247
+#: src/Shortcodes/ShippingShortcodes.php:209
+msgid "Doe"
+msgstr "Doe"
+
+#. Author of the plugin/theme
+#: src/Shortcodes/BillingShortcodes.php:269
+#: src/Shortcodes/ShippingShortcodes.php:231 src/WooHandler.php:120
+msgid "YayCommerce"
+msgstr "YayCommerce"
+
+#: src/Shortcodes/BillingShortcodes.php:291
+msgid "Edwards Rd"
+msgstr "Edwards Rd"
+
+#: src/Shortcodes/BillingShortcodes.php:313
+#: src/Shortcodes/ShippingShortcodes.php:275
+msgid "United States"
+msgstr "Verenigde Staten"
+
+#: src/Shortcodes/BillingShortcodes.php:358
+#: src/Shortcodes/ShippingShortcodes.php:320
+msgid "48744"
+msgstr "48744"
+
+#: src/Shortcodes/BillingShortcodes.php:380
+#: src/Shortcodes/ShippingShortcodes.php:342
+msgid "(910) 529-1147"
+msgstr "(910) 529-1147"
+
+#: src/Shortcodes/BillingShortcodes.php:409
+msgid "johndoe@gmail.com"
+msgstr "johndoe@gmail.com"
+
+#: src/Shortcodes/CommonShortcodes.php:23
+msgid "Site Name"
+msgstr "Site naam"
+
+#: src/Shortcodes/CommonShortcodes.php:29
+msgid "Site Link"
+msgstr "Site Link"
+
+#: src/Shortcodes/CommonShortcodes.php:31
+#: src/Shortcodes/CommonShortcodes.php:125
+msgid "Home URL"
+msgstr "Home URL"
+
+#: src/Shortcodes/CommonShortcodes.php:38
+msgid "Site URL (String)"
+msgstr "Site-URL (tekenreeks)"
+
+#: src/Shortcodes/CommonShortcodes.php:44
+msgid "Domain"
+msgstr "Domein"
+
+#: src/Shortcodes/CommonShortcodes.php:50
+msgid "User Account Link"
+msgstr "Link gebruikersaccount"
+
+#: src/Shortcodes/CommonShortcodes.php:52
+#: src/Shortcodes/CommonShortcodes.php:152
+msgid "My Account"
+msgstr "Mijn Account"
+
+#: src/Shortcodes/CommonShortcodes.php:59
+msgid "User Account URL (String)"
+msgstr "URL van gebruikersaccount (tekenreeks)"
+
+#: src/Shortcodes/CommonShortcodes.php:65
+msgid "User Email"
+msgstr "Gebruikers Email"
+
+#: src/Shortcodes/CommonShortcodes.php:71
+msgid "User ID"
+msgstr "Gebruikers ID"
+
+#: src/Shortcodes/CommonShortcodes.php:89
+msgid "First Name"
+msgstr "Voornaam"
+
+#: src/Shortcodes/CommonShortcodes.php:95
+msgid "Last Name"
+msgstr "Achternaam"
+
+#: src/Shortcodes/CommonShortcodes.php:101
+#: src/Shortcodes/CommonShortcodes.php:342
+msgid "Email heading"
+msgstr "E-mail kop"
+
+#: src/Shortcodes/CommonShortcodes.php:107
+msgid "Additional Content"
+msgstr "Aanvullende Inhoud"
+
+#: src/Shortcodes/CommonShortcodes.php:350
+msgid "Additional content"
+msgstr "Aanvullende inhoud"
+
+#: src/Shortcodes/HookShortcodes.php:18
+msgid "YayMail custom hook"
+msgstr "YayMail haak op maat"
+
+#. translators: %s: The formatted shortcode name
+#: src/Shortcodes/LegacyCustomShortcodes.php:89
+#, php-format
+msgid "Custom shortcode for %s"
+msgstr "Aangepaste shortcode voor %s"
+
+#: src/Shortcodes/NewUsersShortcodes.php:23
+msgid "User New Password"
+msgstr "Nieuw wachtwoord voor de gebruiker"
+
+#: src/Shortcodes/NewUsersShortcodes.php:29
+msgid "User Set New Password Link"
+msgstr "Gebruiker stelt nieuwe wachtwoordlink in"
+
+#: src/Shortcodes/NewUsersShortcodes.php:31
+#: src/Shortcodes/NewUsersShortcodes.php:69
+msgid "Click here to set your new password."
+msgstr "Klik hier om een nieuw wachtwoord in te stellen."
+
+#: src/Shortcodes/NewUsersShortcodes.php:38
+msgid "User Set New Password URL (String)"
+msgstr "Door de gebruiker ingestelde nieuwe wachtwoord-URL (tekenreeks)"
+
+#: src/Shortcodes/NewUsersShortcodes.php:53
+msgid "G(UAM1(eIX#G"
+msgstr "G(UAM1(eIX#G"
+
+#: src/Shortcodes/OrderDetails/OrderDetailsRenderer.php:70
+#: src/Shortcodes/ShippingShortcodes.php:362
+msgid "Free shipping"
+msgstr "Gratis verzending"
+
+#: src/Shortcodes/OrderDetails/OrderDetailsRenderer.php:243
+msgid "sku"
+msgstr ""
+
+#: src/Shortcodes/OrderDetails/OrderDetailsRenderer.php:244
+#, fuzzy
+#| msgid "Show product description"
+msgid "Product short description"
+msgstr "Productbeschrijving weergeven"
+
+#: src/Shortcodes/OrderDetails/OrderDetailsRenderer.php:245
+msgid "Happy YayCommerce"
+msgstr "Gelukkig YayCommerce"
+
+#: src/Shortcodes/OrderDetails/OrderDetailsShortcodes.php:20
+msgid "Order ID"
+msgstr "Bestelnummer"
+
+#: src/Shortcodes/OrderDetails/OrderDetailsShortcodes.php:30
+msgid "Order Number"
+msgstr "Bestelnummer"
+
+#: src/Shortcodes/OrderDetails/OrderDetailsShortcodes.php:39
+msgid "Order Date"
+msgstr "Besteldatum"
+
+#: src/Shortcodes/OrderDetails/OrderDetailsShortcodes.php:45
+msgid "Order URL"
+msgstr "Bestel-URL"
+
+#: src/Shortcodes/OrderDetails/OrderDetailsShortcodes.php:47
+#: src/Shortcodes/OrderDetails/OrderDetailsShortcodes.php:338
+msgid "Order"
+msgstr "Bestelling"
+
+#: src/Shortcodes/OrderDetails/OrderDetailsShortcodes.php:54
+msgid "Order URL (String)"
+msgstr "Order-URL (tekenreeks)"
+
+#: src/Shortcodes/OrderDetails/OrderDetailsShortcodes.php:60
+msgid "View Order Link"
+msgstr "Bekijk bestellink"
+
+#: src/Shortcodes/OrderDetails/OrderDetailsShortcodes.php:62
+#: src/Shortcodes/OrderDetails/OrderDetailsShortcodes.php:404
+msgid "Your Order"
+msgstr "Uw bestelling"
+
+#: src/Shortcodes/OrderDetails/OrderDetailsShortcodes.php:69
+msgid "View Order URL (String)"
+msgstr "Bestel-URL weergeven (tekenreeks)"
+
+#: src/Shortcodes/OrderDetails/OrderDetailsShortcodes.php:81
+msgid "Order Fee"
+msgstr "Kosten bestelling"
+
+#: src/Shortcodes/OrderDetails/OrderDetailsShortcodes.php:87
+msgid "Order Refund"
+msgstr "Bestelling terugbetalen"
+
+#: src/Shortcodes/OrderDetails/OrderDetailsShortcodes.php:93
+msgid "Order Subtotal"
+msgstr "Bestelling subtotaal"
+
+#: src/Shortcodes/OrderDetails/OrderDetailsShortcodes.php:99
+msgid "Order Total"
+msgstr "Totaal"
+
+#: src/Shortcodes/OrderDetails/OrderDetailsShortcodes.php:105
+#, fuzzy
+#| msgid "Order Total"
+msgid "Order Total Value"
+msgstr "Totaal"
+
+#: src/Shortcodes/OrderDetails/OrderDetailsShortcodes.php:111
+msgid "Order Coupon Codes"
+msgstr "Bestel couponcodes"
+
+#: src/Shortcodes/OrderDetails/OrderDetailsShortcodes.php:117
+msgid "Number of line items in the order"
+msgstr ""
+
+#: src/Shortcodes/OrderDetails/OrderDetailsShortcodes.php:123
+msgid "Number of line items in the order (double)"
+msgstr ""
+
+#: src/Shortcodes/OrderDetails/OrderDetailsShortcodes.php:129
+msgid "Total quantity of all items in the order"
+msgstr ""
+
+#: src/Shortcodes/OrderDetails/OrderDetailsShortcodes.php:135
+#, fuzzy
+#| msgid "Number of products per row"
+msgid "Number of base products in the order"
+msgstr "Aantal producten per rij"
+
+#: src/Shortcodes/OrderDetails/OrderDetailsShortcodes.php:141
+#, fuzzy
+#| msgid "Number of products per row"
+msgid "Number of product variations in the order"
+msgstr "Aantal producten per rij"
+
+#: src/Shortcodes/OrderDetails/OrderDetailsShortcodes.php:147
+msgid "Customer Roles"
+msgstr "Rollen van de klant"
+
+#: src/Shortcodes/OrderDetails/OrderDetailsShortcodes.php:153
+msgid "Customer Last Note"
+msgstr "Laatste opmerking van de klant"
+
+#: src/Shortcodes/OrderDetails/OrderDetailsShortcodes.php:159
+msgid "All Customer Note"
+msgstr "Alle opmerkingen voor de klant"
+
+#: src/Shortcodes/OrderDetails/OrderDetailsShortcodes.php:165
+msgid "Customer Provided Note"
+msgstr "Notitie door klant aangeleverd"
+
+#: src/Shortcodes/OrderDetails/OrderDetailsShortcodes.php:171
+msgid "Order Meta Content"
+msgstr "Bestel Meta Content"
+
+#: src/Shortcodes/OrderDetails/OrderDetailsShortcodes.php:183
+msgid "Order Details Download Product"
+msgstr "Bestelgegevens Product downloaden"
+
+#: src/Shortcodes/OrderDetails/OrderDetailsShortcodes.php:496
+msgid "sample status"
+msgstr "Status van het monster"
+
+#: src/Shortcodes/OrderDetails/OrderDetailsShortcodes.php:859
+msgid "customer note"
+msgstr "Opmerking van de klant"
+
+#: src/Shortcodes/OrderDetails/OrderDetailsShortcodes.php:885
+msgid "customer notes"
+msgstr "Opmerkingen van de klant"
+
+#: src/Shortcodes/OrderDetails/OrderDetailsShortcodes.php:914
+msgid "customer provided notes"
+msgstr "Door de klant verstrekte notities"
+
+#: src/Shortcodes/PaymentsShortcodes.php:20
+msgid "Payment method"
+msgstr "Betaalmethode"
+
+#: src/Shortcodes/PaymentsShortcodes.php:26
+msgid "Payment Link"
+msgstr "Betaling"
+
+#: src/Shortcodes/PaymentsShortcodes.php:28
+#: src/Shortcodes/PaymentsShortcodes.php:89
+msgid "Payment page"
+msgstr "Betaal pagina"
+
+#: src/Shortcodes/PaymentsShortcodes.php:35
+msgid "Payment URL (String)"
+msgstr "Betalings-URL (tekenreeks)"
+
+#: src/Shortcodes/PaymentsShortcodes.php:41
+#: src/Shortcodes/PaymentsShortcodes.php:141
+msgid "Payment Instructions"
+msgstr "Betaal instructies"
+
+#: src/Shortcodes/PaymentsShortcodes.php:47
+msgid "Payment Transaction ID"
+msgstr "ID van betalingstransactie"
+
+#: src/Shortcodes/ResetPasswordsShortcodes.php:21
+#: src/Shortcodes/ResetPasswordsShortcodes.php:48
+msgid "Click here to reset your password"
+msgstr "Klik hier om je wachtwoord opnieuw in te stellen"
+
+#: src/Shortcodes/ResetPasswordsShortcodes.php:27
+msgid "Password Reset URL (String)"
+msgstr "URL voor het opnieuw instellen van het wachtwoord (tekenreeks)"
+
+#: src/Shortcodes/ResetPasswordsShortcodes.php:33
+msgid "Password Reset URL by WP"
+msgstr "URL voor het opnieuw instellen van het wachtwoord door WP"
+
+#: src/Shortcodes/ShippingShortcodes.php:25
+msgid "Shipping Address 1"
+msgstr "Adres"
+
+#: src/Shortcodes/ShippingShortcodes.php:31
+msgid "Shipping Address 2"
+msgstr "Verzendadres 2"
+
+#: src/Shortcodes/ShippingShortcodes.php:37
+msgid "Shipping First Name"
+msgstr "Voornaam"
+
+#: src/Shortcodes/ShippingShortcodes.php:43
+msgid "Shipping Last Name"
+msgstr "Achternaam"
+
+#: src/Shortcodes/ShippingShortcodes.php:50
+msgid "Shipping Company"
+msgstr "Bedrijfsnaam"
+
+#: src/Shortcodes/ShippingShortcodes.php:56
+msgid "Shipping City"
+msgstr "Plaats"
+
+#: src/Shortcodes/ShippingShortcodes.php:62
+msgid "Shipping Country"
+msgstr "Land"
+
+#: src/Shortcodes/ShippingShortcodes.php:68
+msgid "Shipping State"
+msgstr "Provincie"
+
+#: src/Shortcodes/ShippingShortcodes.php:74
+msgid "Shipping Postal Code"
+msgstr "Verzending Postcode"
+
+#: src/Shortcodes/ShippingShortcodes.php:80
+msgid "Shipping Phone"
+msgstr "Verzendkosten telefoon"
+
+#: src/Shortcodes/ShippingShortcodes.php:86
+msgid "Shipping Method"
+msgstr "Verzendmethode"
+
+#: src/Shortcodes/ShippingShortcodes.php:92
+msgid "Shipping Total"
+msgstr "Verzendkosten Totaal"
+
+#: src/Shortcodes/ShippingShortcodes.php:143
+#: src/Shortcodes/ShippingShortcodes.php:165
+msgid "755 E North Grove Rd"
+msgstr "755 E Noord Grove Rd"
+
+#: src/Shortcodes/ShippingShortcodes.php:253
+msgid "Mayville, Michigan"
+msgstr "Mayville (Michigan), een plaats in de Amerikaanse staat Michigan"
+
+#: src/TemplatePatterns/Patterns/Banner1.php:23
+msgid "Banner 1"
+msgstr "Banner 1"
+
+#: src/TemplatePatterns/Patterns/Banner2.php:23
+msgid "Banner 2"
+msgstr "Banner 2"
+
+#: src/TemplatePatterns/Patterns/Banner3.php:23
+msgid "Banner 3"
+msgstr "Banner 3"
+
+#: src/TemplatePatterns/Patterns/Banner4.php:24
+msgid "Banner 4"
+msgstr "Spandoek 4"
+
+#: src/TemplatePatterns/Patterns/Banner5.php:24
+msgid "Banner 5"
+msgstr "Spandoek 5"
+
+#: src/TemplatePatterns/Patterns/Banner6.php:26
+msgid "Banner 6"
+msgstr "Banner 6"
+
+#: src/TemplatePatterns/Patterns/Banner7.php:25
+msgid "Banner 7"
+msgstr "Spandoek 7"
+
+#: src/TemplatePatterns/Patterns/Footer1.php:27
+msgid "Footer 1"
+msgstr "Footer 1"
+
+#: src/TemplatePatterns/Patterns/Footer10.php:26
+msgid "Footer 10"
+msgstr "Footer 10"
+
+#: src/TemplatePatterns/Patterns/Footer11.php:25
+msgid "Footer 11"
+msgstr "Footer 11"
+
+#: src/TemplatePatterns/Patterns/Footer2.php:26
+msgid "Footer 2"
+msgstr "Footer 2"
+
+#: src/TemplatePatterns/Patterns/Footer3.php:28
+msgid "Footer 3"
+msgstr "Footer 3"
+
+#: src/TemplatePatterns/Patterns/Footer4.php:27
+msgid "Footer 4"
+msgstr "Footer 4"
+
+#: src/TemplatePatterns/Patterns/Footer5.php:26
+msgid "Footer 5"
+msgstr "Footer 5"
+
+#: src/TemplatePatterns/Patterns/Footer6.php:26
+msgid "Footer 6"
+msgstr "Footer 6"
+
+#: src/TemplatePatterns/Patterns/Footer7.php:24
+msgid "Footer 7"
+msgstr "Footer 7"
+
+#: src/TemplatePatterns/Patterns/Footer8.php:25
+msgid "Footer 8"
+msgstr "Footer 8"
+
+#: src/TemplatePatterns/Patterns/Footer9.php:24
+msgid "Footer 9"
+msgstr "Footer 9"
+
+#: src/TemplatePatterns/Patterns/Header1.php:22
+msgid "Header 1"
+msgstr "Header 1"
+
+#: src/TemplatePatterns/Patterns/Header2.php:25
+msgid "Header 2"
+msgstr "Header 2"
+
+#: src/TemplatePatterns/Patterns/Header3.php:25
+msgid "Header 3"
+msgstr "Kop 3"
+
+#: src/TemplatePatterns/Patterns/Header4.php:26
+msgid "Header 4"
+msgstr "Hoofding Type 4"
+
+#: src/TemplatePatterns/Patterns/Header5.php:24
+msgid "Header 5"
+msgstr "Koptekst 5"
+
+#: src/TemplatePatterns/Patterns/Header6.php:26
+msgid "Header 6"
+msgstr "Koptekst 6"
+
+#: src/TemplatePatterns/Patterns/Header7.php:26
+msgid "Header 7"
+msgstr "Header 7"
+
+#: src/TemplatePatterns/SectionTemplates/Banner.php:18
+msgid "Banner"
+msgstr "Banner"
+
+#: src/TemplatePatterns/SectionTemplates/Header.php:18
+msgid "Header"
+msgstr "Header"
+
+#: src/Utils/Localize.php:24
+msgid "Sample order"
+msgstr "Sample bestelling"
+
+#: src/Utils/Localize.php:40
+msgid "Unknown"
+msgstr ""
+
+#: src/Utils/Logger.php:118
+msgid "WARNING:"
+msgstr "WAARSCHUWING:"
+
+#: src/Utils/Logger.php:118
+msgid "SYSTEM ERROR:"
+msgstr "SYSTEEM FOUT:"
+
+#: src/WooHandler.php:50
+#, fuzzy
+#| msgid "Email Template"
+msgid "YayMail Template Preview"
+msgstr "E-mail Template"
+
+#: src/WooHandler.php:51
+msgid ""
+"This is one of your WooCommerce email templates customized with YayMail. You "
+"can modify its colors, layout, and content in the YayMail editor."
+msgstr ""
+
+#: src/WooHandler.php:52
+#, fuzzy
+#| msgid "Email Template"
+msgid "Customized Template"
+msgstr "E-mail Template"
+
+#: src/WooHandler.php:76
+#, fuzzy
+#| msgid "WooCommerce Email Customizer"
+msgid "WooCommerce Email Designer"
+msgstr "WooCommerce E-mail Customizer"
+
+#: src/WooHandler.php:81
+#, fuzzy
+#| msgid "View WooCommerce Email Builder"
+msgid "Customize WooCommerce Emails"
+msgstr "Bekijk WooCommerce Email Builder"
+
+#: src/WooHandler.php:118
+msgid "Open YayMail"
+msgstr "Open YayMail"
+
+#: src/WooHandler.php:120
+msgid "Make Woocommerce Emails match your brand. "
+msgstr ""
+
+#: src/WooHandler.php:120
+msgid "YayMail - WooCommerce Email Customizer"
+msgstr "YayMail - WooCommerce E-mail Aanpasser"
+
+#: src/WooHandler.php:120
+msgid " plugin by "
+msgstr ""
+
+#: src/YayCommerceMenu/OtherPluginsMenu.php:122
+msgid "Other Plugins"
+msgstr "Andere plug-ins"
+
+#: src/YayCommerceMenu/OtherPluginsMenu.php:292
+#: src/YayCommerceMenu/OtherPluginsMenu.php:341
+#: src/YayCommerceMenu/OtherPluginsMenu.php:389
+msgid "Nonce is invalid"
+msgstr "Nonce is ongeldig"
+
+#: src/YayCommerceMenu/OtherPluginsMenu.php:310
+msgid "Get data success"
+msgstr "Gegevens ophalen succesvol"
+
+#: src/YayCommerceMenu/OtherPluginsMenu.php:318
+#: src/YayCommerceMenu/OtherPluginsMenu.php:362
+#: src/YayCommerceMenu/OtherPluginsMenu.php:472
+msgid "Error exception."
+msgstr "Fout uitzondering."
+
+#: src/YayCommerceMenu/OtherPluginsMenu.php:327
+#: src/YayCommerceMenu/OtherPluginsMenu.php:371
+#: src/YayCommerceMenu/OtherPluginsMenu.php:481
+msgid "Error."
+msgstr "Fout."
+
+#: src/YayCommerceMenu/OtherPluginsMenu.php:355
+msgid "Activate success"
+msgstr "Activeren succesvol"
+
+#: src/YayCommerceMenu/OtherPluginsMenu.php:438
+msgid "Install success"
+msgstr "Installeren succesvol"
+
+#: src/YayCommerceMenu/OtherPluginsMenu.php:462
+msgid "Update success"
+msgstr "Update succesvol"
+
+#: src/YayCommerceMenu/RegisterMenu.php:79
+msgid "Help"
+msgstr "Help"
+
+#: src/YayCommerceMenu/RegisterMenu.php:114
+msgid "Licenses"
+msgstr "Licenties"
+
+#: src/YayCommerceMenu/RegisterMenu.php:123
+msgid "Other plugins"
+msgstr "Andere plugins"
+
+#. translators: %s: Plugin name and version.
+#: src/YayCommerceMenu/views/other-plugins-content.php:76
+#: src/YayCommerceMenu/views/other-plugins-content.php:84
+#, php-format
+msgctxt "plugin"
+msgid "Install %s now"
+msgstr "Installeer %s"
+
+#: src/YayCommerceMenu/views/other-plugins-content.php:77
+#: src/YayCommerceMenu/views/other-plugins-content.php:85
+msgid "Install Now"
+msgstr "Installeer Nu"
+
+#: src/YayCommerceMenu/views/other-plugins-content.php:91
+msgctxt "plugin"
+msgid "Cannot Install"
+msgstr "Kan niet installeren"
+
+#. translators: %s: Plugin name and version.
+#: src/YayCommerceMenu/views/other-plugins-content.php:108
+#: src/YayCommerceMenu/views/other-plugins-content.php:119
+#, php-format
+msgctxt "plugin"
+msgid "Update %s now"
+msgstr "%s bijwerken"
+
+#: src/YayCommerceMenu/views/other-plugins-content.php:110
+#: src/YayCommerceMenu/views/other-plugins-content.php:121
+msgid "Update Now"
+msgstr "Nu updaten"
+
+#: src/YayCommerceMenu/views/other-plugins-content.php:127
+msgctxt "plugin"
+msgid "Cannot Update"
+msgstr "Kan niet updaten"
+
+#: src/YayCommerceMenu/views/other-plugins-content.php:144
+msgctxt "plugin"
+msgid "Activated"
+msgstr "Geactiveerd"
+
+#: src/YayCommerceMenu/views/other-plugins-content.php:149
+msgid "Activate"
+msgstr "Activeren"
+
+#. translators: %s: Plugin name.
+#: src/YayCommerceMenu/views/other-plugins-content.php:151
+#, php-format
+msgctxt "plugin"
+msgid "Activate %s"
+msgstr "Activeer %s"
+
+#: src/YayCommerceMenu/views/other-plugins-content.php:162
+msgid "Network Activate"
+msgstr "Netwerk Activeren"
+
+#. translators: %s: Plugin name.
+#: src/YayCommerceMenu/views/other-plugins-content.php:164
+#, php-format
+msgctxt "plugin"
+msgid "Network Activate %s"
+msgstr "Netwerk-wijd activeren %s"
+
+#: src/YayCommerceMenu/views/other-plugins-content.php:177
+msgctxt "plugin"
+msgid "Cannot Activate"
+msgstr "Kan niet activeren"
+
+#: src/YayCommerceMenu/views/other-plugins-content.php:183
+msgctxt "plugin"
+msgid "Installed"
+msgstr "Geïnstalleerd"
+
+#: src/YayCommerceMenu/views/other-plugins-content.php:213
+msgid "This plugin doesn&#8217;t work with your versions of WordPress and PHP."
+msgstr "Deze plugin werkt niet met jouw versies van WordPress en PHP."
+
+#. translators: 1: URL to WordPress Updates screen, 2: URL to Update PHP page.
+#: src/YayCommerceMenu/views/other-plugins-content.php:217
+#, php-format
+msgid ""
+"<a href=\"%1$s\">Please update WordPress</a>, and then <a "
+"href=\"%2$s\">learn more about updating PHP</a>."
+msgstr ""
+"<a href=\"%1$s\">Update WordPress</a>en lees meer <a href=\"%2$s\">over het "
+"updaten van PHP.</a>."
+
+#. translators: %s: URL to WordPress Updates screen.
+#: src/YayCommerceMenu/views/other-plugins-content.php:225
+#: src/YayCommerceMenu/views/other-plugins-content.php:241
+#, php-format
+msgid "<a href=\"%s\">Please update WordPress</a>."
+msgstr "<a href=\"%s\">Werk WordPress bij.</a>."
+
+#. translators: %s: URL to Update PHP page.
+#: src/YayCommerceMenu/views/other-plugins-content.php:231
+#: src/YayCommerceMenu/views/other-plugins-content.php:250
+#, php-format
+msgid "<a href=\"%s\">Learn more about updating PHP</a>."
+msgstr "<a href=\"%s\">Leer meer over het updaten van PHP</a>."
+
+#: src/YayCommerceMenu/views/other-plugins-content.php:237
+msgid "This plugin doesn&#8217;t work with your version of WordPress."
+msgstr "Deze plug-in werkt niet met jouw versie van WordPress."
+
+#: src/YayCommerceMenu/views/other-plugins-content.php:246
+msgid "This plugin doesn&#8217;t work with your version of PHP."
+msgstr "Deze plugin werkt niet met jouw versie van PHP."
+
+#: templates/fallbacks/fallback-exists.php:11
+msgid ""
+"It looks like you have another YayMail version installed, please delete it "
+"before activating this new version. All current settings and data are still "
+"preserved."
+msgstr ""
+"Het lijkt erop dat je een andere YayMail-versie hebt geïnstalleerd, "
+"verwijder deze voordat je deze nieuwe versie activeert. Alle huidige "
+"instellingen en gegevens blijven behouden."
+
+#: templates/fallbacks/fallback-exists.php:12
+msgid "Read more details."
+msgstr "Lees verder voor de details."
+
+#. translators: %1$s: current PHP version,
+#: templates/fallbacks/fallback-minimum-php.php:15
+#, php-format
+msgid ""
+"YayMail requires PHP 7.2.0 to work and does not support your current PHP "
+"version %1$s. Please contact your host and request a PHP upgrade to the "
+"latest one."
+msgstr ""
+"YayMail vereist PHP 7.2.0 om te werken en ondersteunt je huidige PHP-versie "
+"%1$s niet. Neem contact op met je host en vraag een PHP-upgrade aan naar de "
+"nieuwste upgrade."
+
+#. translators: %1$s: current WordPress version,
+#: templates/fallbacks/fallback-minimum-wp.php:17
+#, php-format
+msgid ""
+"YayMail requires WordPress 5.2.0 to work and does not support your current "
+"WordPress version %1$s."
+msgstr ""
+"YayMail vereist WordPress 5.2.0 om te werken en ondersteunt je huidige "
+"WordPress versie %1$s niet."
+
+#: templates/notices/upgrade.php:2
+msgid "Recommended: You can use YayMail to customize all email templates of:"
+msgstr ""
+"Aanbevolen: Je kunt YayMail gebruiken om alle e-mailsjablonen aan te passen "
+"van:"
+
+#: templates/notices/upgrade.php:9
+#, php-format
+msgid "%s (Addon)"
+msgstr "%s (add-on)"
+
+#: templates/notices/upgrade.php:17
+msgid "See Addons"
+msgstr "Zie Add-ons"
+
+#: templates/notices/upgrade.php:18
+msgid "No, thanks"
+msgstr "Nee, dank je"
+
+#: templates/shortcodes/order-details-download-product/main.php:108
+msgid "Never"
+msgstr "Nooit"
+
+#: templates/shortcodes/order-details-download-product/sample.php:76
+#: templates/shortcodes/order-details-download-product/sample.php:88
+msgid "Downloadable Product"
+msgstr "Downloadbaar Product"
+
+#: templates/shortcodes/order-details-download-product/sample.php:96
+msgid "Download.doc"
+msgstr "Download.doc"
+
+#: templates/shortcodes/payment-instruction/main.php:38
+msgid "Sort code"
+msgstr "Sorteercode"
+
+#: templates/shortcodes/payment-instruction/main.php:60
+msgid "Bank"
+msgstr "Bank"
+
+#: templates/shortcodes/payment-instruction/main.php:64
+msgid "Account number"
+msgstr "Rekeningnummer"
+
+#: templates/shortcodes/payment-instruction/main.php:72
+msgid "IBAN"
+msgstr "IBAN"
+
+#: templates/shortcodes/payment-instruction/main.php:76
+msgid "BIC"
+msgstr "BIC"
+
+#. translators: %s: search WooCommerce plugin link
+#: yaymail.php:95
+#, php-format
+msgid ""
+"is enabled but not effective. It requires %1$sWooCommerce%2$s in order to "
+"work."
+msgstr ""
+"is ingeschakeld, maar niet effectief. Het vereist %1$sWooCommerce%2$s om te "
+"kunnen werken."
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+#| msgid "YayMail - WooCommerce Email Customizer"
+msgid "YayMail Pro - WooCommerce Email Customizer"
+msgstr "YayMail - WooCommerce E-mail Aanpasser"
+
+#. Plugin URI of the plugin/theme
+msgid "https://yaycommerce.com/yaymail-woocommerce-email-customizer/"
+msgstr "https://yaycommerce.com/yaymail-woocommerce-email-customizer/"
+
+#. Description of the plugin/theme
+msgid "Create awesome transactional emails with a drag and drop email builder"
+msgstr ""
+"Maak geweldige transactionele e-mails met een e-mailbuilder met slepen en "
+"neerzetten"
+
+#. Author URI of the plugin/theme
+msgid "https://yaycommerce.com"
+msgstr "https://yaycommerce.com"
+
+#~ msgctxt "text direction"
+#~ msgid "ltr"
+#~ msgstr "ltr"
+
+#~ msgid "You have unsaved changes. Are you sure you want to leave?"
+#~ msgstr "U hebt niet-opgeslagen wijzigingen. Weet je zeker dat je weg wilt?"
+
+#~ msgid ""
+#~ " This email template can be fully customized with YayMail Premium Addon. "
+#~ msgstr ""
+#~ " Deze e-mailsjabloon kan volledig worden aangepast met YayMail Premium "
+#~ "Add-on. "
+
+#~ msgid "Buy Now"
+#~ msgstr "Koop Nu"
+
+#~ msgid " This template is unavailable at the moment. "
+#~ msgstr " Dit sjabloon is op dit moment niet beschikbaar. "
+
+#~ msgid "Contact us"
+#~ msgstr "Neem contact op"
+
+#~ msgid " to see if it can be customized with "
+#~ msgstr " om te zien of het kan worden aangepast met "
+
+#~ msgid "YayMail Addon."
+#~ msgstr "YayMail Add-on."
+
+#~ msgid "this"
+#~ msgstr "deze"
+
+#~ msgid "Please contact us to request features."
+#~ msgstr "Neem contact met ons op om functies aan te vragen."
+
+#~ msgid " This email template can be fully customized with YayMail Pro. "
+#~ msgstr ""
+#~ " Deze e-mailsjabloon kan volledig worden aangepast met YayMail Pro. "
+
+#~ msgid "Upgrade Now"
+#~ msgstr "Nu Bijwerken"
+
+#~ msgid "Cancel"
+#~ msgstr "Annuleren"
+
+#~ msgid "Saved Pattern "
+#~ msgstr "Opgeslagen patroon "
+
+#~ msgid "Pattern saved"
+#~ msgstr "Patroon opgeslagen"
+
+#~ msgid "Failed to save pattern"
+#~ msgstr "Kan patroon niet opslaan"
+
+#~ msgid "Save pattern failed!"
+#~ msgstr "Patroon opslaan is mislukt!"
+
+#~ msgid "Save new pattern"
+#~ msgstr "Nieuw patroon opslaan"
+
+#~ msgid "Save"
+#~ msgstr "Opslaan"
+
+#~ msgid "Tags"
+#~ msgstr "Tags"
+
+#~ msgid "Are you sure you want to remove this element?"
+#~ msgstr "Weet je zeker dat je dit element wilt verwijderen?"
+
+#~ msgid "Duplicate"
+#~ msgstr "Kopiëren"
+
+#~ msgid "Copy this element"
+#~ msgstr "Kopieer dit element"
+
+#~ msgid "Paste element"
+#~ msgstr "Element plakken"
+
+#~ msgid "Copy styles"
+#~ msgstr "Stijlen kopiëren"
+
+#~ msgid "Paste styles"
+#~ msgstr "Stijlen plakken"
+
+#~ msgid "Save to library"
+#~ msgstr "Opslaan in bibliotheek"
+
+#~ msgid "Remove"
+#~ msgstr "Verwijderen"
+
+#~ msgid "Select parent"
+#~ msgstr "Selecteer verzamelmap"
+
+#~ msgid "Background Image URL"
+#~ msgstr "Achtergrondafbeelding URL"
+
+#~ msgid "Background Image Position"
+#~ msgstr "Positie Achtergrondafbeelding"
+
+#~ msgid "Background Image Position X"
+#~ msgstr "Achtergrond afbeelding Positie X"
+
+#~ msgid "Background Image Position Y"
+#~ msgstr "Achtergrond afbeelding Positie Y"
+
+#~ msgid "Background Image Position Repeat"
+#~ msgstr "Achtergrondafbeelding Positie Herhalen"
+
+#~ msgid "Background Image Size"
+#~ msgstr "Formaat achtergrond afbeelding"
+
+#~ msgid "Background Image Custom Size"
+#~ msgstr "Aangepaste grootte achtergrondafbeelding"
+
+#~ msgid "Background position"
+#~ msgstr "Achtergrondpositie"
+
+#~ msgid "X Position"
+#~ msgstr "X-positie"
+
+#~ msgid "Y Position"
+#~ msgstr "Y-positie"
+
+#~ msgid "Background repeat"
+#~ msgstr "Achtergrond herhalen"
+
+#~ msgid "Background size"
+#~ msgstr "Achtergrond grootte"
+
+#~ msgid "Items"
+#~ msgstr "Items"
+
+#~ msgid "Column"
+#~ msgstr "Kolom"
+
+#~ msgid "Selecting column:"
+#~ msgstr "Kolom selecteren:"
+
+#~ msgid "Copy content"
+#~ msgstr "Kopieer inhoud"
+
+#~ msgid "You are selecting column"
+#~ msgstr "U selecteert een kolom"
+
+#~ msgid "Copy column"
+#~ msgstr "Kolom kopiëren"
+
+#~ msgid "To"
+#~ msgstr "Tot"
+
+#~ msgid "From"
+#~ msgstr "Van"
+
+#~ msgid "Column 1"
+#~ msgstr "Kolom 1"
+
+#~ msgid "Column 2"
+#~ msgstr "Kolom 2"
+
+#~ msgid "Column 3"
+#~ msgstr "Kolom 3"
+
+#~ msgid "Dimension"
+#~ msgstr "Afmeting"
+
+#~ msgid "Default"
+#~ msgstr "Standaard"
+
+#~ msgid "Info"
+#~ msgstr "Info"
+
+#~ msgid "Success"
+#~ msgstr "Succes"
+
+#~ msgid "Warning"
+#~ msgstr "Waarschuwing"
+
+#~ msgid "Danger"
+#~ msgstr "Gevaar"
+
+#~ msgid "Inherit"
+#~ msgstr "Overnemen"
+
+#~ msgid "Normal"
+#~ msgstr "Normaal"
+
+#~ msgid "Bold"
+#~ msgstr "Vet"
+
+#~ msgid "Bolder"
+#~ msgstr "Bolder"
+
+#~ msgid "Lighter"
+#~ msgstr "Lichter"
+
+#~ msgid "Medium"
+#~ msgstr "Medium"
+
+#~ msgid "Large"
+#~ msgstr "Groot"
+
+#~ msgid "XL"
+#~ msgstr "XL"
+
+#~ msgid "XXL"
+#~ msgstr "XXL"
+
+#~ msgid "Price ascending"
+#~ msgstr "Prijs oplopend"
+
+#~ msgid "Price descending"
+#~ msgstr "Prijs dalend"
+
+#~ msgid "Newest"
+#~ msgstr "Nieuwste"
+
+#~ msgid "On sale"
+#~ msgstr "Aanbieding"
+
+#~ msgid "Featured"
+#~ msgstr "Uitgelicht"
+
+#~ msgid "Category selections"
+#~ msgstr "Categorie selecties"
+
+#~ msgid "Tag selections"
+#~ msgstr "Tag selecties"
+
+#~ msgid "Product selections"
+#~ msgstr "Product selecties"
+
+#~ msgid "Product image"
+#~ msgstr "Productafbeelding"
+
+#~ msgid "Product name"
+#~ msgstr "Productnaam"
+
+#~ msgid "Product price"
+#~ msgstr "Product prijs"
+
+#~ msgid "Product original price"
+#~ msgstr "Product originele prijs"
+
+#~ msgid "Buy button"
+#~ msgstr "Bestelknop"
+
+#~ msgid "Border"
+#~ msgstr "Rand"
+
+#~ msgid "Select"
+#~ msgstr "Selecteer"
+
+#~ msgid "Categories"
+#~ msgstr "Categorieën"
+
+#~ msgid "Custom"
+#~ msgstr "Aangepast"
+
+#~ msgid "Custom Hook"
+#~ msgstr "Aangepaste haak"
+
+#~ msgid "Image src"
+#~ msgstr "Afbeelding src"
+
+#~ msgid "Choose"
+#~ msgstr "Kies"
+
+#~ msgid "Number Input"
+#~ msgstr "Nummer invoer"
+
+#~ msgid "Feauted products number of products"
+#~ msgstr "Aanbevolen producten Aantal producten"
+
+#~ msgid "Number of showing products"
+#~ msgstr "Aantal getoonde producten"
+
+#~ msgid "View products"
+#~ msgstr "Bekijk producten"
+
+#~ msgid "Close"
+#~ msgstr "Sluiten"
+
+#~ msgid "Media Image Library"
+#~ msgstr "Bibliotheek met media-afbeeldingen"
+
+#~ msgid "Shortcode"
+#~ msgstr "Shortcode"
+
+#~ msgid "Select number column"
+#~ msgstr "Selecteer getalkolom"
+
+#~ msgid "Spacing"
+#~ msgstr "Tussenruimte"
+
+#~ msgid "Sortable List"
+#~ msgstr "Sorteerbare lijst"
+
+#~ msgid "Add social"
+#~ msgstr "Sociaal toevoegen"
+
+#~ msgid "Icon List"
+#~ msgstr "Icoon lijst"
+
+#~ msgid "add"
+#~ msgstr "toevoegen"
+
+#~ msgid "Show/Hide button"
+#~ msgstr "Knop Tonen/Verbergen"
+
+#~ msgid "Show button in column:"
+#~ msgstr "Toon knop in kolom:"
+
+#~ msgid "Button Type"
+#~ msgstr "Knop Type"
+
+#~ msgid "No Billing address set."
+#~ msgstr "Er is geen factuuradres ingesteld."
+
+#~ msgid "No Shipping address set."
+#~ msgstr "Geen verzendadres ingesteld."
+
+#~ msgid "Are you sure you want to empty this template?"
+#~ msgstr "Weet je zeker dat je dit sjabloon leeg wilt maken?"
+
+#~ msgid "Empty layout"
+#~ msgstr "Lege lay-out"
+
+#~ msgid "active"
+#~ msgstr "actief"
+
+#~ msgid "Can't change status template"
+#~ msgstr "Kan statussjabloon niet wijzigen"
+
+#~ msgid "Disable this template"
+#~ msgstr "Schakel deze sjabloon uit"
+
+#~ msgid "Enable this template"
+#~ msgstr "Schakel deze sjabloon in"
+
+#~ msgid "Import template from"
+#~ msgstr "Sjabloon importeren uit"
+
+#~ msgid "Language"
+#~ msgstr "Taal"
+
+#~ msgid ""
+#~ "All your current configurations for this template will be lost after you "
+#~ "import data."
+#~ msgstr ""
+#~ "Al uw huidige configuraties voor deze sjabloon gaan verloren nadat u "
+#~ "gegevens hebt geïmporteerd."
+
+#~ msgid "From template"
+#~ msgstr "Nieuw van template"
+
+#~ msgid "Are you sure you want to reset this template?"
+#~ msgstr "Weet je zeker dat je dit sjabloon opnieuw wilt instellen?"
+
+#~ msgid "Template reset successfully."
+#~ msgstr "Sjabloon opnieuw ingesteld."
+
+#~ msgid "Reset failed"
+#~ msgstr "Reset is gefaald"
+
+#~ msgid "Reset"
+#~ msgstr "Reset"
+
+#~ msgid "All changes you made won't be saved."
+#~ msgstr "Alle wijzigingen die u heeft aangebracht, worden niet opgeslagen."
+
+#~ msgid "Reset template"
+#~ msgstr "Sjabloon terugzetten"
+
+#~ msgid "Save success"
+#~ msgstr "Succes opslaan"
+
+#~ msgid "Save failed"
+#~ msgstr "Opslaan mislukt"
+
+#~ msgid "Send Email"
+#~ msgstr "Verstuur E-mail"
+
+#~ msgid "Email address for testing"
+#~ msgstr "E-mailadres voor testen"
+
+#~ msgid "Thank you for using YayMail."
+#~ msgstr "Bedankt voor het gebruik van YayMail."
+
+#~ msgid ""
+#~ "We need your support to keep updating and improving the plugin. Please, "
+#~ msgstr ""
+#~ "We hebben uw steun nodig om de plugin te blijven updaten en verbeteren. "
+#~ "Alstublieft "
+
+#~ msgid "help us by leaving a good review"
+#~ msgstr "Help ons door een goede review achter te laten"
+
+#~ msgid " :) Thanks!"
+#~ msgstr " :) Bedankt!"
+
+#~ msgid "To send emails to inbox, we recommend:"
+#~ msgstr ""
+#~ "Als je e-mails naar de inbox wilt sturen, raden we je het volgende aan:"
+
+#~ msgid "Send test email"
+#~ msgstr "Verzend test e-mail"
+
+#~ msgid "Undo"
+#~ msgstr "Ongedaan maken"
+
+#~ msgid "Template Not Found"
+#~ msgstr "Sjabloon niet gevonden"
+
+#~ msgid "Save template?"
+#~ msgstr "Sjabloon opslaan?"
+
+#~ msgid "No, don't save"
+#~ msgstr "Nee, niet opslaan"
+
+#~ msgid "Do you want to save before moving to another template?"
+#~ msgstr "Wil je opslaan voordat je naar een ander sjabloon gaat?"
+
+#~ msgid "Not available in this template"
+#~ msgstr "Niet beschikbaar in deze sjabloon"
+
+#~ msgid "Are you sure you want to permanently delete pattern "
+#~ msgstr "Weet u zeker dat u het patroon permanent wilt verwijderen? "
+
+#~ msgid "Pattern deleted"
+#~ msgstr "Patroon verwijderd"
+
+#~ msgid "Failed to delete pattern"
+#~ msgstr "Kan patroon niet verwijderen"
+
+#~ msgid "Yes, sure!"
+#~ msgstr "Ja, tuurlijk!"
+
+#~ msgid "Delete Pattern"
+#~ msgstr "Patroon verwijderen"
+
+#~ msgid "Search patterns"
+#~ msgstr "Patronen zoeken"
+
+#~ msgid "No pattern found."
+#~ msgstr "Geen patroon gevonden."
+
+#~ msgid "PATTERNS"
+#~ msgstr "PATRONEN"
+
+#~ msgid "LIBRARY"
+#~ msgstr "BIBLIOTHEEK"
+
+#~ msgid "DRAG TO USE"
+#~ msgstr "SLEPEN OM TE GEBRUIKEN"
+
+#~ msgid "CSS classes"
+#~ msgstr "CSS-classes"
+
+#~ msgid "Eg: classname-a classname-b"
+#~ msgstr "Bijv.: klassenaam-a klassenaam-b"
+
+#~ msgid "No element found."
+#~ msgstr "Geen element gevonden."
+
+#~ msgid "Search elements"
+#~ msgstr "Zoek-elementen"
+
+#~ msgid "Basic"
+#~ msgstr "Basis"
+
+#~ msgid "General"
+#~ msgstr "Algemeen"
+
+#~ msgid "WooCommerce"
+#~ msgstr "WooCommerce"
+
+#~ msgid "Blocks"
+#~ msgstr "Blokken"
+
+#~ msgid "Are you sure you want to clear all revisions?"
+#~ msgstr "Weet u zeker dat u alle revisies wilt wissen?"
+
+#~ msgid "Clear all revisions"
+#~ msgstr "Wis alle revisies"
+
+#~ msgid "All revisions will be deleted."
+#~ msgstr "Alle herzieningen worden verwijderd."
+
+#~ msgid "You have no revision"
+#~ msgstr "Je hebt geen revisie"
+
+#~ msgid "Content background color"
+#~ msgstr "Content achtergrondkleur"
+
+#~ msgid "Text link color"
+#~ msgstr "Kleur tekstlink"
+
+#~ msgid "This will make a change to all elements in this email"
+#~ msgstr "Dit zal een wijziging aanbrengen in alle elementen in deze e-mail"
+
+#~ msgid "Save settings"
+#~ msgstr "Instellingen opslaan"
+
+#~ msgid "Direction"
+#~ msgstr "Richting"
+
+#~ msgid "Container width (px)"
+#~ msgstr "Container breedte (px)"
+
+#~ msgid "Email width must be 480px (min) - 900px (max)"
+#~ msgstr "De breedte van de e-mail moet 480 px (min) - 900 px (max) zijn"
+
+#~ msgid "Display payment instruction and details"
+#~ msgstr "Betaalinstructie en details weergeven"
+
+#~ msgid "Show product image"
+#~ msgstr "Product afbeelding weergeven"
+
+#~ msgid "Product image height (px)"
+#~ msgstr "Hoogte productafbeelding (px)"
+
+#~ msgid "Image height must be 30px (min) - 300px (max)"
+#~ msgstr "De hoogte van de afbeelding moet 30 px (min) - 300 px (max) zijn"
+
+#~ msgid "Image width (px)"
+#~ msgstr "Breedte afbeelding (px)"
+
+#~ msgid "Product image width must be 30px (min) - 300px (max)"
+#~ msgstr ""
+#~ "De breedte van de productafbeelding moet 30 px (min) - 300 px (max) zijn"
+
+#~ msgid "Show product SKU"
+#~ msgstr "Toon product SKU"
+
+#~ msgid "Show product Hyperlinks"
+#~ msgstr "Toon product Hyperlinks"
+
+#~ msgid "Show product item cost"
+#~ msgstr "Kosten van productartikelen weergeven"
+
+#~ msgid "Show product regular price"
+#~ msgstr "Toon product Normale prijs"
+
+#~ msgid "Use custom CSS"
+#~ msgstr "Gebruik aangepast CSS"
+
+#~ msgid "Change email subject and form name"
+#~ msgstr "Onderwerp van e-mail en formuliernaam wijzigen"
+
+#~ msgid "Click here"
+#~ msgstr "Klik hier"
+
+#~ msgid "Save global settings"
+#~ msgstr "Algemene instellingen opslaan"
+
+#~ msgid "This will affect the current email settings"
+#~ msgstr "Dit heeft invloed op de huidige e-mailinstellingen"
+
+#~ msgid "Elements"
+#~ msgstr "Elementen"
+
+#~ msgid "Patterns"
+#~ msgstr "Patronen"
+
+#~ msgid "Settings"
+#~ msgstr "Instellingen"
+
+#~ msgid "Actions"
+#~ msgstr "Acties"
+
+#~ msgid "Revisions"
+#~ msgstr "Revisies"
+
+#~ msgid "Back to dashboard"
+#~ msgstr "Terug naar dashboard"
+
+#~ msgid "View History"
+#~ msgstr "Bekijk geschiedenis"
+
+#~ msgid "Search template name"
+#~ msgstr "Naam van zoeksjabloon"
+
+#~ msgid "Loading data"
+#~ msgstr "Laadgegevens"
+
+#~ msgid "Template"
+#~ msgstr "Sjabloon"
+
+#~ msgid "are"
+#~ msgstr "zijn"
+
+#~ msgid "reseted"
+#~ msgstr "gereset"
+
+#~ msgid "Activate Templates"
+#~ msgstr "Sjablonen activeren"
+
+#~ msgid "Deactivate Templates"
+#~ msgstr "Sjablonen deactiveren"
+
+#~ msgid "Reset Templates"
+#~ msgstr "Sjablonen opnieuw instellen"
+
+#~ msgid "Template Name"
+#~ msgstr "Sjabloon Naam"
+
+#~ msgid "Source"
+#~ msgstr "Bron"
+
+#~ msgid "Last Updated"
+#~ msgstr "Laatst bijgewerkt"
+
+#~ msgid "Email Templates"
+#~ msgstr "Email Templates"
+
+#~ msgid "OOPS! PAGE NOT FOUND"
+#~ msgstr "OEPS! PAGINA NIET GEVONDEN"
+
+#~ msgid "WE ARE SORRY, BUT THE PAGE YOU REQUESTED WAS NOT FOUND"
+#~ msgstr ""
+#~ "HET SPIJT ONS, MAAR DE PAGINA DIE U HEBT OPGEVRAAGD, IS NIET GEVONDEN"
+
+#~ msgid "Go to dashboard"
+#~ msgstr "Ga naar dashboard"
+
+#~ msgid "Invalid email address"
+#~ msgstr "Ongeldig e-mailadres"
+
+#~ msgid "Leave this empty to preview email only"
+#~ msgstr "Laat dit leeg om alleen een voorbeeld van e-mail te bekijken"
+
+#~ msgid "Select Email"
+#~ msgstr "E-mail selecteren"
+
+#~ msgid "Search Order"
+#~ msgstr "Zoek Bestelling"
+
+#~ msgid "Email To"
+#~ msgstr "E-mail naar"
+
+#~ msgid "No data to preview"
+#~ msgstr "Geen gegevens om te bekijken"
+
+#~ msgid "Send & Preview"
+#~ msgstr "Verzenden & Voorbeeld"
+
+#~ msgid "Please choose order to preview email"
+#~ msgstr "Kies de volgorde om een voorbeeld van de e-mail te bekijken"
+
+#~ msgid "Migration Required to Continue"
+#~ msgstr "Migratie vereist om door te gaan"
+
+#~ msgid "Migration failed! Please contact our support for help!"
+#~ msgstr "Migratie mislukt! Neem contact op met onze ondersteuning voor hulp!"
+
+#~ msgid "Migration succeeded!"
+#~ msgstr "Migratie geslaagd!"
+
+#~ msgid "Reset succeeded!"
+#~ msgstr "Reset gelukt!"
+
+#~ msgid "Reset failed!"
+#~ msgstr "Reset mislukt!"
+
+#~ msgid ""
+#~ "Proceed to migrate YayMail's data to the latest version, are you sure?"
+#~ msgstr ""
+#~ "Ga verder met het migreren van de gegevens van YayMail naar de nieuwste "
+#~ "versie, weet je het zeker?"
+
+#~ msgid "Proceed to reset YayMail's data, are you sure?"
+#~ msgstr ""
+#~ "Ga verder met het resetten van de gegevens van YayMail, weet je het zeker?"
+
+#~ msgid "Migration"
+#~ msgstr "Migratie"
+
+#~ msgid ""
+#~ "Transfers data between different YayMail versions, ensuring compatibility "
+#~ "whether you're upgrading to the latest release or reverting to a previous "
+#~ "version"
+#~ msgstr ""
+#~ "Overdracht van gegevens tussen verschillende YayMail-versies, waardoor "
+#~ "compatibiliteit wordt gegarandeerd, of u nu upgradet naar de nieuwste "
+#~ "release of terugkeert naar een eerdere versie"
+
+#~ msgid ""
+#~ "Resetting to a previous version of a feature or software update allows "
+#~ "you to return to a familiar interface or functionality that was present "
+#~ "before recent changes were made"
+#~ msgstr ""
+#~ "Als u een eerdere versie van een functie of software-update opnieuw "
+#~ "instelt, kunt u terugkeren naar een vertrouwde interface of "
+#~ "functionaliteit die aanwezig was voordat recente wijzigingen werden "
+#~ "aangebracht"
+
+#~ msgid "No backup available"
+#~ msgstr "Geen back-up beschikbaar"
+
+#~ msgid "Patched in"
+#~ msgstr "Gepatcht in"
+
+#~ msgid "Migrate"
+#~ msgstr "Migreren"
+
+#~ msgid ""
+#~ "Migrating version data into a new version feature involves transferring "
+#~ "existing information, settings, and configurations seamlessly from the "
+#~ "previous iteration to the updated version"
+#~ msgstr ""
+#~ "Het migreren van versiegegevens naar een nieuwe versiefunctie omvat het "
+#~ "naadloos overzetten van bestaande informatie, instellingen en "
+#~ "configuraties van de vorige iteratie naar de bijgewerkte versie"
+
+#~ msgid "Migration is needed for: "
+#~ msgstr "Migratie is nodig voor: "
+
+#~ msgid "No migration needed"
+#~ msgstr "Geen migratie nodig"
+
+#~ msgid "Export templates"
+#~ msgstr "Sjablonen exporteren"
+
+#~ msgid "Choose templates you want to export."
+#~ msgstr "Kies sjablonen die u wilt exporteren."
+
+#~ msgid "Import/Export"
+#~ msgstr "Importeren/Exporteren"
+
+#~ msgid ""
+#~ "Simplifies managing your YayMail templates. Easily import existing "
+#~ "templates from compatible formats or export them for backup or sharing "
+#~ "purposes. Streamline your workflow by seamlessly transferring templates "
+#~ "between accounts or applications, ensuring consistency and efficiency in "
+#~ "your communications."
+#~ msgstr ""
+#~ "Vereenvoudigt het beheren van uw YayMail-sjablonen. Importeer eenvoudig "
+#~ "bestaande sjablonen uit compatibele indelingen of exporteer ze voor back-"
+#~ "up- of deeldoeleinden. Stroomlijn uw workflow door sjablonen naadloos "
+#~ "over te dragen tussen accounts of applicaties, zodat u verzekerd bent van "
+#~ "consistentie en efficiëntie in uw communicatie."
+
+#~ msgid "Export"
+#~ msgstr "Exportieren"
+
+#~ msgid ""
+#~ "Allows you to securely download all created YayMail templates in a "
+#~ "convenient file format"
+#~ msgstr ""
+#~ "Hiermee kunt u alle gemaakte YayMail-sjablonen veilig downloaden in een "
+#~ "handig bestandsformaat"
+
+#~ msgid "Export Templates"
+#~ msgstr "Templates Exporteren"
+
+#~ msgid "Import Templates"
+#~ msgstr "Importeer sjablonen"
+
+#~ msgid ""
+#~ "Empowers you to seamlessly upload single or multiple YayMail templates"
+#~ msgstr ""
+#~ "Stelt je in staat om naadloos één of meerdere YayMail-sjablonen te "
+#~ "uploaden"
+
+#~ msgid "Choose File"
+#~ msgstr "Kies bestand"
+
+#~ msgid "Import"
+#~ msgstr "Importeren"
+
+#~ msgid "No file chosen."
+#~ msgstr "Geen bestand gekozen."
+
+#~ msgid "Change priority successfully."
+#~ msgstr "Wijzig de prioriteit met succes."
+
+#~ msgid "Change priority failed"
+#~ msgstr "Wijzigingsprioriteit mislukt"
+
+#~ msgid "ON"
+#~ msgstr "AAN"
+
+#~ msgid "OFF"
+#~ msgstr "UIT"
+
+#~ msgid "Import/Export Templates"
+#~ msgstr "Sjablonen importeren/exporteren"
+
+#~ msgid "Translate Integration Priority"
+#~ msgstr "Integratieprioriteit vertalen"
+
+#~ msgid "Global Header & Footer"
+#~ msgstr "Wereldwijde kop- en voettekst"
+
+#~ msgid "Preview Email"
+#~ msgstr "Email voorbeeld"
+
+#~ msgid "Documentation"
+#~ msgstr "Documentatie"
+
+#~ msgid "Email Customizer"
+#~ msgstr "E-mail Customizer"
+
+#~ msgid "YITH Tracking Information"
+#~ msgstr "YITH-trackinginformatie"
+
+#~ msgid " (N/A)"
+#~ msgstr " (N.v.t.)"
+
+#~ msgid "This is a test email preview."
+#~ msgstr "Dit is een voorbeeld van een test-e-mail."
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "Order Total Numbers"
+#~ msgstr "Totaal aantal bestellingen"
+
+#~ msgid "Orders Count"
+#~ msgstr "Bestellingen tellen"
+
+#~ msgid "Orders Count Double"
+#~ msgstr "Bestellingen tellen dubbel"
+
+#~ msgid "Orders Quantity Count"
+#~ msgstr "Aantal bestellingen"
+
+#~ msgid "%s (Pro)"
+#~ msgstr "%s (Pro)"
